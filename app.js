@@ -134,14 +134,22 @@ function renderContent() {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `<h2>${sub.title}</h2>`;
-    const ul = document.createElement("ul");
-    ul.className = "notes-list";
-    sub.notes.forEach(n => {
-      const li = document.createElement("li");
-      li.textContent = n;
-      ul.appendChild(li);
-    });
-    card.appendChild(ul);
+    if (!sub.notes || sub.notes.length === 0) {
+      const p = document.createElement("p");
+      p.style.textAlign = "center";
+      p.style.color = "var(--muted)";
+      p.textContent = "This site contains only the MCQ question bank shared by the faculty. Use the MCQs or Quiz tab above to study.";
+      card.appendChild(p);
+    } else {
+      const ul = document.createElement("ul");
+      ul.className = "notes-list";
+      sub.notes.forEach(n => {
+        const li = document.createElement("li");
+        li.textContent = n;
+        ul.appendChild(li);
+      });
+      card.appendChild(ul);
+    }
     main.appendChild(card);
   } else if (state.tab === "mcqs") {
     const card = document.createElement("div");
@@ -159,10 +167,22 @@ function renderContent() {
       m.options.forEach((opt, idx) => {
         const li = document.createElement("li");
         li.textContent = opt;
-        if (idx === m.answer) li.classList.add("correct");
+        if (m.answer !== null && idx === m.answer) li.classList.add("correct");
         ol.appendChild(li);
       });
       div.appendChild(ol);
+      if (m.answer === null) {
+        const note = document.createElement("div");
+        note.className = "no-answer-note";
+        note.textContent = "Note: the source answer key did not match any listed option for this question, so no option is marked correct.";
+        div.appendChild(note);
+      }
+      if (m.solution) {
+        const sol = document.createElement("div");
+        sol.className = "mcq-solution";
+        sol.innerHTML = `<strong>Solution:</strong> ${m.solution}`;
+        div.appendChild(sol);
+      }
       card.appendChild(div);
     });
     main.appendChild(card);
@@ -185,7 +205,8 @@ function startQuiz(questionPool, count) {
       return {
         q: q.q,
         options: shuffled.map(i => q.options[i]),
-        answer: shuffled.indexOf(q.answer)
+        answer: q.answer === null ? null : shuffled.indexOf(q.answer),
+        solution: q.solution
       };
     });
   }
@@ -294,19 +315,34 @@ function renderQuiz() {
     btn.className = "quiz-option";
     btn.textContent = opt;
     const already = q.answered[q.current] !== null;
-    if (already) {
+    if (already && question.answer !== null) {
       if (idx === question.answer) btn.classList.add("reveal-correct");
       if (idx === q.answered[q.current] && idx !== question.answer) btn.classList.add("selected-wrong");
+    } else if (already && idx === q.answered[q.current]) {
+      btn.classList.add("selected-neutral");
     }
     btn.disabled = already;
     btn.onclick = () => {
       q.answered[q.current] = idx;
-      if (idx === question.answer) q.score++;
+      if (question.answer !== null && idx === question.answer) q.score++;
       renderAll();
     };
     optionsDiv.appendChild(btn);
   });
   card.appendChild(optionsDiv);
+
+  if (q.answered[q.current] !== null && question.answer === null) {
+    const note = document.createElement("div");
+    note.className = "no-answer-note";
+    note.textContent = "Note: the source answer key did not match any listed option for this question, so this one isn't scored.";
+    card.appendChild(note);
+  }
+  if (q.answered[q.current] !== null && question.solution) {
+    const sol = document.createElement("div");
+    sol.className = "mcq-solution";
+    sol.innerHTML = `<strong>Solution:</strong> ${question.solution}`;
+    card.appendChild(sol);
+  }
 
   const navDiv = document.createElement("div");
   navDiv.className = "quiz-nav";

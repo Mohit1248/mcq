@@ -189,6 +189,28 @@ main {
   font-weight: 600;
 }
 
+.mcq-solution {
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: var(--panel-light);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.mcq-solution strong { color: var(--text); }
+
+.no-answer-note {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.quiz-option.selected-neutral { background: var(--btn); color: white; }
+
 /* Quiz menu (ClearCSA-style) */
 .quiz-menu {
   text-align: center;
