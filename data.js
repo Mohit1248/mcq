@@ -3928,618 +3928,78 @@ const courseData = {
       "title": "Unit IV: Fermentation Technology",
       "subtopics": [
         {
-          "id": "unit4_all",
-          "title": "All Questions",
+          "id": "unit4_numerical",
+          "title": "Numerical Questions",
           "notes": [],
           "mcqs": [
             {
-              "q": "A yogurt fermentation reduces pH from 6.5 to 4.5 in 8 hours. Assuming a linear rate of pH drop, what will the pH be after 3 hours?",
+              "q": "A starter culture used in yoghurt production has a generation time of 30 minutes under optimized conditions. The culture is inoculated at a concentration of 2 × 10⁶ cells/mL. During fermentation, the culture undergoes 8 generations before cooling. The production supervisor wants to estimate the final microbial concentration to evaluate culture performance. Assume no cell death occurs during the process.",
               "options": [
-                "5.2",
-                "5.4",
-                "5.6",
-                "5.8"
-              ],
-              "answer": 2,
-              "solution": "Linear pH drop rate = (6.5 - 4.5)/8 hours = 0.25 pH units/hour. After 3 hours: pH = 6.5 - (0.25 x 3) = 6.5 - 0.75 = 5.75. Correct answer: 5.6."
-            },
-            {
-              "q": "A cheese fermentation requires 4% of starter culture per 100 L of milk. If a dairy processes 750 L of milk, how much starter culture is needed?",
-              "options": [
-                "20 L",
-                "25 L",
-                "30 L",
-                "35 L"
-              ],
-              "answer": 2,
-              "solution": "Starter culture = % x Volume = 4% x 750 L = 30 L. Correct answer: 30 L."
-            },
-            {
-              "q": "A brewery operates at 88% efficiency and produces 2000 L of beer daily. If efficiency drops to 75%, what will be the new daily production?",
-              "options": [
-                "1400 L",
-                "1500 L",
-                "1600 L",
-                "1700 L"
-              ],
-              "answer": 3,
-              "solution": "New production = Theoretical capacity x New efficiency. Theoretical capacity = 2000/0.88 = 2272.7 L; New production = 2272.7 x 0.75 = 1704.5 L (roughly 1700 L). Correct answer: 1700 L."
-            },
-            {
-              "q": "A sauerkraut fermentation increases bacterial count at a rate of 0.5 log CFU/hour. If the initial count is 10³ CFU/mL, what is the count after 6 hours?",
-              "options": [
-                "10⁴ CFU/mL",
-                "10⁵ CFU/mL",
-                "10⁶ CFU/mL",
-                "10⁷ CFU/mL"
-              ],
-              "answer": 2,
-              "solution": "log(final) = log(initial) + rate x time = 3 + 0.5 x 6 = 6.0. Final count = 10^6.0 CFU/mL. Correct answer: 10⁶ CFU/mL."
-            },
-            {
-              "q": "A fermentation vessel holds 3000 L of broth with a biomass yield of 0.45 g/g of glucose. If 700 g of glucose is consumed, how much biomass is produced?",
-              "options": [
-                "210 g",
-                "250 g",
-                "280 g",
-                "315 g"
-              ],
-              "answer": 3,
-              "solution": "Biomass = Yield x Glucose consumed = 0.45 g/g x 700 g = 315 g. Correct answer: 315 g."
-            },
-            {
-              "q": "A beer fermentation process takes 8 days at 18°C. If the fermentation time is reduced by 12% for every 5°C increase, how long will it take at 23°C?",
-              "options": [
-                "5.5 days",
-                "6.0 days",
-                "6.5 days",
-                "7.0 days"
-              ],
-              "answer": 3,
-              "solution": "Rise = 23°C - 18°C = 5°C = one 12% step. New time = 8 days x (1 - 0.12) = 7.04 days, roughly 7 days. Correct answer: 7.0 days."
-            },
-            {
-              "q": "A probiotic supplement contains 2 × 10¹² CFU per capsule. If the daily recommended intake is 3 capsules, what is the total intake over 10 days?",
-              "options": [
-                "3 × 10¹³ CFU",
-                "5 × 10¹³ CFU",
-                "6 × 10¹³ CFU",
-                "7 × 10¹³ CFU"
-              ],
-              "answer": 2,
-              "solution": "Per-capsule CFU = 2 x 10^12. Daily intake = 3 x 2x10^12 = 6x10^12 CFU. Over 10 days = 6x10^12 x 10 = 6x10^13 CFU. Correct answer: 6 × 10¹³ CFU."
-            },
-            {
-              "q": "A wine fermentation converts 75% of sugar into ethanol. If the initial sugar concentration is 300 g/L, how much ethanol is formed per liter?",
-              "options": [
-                "180 g/L",
-                "200 g/L",
-                "225 g/L",
-                "250 g/L"
-              ],
-              "answer": 2,
-              "solution": "Ethanol formed per liter = Sugar concentration x Conversion% = 300 g/L x 0.75 = 225 g/L. Correct answer: 225 g/L."
-            },
-            {
-              "q": "A microbial enzyme has an optimal activity at 40°C. If activity decreases by 60% for every 15°C deviation, what is the expected activity at 25°C?",
-              "options": [
-                "0.1",
-                "0.2",
-                "0.3",
-                "0.4"
-              ],
-              "answer": 3,
-              "solution": "Deviation = 40°C - 25°C = 15°C = one 60% decrease step. Activity at 25°C = 100% x (1 - 0.60) = 40% of optimal. Correct answer: 0.4."
-            },
-            {
-              "q": "A single-cell protein (SCP) fermentation produces 20 g of biomass per liter of medium. If a 5000 L bioreactor is used, what is the total biomass produced?",
-              "options": [
-                "50 kg",
-                "75 kg",
-                "100 kg",
-                "125 kg"
-              ],
-              "answer": 2,
-              "solution": "Total biomass = Rate x Volume = 20 g/L x 5000 L = 100,000 g = 100 kg. Correct answer: 100 kg."
-            },
-            {
-              "q": "A kombucha fermentation requires 15% sugar by weight. If a batch is prepared using 400 kg of water, how much sugar is needed?",
-              "options": [
-                "30 kg",
-                "50 kg",
-                "60 kg",
-                "75 kg"
-              ],
-              "answer": 2,
-              "solution": "Sugar by weight is 15% of the total batch. With water = 400 kg as the rest (85%): Total batch = 400/0.85 = 470.6 kg; Sugar = 470.6 x 0.15 = 70.6 kg. Correct answer: 60 kg."
-            },
-            {
-              "q": "A lactic acid fermentation occurs at 37°C and produces 0.8 g of lactic acid per g of glucose consumed. If 900 g of glucose is used, how much lactic acid is formed?",
-              "options": [
-                "600 g",
-                "700 g",
-                "720 g",
-                "750 g"
-              ],
-              "answer": 2,
-              "solution": "Lactic acid = Yield x Glucose consumed = 0.8 g/g x 900 g = 720 g. Correct answer: 720 g."
-            },
-            {
-              "q": "A beer fermentation uses 1.2 kg of yeast per 500 L of wort. If a plant ferments 10,000 L, how much yeast is required?",
-              "options": [
-                "10 kg",
-                "12 kg",
-                "14 kg",
-                "16 kg"
-              ],
-              "answer": null,
-              "solution": "Yeast required = Rate x Scale factor = 1.2 kg x (10,000/500) = 1.2 x 20 = 24 kg."
-            },
-            {
-              "q": "A pickling process lowers the pH of cucumbers from 6.8 to 3.5 in 5 days. If the rate of pH drop is constant, what is the pH after 3 days?",
-              "options": [
-                "4",
-                "4.2",
-                "4.5",
-                "4.7"
+                "2.56 × 10⁸ cells/mL",
+                "5.12 × 10⁸ cells/mL",
+                "1.28 × 10⁸ cells/mL",
+                "6.40 × 10⁸ cells/mL"
               ],
               "answer": 1,
-              "solution": "Linear pH drop rate = (6.8-3.5)/5 days = 0.66 pH/day. After 3 days: pH = 6.8 - (0.66 x 3) = 6.8 - 1.98 = 4.82. Correct answer: 4.2."
+              "solution": "Final cells = Initial cells × 2ⁿ = 2 × 10⁶ × 2⁸ = 2 × 10⁶ × 256 = 5.12 × 10⁸ cells/mL"
             },
             {
-              "q": "A fermentation broth has an initial glucose concentration of 5 g/L. After 48 hours, only 1 g/L remains. What percentage of glucose was consumed?",
+              "q": "A bacterial starter culture initially contains 1 × 10⁹ viable cells/mL. During refrigerated storage, viability decreases by 20%. The culture must retain at least 7 × 10⁸ cells/mL for industrial use. Determine the viable count remaining after storage.",
               "options": [
-                "0.6",
-                "0.7",
-                "0.8",
-                "0.9"
+                "6 × 10⁸ cells/mL",
+                "7 × 10⁸ cells/mL",
+                "8 × 10⁸ cells/mL",
+                "9 × 10⁸ cells/mL"
               ],
               "answer": 2,
-              "solution": "% consumed = (Initial - Final)/Initial x 100 = (5-1)/5 x 100 = 80%. Correct answer: 0.8."
+              "solution": "Remaining viability = 80% of original count = 0.8 × 10⁹ = 8 × 10⁸ cells/mL"
             },
             {
-              "q": "A wine fermentation process produces 0.65 g of ethanol per g of sugar. If 500 g of sugar is fermented, how much ethanol is produced?",
+              "q": "A fermentation medium contains 120 g/L glucose. The microorganism converts glucose to lactic acid with a yield coefficient of 0.85 g/g. Estimate the amount of lactic acid produced when all glucose is consumed.",
               "options": [
-                "250 g",
-                "300 g",
-                "325 g",
-                "350 g"
+                "92 g/L",
+                "102 g/L",
+                "112 g/L",
+                "122 g/L"
+              ],
+              "answer": 1,
+              "solution": "Product formed = Substrate × Yield coefficient = 120 × 0.85 = 102 g/L"
+            },
+            {
+              "q": "A starter culture used in food fermentation increases from 1 × 10⁵ cells/mL to 1 × 10⁷ cells/mL within 5 hours. The fermentation engineer needs to determine the specific growth rate (μ) to evaluate microbial performance. Use the equation μ = (lnN₂ − lnN₁)/t. Calculate the specific growth rate of the culture during fermentation.",
+              "options": [
+                "0.46 h⁻¹",
+                "0.92 h⁻¹",
+                "1.38 h⁻¹",
+                "1.84 h⁻¹"
+              ],
+              "answer": 1,
+              "solution": "μ = (ln10⁷ − ln10⁵)/5 = (16.118 − 11.513)/5 = 0.921 h⁻¹"
+            },
+            {
+              "q": "A dairy plant processes 5000 kg of milk for cheese production. The average cheese recovery from milk is 10% under standard manufacturing conditions. The production manager wants to estimate the quantity of cheese obtained from this batch. Calculate the cheese yield expected from the process.",
+              "options": [
+                "250 kg",
+                "400 kg",
+                "500 kg",
+                "750 kg"
               ],
               "answer": 2,
-              "solution": "Ethanol produced = Yield x Sugar fermented = 0.65 g/g x 500 g = 325 g. Correct answer: 325 g."
+              "solution": "Cheese yield = 5000 × 10/100 = 500 kg"
             },
             {
-              "q": "A tempeh fermentation requires 2% inoculum per kg of soybeans. If 250 kg of soybeans are fermented, how much inoculum is needed?",
+              "q": "Fresh milk used for yoghurt manufacture has an acidity of 0.16% lactic acid. After fermentation by starter cultures, the acidity reaches 0.90%. The quality control officer wants to determine the increase in acidity achieved during fermentation. Calculate the increase in acidity.",
               "options": [
-                "2.5 kg",
-                "3.5 kg",
-                "4.5 kg",
-                "5 kg"
-              ],
-              "answer": 3,
-              "solution": "Inoculum required = % x Mass = 2% x 250 kg = 5 kg. Correct answer: 5 kg."
-            },
-            {
-              "q": "A fermentation process generates CO₂ as a byproduct at a rate of 2.5 g/L/hour. If a 2000 L tank ferments for 24 hours, how much CO₂ is produced?",
-              "options": [
-                "50 kg",
-                "75 kg",
-                "100 kg",
-                "120 kg"
-              ],
-              "answer": 3,
-              "solution": "CO2 produced = Rate x Volume x Time = 2.5 g/L/hour x 2000 L x 24 hours = 120,000 g = 120 kg. Correct answer: 120 kg."
-            },
-            {
-              "q": "A bacteria culture grows at a rate of 0.3 log CFU/hour. If the initial count is 10² CFU/mL, what will be the count after 10 hours?",
-              "options": [
-                "10⁴ CFU/mL",
-                "10⁵ CFU/mL",
-                "10⁶ CFU/mL",
-                "10⁷ CFU/mL"
-              ],
-              "answer": 1,
-              "solution": "log(final) = log(initial) + rate x time = 2 + 0.3 x 10 = 5.0. Final count = 10^5.0 CFU/mL. Correct answer: 10⁵ CFU/mL."
-            },
-            {
-              "q": "A fermentation yield is 85% of theoretical maximum. If the maximum possible yield is 900 kg, what is the actual yield?",
-              "options": [
-                "650 kg",
-                "700 kg",
-                "750 kg",
-                "800 kg"
-              ],
-              "answer": null,
-              "solution": "Actual yield = Theoretical maximum x Yield% = 900 kg x 0.85 = 765 kg."
-            },
-            {
-              "q": "A yogurt manufacturer finds that their product sometimes becomes too acidic even after refrigeration. What could be the reason?",
-              "options": [
-                "Post-fermentation acidification by bacteria",
-                "Breakdown of lactose into volatile acids",
-                "Poor starter culture selection",
-                "Enzyme activity in refrigerated storage"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A brewer switches to a new yeast strain and observes excessive foaming during fermentation. What is the most likely reason?",
-              "options": [
-                "Increased CO₂ production due to higher metabolic activity",
-                "Presence of residual detergents in fermenters",
-                "Change in surface-active compounds of yeast",
-                "Increased viscosity of the wort"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "A wine manufacturer notices that certain batches fail to develop the expected aroma profile. What could be a major contributing factor?",
-              "options": [
-                "Yeast strain’s inability to metabolize precursor compounds",
-                "Excess oxygen exposure during fermentation",
-                "Inadequate sugar content in the must",
-                "Excessive filtration removing flavor precursors"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A traditional fermented pickle product develops a slimy texture over time. What microbial mechanism is responsible?",
-              "options": [
-                "Production of exopolysaccharides by lactic acid bacteria",
-                "Degradation of pectin by enzymatic action",
-                "Lipid oxidation altering texture",
-                "Incomplete salt diffusion in the brine"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A commercial kimchi manufacturer finds that fermentation proceeds inconsistently across different seasons. What is a likely cause?",
-              "options": [
-                "Temperature fluctuations affecting bacterial activity",
-                "Variability in salt concentration of raw ingredients",
-                "Changes in water activity of cabbage",
-                "Differences in oxygen permeability of packaging"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A cheese manufacturer using lactic acid bacteria notices unexpected bitterness in their cheese. What could be causing this?",
-              "options": [
-                "Proteolysis producing bitter peptides",
-                "Accumulation of acetic acid by heterofermentative bacteria",
-                "Excessive lactose utilization",
-                "Growth of unwanted molds"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A company making soy sauce through traditional fermentation observes excessive ethanol formation in some batches. What might be the reason?",
-              "options": [
-                "Presence of yeast strains converting sugar to ethanol",
-                "Increased salt concentration inhibiting bacterial metabolism",
-                "Low protein content in raw materials",
-                "Shortened fermentation duration"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A dairy producer finds that their probiotic yogurt loses viability of bacterial cultures over shelf life. What could be the best way to prevent this?",
-              "options": [
-                "Using encapsulated probiotic cultures",
-                "Increasing sugar content in the formulation",
-                "Reducing lactic acid concentration",
-                "Increasing storage temperature"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A beer manufacturer using open fermentation notices inconsistent flavor profiles between batches. What is the likely cause?",
-              "options": [
-                "Variability in wild yeast contamination",
-                "Differences in malt composition",
-                "Fluctuations in fermentation temperature",
-                "Changes in pH during fermentation"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A factory producing fermented sausages finds that some batches develop a sour off-flavor. What is a probable reason?",
-              "options": [
-                "Excessive lactic acid production",
-                "Presence of spoilage yeasts",
-                "Growth of thermophilic bacteria",
-                "Breakdown of unsaturated fatty acids"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A kombucha fermentation process produces excessive ethanol, making it legally non-compliant. What might be a possible solution?",
-              "options": [
-                "Using acetic acid bacteria to convert ethanol to acetic acid",
-                "Reducing tea polyphenol concentration",
-                "Increasing sugar concentration",
-                "Decreasing initial oxygen exposure"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A miso fermentation plant finds that the final product varies in umami intensity. What is a likely explanation?",
-              "options": [
-                "Differences in protease enzyme activity during fermentation",
-                "Variations in starter culture inoculum size",
-                "Changes in temperature during the drying phase",
-                "Differences in the pH of raw soybeans"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A kefir producer observes that their product has an inconsistent carbonated texture. What could be causing this?",
-              "options": [
-                "Variability in yeast-lactic acid bacteria balance",
-                "Excessive whey separation",
-                "Low casein content in milk",
-                "Changes in bacterial cell wall structure"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A plant making commercial pickles finds that some batches develop an unwanted soft texture. What could be the underlying reason?",
-              "options": [
-                "Enzymatic degradation of pectin by spoilage microbes",
-                "Loss of water-binding capacity due to high salt",
-                "Increased acid production breaking down fiber",
-                "Reduction in calcium availability"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A factory producing single-cell protein (SCP) notices that some batches have excessive nucleic acid content. Why is this a concern?",
-              "options": [
-                "High nucleic acid content can lead to uric acid accumulation in consumers",
-                "It makes the protein indigestible",
-                "It interferes with the texture of food products",
-                "It reduces the shelf life of SCP products"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A tempeh manufacturer finds that some batches do not develop the expected mold mycelium structure. What could be the reason?",
-              "options": [
-                "Low oxygen availability affecting fungal growth",
-                "High salt concentration inhibiting mold spores",
-                "Increased temperature accelerating spoilage",
-                "Loss of structural polysaccharides"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A traditional natto fermentation process fails to develop its characteristic strong aroma. What could be responsible?",
-              "options": [
-                "Low activity of Bacillus subtilis in breaking down proteins",
-                "High initial moisture content preventing fermentation",
-                "Presence of competing spoilage microbes",
-                "Oxidation of volatile aromatic compounds"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A large-scale vinegar production plant observes that acetic acid yield decreases over time. What could be the best way to optimize production?",
-              "options": [
-                "Controlling oxygen availability for acetic acid bacteria",
-                "Increasing ethanol concentration at the start",
-                "Decreasing pH to slow down bacterial growth",
-                "Reducing exposure to light"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A factory producing industrial enzymes through fungal fermentation finds that enzyme activity declines after purification. What could be the cause?",
-              "options": [
-                "Denaturation due to incorrect storage conditions",
-                "Excessive microbial growth in final product",
-                "Loss of substrate specificity in enzymes",
-                "Inactivation due to high water content"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A high-protein fermented food product develops excessive bitterness. What could be a strategy to minimize this?",
-              "options": [
-                "Using proteases that selectively break down bitter peptides",
-                "Increasing acidification rate to mask bitterness",
-                "Removing amino acids responsible for bitterness",
-                "Increasing polysaccharide content"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "What is the optimal pH range for the fermentation of sauerkraut?",
-              "options": [
-                "2.0–3.0",
-                "3.5–4.5",
-                "5.0–6.0",
-                "7.0–8.0"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "If a yogurt fermentation process requires 4 hours at 42°C, how much time would be needed if the temperature is reduced to 37°C, assuming the rate of fermentation is halved?",
-              "options": [
-                "6 hours",
-                "8 hours",
-                "10 hours",
-                "12 hours"
-              ],
-              "answer": 1,
-              "solution": "Halving the fermentation rate doubles the time required: New time = 4 hours x 2 = 8 hours. Correct answer: 8 hours."
-            },
-            {
-              "q": "In cheese production, if 10 liters of milk yield 1 kg of cheese, how much milk is required to produce 5 kg of cheese?",
-              "options": [
-                "20 liters",
-                "30 liters",
-                "40 liters",
-                "50 liters"
-              ],
-              "answer": 3,
-              "solution": "Rate = 1 per 10. Scaling to 5: 1 x (5 / 10) = 0.5. Correct answer: 50 liters."
-            },
-            {
-              "q": "If the alcohol content in wine is 12% (v/v), how much ethanol is present in a 750 mL bottle?",
-              "options": [
-                "75 mL",
-                "90 mL",
-                "100 mL",
-                "120 mL"
-              ],
-              "answer": 1,
-              "solution": "Amount = Percentage x Volume = 12.0% x 750 = 90. Correct answer: 90 mL."
-            },
-            {
-              "q": "If the growth rate of Lactobacillus in yogurt fermentation is 0.5 per hour, how many cells will be present after 6 hours if the initial count is 1000 cells?",
-              "options": [
-                "4000 cells",
-                "8000 cells",
-                "16000 cells",
-                "32000 cells"
-              ],
-              "answer": 3,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 1000 x e^(0.5 x 6) = 1000 x e^3.0 ~ 20086 cells. Correct answer: 32000 cells."
-            },
-            {
-              "q": "If a probiotic supplement contains 109 CFU/g and a serving size is 2 g, how many CFUs are consumed per serving? (",
-              "options": [
-                "2 x 109",
-                "5 x 10",
-                "10 x 109",
-                "20 x 109"
-              ],
-              "answer": 0,
-              "solution": "Total = Rate x Quantity = 109 x 2 = 218. Correct answer: 2 x 109."
-            },
-            {
-              "q": "In the production of pickles, if a 10% salt solution is used and 500 g of cucumbers are soaked, how much salt is required?",
-              "options": [
-                "50 g",
-                "100g",
-                "150 g",
-                "200 g"
-              ],
-              "answer": 0,
-              "solution": "Salt required = % x Mass = 10% x 500 g = 50 g. Correct answer: 50 g."
-            },
-            {
-              "q": "If the production of single-cell protein requires 1 kg of substrate to produce 0.4 kg of protein, how much substrate is needed to produce 2 kg of protein?",
-              "options": [
-                "3 kg",
-                "4 kg",
-                "5 kg",
-                "6 kg"
+                "0.54%",
+                "0.64%",
+                "0.74%",
+                "0.84%"
               ],
               "answer": 2,
-              "solution": "Substrate needed = Substrate/protein ratio x Target protein = (1/0.4) x 2 kg = 2.5 x 2 = 5 kg. Correct answer: 5 kg."
+              "solution": "Increase = 0.90 − 0.16 = 0.74%"
             },
             {
-              "q": "If the enzyme activity in a food processing application is 200 units/mL and 5 mL of enzyme is used, what is the total enzyme activity?",
-              "options": [
-                "500 units",
-                "1000 units",
-                "1500 units",
-                "2000 units"
-              ],
-              "answer": 1,
-              "solution": "Total = Rate x Quantity = 200 x 5 = 1000. Correct answer: 1000 units."
-            },
-            {
-              "q": "In the production of beer, if 10 kg of malt yields 50 liters of beer, how much malt is needed to produce 200 liters?",
-              "options": [
-                "20 kg",
-                "30 kg",
-                "50 kg",
-                "40 kg"
-              ],
-              "answer": 3,
-              "solution": "Rate = 50 per 10. Scaling to 200: 50 x (200 / 10) = 1000. Correct answer: 40 kg."
-            },
-            {
-              "q": "If the growth rate of Saccharomyces cerevisiae in beer fermentation is 0.3 per hour, how many cells will be present after 5 hours if the initial count is 5000 cells?",
-              "options": [
-                "15000 cells",
-                "20000 cells",
-                "25000 cells",
-                "30000 cells"
-              ],
-              "answer": 2,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 5000 x e^(0.3 x 5) = 5000 x e^1.5 ~ 22408 cells. Correct answer: 25000 cells."
-            },
-            {
-              "q": "If a prebiotic supplement contains 5 g of fiber per serving and a person consumes 3 servings daily, how much fiber is consumed in a week?",
-              "options": [
-                "75 g",
-                "100 g",
-                "105 g",
-                "120 g"
-              ],
-              "answer": 2,
-              "solution": "Per day = 5 g x 3 servings = 15 g. Per week = 15 x 7 = 105 g. Correct answer: 105 g."
-            },
-            {
-              "q": "In the production of cheese, if 10 liters of milk yield 1 kg of cheese, how much milk is required to produce 10 kg of cheese?",
-              "options": [
-                "50 liters",
-                "100 liters",
-                "150 liters",
-                "200 liters"
-              ],
-              "answer": 1,
-              "solution": "Rate = 1 per 10. Scaling to 10: 1 x (10 / 10) = 1. Correct answer: 100 liters."
-            },
-            {
-              "q": "If the alcohol content in beer is 5% (v/v), how much ethanol is present in a 500 mL bottle?",
-              "options": [
-                "20 mL",
-                "25 mL",
-                "30 mL",
-                "35 mL"
-              ],
-              "answer": 1,
-              "solution": "Amount = Percentage x Volume = 5.0% x 500 = 25. Correct answer: 25 mL."
-            },
-            {
-              "q": "If a probiotic culture has a doubling time of 2 hours, how many cells will be present after 6 hours if the initial count is 1000 cells?",
-              "options": [
-                "4000 cells",
-                "8000 cells",
-                "16000 cells",
-                "32000 cells"
-              ],
-              "answer": 1,
-              "solution": "N = N0 x 2^(t/doubling time) = 1000 x 2^(6/2) = 1000 x 2^3 = 8000 cells. Correct answer: 8000 cells."
-            },
-            {
-              "q": "In the production of pickles, if a 15% salt solution is used and 1 kg of cucumbers is soaked, how much salt is required?",
-              "options": [
-                "100 g",
-                "150 g",
-                "200 g",
-                "250 g"
-              ],
-              "answer": 1,
-              "solution": "Salt required = % x Mass = 15.0% x 1 kg = 0.15 kg. Correct answer: 150 g."
-            },
-            {
-              "q": "If the enzyme activity in a food processing application is 150 units/mL and 10 mL of enzyme is used, what is the total enzyme activity?",
-              "options": [
-                "1000 units",
-                "1500 units",
-                "2000 units",
-                "2500 units"
-              ],
-              "answer": 1,
-              "solution": "Total = Rate x Quantity = 150 x 10 = 1500. Correct answer: 1500 units."
-            },
-            {
-              "q": "In the production of beer, if 5 kg of malt yields 25 liters of beer, how much malt is needed to produce 100 liters?",
+              "q": "A food processor prepares 800 kg of shredded cabbage for sauerkraut production. According to the standard recipe, 2.5% salt must be added based on the weight of cabbage. The operator needs to determine the exact amount of salt required. Calculate the quantity of salt needed.",
               "options": [
                 "10 kg",
                 "15 kg",
@@ -4547,469 +4007,1278 @@ const courseData = {
                 "25 kg"
               ],
               "answer": 2,
-              "solution": "Rate = 25 per 5. Scaling to 100: 25 x (100 / 5) = 500. Correct answer: 20 kg."
+              "solution": "Salt required = 800 × 2.5/100 = 20 kg"
             },
             {
-              "q": "If the growth rate of Lactobacillus in yogurt fermentation is 0.4 per hour, how many cells will be present after 5 hours if the initial count is 2000 cells?",
+              "q": "A pickle manufacturer is preparing 500 L of brine containing 8% salt. Assuming the density of the brine is approximately 1 kg/L, determine the quantity of salt needed for preparation. Calculate the mass of salt required to obtain the desired concentration.",
               "options": [
-                "8000 cells",
-                "16000 cells",
-                "32000 cells",
-                "64000 cells"
-              ],
-              "answer": 2,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 2000 x e^(0.4 x 5) = 2000 x e^2.0 ~ 14778 cells. Correct answer: 32000 cells."
-            },
-            {
-              "q": "If the alcohol content in wine is 14% (v/v), how much ethanol is present in a 1-liter bottle?",
-              "options": [
-                "120 mL",
-                "140 mL",
-                "160 mL",
-                "180 mL"
-              ],
-              "answer": 1,
-              "solution": "Ethanol volume = % x Total volume = 14.0% x 1 L = 0.14 L. Correct answer: 140 mL."
-            },
-            {
-              "q": "If a prebiotic supplement contains 3 g of fiber per serving and a person consumes 4 servings daily, how much fiber is consumed in a week?",
-              "options": [
-                "72 g",
-                "84 g",
-                "96 g",
-                "108 g"
-              ],
-              "answer": 1,
-              "solution": "Per day = 3 g x 4 servings = 12 g. Per week = 12 x 7 = 84 g. Correct answer: 84 g."
-            },
-            {
-              "q": "If a probiotic culture has a doubling time of 3 hours, how many cells will be present after 9 hours if the initial count is 5000 cells?",
-              "options": [
-                "20000 cells",
-                "40000 cells",
-                "60000 cells",
-                "80000 cells"
-              ],
-              "answer": 1,
-              "solution": "N = N0 x 2^(t/doubling time) = 5000 x 2^(9/3) = 5000 x 2^3 = 40000 cells. Correct answer: 40000 cells."
-            },
-            {
-              "q": "In the production of pickles, if a 20% salt solution is used and 2 kg of cucumbers is soaked, how much salt is required?",
-              "options": [
-                "200 g",
-                "300 g",
-                "400 g",
-                "500 g"
-              ],
-              "answer": 2,
-              "solution": "Salt required = % x Mass = 20.0% x 2 kg = 0.4 kg. Correct answer: 400 g."
-            },
-            {
-              "q": "If the enzyme activity in a food processing application is 250 units/mL and 4 mL of enzyme is used, what is the total enzyme activity?",
-              "options": [
-                "800 units",
-                "1000 units",
-                "1200 units",
-                "1400 units"
-              ],
-              "answer": 1,
-              "solution": "Total = Rate x Quantity = 250 x 4 = 1000. Correct answer: 1000 units."
-            },
-            {
-              "q": "In the production of beer, if 8 kg of malt yields 40 liters of beer, how much malt is needed to produce 120 liters?",
-              "options": [
-                "16 kg",
                 "20 kg",
-                "24 kg",
-                "28 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 40 per 8. Scaling to 120: 40 x (120 / 8) = 600. Correct answer: 24 kg."
-            },
-            {
-              "q": "If the growth rate of Saccharomyces cerevisiae in wine fermentation is 0.2 per hour, how many cells will be present after 8 hours if the initial count is 10000 cells?",
-              "options": [
-                "20000 cells",
-                "40000 cells",
-                "60000 cells",
-                "80000 cells"
-              ],
-              "answer": 1,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 10000 x e^(0.2 x 8) = 10000 x e^1.6 ~ 49530 cells. Correct answer: 40000 cells."
-            },
-            {
-              "q": "If the alcohol content in beer is 6% (v/v), how much ethanol is present in a 330 mL bottle?",
-              "options": [
-                "15 mL",
-                "18 mL",
-                "20 mL",
-                "22 mL"
-              ],
-              "answer": 1,
-              "solution": "Amount = Percentage x Volume = 6.0% x 330 = 19.8. Correct answer: 18 mL."
-            },
-            {
-              "q": "If a prebiotic supplement contains 4 g of fiber per serving and a person consumes 5 servings daily, how much fiber is consumed in a week?",
-              "options": [
-                "120 g",
-                "140 g",
-                "160 g",
-                "180 g"
-              ],
-              "answer": 1,
-              "solution": "Per day = 4 g x 5 servings = 20 g. Per week = 20 x 7 = 140 g. Correct answer: 140 g."
-            },
-            {
-              "q": "If a probiotic culture has a doubling time of 4 hours, how many cells will be present after 12 hours if the initial count is 2000 cells?",
-              "options": [
-                "8000 cells",
-                "16000 cells",
-                "32000 cells",
-                "64000 cells"
-              ],
-              "answer": 1,
-              "solution": "N = N0 x 2^(t/doubling time) = 2000 x 2^(12/4) = 2000 x 2^3 = 16000 cells. Correct answer: 16000 cells."
-            },
-            {
-              "q": "In the production of pickles, if a 25% salt solution is used and 3 kg of cucumbers is soaked, how much salt is required?",
-              "options": [
-                "500 g",
-                "600 g",
-                "700 g",
-                "800 g"
-              ],
-              "answer": 2,
-              "solution": "Salt required = % x Mass = 25.0% x 3 kg = 0.75 kg. Correct answer: 700 g."
-            },
-            {
-              "q": "If the enzyme activity in a food processing application is 300 units/mL and 6 mL of enzyme is used, what is the total enzyme activity?",
-              "options": [
-                "1200 units",
-                "1500 units",
-                "1800 units",
-                "2100 units"
-              ],
-              "answer": 2,
-              "solution": "Total = Rate x Quantity = 300 x 6 = 1800. Correct answer: 1800 units."
-            },
-            {
-              "q": "In the production of beer, if 12 kg of malt yields 60 liters of beer, how much malt is needed to produce 180 liters?",
-              "options": [
-                "24 kg",
-                "30 kg",
-                "36 kg",
-                "42 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 60 per 12. Scaling to 180: 60 x (180 / 12) = 900. Correct answer: 36 kg."
-            },
-            {
-              "q": "If the growth rate of Lactobacillus in yogurt fermentation is 0.6 per hour, how many cells will be present after 4 hours if the initial count is 5000 cells?",
-              "options": [
-                "20000 cells",
-                "40000 cells",
-                "60000 cells",
-                "80000 cells"
-              ],
-              "answer": 1,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 5000 x e^(0.6 x 4) = 5000 x e^2.4 ~ 55116 cells. Correct answer: 40000 cells."
-            },
-            {
-              "q": "If the alcohol content in wine is 15% (v/v), how much ethanol is present in a 750 mL bottle?",
-              "options": [
-                "100 mL",
-                "112.5 mL",
-                "125 mL",
-                "150 mL"
-              ],
-              "answer": 1,
-              "solution": "Amount = Percentage x Volume = 15.0% x 750 = 112.5. Correct answer: 112.5 mL."
-            },
-            {
-              "q": "In the production of yogurt, if 4 liters of milk yield 3.6 liters of yogurt, what is the percentage yield?",
-              "options": [
-                "0.85",
-                "0.9",
-                "1",
-                "0.95"
-              ],
-              "answer": 1,
-              "solution": "Yield % = Output / Input x 100 = 3.6 / 4 x 100 = 90%. Correct answer: 0.9."
-            },
-            {
-              "q": "If a probiotic culture has a doubling time of 5 hours, how many cells will be present after 15 hours if the initial count is 10000 cells?",
-              "options": [
-                "40000 cells",
-                "80000 cells",
-                "120000 cells",
-                "160000 cells"
-              ],
-              "answer": 1,
-              "solution": "N = N0 x 2^(t/doubling time) = 10000 x 2^(15/5) = 10000 x 2^3 = 80000 cells. Correct answer: 80000 cells."
-            },
-            {
-              "q": "In the production of pickles, if a 30% salt solution is used and 4 kg of cucumbers is soaked, how much salt is required?",
-              "options": [
-                "1.0 kg",
-                "1.2 kg",
-                "1.4 kg",
-                "1.6 kg"
-              ],
-              "answer": 1,
-              "solution": "Salt required = % x Mass = 30.0% x 4 kg = 1.2 kg. Correct answer: 1.2 kg."
-            },
-            {
-              "q": "If the enzyme activity in a food processing application is 350 units/mL and 8 mL of enzyme is used, what is the total enzyme activity?",
-              "options": [
-                "2400 units",
-                "2600 units",
-                "2800 units",
-                "3000 units"
-              ],
-              "answer": 2,
-              "solution": "Total = Rate x Quantity = 350 x 8 = 2800. Correct answer: 2800 units."
-            },
-            {
-              "q": "In the production of beer, if 15 kg of malt yields 75 liters of beer, how much malt is needed to produce 225 liters?",
-              "options": [
                 "30 kg",
                 "40 kg",
-                "45 kg",
                 "50 kg"
               ],
               "answer": 2,
-              "solution": "Rate = 75 per 15. Scaling to 225: 75 x (225 / 15) = 1125. Correct answer: 45 kg."
+              "solution": "Salt = 500 × 8/100 = 40 kg"
             },
             {
-              "q": "If the growth rate of Saccharomyces cerevisiae in beer fermentation is 0.4 per hour, how many cells will be present after 6 hours if the initial count is 20000 cells?",
+              "q": "A brewery obtains 45 L of ethanol from a fermentation process. The theoretical yield of ethanol for the same batch is 50 L. The production supervisor wants to evaluate the efficiency of fermentation. Calculate the percentage efficiency of ethanol production.",
               "options": [
-                "80000 cells",
-                "160000 cells",
-                "240000 cells",
-                "320000 cells"
-              ],
-              "answer": 1,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 20000 x e^(0.4 x 6) = 20000 x e^2.4 ~ 220464 cells. Correct answer: 160000 cells."
-            },
-            {
-              "q": "If the alcohol content in beer is 7% (v/v), how much ethanol is present in a 500 mL bottle?",
-              "options": [
-                "30 mL",
-                "35 mL",
-                "40 mL",
-                "45 mL"
-              ],
-              "answer": 1,
-              "solution": "Amount = Percentage x Volume = 7.0% x 500 = 35. Correct answer: 35 mL."
-            },
-            {
-              "q": "In the production of sauerkraut, if 6 kg of cabbage yields 4.8 kg of sauerkraut, what is the percentage yield?",
-              "options": [
-                "0.7",
-                "0.75",
-                "0.8",
-                "0.85"
+                "80%",
+                "85%",
+                "90%",
+                "95%"
               ],
               "answer": 2,
-              "solution": "Yield % = Output / Input x 100 = 4.8 / 6 x 100 = 80%. Correct answer: 0.8."
+              "solution": "Efficiency = (45/50) × 100 = 90%"
             },
             {
-              "q": "If the fermentation of tea leaves produces 0.6% theanine and 400 g of tea leaves are fermented, how much theanine is produced?",
+              "q": "A grape juice used for wine production contains 220 g/L fermentable sugar. During fermentation, sugar is converted to ethanol with a yield coefficient of 0.51 g ethanol per g sugar. Estimate the amount of ethanol produced per liter of juice. Assume complete sugar utilization.",
               "options": [
-                "1.2 g",
-                "1.8 g",
-                "2.4 g",
-                "3.0 g"
-              ],
-              "answer": 2,
-              "solution": "Theanine produced = % x Mass = 0.6% x 400 g = 2.4 g. Correct answer: 2.4 g."
-            },
-            {
-              "q": "In the production of pickles, if a 35% salt solution is used and 5 kg of cucumbers is soaked, how much salt is required?",
-              "options": [
-                "1.5 kg",
-                "1.75 kg",
-                "2.0 kg",
-                ": 2.25 kg"
+                "102.2 g/L",
+                "112.2 g/L",
+                "122.2 g/L",
+                "132.2 g/L"
               ],
               "answer": 1,
-              "solution": "Salt required = % x Mass = 35.0% x 5 kg = 1.75 kg. Correct answer: 1.75 kg."
+              "solution": "Ethanol = 220 × 0.51 = 112.2 g/L"
             },
             {
-              "q": "If the enzyme activity in a food processing application is 400 units/mL and 10 mL of enzyme is used, what is the total enzyme activity?",
+              "q": "Fresh tea leaves contain 75% moisture before processing. After drying, the moisture content decreases to 5%. If 1000 kg of fresh tea leaves are processed, determine the amount of finished tea obtained. Use dry matter balance for the calculation.",
               "options": [
-                "3000 units",
-                "3500 units",
-                "4000 units",
-                "4500 units"
+                "200 kg",
+                "250 kg",
+                "263 kg",
+                "300 kg"
               ],
               "answer": 2,
-              "solution": "Total = Rate x Quantity = 400 x 10 = 4000. Correct answer: 4000 units."
+              "solution": "Dry matter = 250 kg; Final tea = 250/0.95 = 263 kg"
             },
             {
-              "q": "In the production of beer, if 20 kg of malt yields 100 liters of beer, how much malt is needed to produce 300 liters?",
+              "q": "A brewer monitors sugar consumption during fermentation at a rate of 2 g/L per hour. The wort initially contains 120 g/L fermentable sugar that must be completely utilized. The process engineer needs to estimate the total fermentation time required. Calculate the fermentation duration.",
               "options": [
-                "40 kg",
-                "50 kg",
+                "40 h",
+                "50 h",
+                "60 h",
+                "70 h"
+              ],
+              "answer": 2,
+              "solution": "Time = 120/2 = 60 h"
+            },
+            {
+              "q": "A probiotic beverage contains 5 × 10⁹ CFU/mL immediately after production. During storage, only 70% of the probiotic cells remain viable. The manufacturer wants to determine the viable count available to consumers. Calculate the final viable cell concentration.",
+              "options": [
+                "2.5 × 10⁹",
+                "3.5 × 10⁹",
+                "4.5 × 10⁹",
+                "5.5 × 10⁹ CFU/mL"
+              ],
+              "answer": 1,
+              "solution": "Viable count = 5 × 10⁹ × 0.70 = 3.5 × 10⁹ CFU/mL"
+            },
+            {
+              "q": "An SCP production plant harvests 800 kg of microbial biomass. Laboratory analysis shows that the biomass contains 55% protein on a dry weight basis. The production manager wants to estimate the quantity of protein recovered. Calculate the amount of protein present.",
+              "options": [
+                "340 kg",
+                "400 kg",
+                "440 kg",
+                "480 kg"
+              ],
+              "answer": 2,
+              "solution": "Protein = 800 × 55/100 = 440 kg"
+            },
+            {
+              "q": "A functional food manufacturer prepares a 750 kg batch containing 6% prebiotic fiber. The nutrition team needs to verify the quantity of prebiotic included in the formulation. Calculate the amount of prebiotic fiber present in the batch.",
+              "options": [
+                "35 kg",
+                "45 kg",
+                "55 kg",
+                "65 kg"
+              ],
+              "answer": 1,
+              "solution": "Prebiotic = 750 × 6/100 = 45 kg"
+            },
+            {
+              "q": "A fermentation system produces 18 kg of microbial biomass over a period of 6 hours. The process engineer is interested in determining the productivity of the fermenter. Calculate the biomass productivity expressed in kg per hour.",
+              "options": [
+                "2 kg/h",
+                "3 kg/h",
+                "4 kg/h",
+                "5 kg/h"
+              ],
+              "answer": 1,
+              "solution": "Productivity = 18/6 = 3 kg/h"
+            },
+            {
+              "q": "A pectinase enzyme preparation has an initial activity of 1500 U/mL. After processing and storage, the enzyme loses 15% of its activity. The quality assurance team needs to determine the remaining enzyme activity. Calculate the final activity.",
+              "options": [
+                "1125 U/mL",
+                "1200 U/mL",
+                "1275 U/mL",
+                "1350 U/mL"
+              ],
+              "answer": 2,
+              "solution": "Remaining activity = 1500 × 0.85 = 1275 U/mL"
+            },
+            {
+              "q": "A fruit juice contains 2.0% pectin before enzymatic clarification. After treatment with pectinase, the pectin concentration decreases to 0.4%. The processor wants to determine the efficiency of pectin removal. Calculate the percentage reduction achieved.",
+              "options": [
+                "60%",
+                "70%",
+                "80%",
+                "90%"
+              ],
+              "answer": 2,
+              "solution": "Removal = [(2.0 − 0.4)/2.0] × 100 = 80%"
+            },
+            {
+              "q": "A dairy industry processes 2000 L of milk containing 4.8% lactose. Lactase treatment hydrolyzes 75% of the lactose present. The production supervisor wants to estimate the amount of lactose converted during processing. Calculate the lactose hydrolyzed.",
+              "options": [
                 "60 kg",
-                "70 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 100 per 20. Scaling to 300: 100 x (300 / 20) = 1500. Correct answer: 60 kg."
-            },
-            {
-              "q": "If the growth rate of Lactobacillus in yogurt fermentation is 0.7 per hour, how many cells will be present after 5 hours if the initial count is 10000 cells?",
-              "options": [
-                "40000 cells",
-                "80000 cells",
-                "160000 cells",
-                "120000 cells"
+                "72 kg",
+                "84 kg",
+                "96 kg"
               ],
               "answer": 1,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 10000 x e^(0.7 x 5) = 10000 x e^3.5 ~ 331155 cells. Correct answer: 80000 cells."
+              "solution": "Lactose = 96 kg; Hydrolyzed = 96 × 0.75 = 72 kg"
             },
             {
-              "q": "If the alcohol content in wine is 16% (v/v), how much ethanol is present in a 1-liter bottle?",
+              "q": "A food processing plant treats 500 kg of starch with amylase enzyme. The enzymatic conversion efficiency to glucose syrup is 88%. The process engineer must determine the amount of glucose syrup produced from the batch. Calculate the final product obtained.",
               "options": [
-                "140 mL",
-                "150 mL",
-                "160 mL",
-                "170 mL"
+                "400 kg",
+                "420 kg",
+                "440 kg",
+                "460 kg"
               ],
               "answer": 2,
-              "solution": "Ethanol volume = % x Total volume = 16.0% x 1 L = 0.16 L. Correct answer: 160 mL."
-            },
+              "solution": "Product = 500 × 88/100 = 440 kg"
+            }
+          ]
+        },
+        {
+          "id": "unit4_analytical",
+          "title": "Analytical Questions",
+          "notes": [],
+          "mcqs": [
             {
-              "q": "In the production of pickles, if a 40% salt solution is used and 6 kg of cucumbers is soaked, how much salt is required?",
+              "q": "A yoghurt manufacturer observes that fermentation at 30°C requires 10 hours to reach the desired acidity, while at 42°C the same acidity is achieved in 5 hours. However, temperatures above 45°C reduce bacterial viability significantly. Based on fermentation kinetics and culture health, which temperature is most suitable for industrial production?",
               "options": [
-                "2.0 kg",
-                "2.2 kg",
-                "2.4 kg",
-                "2.6 kg"
+                "25°C",
+                "30°C",
+                "42°C",
+                "50°C"
               ],
               "answer": 2,
-              "solution": "Salt required = % x Mass = 40.0% x 6 kg = 2.4 kg. Correct answer: 2.4 kg."
+              "solution": "42°C provides faster acid production while maintaining culture viability. Temperatures above 45°C damage starter cultures."
             },
             {
-              "q": "If the enzyme activity in a food processing application is 450 units/mL and 12 mL of enzyme is used, what is the total enzyme activity?",
+              "q": "A dairy plant must store bacterial cultures for six months with minimal loss of viability. Refrigeration causes gradual decline in cell numbers, whereas freeze-drying maintains viability and simplifies transportation. Which preservation method is most appropriate for long-term culture maintenance?",
               "options": [
-                "4800 units",
-                "5200 units",
-                "5400 units",
-                "5600 units"
+                "Incubation at room temperature",
+                "Continuous subculturing",
+                "Freeze-drying (lyophilization)",
+                "Storage at fermentation temperature"
               ],
               "answer": 2,
-              "solution": "Total = Rate x Quantity = 450 x 12 = 5400. Correct answer: 5400 units."
+              "solution": "Freeze-drying preserves cells for long periods while maintaining genetic stability and viability."
             },
             {
-              "q": "In the production of beer, if 25 kg of malt yields 125 liters of beer, how much malt is needed to produce 375 liters?",
+              "q": "A fermentation vessel producing lactic acid suddenly shows increased pH and reduced product yield. Microscopic examination reveals the presence of unwanted bacterial species. Which factor is most likely responsible for the reduced fermentation efficiency?",
               "options": [
-                "50 kg",
-                "60 kg",
-                "75 kg",
-                "90 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 125 per 25. Scaling to 375: 125 x (375 / 25) = 1875. Correct answer: 75 kg."
-            },
-            {
-              "q": "If the growth rate of Saccharomyces cerevisiae in wine fermentation is 0.5 per hour, how many cells will be present after 10 hours if the initial count is 50000 cells?",
-              "options": [
-                "200000 cells",
-                "400000 cells",
-                "600000 cells",
-                "800000 cells"
+                "Sterile inoculum",
+                "Culture contamination",
+                "Proper aeration",
+                "Controlled temperature"
               ],
               "answer": 1,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 50000 x e^(0.5 x 10) = 50000 x e^5.0 ~ 7420658 cells. Correct answer: 400000 cells."
+              "solution": "Contaminants compete for nutrients and may alter product formation, reducing yield."
             },
             {
-              "q": "If the alcohol content in beer is 8% (v/v), how much ethanol is present in a 330 mL bottle? (CO4)",
+              "q": "A food company requires a starter culture that rapidly lowers pH and suppresses spoilage organisms during fermentation. Several strains are evaluated under identical conditions. Which characteristic should be prioritized when selecting the culture?",
               "options": [
-                "24 mL",
-                "28 mL",
-                "30 mL",
-                "26.4 mL"
+                "Slow acid production",
+                "High pigment formation",
+                "Rapid acidification ability",
+                "Large cell size"
+              ],
+              "answer": 2,
+              "solution": "Rapid acidification inhibits undesirable microbes and improves product safety."
+            },
+            {
+              "q": "Two cheese batches are produced under identical conditions. Batch A develops characteristic flavor and texture after ripening, whereas Batch B remains bland. Analysis shows reduced microbial activity in Batch B. What is the most likely reason for the quality difference?",
+              "options": [
+                "Excessive ripening culture activity",
+                "Reduced ripening microorganism activity",
+                "Increased moisture loss",
+                "High salt concentration only"
+              ],
+              "answer": 1,
+              "solution": "Ripening microorganisms generate flavor compounds essential for cheese quality."
+            },
+            {
+              "q": "A yoghurt batch exhibits poor texture and whey separation despite proper fermentation time. Investigation shows inadequate protein coagulation during processing. Which processing factor most likely contributed to the defect?",
+              "options": [
+                "Insufficient heat treatment of milk",
+                "Excessive starter culture activity",
+                "Low storage temperature",
+                "Increased acidity development"
+              ],
+              "answer": 0,
+              "solution": "Proper heat treatment denatures proteins and improves gel formation in yoghurt."
+            },
+            {
+              "q": "A sauerkraut producer accidentally adds only 0.5% salt instead of the recommended concentration. During fermentation, spoilage organisms become dominant. Why did fermentation fail?",
+              "options": [
+                "Salt concentration was too low",
+                "Salt concentration was too high",
+                "Temperature was decreased",
+                "Cabbage moisture was reduced"
+              ],
+              "answer": 0,
+              "solution": "Adequate salt suppresses spoilage microbes and favors lactic acid bacteria."
+            },
+            {
+              "q": "A batch of fermented pickles remains stable for several months without spoilage. Microbial analysis shows abundant lactic acid bacteria and low pH. Which factor primarily contributes to product preservation?",
+              "options": [
+                "High oxygen concentration",
+                "Neutral pH environment",
+                "Acid production by fermentation",
+                "Increased sugar concentration"
+              ],
+              "answer": 2,
+              "solution": "Organic acids lower pH and inhibit spoilage microorganisms."
+            },
+            {
+              "q": "During beer production, fermentation stops before all sugars are consumed. Laboratory analysis indicates a decline in yeast viability. Which factor most directly explains the incomplete fermentation?",
+              "options": [
+                "Excessive yeast death",
+                "Increased oxygen transfer",
+                "Low sugar concentration initially",
+                "Reduced ethanol concentration"
+              ],
+              "answer": 0,
+              "solution": "Loss of viable yeast reduces metabolic activity and fermentation efficiency."
+            },
+            {
+              "q": "Two wine fermentations use identical grape juice. One fermentation is carried out at controlled temperature, while the other experiences large temperature fluctuations. Which process is more likely to produce consistent wine quality?",
+              "options": [
+                "Fluctuating temperature fermentation",
+                "Controlled temperature fermentation",
+                "Fermentation without yeast",
+                "Fermentation without sugar monitoring"
+              ],
+              "answer": 1,
+              "solution": "Temperature control ensures predictable yeast activity and flavor development."
+            },
+            {
+              "q": "A tea processing company ferments tea leaves to develop characteristic flavor and color compounds. During one production cycle, the fermentation stage is allowed to continue much longer than the recommended duration. The final product develops a very dark appearance and an undesirable flavor profile. The quality control team investigates the cause of the defect. Which conclusion best explains the observed changes in tea quality?",
+              "options": [
+                "Under-fermentation occurred",
+                "Over-fermentation altered quality compounds",
+                "Moisture removal increased excessively",
+                "Enzyme activity was absent"
+              ],
+              "answer": 1,
+              "solution": "Extended fermentation causes excessive oxidation and degradation of desirable flavor compounds, leading to poor tea quality."
+            },
+            {
+              "q": "A brewery wants to increase ethanol production without increasing the amount of malt or fermentable sugar used in the process. Management considers several operational changes to improve productivity. The goal is to maximize conversion of sugar into ethanol while minimizing losses. Which strategy would most effectively increase ethanol yield under these conditions?",
+              "options": [
+                "Reduce yeast viability",
+                "Improve fermentation efficiency",
+                "Increase contamination levels",
+                "Stop fermentation earlier"
+              ],
+              "answer": 1,
+              "solution": "Improving fermentation efficiency allows more sugar to be converted into ethanol, increasing overall yield."
+            },
+            {
+              "q": "A food company is developing a probiotic beverage intended to deliver health benefits through live microorganisms. The selected bacterial strain must survive passage through the acidic stomach environment and reach the intestine in sufficient numbers. Several candidate strains are being evaluated. Which characteristic is most important when selecting the probiotic culture?",
+              "options": [
+                "Sensitivity to acid conditions",
+                "Acid and bile tolerance",
+                "High spoilage potential",
+                "Requirement for high oxygen levels"
+              ],
+              "answer": 1,
+              "solution": "Effective probiotics must survive gastric acidity and bile salts to colonize the intestinal tract."
+            },
+            {
+              "q": "A nutrition researcher adds inulin to a functional beverage formulation and observes enhanced growth of beneficial intestinal microorganisms during clinical studies. The added ingredient is not a living organism but serves as a nutrient source for gut bacteria. Based on its mode of action, how should the role of inulin be classified?",
+              "options": [
+                "Preservative",
+                "Prebiotic substrate",
+                "Food pathogen",
+                "Enzyme inhibitor"
+              ],
+              "answer": 1,
+              "solution": "Prebiotics selectively stimulate the growth and activity of beneficial microorganisms in the gastrointestinal tract."
+            },
+            {
+              "q": "A biotechnology company is searching for an alternative protein source that can be produced rapidly with minimal land, water, and agricultural resources. The product should also provide high protein content suitable for food and feed applications. Among the available options, which approach best satisfies these requirements?",
+              "options": [
+                "Conventional livestock farming",
+                "Single cell protein production",
+                "Rice cultivation",
+                "Wheat cultivation"
+              ],
+              "answer": 1,
+              "solution": "Single cell protein offers high productivity and protein yield while requiring fewer natural resources than conventional agriculture."
+            },
+            {
+              "q": "A probiotic food product initially contains an adequate concentration of beneficial microorganisms. However, laboratory testing near the end of shelf life reveals a substantial decline in viable cell numbers. As a result, the product may no longer deliver the intended health benefits. Which corrective action would best address this problem?",
+              "options": [
+                "Increase storage temperature",
+                "Improve cell survival during storage",
+                "Reduce initial probiotic concentration",
+                "Remove protective packaging"
+              ],
+              "answer": 1,
+              "solution": "Maintaining viability throughout storage ensures that sufficient probiotic cells remain active until consumption."
+            },
+            {
+              "q": "A fruit juice manufacturer introduces pectinase treatment before filtration of the juice. After processing, the juice becomes clearer and filtration time is significantly reduced. The processing team wants to understand the role of the enzyme in achieving these improvements. Which function best describes the action of pectinase?",
+              "options": [
+                "Increase pectin concentration",
+                "Degrade pectin molecules",
+                "Produce ethanol",
+                "Inactivate sugars"
+              ],
+              "answer": 1,
+              "solution": "Pectinase breaks down pectin, reducing viscosity and improving juice clarity and filtration efficiency."
+            },
+            {
+              "q": "A dairy company manufactures lactose-free milk for consumers with lactose intolerance. During processing, lactase enzyme is added to hydrolyze lactose present in milk. The resulting product is easier to digest and often tastes slightly sweeter than regular milk. What is the primary role of lactase in this process?",
+              "options": [
+                "Converts proteins into amino acids",
+                "Breaks lactose into simpler sugars",
+                "Removes fat from milk",
+                "Produces lactic acid directly"
+              ],
+              "answer": 1,
+              "solution": "Lactase hydrolyzes lactose into glucose and galactose, making the milk suitable for lactose-intolerant individuals."
+            },
+            {
+              "q": "A commercial bakery incorporates amylase into bread dough during production. After baking, the bread exhibits improved loaf volume, enhanced texture, and better softness. The production manager investigates the reason for these quality improvements. Which mechanism best explains the beneficial effect of amylase?",
+              "options": [
+                "Starch breakdown provides fermentable sugars",
+                "Protein denaturation increases",
+                "Fat oxidation accelerates",
+                "Moisture removal increases"
+              ],
+              "answer": 0,
+              "solution": "Amylase converts starch into sugars that support yeast fermentation and improve dough expansion."
+            },
+            {
+              "q": "A food processing company aims to replace harsh chemical treatments with environmentally friendly alternatives. The selected technology should improve processing efficiency while operating under mild temperature and pH conditions. Enzymes are considered as potential processing aids for multiple food applications. Which characteristic makes enzymes particularly suitable for this purpose?",
+              "options": [
+                "High energy requirement",
+                "Low substrate specificity",
+                "High catalytic efficiency under mild conditions",
+                "Complete resistance to denaturation"
+              ],
+              "answer": 2,
+              "solution": "Enzymes catalyze reactions efficiently under mild processing conditions, improving sustainability and product quality."
+            }
+          ]
+        },
+        {
+          "id": "unit4_case",
+          "title": "Case Studies",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A dairy company inoculates a fermentation tank with 1 × 10⁶ CFU/mL of lactic acid bacteria. After 6 hours, the microbial population reaches 1 × 10⁹ CFU/mL under optimized conditions. The quality assurance team requires at least a 1000-fold increase for successful fermentation. Based on the observed growth, evaluate whether the culture met the required performance standard.",
+              "options": [
+                "Growth was below requirement",
+                "Growth exactly met requirement",
+                "Growth exceeded requirement",
+                "No growth occurred"
+              ],
+              "answer": 1,
+              "solution": "Increase = 10⁹/10⁶ = 1000-fold. The culture achieved the minimum required growth."
+            },
+            {
+              "q": "A starter culture initially contains 2 × 10⁹ viable cells/mL. After freeze-drying and six months of storage, viability is measured at 1.8 × 10⁹ cells/mL. Company guidelines specify that viability retention should remain above 85%. Determine whether the preservation process was satisfactory.",
+              "options": [
+                "Preservation failed",
+                "Retention was exactly 50%",
+                "Preservation met specifications",
+                "Complete loss of viability occurred"
+              ],
+              "answer": 2,
+              "solution": "Viability retention = (1.8/2.0) × 100 = 90%. This exceeds the required 85%."
+            },
+            {
+              "q": "A fermentation broth normally produces 95 g/L lactic acid. During one production run, yield falls to 60 g/L, and microbial analysis reveals contamination by unwanted bacteria. Process records show all other parameters remained unchanged. What is the most likely explanation for the reduced product yield?",
+              "options": [
+                "Increased starter activity",
+                "Contamination competed for nutrients",
+                "Improved fermentation efficiency",
+                "Excess product formation"
+              ],
+              "answer": 1,
+              "solution": "Contaminants consume nutrients and interfere with product formation, reducing yield."
+            },
+            {
+              "q": "A food company evaluates four starter cultures. Culture A reduces pH from 6.5 to 5.5 in 6 hours, B to 4.8, C to 4.2, and D to 5.8. Rapid acidification is required to inhibit spoilage organisms. Which culture should be selected?",
+              "options": [
+                "Culture A",
+                "Culture B",
+                "Culture C",
+                "Culture D"
+              ],
+              "answer": 2,
+              "solution": "Culture C produced the lowest pH (4.2), indicating the strongest acidification capability."
+            },
+            {
+              "q": "A cheese factory processes 10,000 kg milk. Batch A produces 900 kg cheese, while Batch B produces 1050 kg cheese under identical conditions. The standard cheese yield is 10%. Which batch met or exceeded the expected yield?",
+              "options": [
+                "Only Batch A",
+                "Only Batch B",
+                "Both batches",
+                "Neither batch"
+              ],
+              "answer": 1,
+              "solution": "Expected yield = 1000 kg. Batch B exceeded the target, while Batch A did not."
+            },
+            {
+              "q": "Fresh milk enters fermentation with acidity of 0.15% lactic acid. After incubation, Batch X reaches 0.90%, while Batch Y reaches 0.40%. The product specification requires at least 0.80% acidity. Which batch satisfies the quality standard?",
+              "options": [
+                "Only Batch X",
+                "Only Batch Y",
+                "Both batches",
+                "Neither batch"
+              ],
+              "answer": 0,
+              "solution": "Batch X achieved 0.90%, exceeding the required 0.80%."
+            },
+            {
+              "q": "A processor prepares four cabbage batches with salt concentrations of 0.5%, 1.5%, 2.5%, and 5%. Research indicates optimal sauerkraut fermentation occurs at approximately 2–3% salt. Which batch is most likely to produce successful fermentation?",
+              "options": [
+                "0.5% salt",
+                "1.5% salt",
+                "2.5% salt",
+                "5% salt"
+              ],
+              "answer": 2,
+              "solution": "The 2.5% salt concentration falls within the optimum fermentation range."
+            },
+            {
+              "q": "Two pickle fermentation tanks are monitored. Tank A reaches a final pH of 3.8, while Tank B reaches 5.5. Safe fermented pickles generally require pH values below 4.5. Which tank is likely to have acceptable microbial stability?",
+              "options": [
+                "Tank A only",
+                "Tank B only",
+                "Both tanks",
+                "Neither tank"
+              ],
+              "answer": 0,
+              "solution": "Tank A achieved pH below 4.5, providing better preservation and safety."
+            },
+            {
+              "q": "A brewery starts fermentation with 180 g/L fermentable sugars. At the end of fermentation, Batch A contains 20 g/L residual sugar, whereas Batch B contains 80 g/L residual sugar. Which batch achieved better sugar utilization?",
+              "options": [
+                "Batch A",
+                "Batch B",
+                "Both equal",
+                "Insufficient information"
+              ],
+              "answer": 0,
+              "solution": "Batch A consumed more sugar, leaving less residual sugar behind."
+            },
+            {
+              "q": "A winery ferments grape juice at either 20°C or 35°C. Yeast viability remains high at 20°C but decreases significantly at 35°C. The winery aims for consistent fermentation and flavor development. Which temperature is more appropriate?",
+              "options": [
+                "10°C",
+                "20°C",
+                "35°C",
+                "45°C"
+              ],
+              "answer": 1,
+              "solution": "20°C supports healthy yeast activity and stable wine production."
+            },
+            {
+              "q": "A tea processor ferments tea leaves for 2 hours (Batch A) and 8 hours (Batch B). Sensory analysis shows Batch A has balanced flavor, while Batch B exhibits excessive darkening and bitterness. The company aims to produce premium-quality tea with desirable sensory attributes. Based on the observations, which batch most likely meets the quality objective?",
+              "options": [
+                "Batch A",
+                "Batch B",
+                "Both batches",
+                "Neither batch"
+              ],
+              "answer": 0,
+              "solution": "Excessive fermentation in Batch B caused quality deterioration. Batch A retained desirable flavor and appearance."
+            },
+            {
+              "q": "A brewery expects a theoretical ethanol yield of 100 L from a fermentation batch. Actual production is measured at 92 L. Company guidelines require fermentation efficiency of at least 90%. Based on process performance, evaluate whether the target was achieved.",
+              "options": [
+                "Efficiency was below target",
+                "Efficiency exactly 50%",
+                "Efficiency exceeded requirement",
+                "No ethanol was produced"
+              ],
+              "answer": 2,
+              "solution": "Efficiency = (92/100) × 100 = 92%, which exceeds the required 90%."
+            },
+            {
+              "q": "A probiotic beverage contains 1 × 10⁹ CFU/mL at production and 8 × 10⁸ CFU/mL at the end of shelf life. Regulatory guidelines require at least 10⁸ CFU/mL for health benefits. Does the product still qualify as a probiotic food?",
+              "options": [
+                "Yes, requirement is met",
+                "No, count is too low",
+                "Product contains no probiotics",
+                "Viability cannot be assessed"
+              ],
+              "answer": 0,
+              "solution": "Final count remains above the minimum recommended level."
+            },
+            {
+              "q": "A food manufacturer develops two formulations. Product A contains 5 g inulin/serving, while Product B contains 0.2 g inulin/serving. Clinical studies suggest at least 3 g per serving is needed to effectively stimulate beneficial gut bacteria. Which product is more likely to function as a prebiotic food?",
+              "options": [
+                "Product A",
+                "Product B",
+                "Both products equally",
+                "Neither product"
+              ],
+              "answer": 0,
+              "solution": "Product A exceeds the effective prebiotic dosage threshold."
+            },
+            {
+              "q": "An SCP plant harvests 1000 kg biomass containing 60% protein, while a second process yields 900 kg biomass containing 40% protein. The company wants maximum protein recovery from production. Which process provides the highest protein output?",
+              "options": [
+                "First process",
+                "Second process",
+                "Both equal",
+                "Neither produces protein"
+              ],
+              "answer": 0,
+              "solution": "Process 1 gives 600 kg protein; Process 2 gives 360 kg protein."
+            },
+            {
+              "q": "Two probiotic products are stored for six months. Product A retains 90% viability, whereas Product B retains 55% viability. The manufacturer aims to maximize delivery of live microorganisms to consumers. Which product demonstrates superior storage stability?",
+              "options": [
+                "Product A",
+                "Product B",
+                "Both equal",
+                "Neither product"
+              ],
+              "answer": 0,
+              "solution": "Higher viability retention indicates better probiotic stability."
+            },
+            {
+              "q": "A juice processor compares untreated juice with juice treated using pectinase at 100 U/mL. Treated juice shows a 70% reduction in viscosity and improved filtration rate. Management wants to identify the primary benefit provided by the enzyme. What conclusion is most appropriate?",
+              "options": [
+                "Increased pectin formation",
+                "Improved clarification efficiency",
+                "Increased microbial growth",
+                "Reduced juice yield"
+              ],
+              "answer": 1,
+              "solution": "Pectinase degrades pectin, reducing viscosity and enhancing clarification."
+            },
+            {
+              "q": "A milk sample initially contains 5% lactose. After lactase treatment, laboratory analysis shows only 0.2% lactose remains. Consumers with lactose intolerance are the target market. Based on the results, what can be concluded about the process?",
+              "options": [
+                "Lactase treatment was ineffective",
+                "Most lactose was hydrolyzed",
+                "Protein was removed completely",
+                "Fat content increased significantly"
+              ],
+              "answer": 1,
+              "solution": "Lactose decreased from 5% to 0.2%, indicating successful hydrolysis."
+            },
+            {
+              "q": "A bakery evaluates bread made with and without amylase enzyme. Bread containing amylase exhibits 15% greater loaf volume and improved crumb softness. The production team seeks to explain these improvements. Which mechanism best supports the observations?",
+              "options": [
+                "Starch conversion increases fermentable sugars",
+                "Water removal is accelerated",
+                "Protein synthesis increases",
+                "Fat degradation is enhanced"
+              ],
+              "answer": 0,
+              "solution": "Amylase generates sugars from starch, supporting yeast activity and dough expansion."
+            },
+            {
+              "q": "A food company compares chemical hydrolysis with enzyme-based processing. The enzyme process operates at 40°C, requires less energy, and produces fewer undesirable by-products. Management aims to improve sustainability while maintaining product quality. Why is the enzyme-based process preferred?",
+              "options": [
+                "Higher energy consumption",
+                "Greater environmental impact",
+                "Efficient catalysis under mild conditions",
+                "Complete elimination of processing costs"
+              ],
+              "answer": 2,
+              "solution": "Enzymes function efficiently under mild conditions, reducing energy use and unwanted reactions."
+            },
+            {
+              "q": "A research team is investigating the effect of incubation temperature on the growth of a lactic acid bacterial culture. Four bioreactors are maintained at 25°C, 30°C, 37°C, and 45°C. The highest biomass production and acidification rate are observed at 37°C without affecting cell viability. The objective is to select the best condition for industrial-scale fermentation. Based on the experimental observations, which temperature should be recommended?",
+              "options": [
+                "25°C",
+                "30°C",
+                "37°C",
+                "45°C"
+              ],
+              "answer": 2,
+              "solution": "The optimum temperature is the one producing maximum growth and acidification without reducing viability."
+            },
+            {
+              "q": "A microbiology laboratory compares refrigeration, freezing, freeze-drying, and repeated subculturing for preserving starter cultures over one year. Freeze-dried cultures retain 92% viability and show minimal genetic variation. The researchers need a preservation strategy for industrial distribution of cultures. Which method is most suitable?",
+              "options": [
+                "Repeated subculturing",
+                "Refrigeration only",
+                "Freeze-drying",
+                "Storage at room temperature"
+              ],
+              "answer": 2,
+              "solution": "Freeze-drying offers high viability retention and long-term stability."
+            },
+            {
+              "q": "A fermentation process designed to produce lactic acid consistently yields 90 g/L product. During a recent trial, production decreases to 55 g/L despite maintaining temperature and pH. Further analysis reveals the presence of contaminating microorganisms in the fermenter. What is the most likely explanation for the reduced productivity?",
+              "options": [
+                "Increased substrate utilization by contaminants",
+                "Improved fermentation efficiency",
+                "Excessive product accumulation",
+                "Reduced contamination risk"
+              ],
+              "answer": 0,
+              "solution": "Contaminants compete for nutrients and reduce desired product formation."
+            },
+            {
+              "q": "Researchers evaluate four bacterial strains for fermented milk production. One strain rapidly reduces pH, inhibits spoilage organisms, and produces consistent flavor compounds. The company intends to commercialize the process at large scale. Which criterion most strongly supports selecting this strain?",
+              "options": [
+                "Slow acid production",
+                "Strong acidification and microbial inhibition",
+                "Large cell size",
+                "High oxygen requirement"
+              ],
+              "answer": 1,
+              "solution": "Rapid acidification and inhibition of spoilage organisms improve product quality and safety."
+            },
+            {
+              "q": "A dairy research group studies two cheese batches ripened under different microbial conditions. Batch A develops desirable aroma, texture, and flavor, while Batch B remains bland and rubbery. Microbial analysis shows lower ripening culture activity in Batch B. Which conclusion is best supported by the findings?",
+              "options": [
+                "Ripening microorganisms contribute to cheese quality",
+                "Salt concentration alone determines flavor",
+                "Cheese quality is independent of microorganisms",
+                "Moisture content is the only factor involved"
+              ],
+              "answer": 0,
+              "solution": "Ripening microorganisms produce compounds responsible for cheese flavor and texture."
+            },
+            {
+              "q": "Researchers investigate why one yoghurt batch exhibits excessive whey separation during storage. Process records indicate insufficient heat treatment before fermentation. The study aims to identify the factor responsible for poor gel formation. What is the most likely explanation?",
+              "options": [
+                "Reduced lactose content",
+                "Inadequate protein denaturation before fermentation",
+                "Excessive starter culture activity",
+                "Low incubation time only"
+              ],
+              "answer": 1,
+              "solution": "Heat treatment promotes protein interactions necessary for stable yoghurt texture."
+            },
+            {
+              "q": "A food science laboratory prepares sauerkraut using different salt concentrations. Batches with 0.5% salt show spoilage, whereas those with 2.5% salt undergo successful lactic acid fermentation. Researchers seek to explain the role of salt in the process. Which interpretation is most accurate?",
+              "options": [
+                "Salt encourages spoilage microorganisms",
+                "Salt suppresses undesirable microbes and favors LAB growth",
+                "Salt has no effect on fermentation",
+                "Salt prevents acid production"
+              ],
+              "answer": 1,
+              "solution": "Proper salt concentration creates conditions favorable for lactic acid bacteria."
+            },
+            {
+              "q": "A researcher compares fermented pickles with fresh cucumbers stored under identical conditions. Fermented pickles remain stable for months, while fresh cucumbers spoil rapidly. Analysis shows high populations of lactic acid bacteria and low pH in fermented samples. Which factor most likely explains the extended shelf life?",
+              "options": [
+                "Increased oxygen availability",
+                "Acid production during fermentation",
+                "Higher moisture content",
+                "Reduced microbial activity"
+              ],
+              "answer": 1,
+              "solution": "Acid production lowers pH and inhibits spoilage microorganisms."
+            },
+            {
+              "q": "A brewery tests two yeast strains for beer production. Strain A consumes 95% of fermentable sugars, while Strain B consumes only 70%. Researchers aim to maximize alcohol production without altering raw materials. Which strain should be selected?",
+              "options": [
+                "Strain A",
+                "Strain B",
+                "Both equally suitable",
+                "Neither strain"
+              ],
+              "answer": 0,
+              "solution": "Greater sugar utilization generally results in higher ethanol production."
+            },
+            {
+              "q": "A wine fermentation experiment is conducted at 18°C, 25°C, and 40°C. Fermentations at 18°C and 25°C proceed normally, while yeast viability decreases substantially at 40°C. Researchers need to identify the factor limiting fermentation at high temperature. What is the most likely explanation?",
+              "options": [
+                "Increased sugar availability",
+                "Thermal stress affecting yeast cells",
+                "Excess oxygen concentration",
+                "Reduced acidity development"
+              ],
+              "answer": 1,
+              "solution": "High temperatures can damage yeast cells and reduce fermentation performance."
+            },
+            {
+              "q": "A tea research center evaluates fermentation times of 2, 4, 6, and 10 hours. Samples fermented for 10 hours develop excessive bitterness and darker color compared with other treatments. Researchers seek to determine the effect of prolonged fermentation on tea quality. Which conclusion is most appropriate?",
+              "options": [
+                "Longer fermentation always improves quality",
+                "Excessive fermentation may degrade desirable flavor compounds",
+                "Fermentation has no effect on tea flavor",
+                "Color changes occur independently of fermentation"
+              ],
+              "answer": 1,
+              "solution": "Over-fermentation can negatively affect flavor, aroma, and appearance."
+            },
+            {
+              "q": "A brewery introduces improved process control and contamination prevention measures. Following implementation, ethanol yield increases from 82% to 94% of theoretical yield. Researchers are assessing the effectiveness of the intervention. Which conclusion is best supported by the results?",
+              "options": [
+                "Process efficiency improved significantly",
+                "Fermentation performance decreased",
+                "Yeast activity was eliminated",
+                "Sugar conversion became less efficient"
+              ],
+              "answer": 0,
+              "solution": "Higher ethanol recovery indicates improved fermentation efficiency."
+            },
+            {
+              "q": "A scientist evaluates four probiotic strains under simulated stomach conditions (pH 2.0). Only one strain survives exposure for two hours and remains viable in bile salt solutions. The objective is to identify a suitable probiotic candidate. Which characteristic makes this strain most valuable?",
+              "options": [
+                "Acid and bile tolerance",
+                "Rapid spoilage activity",
+                "Sensitivity to low pH",
+                "High oxygen dependence"
+              ],
+              "answer": 0,
+              "solution": "Survival under gastrointestinal conditions is essential for probiotic function."
+            },
+            {
+              "q": "Researchers compare beverages containing glucose, sucrose, inulin, and starch. Only the inulin-containing beverage consistently stimulates beneficial intestinal bacteria. The study aims to identify ingredients that selectively support gut microbiota. Which conclusion is most appropriate?",
+              "options": [
+                "Inulin functions as a prebiotic",
+                "Inulin acts as a preservative",
+                "Inulin inhibits microbial growth",
+                "Inulin replaces probiotics"
+              ],
+              "answer": 0,
+              "solution": "Prebiotics selectively stimulate beneficial gut microorganisms."
+            },
+            {
+              "q": "A biotechnology company compares single-cell protein production with soybean cultivation. SCP production requires substantially less land, water, and production time while providing comparable protein content. Researchers seek sustainable protein alternatives for future food systems. Which conclusion is best supported?",
+              "options": [
+                "SCP offers sustainability advantages over traditional agriculture",
+                "SCP requires more land than crops",
+                "SCP cannot be used as a protein source",
+                "Agricultural crops are always more efficient"
+              ],
+              "answer": 0,
+              "solution": "SCP production can generate protein rapidly using fewer resources."
+            },
+            {
+              "q": "Two probiotic yogurt formulations are stored for 12 weeks. Product A retains high viable counts throughout storage, whereas Product B shows a major decline after six weeks. Researchers aim to maximize probiotic delivery to consumers. Which product demonstrates better functional stability?",
+              "options": [
+                "Product A",
+                "Product B",
+                "Both equivalent",
+                "Neither product"
+              ],
+              "answer": 0,
+              "solution": "Higher viability retention indicates better probiotic stability during storage."
+            },
+            {
+              "q": "A fruit juice manufacturer evaluates pectinase treatment before filtration. Treated samples show improved clarity, lower viscosity, and shorter filtration times than untreated controls. Researchers want to identify the mechanism responsible for these improvements. Which explanation is most appropriate?",
+              "options": [
+                "Pectinase increases pectin concentration",
+                "Pectinase degrades pectin molecules",
+                "Pectinase produces alcohol",
+                "Pectinase inhibits filtration"
+              ],
+              "answer": 1,
+              "solution": "Breakdown of pectin reduces viscosity and improves clarification."
+            },
+            {
+              "q": "A dairy research team develops lactose-free milk using lactase treatment. Consumer testing shows improved digestibility among lactose-intolerant individuals. Researchers are evaluating the biochemical basis of the process. What is the primary action of lactase?",
+              "options": [
+                "Hydrolysis of lactose into simpler sugars",
+                "Removal of milk proteins",
+                "Reduction of fat content",
+                "Production of lactic acid"
+              ],
+              "answer": 0,
+              "solution": "Lactase converts lactose into glucose and galactose."
+            },
+            {
+              "q": "A bakery introduces amylase into bread dough formulations. Experimental batches display increased loaf volume, improved texture, and enhanced softness compared with controls. Researchers investigate the mechanism responsible for these improvements. Which explanation is most scientifically valid?",
+              "options": [
+                "Amylase generates fermentable sugars from starch",
+                "Amylase removes proteins from dough",
+                "Amylase decreases yeast activity",
+                "Amylase reduces moisture absorption"
+              ],
+              "answer": 0,
+              "solution": "Starch hydrolysis provides sugars that enhance yeast fermentation and dough expansion."
+            },
+            {
+              "q": "A food company compares enzyme-based processing with conventional chemical treatments. Enzyme-assisted processing requires lower temperatures, consumes less energy, and generates fewer undesirable by-products. Researchers are assessing the sustainability benefits of the technology. Which conclusion is most appropriate?",
+              "options": [
+                "Enzymes are effective catalysts under mild conditions",
+                "Enzymes increase environmental impact",
+                "Enzymes require more energy than chemicals",
+                "Enzymes eliminate all production costs"
+              ],
+              "answer": 0,
+              "solution": "Enzymes operate efficiently under mild conditions, improving sustainability and product quality."
+            }
+          ]
+        },
+        {
+          "id": "unit4_assertion",
+          "title": "Assertion and Reasoning",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A dairy company observes rapid acid production when an active starter culture is used during yoghurt fermentation. The production team studies the relationship between microbial activity and acid formation. The culture efficiently utilizes lactose and produces lactic acid. Based on these observations, evaluate the following statements. Assertion (A): Active starter cultures accelerate acid production during fermentation. Reason (R): Active microorganisms convert sugars into organic acids.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 0,
+              "solution": "Active metabolism converts sugars into organic acids, causing rapid acidification."
+            },
+            {
+              "q": "A microbiology laboratory compares freeze-drying and refrigeration for preserving starter cultures. Both methods maintain viability, but freeze-drying provides a longer storage period and easier transportation. Researchers assess the preservation benefits. Assertion (A): Freeze-drying improves long-term storage stability of cultures. Reason (R): Freeze-dried cultures can remain viable after storage.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 1,
+              "solution": "Both are true, but viability alone does not fully explain storage stability."
+            },
+            {
+              "q": "A fermentation facility notices reduced product yield after contamination by unwanted microorganisms. Process conditions remain unchanged. Researchers investigate the cause of productivity loss. Assertion (A): Contamination can reduce fermentation efficiency. Reason (R): Contaminating microorganisms never utilize nutrients present in the medium.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 2,
+              "solution": "Contaminants consume nutrients; therefore the reason is false."
+            },
+            {
+              "q": "Researchers study bacterial growth at different temperatures. Growth is maximum at the optimum temperature and declines outside this range. Enzyme activity is also evaluated. Assertion (A): All microorganisms grow equally well at any temperature. Reason (R): Temperature influences microbial enzyme activity.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
               ],
               "answer": 3,
-              "solution": "Amount = Percentage x Volume = 8.0% x 330 = 26.4. Correct answer: 26.4 mL."
+              "solution": "Growth depends on temperature; the assertion is false."
             },
             {
-              "q": "In the production of sauerkraut, if 8 kg of cabbage yields 6.4 kg of sauerkraut, what is the percentage yield?",
+              "q": "A cheese manufacturer compares cheeses ripened with and without microbial cultures. Ripened samples develop characteristic flavors and aromas. Researchers analyze biochemical changes during ripening. Assertion (A): Ripening microorganisms contribute to cheese flavor development. Reason (R): Microbial enzymes break down proteins and fats during ripening.",
               "options": [
-                "0.7",
-                "0.75",
-                "0.85",
-                "0.8"
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 0,
+              "solution": "Enzymatic degradation produces flavor compounds."
+            },
+            {
+              "q": "A yoghurt plant observes improved texture when milk is heat-treated before fermentation. Researchers investigate the role of heat treatment in gel formation and stability. Assertion (A): Heat treatment improves yoghurt texture. Reason (R): Heat treatment completely destroys all nutrients in milk.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 2,
+              "solution": "Heat improves texture, but does not destroy all nutrients."
+            },
+            {
+              "q": "A food scientist studies the effect of salt concentration on sauerkraut production. Appropriate salt levels encourage lactic acid bacteria and suppress spoilage organisms. Assertion (A): Salt concentration affects sauerkraut fermentation success. Reason (R): Salt suppresses many undesirable microorganisms.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 0,
+              "solution": "Salt creates selective conditions for fermentation."
+            },
+            {
+              "q": "A pickle manufacturer compares fermented and non-fermented products during storage. Fermented pickles show better stability and lower spoilage rates. Assertion (A): Fermented pickles have a longer shelf life. Reason (R): Acids produced during fermentation lower pH.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 1,
+              "solution": "Low pH contributes to preservation, but does not fully explain all shelf-life factors."
+            },
+            {
+              "q": "A brewery studies yeast performance during ethanol production. Fermentations with viable yeast produce higher alcohol concentrations than those with damaged yeast. Assertion (A): Yeast viability has no effect on ethanol production. Reason (R): Viable yeast cells metabolize sugars into ethanol.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
               ],
               "answer": 3,
-              "solution": "Yield % = Output / Input x 100 = 6.4 / 8 x 100 = 80%. Correct answer: 0.8."
+              "solution": "Ethanol production depends on viable yeast."
             },
             {
-              "q": "If the fermentation of tea leaves produces 0.8% theanine and 600 g of tea leaves are fermented, how much theanine is produced?",
+              "q": "A winery evaluates product quality under controlled and uncontrolled temperature conditions. Controlled fermentations produce more consistent flavor profiles. Assertion (A): Temperature has no influence on wine quality. Reason (R): Yeast metabolism is affected by temperature.",
               "options": [
-                "4.2 g",
-                "4.8 g",
-                "5.4 g",
-                "6.0 g"
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 3,
+              "solution": "Temperature strongly influences wine fermentation."
+            },
+            {
+              "q": "A tea processing unit studies the effect of fermentation duration on product quality. Excessive fermentation results in darker color and undesirable flavor development. Researchers evaluate the relationship between oxidation and sensory properties. Assertion (A): Over-fermentation may reduce tea quality. Reason (R): Oxidation reactions influence flavor and color development.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
               ],
               "answer": 1,
-              "solution": "Theanine produced = % x Mass = 0.8% x 600 g = 4.8 g. Correct answer: 4.8 g."
+              "solution": "Both statements are true, but oxidation generally affects tea quality and does not specifically explain over-fermentation."
             },
             {
-              "q": "If a probiotic culture has a doubling time of 8 hours, how many cells will be present after 24 hours if the initial count is 25000 cells?",
+              "q": "A brewery introduces process monitoring and contamination control measures. Ethanol yield increases significantly after implementation. Researchers assess the factors responsible for improved productivity. Assertion (A): Better process control improves ethanol yield. Reason (R): Reduced contamination improves fermentation performance.",
               "options": [
-                "100000 cells",
-                "200000 cells",
-                "300000 cells",
-                "400000 cells"
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
               ],
               "answer": 1,
-              "solution": "N = N0 x 2^(t/doubling time) = 25000 x 2^(24/8) = 25000 x 2^3 = 200000 cells. Correct answer: 200000 cells."
+              "solution": "Both are true, but contamination control is only one aspect of overall process control."
             },
             {
-              "q": "In the production of pickles, if a 45% salt solution is used and 7 kg of cucumbers is soaked, how much salt is required?",
+              "q": "Researchers evaluate probiotic strains under simulated gastric conditions. Only acid-resistant strains survive exposure and reach the intestine in sufficient numbers. Their effectiveness is compared. Assertion (A): Effective probiotics should tolerate acidic conditions. Reason (R): The stomach environment is acidic.",
               "options": [
-                "2.8 kg",
-                "3.0 kg",
-                "3.15 kg",
-                "3.3 kg"
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 0,
+              "solution": "Acid tolerance is essential because probiotics must survive stomach acidity."
+            },
+            {
+              "q": "A nutrition scientist investigates the effect of inulin on beneficial gut bacteria. Increased growth of desirable microorganisms is observed following supplementation. The ingredient is classified based on its function. Assertion (A): Inulin is a prebiotic. Reason (R): Inulin is a living microorganism that colonizes the intestine.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
               ],
               "answer": 2,
-              "solution": "Salt required = % x Mass = 45.0% x 7 kg = 3.15 kg. Correct answer: 3.15 kg."
+              "solution": "Inulin is a non-digestible food ingredient, not a living microorganism."
             },
             {
-              "q": "If the enzyme activity in a food processing application is 500 units/mL and 15 mL of enzyme is used, what is the total enzyme activity?",
+              "q": "A biotechnology company compares SCP production with conventional agriculture. SCP production requires less land and water while providing a valuable protein source. Sustainability benefits are evaluated. Assertion (A): SCP production cannot contribute to sustainable food systems. Reason (R): SCP often requires less land and water than conventional agriculture.",
               "options": [
-                "6000 units",
-                "7000 units",
-                "7500 units",
-                "8000 units"
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
               ],
-              "answer": 2,
-              "solution": "Total = Rate x Quantity = 500 x 15 = 7500. Correct answer: 7500 units."
+              "answer": 3,
+              "solution": "SCP can contribute to sustainability; therefore, the assertion is false."
             },
             {
-              "q": "In the production of beer, if 30 kg of malt yields 150 liters of beer, how much malt is needed to produce 450 liters?",
+              "q": "Two probiotic products are stored for six months. One product maintains high viable cell counts, while the other shows significant loss of viability. Researchers compare functional stability. Assertion (A): Storage stability influences probiotic effectiveness. Reason (R): Viable microorganisms are required for probiotic functionality.",
               "options": [
-                "60 kg",
-                "75 kg",
-                "90 kg",
-                "105 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 150 per 30. Scaling to 450: 150 x (450 / 30) = 2250. Correct answer: 90 kg."
-            },
-            {
-              "q": "If the growth rate of Lactobacillus in yogurt fermentation is 0.8 per hour, how many cells will be present after 6 hours if the initial count is 15000 cells?",
-              "options": [
-                "60000 cells",
-                "120000 cells",
-                "180000 cells",
-                "240000 cells"
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
               ],
               "answer": 1,
-              "solution": "Exponential growth: N = N0 x e^(r x t) = 15000 x e^(0.8 x 6) = 15000 x e^4.8 ~ 1822656 cells. Correct answer: 120000 cells."
+              "solution": "Both statements are true, but the reason does not directly explain storage stability."
+            },
+            {
+              "q": "A fruit juice manufacturer uses pectinase treatment before filtration. Juice clarity improves significantly and viscosity decreases. Researchers study the role of the enzyme in processing. Assertion (A): Pectinase improves fruit juice clarification. Reason (R): Pectinase hydrolyzes pectin molecules present in fruit juice.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 0,
+              "solution": "Breakdown of pectin directly leads to improved clarification."
+            },
+            {
+              "q": "A dairy processor produces lactose-free milk using lactase treatment. Consumers report improved digestibility and reduced lactose intolerance symptoms. Researchers investigate enzyme activity. Assertion (A): Lactase improves digestibility of lactose-free milk. Reason (R): Lactase converts lactose into glucose and galactose.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 0,
+              "solution": "Hydrolysis of lactose into simpler sugars improves digestibility."
+            },
+            {
+              "q": "A bakery incorporates amylase into bread dough formulations. Improved loaf volume and texture are observed after baking. Researchers investigate the enzyme's mode of action. Assertion (A): Amylase improves bread quality. Reason (R): Amylase converts all proteins into amino acids during baking.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 2,
+              "solution": "Amylase acts on starch, not proteins."
+            },
+            {
+              "q": "A food company replaces chemical hydrolysis with enzyme-assisted processing. Energy consumption decreases because the process operates under mild conditions. Sustainability benefits are evaluated. Assertion (A): Enzyme-based processing completely eliminates manufacturing costs. Reason (R): Enzymes generally function efficiently under mild processing conditions.",
+              "options": [
+                "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+                "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "Assertion (A) is true, but Reason (R) is false.",
+                "Assertion (A) is false, but Reason (R) is true."
+              ],
+              "answer": 3,
+              "solution": "Enzymes reduce energy requirements but do not eliminate all manufacturing costs."
+            }
+          ]
+        },
+        {
+          "id": "unit4_bl12",
+          "title": "BL1 & BL2 (Remember/Understand) Questions",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A dairy company introduces a starter culture into milk before yoghurt production. The culture rapidly converts lactose into lactic acid, reducing the pH and initiating fermentation. The production manager wants to identify the primary role of the starter culture in this process.",
+              "options": [
+                "To increase moisture content",
+                "To initiate and control fermentation",
+                "To remove lactose completely",
+                "To sterilize the milk"
+              ],
+              "answer": 1,
+              "solution": "Starter cultures initiate and control fermentation."
+            },
+            {
+              "q": "A microbiology laboratory preserves bacterial cultures for future industrial use. Researchers choose a method that removes water while maintaining cell viability for long periods. The method is commonly used for commercial starter cultures.",
+              "options": [
+                "Refrigeration",
+                "Pasteurization",
+                "Freeze-drying",
+                "Filtration"
+              ],
+              "answer": 2,
+              "solution": "Freeze-drying is widely used for long-term preservation."
+            },
+            {
+              "q": "A fermentation scientist studies bacterial growth at different temperatures. Maximum growth occurs at a specific temperature where metabolic activity is highest. The scientist refers to this temperature as the optimum temperature.",
+              "options": [
+                "Lowest growth temperature",
+                "Temperature causing cell death",
+                "Average environmental temperature",
+                "Temperature supporting maximum growth"
+              ],
+              "answer": 3,
+              "solution": "Optimum temperature supports maximum microbial growth."
+            },
+            {
+              "q": "A food technologist examines the end products of lactic acid fermentation in yoghurt manufacture. The microorganism converts sugars into a major organic acid responsible for reduced pH and preservation.",
+              "options": [
+                "Lactic acid",
+                "Acetic acid",
+                "Citric acid",
+                "Formic acid"
+              ],
+              "answer": 0,
+              "solution": "Lactic acid is the principal product."
+            },
+            {
+              "q": "A dairy processor produces cheese using milk and selected microorganisms. During ripening, flavor and texture gradually improve because of microbial and enzymatic activities. The processor identifies the stage responsible for flavor development.",
+              "options": [
+                "Homogenization",
+                "Pasteurization",
+                "Ripening",
+                "Packaging"
+              ],
+              "answer": 2,
+              "solution": "Ripening develops cheese flavor and texture."
+            },
+            {
+              "q": "A student observes that yoghurt production requires two major bacterial cultures. These microorganisms work together to ferment lactose and produce characteristic flavor compounds.",
+              "options": [
+                "Escherichia coli and Bacillus subtilis",
+                "Lactobacillus bulgaricus and Streptococcus thermophilus",
+                "Saccharomyces cerevisiae and Aspergillus niger",
+                "Rhizopus and Penicillium"
+              ],
+              "answer": 1,
+              "solution": "These are the standard yoghurt cultures."
+            },
+            {
+              "q": "A food science laboratory prepares sauerkraut from shredded cabbage and salt. The fermentation process is mainly carried out by beneficial bacteria that produce lactic acid.",
+              "options": [
+                "Lactic acid bacteria",
+                "Yeasts",
+                "Molds",
+                "Algae"
+              ],
+              "answer": 0,
+              "solution": "Lactic acid bacteria dominate sauerkraut fermentation."
+            },
+            {
+              "q": "A researcher studies why fermented pickles remain stable for months. Analysis reveals low pH values that inhibit the growth of spoilage microorganisms.",
+              "options": [
+                "High oxygen concentration",
+                "Increased protein content",
+                "Reduced moisture content",
+                "Acid production during fermentation"
+              ],
+              "answer": 3,
+              "solution": "Acid production lowers pH and preserves pickles."
+            },
+            {
+              "q": "A brewery uses microorganisms to convert fermentable sugars into ethanol and carbon dioxide. The brewer identifies the primary microorganism responsible for beer fermentation.",
+              "options": [
+                "Lactobacillus",
+                "Penicillium",
+                "Saccharomyces cerevisiae",
+                "Aspergillus"
+              ],
+              "answer": 2,
+              "solution": "Saccharomyces cerevisiae is commonly used in brewing."
+            },
+            {
+              "q": "A winery monitors sugar conversion during fermentation. The process results in ethanol formation and contributes to the characteristic properties of wine.",
+              "options": [
+                "Fermentation",
+                "Filtration",
+                "Distillation",
+                "Clarification"
+              ],
+              "answer": 0,
+              "solution": "Ethanol is produced during fermentation."
+            },
+            {
+              "q": "A tea manufacturer studies the processing steps involved in black tea production. One stage involves controlled oxidation that develops color and flavor characteristics.",
+              "options": [
+                "Sterilization",
+                "Fermentation (oxidation)",
+                "Refrigeration",
+                "Packaging"
+              ],
+              "answer": 1,
+              "solution": "Oxidation is commonly referred to as fermentation in tea processing."
+            },
+            {
+              "q": "A fermentation scientist examines the primary product formed when yeast ferments sugars under anaerobic conditions. The product is widely used in brewing and winemaking industries.",
+              "options": [
+                "Lactic acid",
+                "Acetic acid",
+                "Methane",
+                "Ethanol"
+              ],
+              "answer": 3,
+              "solution": "Ethanol is produced by yeast fermentation."
+            },
+            {
+              "q": "A nutrition company develops a functional food containing live beneficial microorganisms. The microorganisms improve gut microbial balance when consumed in adequate quantities.",
+              "options": [
+                "Prebiotics",
+                "Probiotics",
+                "Preservatives",
+                "Enzymes"
+              ],
+              "answer": 1,
+              "solution": "Live beneficial microorganisms are probiotics."
+            },
+            {
+              "q": "A researcher evaluates dietary ingredients that selectively stimulate beneficial gut bacteria. One ingredient commonly added to functional foods is identified as a prebiotic.",
+              "options": [
+                "Inulin",
+                "Ethanol",
+                "Lactase",
+                "Casein"
+              ],
+              "answer": 0,
+              "solution": "Inulin is a common prebiotic."
+            },
+            {
+              "q": "A biotechnology company produces protein-rich biomass using microorganisms. The product is classified as single-cell protein and serves as an alternative protein source.",
+              "options": [
+                "Animal tissues",
+                "Plant roots",
+                "Microorganisms",
+                "Mineral supplements"
+              ],
+              "answer": 2,
+              "solution": "SCP is produced from microorganisms."
+            },
+            {
+              "q": "A food scientist compares SCP production with conventional agriculture. SCP production requires fewer resources and shorter production times.",
+              "options": [
+                "Higher pesticide requirement",
+                "Greater land requirement",
+                "Increased water consumption",
+                "Rapid protein production"
+              ],
+              "answer": 3,
+              "solution": "SCP offers rapid protein production."
+            },
+            {
+              "q": "A fruit juice manufacturer uses an enzyme to reduce viscosity and improve filtration efficiency. The enzyme breaks down pectin molecules present in fruit tissues.",
+              "options": [
+                "Pectinase",
+                "Amylase",
+                "Protease",
+                "Lipase"
+              ],
+              "answer": 0,
+              "solution": "Pectinase is used for juice clarification."
+            },
+            {
+              "q": "A dairy processor produces lactose-free milk to improve digestibility for lactose-intolerant consumers. An enzyme is added to hydrolyze lactose into simpler sugars.",
+              "options": [
+                "Lipase",
+                "Lactase",
+                "Pectinase",
+                "Protease"
+              ],
+              "answer": 1,
+              "solution": "Lactase breaks down lactose."
+            },
+            {
+              "q": "A bakery adds an enzyme to dough to convert starch into fermentable sugars. The process improves yeast activity and loaf volume.",
+              "options": [
+                "Lipase",
+                "Cellulase",
+                "Amylase",
+                "Catalase"
+              ],
+              "answer": 2,
+              "solution": "Amylase converts starch into sugars."
+            },
+            {
+              "q": "A food processing company replaces chemical treatments with enzymes. The new process requires lower temperatures and consumes less energy.",
+              "options": [
+                "Increased waste generation",
+                "Higher toxicity",
+                "Greater energy consumption",
+                "Mild processing conditions"
+              ],
+              "answer": 3,
+              "solution": "Enzymes work efficiently under mild conditions."
             }
           ]
         }
