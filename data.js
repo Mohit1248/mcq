@@ -2531,1089 +2531,1393 @@ const courseData = {
       "title": "Unit III: Application of Food Processing",
       "subtopics": [
         {
-          "id": "unit3_all",
-          "title": "All Questions",
+          "id": "unit3_numerical",
+          "title": "Numerical Questions",
           "notes": [],
           "mcqs": [
             {
-              "q": "A milk pasteurization process at 72°C for 15 sec achieves a 6-log bacterial reduction. If raw milk contains 10⁹ CFU/mL, what is the bacterial load after pasteurization?",
+              "q": "A dairy plant receives raw milk containing 5.8% fat and 9.0% SNF. The milk is standardized for production of market milk containing 3.0% fat using cream separated from the same batch. During processing, the cream obtained contains 38% fat. The production manager observes fluctuations in cream separation efficiency and intends to determine the quantity of cream that should be removed from 12,000 kg of milk while maintaining the required fat specification in the final product. Based on mass balance principles applicable to fat standardization, determine the quantity of cream that must be separated. Formula: M(F_i-F_f)=C(F_c-F_f) Where: M = Initial milk quantity (kg) Fi = Initial fat % Ff = Final fat % C = Cream quantity (kg) Fc = Cream fat %",
               "options": [
-                "10³ CFU/mL",
-                "10⁴ CFU/mL",
-                "10⁵ CFU/mL",
-                "10⁶ CFU/mL"
+                "945.45 kg",
+                "1127.27 kg",
+                "960.00 kg",
+                "1054.32 kg"
+              ],
+              "answer": 2,
+              "solution": "12000(5.8-3.0)=C(38-3) 12000(2.8)=35C 33600=35C C=960 ,kg"
+            },
+            {
+              "q": "During paneer manufacture, a processor uses standardized milk containing 4.5% fat and 8.8% SNF. The processing line handles 8,500 kg milk per batch. Historical production records indicate that paneer recovery is strongly influenced by total solids retention and moisture control. Under optimized coagulation conditions, paneer yield can be estimated using an empirical relationship involving milk total solids and retained moisture. Determine the expected paneer yield when the final paneer contains 54% moisture. Formula: Yield=\\frac{Milk\\ Weight \\times Total\\ Solids}{100-Moisture%} Total Solids (%) = Fat + SNF",
+              "options": [
+                "2456.52 kg",
+                "2478.26 kg",
+                "2457.06 kg",
+                "2489.72 kg"
               ],
               "answer": 0,
-              "solution": "A 6-log reduction divides the load by 10^6. Final load = 10^9 / 10^6 = 10^3 CFU/mL. Correct answer: 10³ CFU/mL."
+              "solution": "TS=4.5+8.8=13.3% Yield=\\frac{8500\\times13.3}{100-54} =\\frac{113050}{46} =2457.61,kg"
             },
             {
-              "q": "Ice cream overrun is calculated as [(final volume - initial volume) / initial volume] × 100%. If 1 L of ice cream mix produces 1.9 L of ice cream, what is the overrun percentage?",
+              "q": "An ice cream manufacturer is developing a premium formulation containing 12% milk fat. The available cream contains 40% fat, while the skim milk used in formulation contains 0.1% fat. A production batch of 6,000 kg ice cream mix is planned. Before production approval, the quality assurance team must determine the quantity of cream required to achieve the target fat level while minimizing formulation deviations. Evaluate the required quantity of cream using component balance principles. Formula: C=\\frac{M(F_t-F_s)}{F_c-F_s} Where: C = Cream required (kg) M = Mix quantity (kg) Ft = Target fat % Fs = Skim milk fat % Fc = Cream fat %",
               "options": [
-                "0.7",
-                "0.8",
-                "0.9",
-                "1"
+                "1801.50 kg",
+                "1798.99 kg",
+                "1789.50 kg",
+                "1812.25 kg"
               ],
               "answer": 2,
-              "solution": "Overrun % = (Final volume - Initial volume) / Initial volume x 100 = (1.9 - 1) / 1 x 100 = 90%. Correct answer: 0.9."
+              "solution": "C=\\frac{6000(12-0.1)}{40-0.1} =\\frac{71400}{39.9} =1789.47,kg"
             },
             {
-              "q": "A juice concentrate contains 50°Brix sugar. If it is diluted to 10°Brix, how much water (L) is required to dilute 4 L of concentrate?",
+              "q": "A butter manufacturing unit processes cream containing 42% fat. During churning, the butter produced contains 81% fat. A batch of 5,500 kg cream is fed into the churn. The plant engineer is evaluating fat recovery performance and wishes to estimate the quantity of butter expected if all fat present in cream is transferred to butter while maintaining the specified butter composition. Determine the expected butter output using fat balance relationships. Formula: Butter\\ Yield=\\frac{Cream\\ Weight \\times Cream\\ Fat%}{Butter\\ Fat%}",
               "options": [
-                "12 L",
-                "16 L",
-                "20 L",
-                "25 L"
+                "2848.15 kg",
+                "2851.85 kg",
+                "2860.42 kg",
+                "2835.60 kg"
               ],
               "answer": 1,
-              "solution": "Using C1V1 = C2V2: Total diluted volume = 50 x 4 / 10 = 20 L. Water to add = 20 - 4 = 16 L. Correct answer: 16 L."
+              "solution": "Butter\\ Yield=\\frac{5500\\times42}{81} =\\frac{231000}{81} =2851.85,kg"
             },
             {
-              "q": "A dough fermentation takes 4 hours at 30°C. If the reaction rate doubles for every 10°C increase, how long will it take at 40°C?",
+              "q": "A fruit processing company plans to manufacture a batch of mixed fruit jam using fruit pulp containing 18°Brix. The final product specification requires a soluble solids concentration of 68°Brix to ensure microbial stability and desirable texture. During formulation planning, the production manager must determine the quantity of sugar required for a batch containing 2,500 kg fruit pulp while accounting for the contribution of soluble solids already present in the pulp. Based on mass balance principles associated with jam processing, determine the quantity of sugar needed to achieve the target formulation. S=\\frac{P(B_f-B_p)}{100-B_f} Where: S = Sugar required (kg) P = Pulp quantity (kg) Bf = Final °Brix Bp = Pulp °Brix",
               "options": [
-                "1 hour",
-                "2 hours",
-                "3 hours",
-                "4 hours"
-              ],
-              "answer": 1,
-              "solution": "Each 10°C rise halves the time (rate doubles). Rise = 40 - 30 = 10°C = 1 step(s). New time = 4 / 2^1 = 2 hours. Correct answer: 2 hours."
-            },
-            {
-              "q": "A jam formulation requires a fruit-to-sugar ratio of 65:35. If 700 kg of fruit is used, how much sugar is needed?",
-              "options": [
-                "200 kg",
-                "250 kg",
-                "300 kg",
-                "350 kg"
-              ],
-              "answer": null,
-              "solution": "Ratio 65:35. If the first part = 700 kg, the second part = 700 x (35/65) = 376.92 kg."
-            },
-            {
-              "q": "A bakery uses 60% hydration for bread dough. If 1 kg of flour is used, how much water is added?",
-              "options": [
-                "400 g",
-                "500 g",
-                "600 g",
-                "700 g"
-              ],
-              "answer": 2,
-              "solution": "Water added = Flour weight x Hydration% = 1 kg x 60.0% = 0.6 kg. Correct answer: 600 g."
-            },
-            {
-              "q": "A drying process reduces the moisture content from 90% to 12%. If the initial weight is 500 kg, what is the final weight after drying?",
-              "options": [
-                "55 kg",
-                "65 kg",
-                "75 kg",
-                "85 kg"
-              ],
-              "answer": 1,
-              "solution": "Final weight is approximated as Initial weight x (1 - initial moisture fraction) = 500 kg x (1 - 0.90) = 50 kg. Correct answer: 65 kg."
-            },
-            {
-              "q": "A batch of raw meat loses 30% of its weight due to drying. If the initial weight is 1000 kg, what is the final weight?",
-              "options": [
-                "500 kg",
-                "600 kg",
-                "700 kg",
-                "800 kg"
-              ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 30.0/100) = 1000 x 0.7 = 700. Correct answer: 700 kg."
-            },
-            {
-              "q": "A cheese-making process yields 9 kg of cheese per 100 L of milk. If a dairy processes 2000 L of milk, how much cheese is produced?",
-              "options": [
-                "160 kg",
-                "180 kg",
-                "200 kg",
-                "220 kg"
-              ],
-              "answer": 1,
-              "solution": "Rate = 9 kg cheese per 100 L milk. Cheese produced = 9 x (2000/100) = 9 x 20 = 180 kg. Correct answer: 180 kg."
-            },
-            {
-              "q": "A bread dough expands 3 times its original volume during proofing. If the initial volume is 1.2 L, what is the final volume?",
-              "options": [
-                "2.5 L",
-                "3.0 L",
-                "3.5 L",
-                "4.0 L"
-              ],
-              "answer": null,
-              "solution": "Final volume = Initial volume x Expansion factor = 1.2 x 3 = 3.6 L."
-            },
-            {
-              "q": "A vegetable blanching process inactivates 99.9% of enzymes. If the initial enzyme activity is 800 units, what is the final activity?",
-              "options": [
-                "0.8 units",
-                "8 units",
-                "80 units",
-                "100 units"
+                "3906.25 kg",
+                "3898.75 kg",
+                "3920.40 kg",
+                "3875.50 kg"
               ],
               "answer": 0,
-              "solution": "Final activity = Initial x (1 - 99.9/100) = 800 x 0.001 = 0.8 units. Correct answer: 0.8 units."
+              "solution": "S=\\frac{2500(68-18)}{100-68} =\\frac{125000}{32} =3906.25,kg"
             },
             {
-              "q": "A meat tenderization process increases enzymatic breakdown by 50%. If untreated meat takes 4 hours to soften, how long will it take after tenderization?",
+              "q": "A jelly processing unit receives extracted fruit juice having a soluble solids concentration of 14°Brix. The product development team intends to produce premium jelly with a final concentration of 65°Brix. A batch consisting of 4,000 kg juice is scheduled for processing. Prior to initiating concentration and sugar addition operations, the quality assurance department evaluates the amount of sugar necessary to achieve the desired final solids level without altering the standard product specifications. Determine the quantity of sugar required for the batch. S=\\frac{J(B_f-B_j)}{100-B_f} Where: S = Sugar required (kg) J = Juice quantity (kg) Bj = Juice °Brix Bf = Final °Brix",
               "options": [
-                "1 hour",
-                "2 hours",
-                "2.5 hours",
-                "3 hours"
+                "5828.57 kg",
+                "5840.25 kg",
+                "5805.40 kg",
+                "5861.80 kg"
               ],
-              "answer": 2,
-              "solution": "A 50.0% increase in breakdown rate reduces softening time proportionally: New time = 4 x (1 - 50.0/100) = 2 hours. Correct answer: 2.5 hours."
+              "answer": 0,
+              "solution": "S=\\frac{4000(65-14)}{100-65} =\\frac{204000}{35} =5828.57,kg"
             },
             {
-              "q": "In ice cream manufacturing, the fat content is 12%. If 500 g of mix is used, how much fat is present?",
+              "q": "A beverage manufacturing facility produces fruit squash according to regulatory standards requiring a minimum fruit juice content of 25%. A processing batch of 7,200 kg squash is planned. During formulation verification, the process engineer must determine the quantity of fruit juice necessary to ensure compliance with product standards while maintaining consistency across production lots. Based on formulation requirements, calculate the quantity of fruit juice that should be incorporated into the batch. Fruit\\ Juice=Total\\ Batch\\times\\frac{Fruit\\ Content%}{100}",
               "options": [
-                "40 g",
-                "50 g",
-                "60 g",
-                "75 g"
+                "1800 kg",
+                "1750 kg",
+                "1850 kg",
+                "1780 kg"
               ],
-              "answer": 2,
-              "solution": "Amount = % x Mass = 12.0% x 500 g = 60 g. Correct answer: 60 g."
+              "answer": 0,
+              "solution": "Fruit\\ Juice=7200\\times\\frac{25}{100} =1800,kg"
             },
             {
-              "q": "A juice plant processes 6000 L/day. If 10% of juice is lost due to filtration, how much final juice is obtained per day?",
+              "q": "A tomato sauce manufacturing plant receives tomato pulp with an initial concentration of 12°Brix. The final sauce specification requires concentration to 30°Brix before seasoning and packaging operations. A batch containing 9,000 kg pulp is processed through an evaporator system. The process engineer is assessing the quantity of water that must be removed to achieve the desired concentration while preserving total solids throughout the operation. Determine the quantity of water evaporated during processing. Water\\ Removed=W_i-W_f W_f=\\frac{W_i\\times B_i}{B_f} Where: Wi = Initial weight Wf = Final weight Bi = Initial °Brix Bf = Final °Brix",
               "options": [
-                "5000 L",
-                "5200 L",
-                "5400 L",
-                "5500 L"
+                "5400 kg",
+                "5350 kg",
+                "5450 kg",
+                "5500 kg"
               ],
-              "answer": 2,
-              "solution": "10% lost means 90% retained: Final juice = 6000 L x (1 - 0.10) = 5400 L/day. Correct answer: 5400 L."
+              "answer": 0,
+              "solution": "W_f=\\frac{9000\\times12}{30} =3600,kg Water\\ Removed=9000-3600 =5400,kg"
             },
             {
-              "q": "A baking process at 180°C for 30 minutes produces a 10% weight loss in a 2.5 kg cake. What is the final weight?",
+              "q": "A fruit juice powder manufacturing company uses a spray dryer to convert concentrated juice into powder. The feed entering the dryer contains 45% total solids, while the final powder contains 96% total solids. A production campaign processes 5,200 kg feed. The operations manager is reviewing dryer performance and wishes to estimate the theoretical quantity of powder that can be recovered assuming complete solids retention throughout the drying process. Determine the expected powder yield. Powder\\ Yield=\\frac{Feed\\ Weight\\times Feed\\ Solids%}{Powder\\ Solids%}",
               "options": [
-                "2.0 kg",
-                "2.2 kg",
-                "2.25 kg",
-                "2.3 kg"
+                "2437.50 kg",
+                "2442.86 kg",
+                "2455.20 kg",
+                "2425.40 kg"
               ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 10.0/100) = 2.5 x 0.9 = 2.25 kg. Correct answer: 2.25 kg."
+              "answer": 0,
+              "solution": "Powder\\ Yield=\\frac{5200\\times45}{96} =\\frac{234000}{96} =2437.50,kg"
             },
             {
-              "q": "A pasteurization unit processes 1200 L of milk per hour. If the plant runs for 8 hours, how much milk is processed in total?",
+              "q": "A meat processing facility receives beef carcasses immediately after slaughter for further fabrication. The average hot carcass weight of a production batch is 9,500 kg. During chilling and post-mortem handling, moisture evaporation and drip losses contribute to a reduction in carcass mass before deboning operations begin. Historical processing records indicate an average chilling loss of 2.8%. The plant manager intends to estimate the chilled carcass weight available for downstream processing and evaluate whether the observed reduction falls within acceptable operational limits. Chilled\\ Carcass\\ Weight = Hot\\ Carcass\\ Weight \\times (1-\\frac{Chilling\\ Loss%}{100})",
               "options": [
-                "8000 L",
-                "9000 L",
-                "9600 L",
-                "10,000 L"
+                "9234 kg",
+                "9248 kg",
+                "9256 kg",
+                "9266 kg"
               ],
-              "answer": 2,
-              "solution": "Total = Rate x Time = 1200 L/hour x 8 hours = 9600 L. Correct answer: 9600 L."
+              "answer": 0,
+              "solution": "=9500 \\times (1-0.028) =9500 \\times 0.972 =9234\\ kg"
             },
             {
-              "q": "A fruit juice bottling plant operates at 85% efficiency. If the ideal production is 5000 bottles/day, how many bottles are actually produced?",
+              "q": "A poultry processing unit handles broiler birds intended for retail packaging. A batch containing 12,000 kg live birds enters the processing line. Following slaughter, defeathering, evisceration, and carcass dressing operations, the dressing percentage achieved determines the quantity of saleable carcasses. Based on process validation records, the dressing percentage for the current flock is expected to be 72.5%. The operations team seeks to estimate the dressed carcass output for production planning and cold-storage allocation. Dressed\\ Yield = Live\\ Weight \\times \\frac{Dressing\\ Percentage}{100}",
               "options": [
-                "4000",
-                "4250",
-                "4500",
-                "4750"
+                "8680 kg",
+                "8700 kg",
+                "8725 kg",
+                "8740 kg"
               ],
               "answer": 1,
-              "solution": "Actual production = Ideal x Efficiency = 5000 x 85.0% = 4250. Correct answer: 4250."
+              "solution": "=12000 \\times \\frac{72.5}{100} =8700\\ kg"
             },
             {
-              "q": "A jam factory adds 0.5% pectin to fruit pulp. If 2000 kg of pulp is processed, how much pectin is required?",
+              "q": "A meat processor adopts enzymatic tenderization to improve consumer acceptance of low-value beef cuts. Prior to treatment, the average Warner–Bratzler shear force value of a meat lot is 6.8 kg/cm². After optimized enzyme treatment and controlled ageing, the shear force is reduced by 29%. The quality assurance division must determine the final shear force value to assess whether the product satisfies the tenderness specifications established for premium-grade meat products. Final\\ Shear\\ Force = Initial\\ Shear\\ Force \\times (1-\\frac{Reduction%}{100})",
               "options": [
-                "5 kg",
-                "8 kg",
-                "10 kg",
-                "15 kg"
+                "4.83 kg/cm²",
+                "4.91 kg/cm²",
+                "4.97 kg/cm²",
+                "5.02 kg/cm²"
+              ],
+              "answer": 0,
+              "solution": "=6.8 \\times (1-0.29) =6.8 \\times 0.71 =4.828\\ kg/cm^2"
+            },
+            {
+              "q": "A modern meat processing plant is assessing the efficiency of deboning operations as part of a yield optimization program. A chilled beef carcass weighing 7,800 kg is subjected to trimming and deboning. Following processing, the boneless meat recovered weighs 5,694 kg. Management intends to compare the observed boneless recovery with industry benchmarks and determine the percentage yield achieved by the deboning section before implementing process improvements. Boneless\\ Meat\\ Yield(%)= \\frac{Boneless\\ Meat\\ Weight}{Carcass\\ Weight}\\times100",
+              "options": [
+                "71%",
+                "72%",
+                "73%",
+                "74%"
               ],
               "answer": 2,
-              "solution": "Pectin required = % x Mass = 0.5% x 2000 kg = 10 kg. Correct answer: 10 kg."
+              "solution": "=\\frac{5694}{7800}\\times100 =73%"
             },
             {
-              "q": "A drying method reduces bacterial growth rate by 80%. If bacteria normally reach 10⁷ CFU/g in 6 days, how long will it take in dried conditions?",
+              "q": "A commercial bakery plans the production of sandwich bread using wheat flour with a water absorption capacity of 62%. During process validation, the production supervisor intends to maintain dough consistency within the specified rheological range to ensure uniform loaf volume and crumb texture. A batch containing 2,800 kg flour is scheduled for processing. Based on the flour characteristics and process requirements, determine the quantity of water that should be incorporated into the dough to achieve the targeted absorption level without affecting fermentation performance. Water\\ Required=\\frac{Flour\\ Weight \\times Water\\ Absorption%}{100}",
               "options": [
-                "10 days",
-                "15 days",
-                "18 days",
-                "20 days"
+                "1726 kg",
+                "1736 kg",
+                "1746 kg",
+                "1756 kg"
+              ],
+              "answer": 1,
+              "solution": "Water=\\frac{2800\\times62}{100} =1736\\ kg"
+            },
+            {
+              "q": "A cake manufacturing unit evaluates production efficiency by monitoring batter-to-cake conversion during baking. A formulation batch contains 1,950 kg batter. Process records indicate that moisture loss during baking is maintained at 11% under optimized operating conditions. The quality assurance team seeks to estimate the expected cake output to verify process consistency and identify any abnormal deviations in oven performance. Determine the final cake yield expected from the batch. Cake\\ Yield=Batter\\ Weight\\times\\left(1-\\frac{Moisture\\ Loss%}{100}\\right)",
+              "options": [
+                "1735.5 kg",
+                "1745.5 kg",
+                "1725.5 kg",
+                "1755.5 kg"
+              ],
+              "answer": 0,
+              "solution": "Cake\\ Yield=1950\\left(1-\\frac{11}{100}\\right) =1950(0.89) =1735.5\\ kg"
+            },
+            {
+              "q": "A biscuit manufacturing facility is investigating production losses occurring during baking and cooling operations. The production line receives 4,200 kg dough containing 24% moisture. The finished biscuits are required to contain 3% moisture to comply with shelf-life specifications. The process engineer is required to estimate the expected biscuit output assuming complete retention of dry solids throughout processing. Evaluate the quantity of finished biscuits that should be obtained under ideal operating conditions. Finished\\ Weight=\\frac{Initial\\ Weight\\times(100-Initial\\ Moisture)}{100-Final\\ Moisture}",
+              "options": [
+                "3288.66 kg",
+                "3291.75 kg",
+                "3290.72 kg",
+                "3280.44 kg"
               ],
               "answer": 2,
-              "solution": "Time to reach the same level is extended by the inverse of the rate reduction: New time = 6 / (1 - 80.0/100) = 6 / 0.2 = 30 days. Correct answer: 18 days."
+              "solution": "Finished\\ Weight= \\frac{4200(100-24)}{100-3} \\frac{4200\\times76}{97} 3290.72\\ kg"
             },
             {
-              "q": "A poultry processing plant operates 5 days a week, processing 10,000 birds per day. How many birds are processed in 4 weeks?",
+              "q": "A bread manufacturing company evaluates baking efficiency through monitoring baking loss percentages. A dough batch weighing 3,600 kg is processed in a tunnel oven. Historical data show that average baking loss remains close to 13.5% when process parameters are maintained within specification limits. The production manager wishes to estimate the quantity of bread expected after baking so that packaging and distribution schedules can be adjusted accordingly. Determine the expected bread yield from the batch. Bread\\ Yield=Dough\\ Weight\\times\\left(1-\\frac{Baking\\ Loss%}{100}\\right)",
               "options": [
-                "100000",
-                "150000",
-                "200000",
-                "250000"
+                "3114 kg",
+                "3124 kg",
+                "3134 kg",
+                "3144 kg"
               ],
-              "answer": 2,
-              "solution": "Total birds = Birds/day x Days/week x Weeks = 10,000 x 5 x 4 = 200,000. Correct answer: 200000."
+              "answer": 0,
+              "solution": "Bread\\ Yield= 3600\\left(1-\\frac{13.5}{100}\\right) =3600(0.865) =3114\\ kg"
             },
             {
-              "q": "A dairy company notices that their pasteurized milk develops an off-flavor after refrigeration for three days. What could be the likely cause?",
+              "q": "A fruit beverage manufacturing facility plans to extend the shelf life of a ready-to-serve mango drink through thermal preservation. The product enters a plate heat exchanger at 28°C and is heated to 92°C before packaging. The beverage flow rate is maintained at 4,200 kg/h, and the specific heat of the product is 3.95 kJ/kg°C. During a production audit, the quality manager seeks to estimate the thermal energy requirement associated with the preservation process to assess equipment efficiency and energy utilization. Determine the heat energy required per hour under the specified operating conditions. Q = mC_p(T_2-T_1) Where: Q = Heat energy (kJ) m = Mass flow rate (kg/h) Cp = Specific heat (kJ/kg°C) T₂ = Final temperature (°C) T₁ = Initial temperature (°C)",
               "options": [
-                "Oxidation of milk fat",
-                "Denaturation of casein",
-                "Excessive homogenization",
-                "Growth of thermophilic bacteria"
+                "1,061,760 kJ/h",
+                "1,062,180 kJ/h",
+                "1,061,424 kJ/h",
+                ""
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Q=4200\\times3.95\\times(92-28) Q=4200\\times3.95\\times64 Q=1,061,760\\ kJ/h"
             },
             {
-              "q": "A fruit juice company finds that their product forms a cloudy precipitate after a few days of storage. What is the most probable reason?",
+              "q": "A dehydrated fruit powder manufacturer aims to improve storage stability by reducing the moisture content of a concentrated fruit pulp from 72% to 4%. A batch containing 5,000 kg of pulp is subjected to drying under controlled conditions. Since product quality and powder flowability are strongly influenced by the amount of water removed, the processing team must determine the total moisture elimination required before packaging. Evaluate the quantity of water that must be removed while maintaining complete retention of dry matter. Water\\ Removed = W_i - W_f Dry\\ Matter = Initial\\ Weight(1-M_i) Final\\ Weight=\\frac{Dry\\ Matter}{(1-M_f)} Where: Mi = Initial moisture fraction Mf = Final moisture fraction",
               "options": [
-                "Pectin-protein complex formation",
-                "Microbial contamination",
-                "Breakdown of anthocyanins",
-                "Separation of natural oils"
+                "3541.67 kg",
+                "3540.00 kg",
+                "3562.50 kg",
+                "3528.25 kg"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Initial dry matter: 5000(1-0.72) =1400\\ kg Final weight: \\frac{1400}{1-0.04} =\\frac{1400}{0.96} =1458.33\\ kg Water removed: 5000-1458.33 =3541.67\\ kg"
             },
             {
-              "q": "A bakery reports that their cakes collapse after baking, despite correct ingredient measurements. What is a likely cause?",
+              "q": "A meat processing company stores vacuum-packed poultry products in a refrigerated warehouse. The microbial growth model adopted by the company indicates that the shelf-life index decreases exponentially with storage temperature fluctuations. A batch initially possesses a shelf-life index of 100 units and is stored under conditions producing a deterioration constant of 0.035 day⁻¹ for a period of 18 days. The quality assurance department intends to estimate the remaining shelf-life index before product dispatch. Determine the residual shelf-life index at the end of storage. N=N_0e^{-kt} Where: N = Remaining shelf-life index N₀ = Initial index k = Deterioration constant t = Time",
               "options": [
-                "Over-mixing of batter",
-                "Excessive leavening gas expansion",
-                "Poor starch gelatinization",
-                "Incorrect emulsifier use"
+                "53.28 units",
+                "53.25 units",
+                "53.40 units",
+                "53.10 units"
               ],
-              "answer": 1
+              "answer": 0,
+              "solution": "N=100e^{-0.035(18)} N=100e^{-0.63} N=53.28"
             },
             {
-              "q": "A yogurt manufacturer finds that certain batches have an unusually thick texture. What could be responsible for this?",
+              "q": "A food packaging company is validating oxygen barrier performance for a multilayer package intended for long-term storage of dehydrated foods. The package has a surface area of 14 m² and is exposed to an oxygen transmission rate of 0.85 cm³/m²/day. Regulatory guidelines require estimation of cumulative oxygen ingress over a storage duration of 180 days before commercialization. Evaluate the total oxygen permeation through the package during the storage period. Oxygen\\ Ingress = OTR \\times Area \\times Time Where: OTR = Oxygen transmission rate Area = Package surface area Time = Storage duration",
               "options": [
-                "Overproduction of exopolysaccharides by bacteria",
-                "Excessive protein denaturation",
-                "Insufficient lactic acid formation",
-                "Loss of whey proteins"
+                "2142 cm³",
+                "2135 cm³",
+                "2150 cm³",
+                "2128 cm³"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Oxygen\\ Ingress =0.85\\times14\\times180 =2142\\ cm^3"
             },
             {
-              "q": "A jam producer switches from traditional cooking to vacuum evaporation and finds the product lacks the expected aroma. What is the likely explanation?",
+              "q": "A dairy plant intends to standardize whole milk containing 6.0% fat by blending it with skim milk containing 0.1% fat. The objective is to obtain market milk with a fat content of 3.5%. During production planning, the quality manager must determine the proportion of whole milk required relative to skim milk to achieve the target composition while maintaining regulatory compliance. Based on the standardization relationship used in dairy processing, which proportion most closely satisfies the requirement? Formula: \\frac{\\text{Whole Milk}}{\\text{Skim Milk}}= \\frac{(F_t-F_s)}{(F_w-F_t)} Where: (F_t)=Target fat % (F_s)=Skim milk fat % (F_w)=Whole milk fat %",
               "options": [
-                "Loss of volatile flavor compounds",
-                "Reduction in Maillard reactions",
-                "Change in water activity",
-                "Excessive sugar crystallization"
+                "1.46 : 1",
+                "0.50 : 1",
+                "2.75 : 1",
+                "3.25 : 1"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Solution: [ \\frac{3.5-0.1}{6.0-3.5} \\frac{3.4}{2.5} 1.36 ] Closest option = 1.46 : 1 Formula 2: Paneer Yield"
             },
             {
-              "q": "A cheese plant finds that certain batches develop an unusually bitter taste. What could be a possible reason?",
+              "q": "A dairy processor evaluates production efficiency after manufacturing paneer from a batch of milk. The operation produces 180 kg of paneer from 1,200 kg of milk. The production manager intends to compare the result with historical performance records and determine the processing effectiveness. Based on the paneer yield relationship used in dairy technology, which value best represents the yield percentage of the operation? Formula: \\text{Paneer Yield (%)}= \\frac{\\text{Weight of Paneer}}{\\text{Weight of Milk}} \\times100",
               "options": [
-                "Proteolysis of casein into bitter peptides",
-                "Excessive starter culture addition",
-                "Unstable fat emulsification",
-                "Incorrect salt concentration"
+                "15%",
+                "12%",
+                "18%",
+                "20%"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Solution: [ \\frac{180}{1200}\\times100 15 ] Yield = 15% Formula 3: Butter Overrun"
             },
             {
-              "q": "A frozen meat processing company finds that their products experience excessive drip loss after thawing. What could be the underlying cause?",
+              "q": "A butter manufacturing plant obtains 460 kg of butter from 400 kg of milk fat processed through cream separation and churning. The quality control department evaluates production efficiency using the standard butter overrun relationship. Which value most accurately represents the overrun achieved during the operation? Formula: \\text{Butter Overrun (%)}= \\frac{\\text{Butter Weight}-\\text{Fat Weight}} {\\text{Fat Weight}} \\times100",
               "options": [
-                "Ice crystal damage to muscle fibers",
-                "Protein oxidation during freezing",
-                "Enzyme activation at low temperatures",
-                "Increased microbial activity in frozen state"
+                "15%",
+                "10%",
+                "20%",
+                "25%"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Solution: [ \\frac{460-400}{400} \\times100 15 ] Overrun = 15% Formula 4: Ice Cream Overrun"
             },
             {
-              "q": "A fruit juice processor switches to high-pressure processing (HPP) and notices an improvement in shelf life but a change in color. What is the most probable reason?",
+              "q": "An ice cream plant compares the volume characteristics of a freshly frozen product with those of the original mix. The production batch occupies 920 L after freezing, whereas the mix volume before freezing was 800 L. The process engineer evaluates the incorporation of air using the standard overrun relationship to determine whether the product satisfies manufacturing specifications. Which value most closely represents the overrun percentage? Formula: \\text{Ice Cream Overrun (%)}= \\frac{\\text{Volume of Ice Cream}-\\text{Volume of Mix}} {\\text{Volume of Mix}} \\times100",
               "options": [
-                "Alteration of anthocyanin structure",
-                "Loss of enzymatic browning inhibitors",
-                "Increased interaction between flavonoids",
-                "Release of bound polyphenols"
+                "15%",
+                "20%",
+                "25%",
+                "30%"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Solution: [ \\frac{920-800}{800} \\times100 15 ] Overrun = 15% Topic 2: Fruits and Vegetables Processing Technology Sub-topics Jam Processing Technology Jelly Processing Technology Squash Processing Technology Sauce Manufacturing Technology Fruit Juice Powder Production Technology"
             },
             {
-              "q": "A meat processing facility observes that their sausages have uneven texture despite consistent grinding. What could be causing this?",
+              "q": "A fruit processing unit manufactures jam from a concentrated fruit pulp mixture. During a production run, 450 kg of finished jam is obtained from 600 kg of processed fruit pulp and associated ingredients. The production supervisor intends to evaluate process efficiency using the standard yield relationship commonly employed in fruit product manufacturing. Which value best represents the yield percentage achieved during the operation? \\text{Jam Yield (%)}= \\frac{\\text{Weight of Finished Jam}} {\\text{Weight of Raw Material Mixture}} \\times100",
               "options": [
-                "Improper protein cross-linking",
-                "Incorrect pH adjustment",
-                "Over-emulsification of fats",
-                "Loss of natural binders"
+                "75%",
+                "65%",
+                "80%",
+                "90%"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Solution [ \\frac{450}{600}\\times100 75 ] Yield = 75% Formula 2: Jelly Recovery"
             },
             {
-              "q": "A bread manufacturer finds that increasing yeast concentration leads to excessive browning of the crust. What is the likely explanation?",
+              "q": "A processor extracts fruit juice for jelly production and subsequently obtains a clarified extract suitable for gel formation. From 1,000 kg of fruit material, 650 kg of clarified juice is recovered after extraction and filtration. The process engineer evaluates extraction performance using the standard recovery relationship applied in fruit processing industries. Which value most accurately represents the recovery percentage? \\text{Juice Recovery (%)}= \\frac{\\text{Weight of Juice Extracted}} {\\text{Weight of Fruit Used}} \\times100",
               "options": [
-                "Increased sugar formation from starch hydrolysis",
-                "Overactivation of Maillard reactions",
-                "Increased gluten development",
-                "Too much trapped CO₂ affecting crust formation"
+                "65%",
+                "55%",
+                "70%",
+                "75%"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Solution [ \\frac{650}{1000}\\times100 65 ] Recovery = 65% Formula 3: Squash Dilution Factor"
             },
             {
-              "q": "A company producing milk powder via spray drying finds that their product has a shorter shelf life than expected. What could be the reason?",
+              "q": "A beverage company prepares a concentrated fruit squash that must be diluted before consumer use. The formulation team determines that 1 litre of squash produces 5 litres of ready-to-serve beverage after dilution. During process evaluation, the dilution factor is calculated to verify compliance with product specifications. Which value best represents the dilution factor for the squash? \\text{Dilution Factor} \\frac{\\text{Final Beverage Volume}} {\\text{Concentrate Volume}}",
               "options": [
-                "Increased lipid oxidation due to fine particle size",
-                "Loss of moisture control in storage",
-                "Formation of high-energy lactose crystals",
-                "Breakdown of casein micelles"
+                "5",
+                "4",
+                "6",
+                "7"
               ],
-              "answer": 0
+              "answer": 0,
+              "solution": "Solution [ \\frac{5}{1} 5 ] Dilution Factor = 5 Formula 4: Fruit Juice Powder Recovery"
             },
             {
-              "q": "A candy manufacturer finds that their caramelized sugar hardens unevenly. What could be responsible?",
+              "q": "A spray-drying facility converts concentrated fruit juice into powder for use in instant beverage formulations. During a production cycle, 180 kg of fruit juice powder is obtained from 900 kg of concentrated feed material. The production manager evaluates dryer performance using the standard powder recovery relationship. Which value most closely represents the powder recovery percentage? \\text{Powder Recovery (%)}= \\frac{\\text{Weight of Powder Obtained}} {\\text{Weight of Feed Material}} \\times100",
               "options": [
-                "Non-uniform moisture evaporation",
-                "Over-crystallization of sucrose",
-                "Inconsistent pH control",
-                "Loss of sugar inversion"
+                "20%",
+                "15%",
+                "25%",
+                "30%"
               ],
-              "answer": 0
-            },
+              "answer": 0,
+              "solution": "Solution [ \\frac{180}{900}\\times100 20 ] Powder Recovery = 20% Topic 3: Meat and Poultry Processing Technology Sub-topics Recent Trends in Meat Processing Post-Mortem Changes in Meat Meat Tenderization Methods Poultry Processing Technology Meat Quality and Preservation"
+            }
+          ]
+        },
+        {
+          "id": "unit3_analytical",
+          "title": "Analytical Questions",
+          "notes": [],
+          "mcqs": [
             {
-              "q": "A juice company switches to cold-pressed processing but notices an increase in spoilage. What is the most likely reason?",
+              "q": "A dairy plant receives milk from three procurement centers located in different climatic zones. During routine quality evaluation, the milk from one center exhibits poor heat stability and develops coagulation during pasteurization, while the other two batches withstand processing conditions without defects. The plant manager intends to identify the most probable factor responsible for the processing failure and prevent recurrence in future operations. Considering the interactions between milk composition, microbial activity, and processing conditions, which factor is most likely responsible for the observed instability?",
               "options": [
-                "Absence of heat pasteurization",
-                "Increased enzyme activity in fresh juice",
-                "Loss of antioxidant protection",
-                "Increased microbial resistance"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A baked snack company experiences issues with fat migration, leading to oily product surfaces over time. What is the underlying mechanism?",
-              "options": [
-                "Phase separation of lipid components",
-                "Oxidation of unsaturated fats",
-                "Moisture-induced lipid movement",
-                "Breakdown of lecithin emulsifiers"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A manufacturer producing ready-to-eat meals finds that their retorted products lack flavor intensity. What could be a key factor?",
-              "options": [
-                "Loss of volatile aroma compounds under pressure",
-                "Breakdown of Maillard reaction intermediates",
-                "Reduced protein-carbohydrate interaction",
-                "Excessive starch gelatinization"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A factory producing fruit-based baby foods finds that some batches have a metallic aftertaste. What could be a likely cause?",
-              "options": [
-                "Reaction between acids and metal packaging",
-                "Breakdown of natural fruit polyphenols",
-                "Formation of metallic oxides in water supply",
-                "Presence of unchelated metal ions"
+                "Increased microbial growth causing elevated acidity before processing",
+                "Uniform fat standardization before pasteurization",
+                "Adequate homogenization pressure during processing",
+                "Proper storage of packaged milk after pasteurization"
               ],
               "answer": 0
             },
             {
-              "q": "A beverage company producing carbonated drinks finds that their product loses fizz faster at higher storage temperatures. What could explain this?",
+              "q": "A dairy unit produces paneer using milk collected from multiple suppliers. Although the coagulation process is carried out under identical conditions every day, one production batch yields paneer with a weak body, poor sliceability, and excessive moisture retention. Subsequent testing reveals variations in milk composition among suppliers. After evaluating the relationship between milk constituents and paneer quality attributes, which characteristic of the raw material is most likely responsible for the defective product?",
               "options": [
-                "Increased solubility of CO₂ in warmer liquid",
-                "Reduction of gas-liquid surface tension",
-                "Acceleration of gas diffusion rate",
-                "Increase in molecular interactions at higher temperature"
+                "Reduced casein content in the milk used for coagulation",
+                "Increased packaging efficiency after pressing",
+                "Lower refrigeration temperature during storage",
+                "Improved whey drainage after coagulation"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A butter manufacturing facility experiences a decline in product quality characterized by a greasy texture and rapid development of rancid flavor during storage. The cream used for butter production satisfies fat requirements but remains under refrigeration for an extended period before churning. The quality assurance team investigates the causes associated with cream handling and fat deterioration. Which condition most reasonably explains the quality defect observed in the finished butter?",
+              "options": [
+                "Lipolytic deterioration occurring during prolonged cream storage",
+                "Increased working of butter after churning",
+                "Reduced moisture content in the butter mass",
+                "Improved washing of butter granules"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "An ice cream manufacturer plans to reformulate an existing product after receiving repeated consumer complaints regarding coarse texture and rapid melting during retail display. Laboratory evaluation confirms that freezing conditions, stabilizer concentration, and overrun differ among production batches. Management seeks to prioritize corrective action capable of improving product quality while maintaining production efficiency. Which modification should be given highest priority based on its influence on structural stability and consumer acceptability?",
+              "options": [
+                "Optimization of overrun and stabilization to improve air-cell distribution",
+                "Increasing package size without altering formulation",
+                "Extending storage duration before distribution",
+                "Reducing labeling information on the package"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A fruit processing company receives consumer complaints that a batch of mixed-fruit jam exhibits excessive syrup separation during storage, despite meeting the prescribed total soluble solids requirement at the time of packaging. Production records indicate that fruit quality, sugar concentration, and heating schedules varied among processing shifts. The quality assurance team investigates the interaction between pectin, acidity, and sugar concentration to determine the root cause of the defect. Which factor is most likely responsible for the observed instability in the jam structure?",
+              "options": [
+                "Insufficient pectin concentration for stable gel formation",
+                "Increased efficiency of filling operations during packaging",
+                "Lower storage temperature immediately after processing",
+                "Improved cleaning of processing equipment before production"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A jelly manufacturing facility produces two batches from the same fruit source under identical heating conditions. One batch develops a firm and transparent gel structure, whereas the second batch remains soft and exhibits poor gel strength after cooling. Laboratory analysis reveals differences in acidity among the extracted juices. Considering the physicochemical principles governing jelly formation, which factor most likely contributed to the poor gel structure in the defective batch?",
+              "options": [
+                "Inadequate acidity resulting in ineffective pectin network formation",
+                "Increased cooling time before packaging",
+                "Uniform filtration of juice before concentration",
+                "Reduced headspace in the final container"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A beverage manufacturer observes microbial spoilage in a squash product before the expected shelf-life period. Investigation shows that all processing operations were completed according to schedule; however, raw material variability and preservative management differed among production lots. The technical team evaluates factors influencing microbial stability and product preservation. Which processing-related condition is most likely responsible for the premature spoilage?",
+              "options": [
+                "Inadequate preservative concentration in the finished squash",
+                "Increased transparency of packaging material used for storage",
+                "Improved filtration of fruit pulp before filling",
+                "Reduced mixing time during sugar dissolution"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A sauce manufacturing company intends to improve consumer acceptance after market surveys reveal dissatisfaction regarding consistency, flavor retention, and product stability during storage. Multiple corrective measures are proposed, including changes in raw material selection, thermal processing intensity, and formulation adjustments. Management seeks to identify the intervention that is most likely to enhance overall product quality without compromising shelf stability. Which action should receive the highest priority?",
+              "options": [
+                "Optimization of formulation parameters affecting consistency and stability",
+                "Increasing label dimensions on the product container",
+                "Extending warehouse storage before product distribution",
+                "Reducing the number of retail outlets receiving the product"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A meat processing company receives carcasses from two slaughter facilities operating under different chilling schedules. After storage, the meat obtained from one facility exhibits excessive toughness despite meeting all microbial safety requirements. Detailed investigation reveals that chilling was initiated immediately after slaughter while muscle metabolism was still active. The quality control team is required to identify the physiological phenomenon responsible for the undesirable texture so that future processing protocols can be modified. Which condition most likely contributed to the observed reduction in tenderness?",
+              "options": [
+                "Rapid chilling causing cold shortening of muscle fibers",
+                "Delayed packaging after refrigerated storage",
+                "Increased water activity during transportation",
+                "Uniform carcass grading before distribution"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A meat processing facility evaluates two batches of beef subjected to different aging conditions. Although both batches originate from animals of similar age and weight, one batch develops superior tenderness and consumer acceptability after storage. Laboratory analysis indicates greater proteolytic activity within the muscle tissue during post-mortem aging. Considering the biochemical mechanisms responsible for quality development in meat, which factor most directly explains the improved tenderness of the aged product?",
+              "options": [
+                "Enzymatic degradation of myofibrillar proteins during aging",
+                "Increased oxygen permeability of packaging materials",
+                "Reduction in carcass weight during chilling operations",
+                "Enhanced microbial growth on the meat surface"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A poultry processing plant experiences an increase in customer complaints related to carcass discoloration and reduced shelf life. Process records indicate that defeathering, evisceration, chilling, and packaging operations are being conducted according to standard schedules; however, contamination levels vary considerably between batches. The plant manager intends to prioritize one intervention that would most effectively improve both product appearance and microbiological quality. Which corrective measure should receive the highest priority?",
+              "options": [
+                "Strengthening hygiene control during evisceration operations",
+                "Increasing storage duration before retail distribution",
+                "Reducing carcass grading activities after chilling",
+                "Modifying package dimensions without changing sanitation practices"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A meat processing enterprise plans to introduce a value-added product targeted at consumers seeking improved convenience, safety, and extended storage stability. Several processing alternatives are considered, including conventional chilling, vacuum packaging, modified atmosphere packaging, and simple overwrapping techniques. After reviewing market expectations and product quality requirements, management must select the approach that provides the greatest overall benefit in minimizing oxidative deterioration and extending shelf life. Which option represents the most appropriate choice?",
+              "options": [
+                "Adoption of modified atmosphere packaging for processed meat products",
+                "Use of conventional retail overwrapping alone",
+                "Elimination of all packaging interventions after processing",
+                "Increasing display temperature during product marketing"
+              ],
+              "answer": 0,
+              "solution": "Topic 4: Baking and Bakery Products Technology Sub-topics Bread Preparation and Processing Cake Preparation and Processing Biscuit Preparation and Processing Bakery Ingredients and Their Functional Roles Quality Control and Defects in Bakery Products"
+            },
+            {
+              "q": "A commercial bakery receives repeated consumer complaints regarding bread loaves exhibiting reduced volume, dense crumb structure, and poor slicing characteristics despite maintaining the same baking temperature and proofing schedule across production batches. An internal investigation reveals variations in the quality characteristics of the flour supplied during the previous month. Considering the role of flour constituents in dough development and gas retention during fermentation, which factor is most likely responsible for the observed reduction in bread quality?",
+              "options": [
+                "Lower gluten-forming protein content in the flour used for dough preparation",
+                "Increased cooling time of baked loaves before packaging",
+                "Uniform baking temperature maintained throughout production",
+                "Use of standard packaging materials after baking"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A cake manufacturing unit introduces a new formulation to reduce production costs. Following implementation, the finished cakes exhibit reduced volume, uneven crumb structure, and a coarse internal texture despite identical mixing and baking conditions. Process records indicate that one ingredient traditionally responsible for incorporating and stabilizing air during batter preparation was reduced significantly. Based on the functional properties of cake ingredients, which modification most likely contributed to the quality deterioration?",
+              "options": [
+                "Reduction in egg content responsible for foam formation and structural stability",
+                "Increase in packaging efficiency during post-baking handling",
+                "Reduction in storage duration before distribution",
+                "Improvement in cooling conditions after baking"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A biscuit manufacturing company observes that products from one production line develop excessive spread and lose their intended shape during baking, whereas biscuits produced on another line maintain dimensional stability. The quality assurance team determines that ingredient proportions and oven settings differ slightly between the two lines. After evaluating the factors affecting dough rheology and spread characteristics, which corrective action should receive the highest priority to restore product consistency?",
+              "options": [
+                "Optimization of flour-to-fat ratio to improve dough strength during baking",
+                "Increasing the storage period of biscuits after packaging",
+                "Extending cooling duration beyond standard practice",
+                "Modifying carton dimensions used for transportation"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A bakery quality-control manager evaluates production efficiency by comparing the mass of bread dough before baking with the mass of the finished product after baking. During a production cycle, 240 kg of dough enters the oven and 204 kg of bread is obtained after cooling. The manager intends to determine the baking loss percentage and compare it with established process standards to assess moisture loss during baking. Which value best represents the baking loss percentage for the batch? Formula: \\text{Baking Loss (%)}= \\frac{\\text{Weight of Dough}-\\text{Weight of Bread}} {\\text{Weight of Dough}} \\times100",
+              "options": [
+                "15%",
+                "10%",
+                "18%",
+                "20%"
+              ],
+              "answer": 0,
+              "solution": "Solution [ \\text{Baking Loss (%)}= \\frac{240-204}{240} \\times100 ] [ \\frac{36}{240} \\times100 ] [ =15% ] Correct Answer: a. 15% Topic 5: Food Processing, Preservation and Value Addition"
+            },
+            {
+              "q": "A food processing company manufactures pasteurized milk, fruit squash, frozen meat products, and packaged biscuits in the same facility. During an internal audit, quality inspectors observe that microbial spoilage occurs predominantly in products having higher moisture content despite all products being stored under recommended conditions. Management intends to identify the preservation factor that contributes most significantly to the observed difference in shelf life among these products. Based on food preservation principles, which factor most directly influences the microbial stability of the products?",
+              "options": [
+                "Water activity available for microbial growth",
+                "Package shape selected for marketing purposes",
+                "Production scheduling sequence within the facility",
+                "Color of the packaging material used for distribution"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A processor introduces a value-added fruit beverage fortified with vitamins and natural antioxidants. Market testing indicates excellent nutritional acceptance, but the product exhibits substantial loss of quality during distribution under fluctuating environmental conditions. The product development team evaluates multiple corrective strategies to maintain nutrient retention while preserving consumer acceptance. Considering the relationship between packaging and product stability, which intervention should receive the highest priority?",
+              "options": [
+                "Selection of packaging materials with improved barrier properties",
+                "Increasing the number of advertising campaigns for the product",
+                "Modifying the product name displayed on the label",
+                "Expanding retail distribution without process modification"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food manufacturer compares two preservation systems for a newly developed ready-to-eat product. One system relies on a single severe preservation treatment, whereas the second combines moderate heat treatment, reduced water activity, controlled acidity, and refrigerated storage. Shelf-life studies reveal superior stability in the second approach despite the lower intensity of individual preservation factors. Which scientific principle best explains the enhanced effectiveness of the second preservation strategy?",
+              "options": [
+                "Hurdle technology utilizing multiple preservation barriers",
+                "Random variation in product composition during processing",
+                "Increased product density resulting from packaging operations",
+                "Standardization of product dimensions before storage"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food enterprise seeks to develop a value-added product from processing by-products generated during dairy, fruit, vegetable, and meat processing operations. Several alternatives are assessed based on sustainability, economic return, reduction of processing waste, and creation of new market opportunities. After reviewing environmental and commercial performance indicators, management must select the option that best aligns with modern food industry objectives. Which approach represents the most appropriate value-addition strategy?",
+              "options": [
+                "Conversion of processing by-products into commercially useful food ingredients",
+                "Disposal of by-products immediately after primary processing",
+                "Long-term storage of by-products without further utilization",
+                "Mixing by-products with packaging waste before disposal"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "unit3_case",
+          "title": "Case Studies",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A dairy plant receives three milk lots for pasteurization. Lot A has acidity of 0.16%, SPC of 2×10⁴ CFU/mL, and storage temperature of 4°C. Lot B has acidity of 0.23%, SPC of 8×10⁶ CFU/mL, and storage temperature of 11°C. Lot C has acidity of 0.17%, SPC of 3×10⁴ CFU/mL, and storage temperature of 5°C. During pasteurization, one lot exhibits coagulation and line blockage. The processing supervisor must identify the most probable cause of the failure before accepting future consignments.",
+              "options": [
+                "Elevated microbial activity causing excessive acid development before heat treatment",
+                "Slight variation in storage temperature among acceptable lots",
+                "Minor differences in solids-not-fat concentration",
+                "Variations in transportation distance from collection centers"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A paneer manufacturer evaluates two milk batches. Batch X contains 3.5% protein and 4.5% fat. Batch Y contains 2.8% protein and 4.5% fat. Both batches are coagulated at identical temperatures and pH conditions. The resulting paneer from one batch shows superior firmness and reduced fragmentation during slicing. Management intends to standardize raw material specifications for commercial production.",
+              "options": [
+                "Batch X because higher protein content supports stronger curd structure",
+                "Batch Y because lower protein content improves moisture retention",
+                "Batch X because protein concentration reduces whey separation during storage",
+                "Batch Y because protein dilution increases coagulation efficiency"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A butter processing unit stores cream under different conditions before churning. Cream A is stored at 5°C for 12 h, Cream B at 10°C for 48 h, and Cream C at 6°C for 15 h. Butter produced from one cream develops rancid flavor significantly earlier than the others. The quality assurance team investigates the root cause of the defect based on fat deterioration mechanisms.",
+              "options": [
+                "Extended storage at elevated temperature accelerated lipolytic activity",
+                "Reduced churning time altered butter granule formation",
+                "Slightly lower moisture incorporation occurred during working",
+                "Variations in packaging dimensions affected product appearance"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "An ice cream company compares two production systems. System A produces 40% overrun with stabilizer concentration of 0.3%. System B produces 85% overrun with stabilizer concentration of 0.1%. Consumer evaluation identifies one product with superior body, texture, and melting resistance. The development team must determine the most appropriate formulation strategy for future production.",
+              "options": [
+                "Balanced overrun and stabilizer levels improve structural stability",
+                "Maximizing air incorporation irrespective of formulation improves quality",
+                "Increasing freezing temperature alone improves melting resistance",
+                "Extending storage duration before distribution improves texture"
+              ],
+              "answer": 0,
+              "solution": "TOPIC 2: FRUITS AND VEGETABLES PROCESSING TECHNOLOGY"
+            },
+            {
+              "q": "A fruit processing facility prepares jelly using three fruit extracts. Extract A contains high pectin and moderate acidity. Extract B contains low pectin and low acidity. Extract C contains high acidity but low pectin. Only one batch develops a firm gel structure after cooling. Production managers review the compositional parameters to explain the result.",
+              "options": [
+                "Simultaneous presence of adequate pectin and acid promoted gel formation",
+                "High acidity alone ensured gel development",
+                "Low pectin concentration accelerated gel stability",
+                "Fruit color intensity determined gel structure"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A company produces mango squash and stores it at different temperatures. One batch is maintained at 5°C, another at 20°C, and a third at 35°C. After eight weeks, quality testing reveals deterioration in flavor and color in one treatment. Management must identify the storage condition most responsible for accelerated quality loss.",
+              "options": [
+                "Storage at elevated temperature increased degradation reactions",
+                "Refrigerated storage promoted pigment destruction",
+                "Moderate temperature eliminated preservative effectiveness",
+                "Storage temperature had no relationship with quality retention"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A tomato sauce manufacturer records the following processing conditions. Line A achieves proper concentration and acidity targets. Line B reaches concentration targets but fails to achieve required acidity. Line C achieves acidity targets but insufficient concentration. One product demonstrates microbial instability during storage. The production engineer investigates the underlying cause.",
+              "options": [
+                "Failure to achieve required acidity reduced preservation effectiveness",
+                "Product viscosity alone determines shelf life",
+                "Packaging size directly controls microbial growth",
+                "Raw material color determines storage stability"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A fruit juice powder manufacturer evaluates two drying systems. System A retains 92% vitamin C with moisture content of 3%. System B retains 70% vitamin C with moisture content of 5%. Market requirements prioritize nutritional quality and shelf stability. The product development team must select the superior process.",
+              "options": [
+                "System A because nutrient retention and low moisture support product quality",
+                "System B because higher moisture improves powder handling",
+                "System A because lower moisture increases package weight",
+                "System B because vitamin degradation improves storage characteristics"
+              ],
+              "answer": 0,
+              "solution": "TOPIC 3: MEAT AND POULTRY PROCESSING TECHNOLOGY"
+            },
+            {
+              "q": "Three carcasses are evaluated after slaughter. Carcass A undergoes rapid chilling immediately after slaughter. Carcass B experiences delayed chilling and prolonged exposure to ambient conditions. Carcass C receives controlled chilling according to recommended practices. One carcass exhibits accelerated microbial spoilage during storage. The processing manager seeks the most probable explanation.",
+              "options": [
+                "Delayed chilling increased microbial proliferation before storage",
+                "Controlled chilling promoted microbial contamination",
+                "Carcass weight determined spoilage rate",
+                "Muscle color variation influenced microbial growth"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A meat processor compares two tenderization methods. Method A applies enzymatic treatment, whereas Method B relies solely on short-term refrigeration. Sensory analysis demonstrates substantial differences in tenderness despite identical cooking procedures. The quality team must identify the more effective intervention.",
+              "options": [
+                "Enzymatic treatment enhanced breakdown of muscle proteins",
+                "Refrigeration alone increased connective tissue synthesis",
+                "Packaging configuration controlled tenderness development",
+                "Meat dimensions determined post-cooking tenderness"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A poultry processing facility observes elevated microbial counts in one production shift. Investigation reveals that scalding temperature, evisceration efficiency, and chilling practices differed slightly among shifts. The affected shift recorded frequent gastrointestinal rupture during processing. The supervisor evaluates the relationship between operations and contamination.",
+              "options": [
+                "Inefficient evisceration increased contamination of carcass surfaces",
+                "Carcass size variation increased microbial growth",
+                "Packaging material selection increased contamination",
+                "Bird age alone determined processing hygiene"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A company plans to adopt a modern meat preservation technology. Option A extends shelf life by reducing oxygen exposure. Option B improves package appearance without affecting product stability. Option C focuses on label redesign. Option D increases package volume. Management seeks the most effective preservation strategy.",
+              "options": [
+                "Oxygen control provides direct benefits to shelf-life extension",
+                "Larger package volume increases preservation effectiveness",
+                "Graphic redesign improves microbiological stability",
+                "Visual appearance alone enhances storage life"
+              ],
+              "answer": 0,
+              "solution": "TOPIC 4: BAKING TECHNOLOGY"
+            },
+            {
+              "q": "A bakery compares bread produced from three dough formulations. Dough A exhibits proper gluten development, Dough B receives insufficient mixing, and Dough C undergoes excessive fermentation. One loaf demonstrates poor volume and dense crumb structure. The production manager investigates the processing factors responsible for the defect.",
+              "options": [
+                "Insufficient gluten development reduced gas retention capacity",
+                "Packaging dimensions restricted loaf expansion",
+                "Crust color determined bread volume",
+                "Cooling duration controlled gluten network formation"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A cake manufacturer tests two formulations. Formulation A contains balanced levels of flour, sugar, fat, and leavening agents. Formulation B contains excessive sugar and reduced leavening. Consumer evaluation identifies one formulation with superior texture and volume. The development team reviews ingredient functionality before commercialization.",
+              "options": [
+                "Balanced ingredient interactions support desirable cake structure",
+                "Excessive sugar consistently improves volume development",
+                "Reduced leavening enhances aeration during baking",
+                "Package design influences cake expansion during baking"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A biscuit processing line experiences variation in product texture. Batch A contains 2% moisture after baking, Batch B contains 8%, and Batch C contains 3%. One batch develops rapid loss of crispness during storage. The quality team must identify the processing factor associated with the defect.",
+              "options": [
+                "Elevated residual moisture accelerated texture deterioration",
+                "Biscuit shape determined moisture migration",
+                "Product dimensions controlled storage stability",
+                "Printing on packaging influenced crispness retention"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A commercial bakery evaluates two process modifications to improve bread shelf life. Strategy A improves packaging barrier properties. Strategy B increases decorative scoring on loaf surfaces. Market studies indicate staling as the major consumer complaint. Management must determine the more effective intervention.",
+              "options": [
+                "Improved barrier properties reduce moisture loss during storage",
+                "Decorative scoring increases resistance to staling",
+                "Surface appearance prevents crumb firming",
+                "Larger loaf dimensions eliminate moisture migration"
+              ],
+              "answer": 0,
+              "solution": "TOPIC 5: FOOD PROCESSING, PRESERVATION AND VALUE ADDITION"
+            },
+            {
+              "q": "A food processor evaluates shelf stability of milk powder, fruit powder, frozen poultry, and biscuits. Despite being stored under identical environmental conditions, one category demonstrates the highest susceptibility to microbial growth following temperature abuse. The quality manager analyzes the influence of intrinsic product characteristics.",
+              "options": [
+                "Higher water activity increases microbial growth potential",
+                "Product color determines microbial development",
+                "Packaging graphics influence spoilage rates",
+                "Product shape controls contamination levels"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A company develops a value-added beverage enriched with bioactive compounds. Stability testing reveals oxidation-related quality losses during storage. Several corrective actions are proposed before market launch. Management must select the intervention most likely to preserve product functionality.",
+              "options": [
+                "Adoption of packaging with enhanced oxygen barrier properties",
+                "Increasing package volume without formulation changes",
+                "Altering brand identity and promotional content",
+                "Expanding production capacity before stability optimization"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A ready-to-eat food product is preserved using moderate heat treatment, reduced water activity, controlled acidity, and refrigerated storage. Shelf-life studies demonstrate substantially better stability than products relying on a single preservation treatment. The technical team reviews the scientific basis of the observation.",
+              "options": [
+                "Multiple preservation hurdles collectively restrict microbial growth",
+                "Product weight independently determines shelf life",
+                "Storage container shape governs microbial survival",
+                "Label design directly influences preservation efficiency"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A processing company generates substantial quantities of fruit peels, whey, vegetable trimmings, and meat by-products. Corporate sustainability goals emphasize waste reduction, profitability, and resource efficiency. Several utilization pathways are assessed to determine the most suitable long-term strategy.",
+              "options": [
+                "Conversion of by-products into commercially valuable food ingredients",
+                "Disposal of by-products after temporary storage",
+                "Mixing by-products with general packaging waste",
+                "Increasing waste holding capacity before disposal"
+              ],
+              "answer": 0,
+              "solution": "These 20 questions are case-study based, contain clear parameters, are aligned with BL4–BL5, avoid predictable distractors such as \"both formulations perform identically\" and \"stabilizer level has no effect on product quality,\" and maintain a single defensible correct answer."
+            }
+          ]
+        },
+        {
+          "id": "unit3_assertion",
+          "title": "Assertion and Reasoning",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A dairy plant receives milk from multiple collection centers and observes that one batch develops coagulation during pasteurization, resulting in significant processing losses. During investigation, it is found that the affected batch was stored for a prolonged period before processing, leading to increased microbial activity. Considering the relationship between milk quality and heat treatment, evaluate the following statements and identify the most appropriate option. Assertion (A): Milk with elevated acidity is more susceptible to coagulation during pasteurization. Reason (R): Increased microbial growth before processing can contribute to the development of acidity in raw milk.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A paneer manufacturing unit produces two batches under identical coagulation conditions. One batch exhibits a firm body and desirable texture, whereas the other shows poor structural integrity and excessive moisture retention. Laboratory analysis indicates significant differences in the protein composition of the milk used for production. Based on paneer manufacturing principles, determine the most appropriate interpretation. Assertion (A): Higher casein content in milk generally improves the body and texture of paneer. Reason (R): Casein proteins form the principal coagulum network responsible for paneer structure.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A butter processing facility experiences consumer complaints regarding rancid flavor development before the declared shelf life. Examination of processing records reveals prolonged storage of cream prior to churning. The quality assurance team evaluates the role of fat degradation during storage and its influence on sensory quality. Assertion (A): Extended storage of cream before churning can reduce butter quality. Reason (R): Lipolytic reactions during storage may produce compounds associated with undesirable flavors.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "An ice cream manufacturer observes that products with inadequate stabilization exhibit coarse texture and rapid melting during retail storage. Product developers investigate the contribution of stabilizers to structural stability and consumer acceptance. Assertion (A): Appropriate stabilizer levels contribute to improved texture and melting resistance in ice cream. Reason (R): Stabilizers help control ice crystal growth and improve structural stability during storage.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0,
+              "solution": "Topic 2: Fruits and Vegetables Processing Technology"
+            },
+            {
+              "q": "A fruit processing unit manufactures jam from fruits harvested at different stages of maturity. One production lot fails to develop the desired gel consistency despite following standard heating conditions. The quality control department evaluates the role of fruit composition in gel formation. Assertion (A): Adequate pectin content is essential for proper jam consistency. Reason (R): Pectin participates in the formation of the gel network responsible for jam structure.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A jelly manufacturer notices that several batches remain partially fluid even after cooling and storage. Investigation reveals deviations in acidity levels during processing. The production manager assesses the influence of acidity on gel formation and product quality. Assertion (A): Proper acidity is necessary for successful jelly formation. Reason (R): Acidity influences the interaction of pectin molecules during gel development.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A squash manufacturing company receives complaints regarding fermentation and gas formation in bottles before the expected shelf life. The investigation identifies insufficient preservation measures during processing. Management evaluates the importance of preservatives in controlling spoilage organisms. Assertion (A): Proper preservative application can extend the shelf life of fruit squash. Reason (R): Preservatives inhibit the growth and activity of spoilage microorganisms.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A company producing fruit juice powders experiences deterioration in product quality during storage in humid environments. Product testing reveals clumping and reduced reconstitution performance. The quality assurance team evaluates the role of moisture control in maintaining product quality. Assertion (A): Moisture control is critical for maintaining the quality of fruit juice powders. Reason (R): Increased moisture absorption can accelerate physical and chemical deterioration in dehydrated products.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0,
+              "solution": "Topic 3: Meat and Poultry Processing Technology"
+            },
+            {
+              "q": "A meat processor evaluates carcasses immediately after slaughter and again after completion of post-mortem biochemical changes. Significant differences are observed in texture and processing suitability between the two stages. Assertion (A): Post-mortem biochemical changes significantly influence meat quality. Reason (R): Physiological and biochemical transformations continue in muscle tissues after slaughter.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A meat processing plant compares the tenderness of products subjected to controlled aging with products processed immediately after slaughter. Consumer evaluations consistently favor the aged products. Assertion (A): Controlled aging can improve meat tenderness. Reason (R): Proteolytic activity during aging contributes to structural modification of muscle proteins.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A poultry processing facility records elevated microbial counts in finished products despite meeting production targets. Subsequent analysis reveals deficiencies in sanitation practices during processing operations. Assertion (A): Hygienic processing practices are essential for maintaining poultry product safety. Reason (R): Poultry products are completely free from microorganisms before processing begins.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
               ],
               "answer": 2
             },
             {
-              "q": "A factory using vacuum frying for chips reports that some batches turn dark even before reaching the expected moisture level. What is a likely cause?",
+              "q": "A meat company introduces advanced processing technologies to improve product consistency and shelf life. After implementation, the organization reports reduced wastage and improved process control. Assertion (A): Adoption of modern meat processing technologies can enhance operational efficiency. Reason (R): Advanced processing systems enable better control of processing variables and product quality.",
               "options": [
-                "Premature Maillard reaction due to low water activity",
-                "Excessive sugar concentration in raw material",
-                "Breakdown of heat-sensitive pigments",
-                "Uncontrolled enzymatic browning"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A cheese manufacturer using bacterial cultures finds that their cheese develops an ammonia-like odor over time. What is the most probable reason?",
-              "options": [
-                "Breakdown of proteins into amines",
-                "Accumulation of lactate fermentation byproducts",
-                "Growth of spoilage yeast strains",
-                "Excessive fat oxidation"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food scientist notices that a particular type of starch-thickened sauce exhibits viscosity breakdown when stored at room temperature. What is the most likely cause?",
-              "options": [
-                "Amylase activity degrading starch molecules",
-                "Phase separation of starch and water",
-                "Fat destabilization in emulsified system",
-                "Breakdown of hydrocolloid stabilizers"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "If 500 kg of milk is used to produce paneer and the yield is 20%, how much paneer is obtained?",
-              "options": [
-                "50 kg",
-                "100 kg",
-                "150 kg",
-                "200 kg"
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
               ],
               "answer": 1,
-              "solution": "Amount obtained = Base x Yield% = 500 x 20.0% = 100. Correct answer: 100 kg."
+              "solution": "(Both statements are true, but R explains quality improvement rather than operational efficiency directly.) Topic 4: Baking and Bakery Products Technology"
             },
             {
-              "q": "A batch of ice cream requires 10 kg of sugar for 100 kg of mix. How much sugar is needed for 250 kg of mix?",
+              "q": "A bakery produces bread using flour from different suppliers and observes variations in loaf volume and crumb structure. Product evaluation suggests that protein quality may be responsible for inconsistent performance. Assertion (A): Gluten development is important for obtaining desirable bread volume. Reason (R): Gluten reduces the ability of dough to retain gas during fermentation.",
               "options": [
-                "15 kg",
-                "20 kg",
-                "25 kg",
-                "30 kg"
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "A cake manufacturing unit receives complaints regarding dense texture and poor softness in finished products. Investigation reveals inadequate incorporation of air during batter preparation. Assertion (A): Proper aeration contributes to desirable cake texture. Reason (R): Incorporated air expands during baking and assists in structure development.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A biscuit manufacturer experiences reduced crispness during storage despite maintaining product formulation. Quality assessment indicates moisture migration through the packaging material. Assertion (A): Moisture-resistant packaging is important for maintaining biscuit quality. Reason (R): Moisture absorption can adversely affect the texture and crispness of biscuits.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A commercial bakery modifies fermentation conditions to improve bread quality and consistency. After optimization, the products exhibit improved texture, flavor, and consumer acceptance. Assertion (A): Controlled fermentation significantly influences bread quality. Reason (R): Fermentation has no role in flavor development of bread.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
               ],
               "answer": 2,
-              "solution": "Rate = 10 per 100. Scaling to 250: 10 x (250 / 100) = 25. Correct answer: 25 kg."
+              "solution": "Topic 5: Food Processing, Preservation and Value Addition"
             },
             {
-              "q": "If the overrun in ice cream production is 50%, what is the final volume of ice cream if the initial mix volume is 200 L?",
+              "q": "A food processing company compares the shelf life of products differing in moisture content and observes that certain products deteriorate more rapidly despite similar storage conditions. Assertion (A): Water activity influences the shelf life of processed foods. Reason (R): Microorganisms require available water to grow and cause spoilage.",
               "options": [
-                "250 L",
-                "300 L",
-                "350 L",
-                "400 L"
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A manufacturer develops a nutrient-fortified beverage but observes quality deterioration during distribution. Packaging studies reveal significant exposure to oxygen and moisture. Assertion (A): Packaging characteristics influence the stability of value-added food products. Reason (R): Packaging materials have no effect on oxygen and moisture transfer.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 2
+            },
+            {
+              "q": "A ready-to-eat food manufacturer adopts a preservation strategy involving moderate heat treatment, controlled acidity, reduced water activity, and refrigerated storage. Assertion (A): Combining multiple preservation methods can improve food stability. Reason (R): Several preservation barriers can collectively restrict microbial growth and product deterioration.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A food enterprise seeks to improve sustainability by utilizing processing by-products generated during manufacturing operations. After implementing a value-addition program, the company reports reduced waste generation and increased revenue from new products. Assertion (A): Value addition can improve the economic utilization of food processing by-products. Reason (R): Converting by-products into useful ingredients creates opportunities for additional product development.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
               ],
               "answer": 1,
-              "solution": "Overrun % = (Final - Initial)/Initial x 100, so Final volume = Initial x (1 + Overrun%) = 200 x 1.5 = 300 L. Correct answer: 300 L."
+              "solution": "Answer Distribution B: Q12, Q14, Q15, Q17, Q19, Q20 C: Q11, Q13, Q16, Q18 D: None yet If you want a balanced distribution (e.g., 3 A, 3 B, 2 C, 2 D) for assessment quality, I can redesign them accordingly."
+            }
+          ]
+        },
+        {
+          "id": "unit3_bl12",
+          "title": "BL1 & BL2 (Remember/Understand) Questions",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A dairy technologist is preparing a training manual for newly recruited operators working in a milk processing plant. The manual requires a clear description of the sequence of operations involved in converting raw milk into safe market milk for consumer distribution. Understanding the order of processing steps is essential for maintaining product quality and safety standards. Which operation is primarily performed to destroy pathogenic microorganisms while preserving the nutritional quality of milk?",
+              "options": [
+                "Pasteurization",
+                "Homogenization",
+                "Clarification",
+                "Standardization"
+              ],
+              "answer": 0
             },
             {
-              "q": "In butter production, if 100 kg of cream contains 40% fat, how much butter is produced with an 80% yield?",
+              "q": "During quality assessment of different categories of market milk, a food inspector observes variations in fat content among samples collected from retail outlets. The inspector explains that milk categories are classified according to prescribed compositional standards established for consumer requirements. Which characteristic is most commonly used to distinguish one type of market milk from another?",
               "options": [
-                "32 kg",
-                "40 kg",
-                "48 kg",
-                "50 kg"
+                "Fat content",
+                "Package color",
+                "Transportation distance",
+                "Storage rack position"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A dairy processing unit manufactures paneer for institutional and retail markets. During employee orientation, supervisors explain the principle behind paneer formation and emphasize the role of coagulation in developing its characteristic structure. Which milk protein is primarily responsible for the formation of paneer during acid coagulation?",
+              "options": [
+                "Casein",
+                "Lactose",
+                "Whey sugar",
+                "Citric acid"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "An ice cream manufacturer trains production staff on the importance of air incorporation during freezing. The trainer explains that proper incorporation of air contributes to the desired body, texture, and consumer acceptability of the finished product. What is the term used to describe the amount of air incorporated into ice cream during manufacture?",
+              "options": [
+                "Overrun",
+                "Acidity",
+                "Homogenization",
+                "Coagulation"
               ],
               "answer": 0,
-              "solution": "Stage 1: 100 x 40.0% = 40. Stage 2 (yield): 40 x 80.0% = 32. Correct answer: 32 kg."
+              "solution": "Topic 2: Fruits and Vegetables Processing Technology (Jam, Jelly, Squash, Sauce, Fruit Juice Powder)"
             },
             {
-              "q": "A fruit juice powder contains 5% moisture. How much powder is obtained from 100 kg of juice with 90% water content?",
+              "q": "A fruit processing enterprise produces a variety of preserved fruit products for retail distribution. During a quality audit, employees are asked to identify the key ingredient responsible for gel formation in jelly production. Knowledge of this component is essential for maintaining product consistency and texture. Which substance plays the major role in forming the gel structure of jelly?",
               "options": [
-                "5 kg",
-                "10 kg",
-                "15 kg",
-                "20 kg"
+                "Pectin",
+                "Starch",
+                "Protein",
+                "Cellulose"
               ],
-              "answer": 1,
-              "solution": "Dry matter = 100 kg x (1 - 90.0/100) = 10 kg. Powder (at 5.0% moisture) = Dry matter / (1 - 5.0/100) = 10 / 0.95 = 10.53 kg. Correct answer: 10 kg."
+              "answer": 0
             },
             {
-              "q": "In jelly production, if the pectin concentration is 1% and 10 kg of fruit is used, how much pectin is required?",
+              "q": "A processor manufactures both jam and jelly from the same fruit source. New trainees are required to understand the basic distinction between these two products before participating in production activities. Which feature best differentiates jelly from jam?",
               "options": [
-                "0.2 kg",
-                "0.1 kg",
-                "0.3 kg",
-                "0.4 kg"
+                "Jelly is prepared from clarified fruit extract",
+                "Jelly contains higher fat content",
+                "Jelly is produced without heating",
+                "Jelly contains added milk solids"
               ],
-              "answer": 1,
-              "solution": "Pectin required = % x Mass = 1% x 10 kg = 0.1 kg. Correct answer: 0.1 kg."
+              "answer": 0
             },
             {
-              "q": "If 100 kg of meat loses 10% of its weight during post-mortem changes, what is the final weight?",
+              "q": "A beverage company produces fruit squash intended for dilution before consumption. During product standardization, quality assurance personnel review the ingredients that contribute to the characteristic flavor and shelf stability of the product. Which ingredient serves as the principal source of flavor in fruit squash?",
               "options": [
-                "80 kg",
-                "85 kg",
-                "90 kg",
-                "95 kg"
+                "Fruit juice or pulp",
+                "Edible oil",
+                "Milk protein",
+                "Butterfat"
               ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 10.0/100) = 100 x 0.9 = 90. Correct answer: 90 kg."
+              "answer": 0
             },
             {
-              "q": "In poultry processing, if 1000 birds yield 70% meat, how much meat is obtained from 500 birds?",
+              "q": "A food technologist explains the advantages of converting fruit juices into powder form for long-distance distribution and storage. Such products are increasingly preferred in situations where transportation efficiency and shelf-life extension are important. Which benefit is most directly associated with fruit juice powder production?",
               "options": [
-                "350 kg",
-                "400 kg",
-                "450 kg",
-                "300 kg"
+                "Reduced storage and transportation requirements",
+                "Increased moisture content",
+                "Higher microbial growth rate",
+                "Greater product perishability"
               ],
               "answer": 0,
-              "solution": "Rate = 70.0% (intensive ratio). Result = 70.0% x 500 = 350. Correct answer: 350 kg."
+              "solution": "Topic 3: Meat and Poultry Processing Technology (Post-Mortem Changes, Tenderization, Poultry Processing)"
             },
             {
-              "q": "If 1 kg of dough yields 20 biscuits, how many biscuits are produced from 5 kg of dough?",
+              "q": "A meat processing company conducts training on the biochemical changes occurring immediately after slaughter. Employees are expected to recognize important post-mortem events that influence meat quality and subsequent processing operations. Which condition is commonly associated with the stiffening of muscles shortly after slaughter?",
               "options": [
-                "80",
-                "90",
-                "100",
-                "110"
+                "Rigor mortis",
+                "Fermentation",
+                "Homogenization",
+                "Emulsification"
               ],
-              "answer": 2,
-              "solution": "Rate = 20 per 1. Scaling to 5: 20 x (5 / 1) = 100. Correct answer: 100."
+              "answer": 0
             },
             {
-              "q": "In bread preparation, if 10 kg of flour requires 6 L of water, how much water is needed for 25 kg of flour?",
+              "q": "A meat scientist discusses methods used to improve the eating quality of meat products. The discussion focuses on techniques that modify muscle structure and reduce resistance during chewing. What is the primary objective of meat tenderization?",
               "options": [
-                "12 L",
-                "15 L",
-                "18 L",
-                "20 L"
+                "Improving tenderness and palatability",
+                "Increasing bone content",
+                "Reducing protein content",
+                "Enhancing water contamination"
               ],
-              "answer": 1,
-              "solution": "Rate = 6 per 10. Scaling to 25: 6 x (25 / 10) = 15. Correct answer: 15 L."
+              "answer": 0
             },
             {
-              "q": "If 1 kg of cake batter yields 8 slices, how many slices are obtained from 5 kg of batter?",
+              "q": "A poultry processing facility follows a series of operations before packaging carcasses for market distribution. New employees are instructed to identify the processing step that facilitates feather removal before evisceration. Which operation is performed immediately before defeathering in poultry processing?",
               "options": [
-                "30",
-                "35",
-                "40",
-                "45"
+                "Scalding",
+                "Freezing",
+                "Smoking",
+                "Curing"
               ],
-              "answer": 2,
-              "solution": "Slices = Slices per kg x Mass = 8 x 5 = 40 slices. Correct answer: 40."
+              "answer": 0
             },
             {
-              "q": "In meat tenderization, if 100 kg of meat requires 2 kg of enzyme, how much enzyme is needed for 50 kg of meat?",
+              "q": "A meat processing expert explains that biochemical changes continue after slaughter and significantly affect meat quality. Understanding these changes helps processors determine the appropriate time for further processing and marketing. Why is the study of post-mortem changes important in meat technology?",
               "options": [
-                "0.5 kg",
-                "1 kg",
-                "1.5 kg",
-                "2 kg"
+                "It influences meat quality and processing characteristics",
+                "It determines package design only",
+                "It affects transportation costs alone",
+                "It controls retail shelf arrangement"
               ],
-              "answer": 1,
-              "solution": "Rate = 2 per 100. Scaling to 50: 2 x (50 / 100) = 1. Correct answer: 1 kg."
+              "answer": 0,
+              "solution": "Topic 4: Baking and Bakery Products Technology (Bread, Cake and Biscuit Preparation)"
             },
             {
-              "q": "If 100 kg of milk contains 4% protein, how much protein is present in 250 kg of milk?",
+              "q": "A bakery production manager reviews the ingredients used in bread manufacturing with newly recruited personnel. The discussion highlights the importance of specific ingredients in developing dough structure and gas retention during fermentation. Which ingredient is primarily responsible for forming the gluten network in bread dough?",
               "options": [
-                "8 kg",
-                "10 kg",
-                "12 kg",
-                "14 kg"
+                "Wheat flour",
+                "Sugar",
+                "Salt",
+                "Water"
               ],
-              "answer": 1,
-              "solution": "Rate = 4.0% (intensive ratio). Result = 4.0% x 250 = 10. Correct answer: 10 kg."
+              "answer": 0
             },
             {
-              "q": "In ice cream production, if 100 L of mix contains 15% sugar, how much sugar is present in 300 L of mix?",
+              "q": "A bakery technician explains the function of yeast during bread production and its contribution to product quality. Proper understanding of this ingredient is necessary for controlling dough development and loaf characteristics. What is the main purpose of yeast in bread making?",
               "options": [
-                "30 kg",
-                "40 kg",
-                "45 kg",
-                "50 kg"
+                "Production of carbon dioxide for dough expansion",
+                "Increasing mineral content only",
+                "Providing packaging stability",
+                "Preventing slicing operations"
               ],
-              "answer": 2,
-              "solution": "Rate = 15.0% (intensive ratio). Result = 15.0% x 300 = 45. Correct answer: 45 kg."
+              "answer": 0
             },
             {
-              "q": "If 100 kg of meat loses 5% of its weight during tenderization, what is the final weight?",
+              "q": "A cake manufacturing unit conducts quality control checks on finished products before distribution. The production team discusses ingredients that contribute significantly to softness and aeration in cakes. Which ingredient is commonly used to improve the tenderness of cake products?",
               "options": [
-                "90 kg",
-                "92 kg",
-                "95 kg",
-                "98 kg"
+                "Fat",
+                "Vinegar",
+                "Gelatin",
+                "Pectin"
               ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 5.0/100) = 100 x 0.95 = 95. Correct answer: 95 kg."
+              "answer": 0
             },
             {
-              "q": "In poultry processing, if 100 birds yield 70 kg of meat, how much meat is obtained from 200 birds?",
+              "q": "A biscuit manufacturer compares biscuit formulations with those used in bread production. Employees are required to understand the characteristics that distinguish biscuits from fermented bakery products. Which feature is commonly associated with biscuit products?",
               "options": [
-                "120 kg",
-                "140 kg",
-                "160 kg",
-                "180 kg"
+                "Low moisture and crisp texture",
+                "High moisture content",
+                "Extensive fermentation requirement",
+                "Soft gel structure"
               ],
-              "answer": 1,
-              "solution": "Rate = 70 per 100. Scaling to 200: 70 x (200 / 100) = 140. Correct answer: 140 kg."
+              "answer": 0,
+              "solution": "Topic 5: Food Processing, Preservation and Value Addition"
             },
             {
-              "q": "If 1 kg of dough yields 15 bread loaves, how many loaves are produced from 10 kg of dough?",
+              "q": "A food preservation specialist reviews various methods used to extend the shelf life of processed foods. During a training session, participants are asked to identify the preservation approach that involves reducing product temperature to inhibit microbial activity. Which preservation method primarily relies on low-temperature storage?",
               "options": [
-                "120",
-                "130",
-                "140",
-                "150"
+                "Refrigeration",
+                "Fermentation",
+                "Extrusion",
+                "Milling"
               ],
-              "answer": 3,
-              "solution": "Rate = 15 per 1. Scaling to 10: 15 x (10 / 1) = 150. Correct answer: 150."
+              "answer": 0
             },
             {
-              "q": "In cake preparation, if 1 kg of batter yields 12 slices, how many slices are obtained from 8 kg of batter?",
+              "q": "A food packaging engineer explains the role of packaging in maintaining product quality during storage and distribution. Appropriate packaging systems are selected according to the sensitivity of the product to environmental conditions. What is the primary purpose of food packaging in preservation systems?",
               "options": [
-                "80",
-                "90",
-                "96",
-                "100"
+                "Protection from contamination and quality deterioration",
+                "Increasing microbial growth",
+                "Raising product moisture levels",
+                "Accelerating spoilage reactions"
               ],
-              "answer": 2,
-              "solution": "Rate = 12 per 1. Scaling to 8: 12 x (8 / 1) = 96. Correct answer: 96."
+              "answer": 0
             },
             {
-              "q": "In meat tenderization, if 100 kg of meat requires 1.5 kg of enzyme, how much enzyme is needed for 75 kg of meat?",
+              "q": "A food processing company introduces several value-added products to improve profitability and utilize available raw materials more efficiently. Employees are asked to identify the concept that best describes the conversion of raw materials into products having enhanced utility and market appeal. Which term is used for this process?",
               "options": [
-                "1 kg",
-                "1.125 kg",
-                "1.25 kg",
-                "1.5 kg"
+                "Value addition",
+                "Pasteurization",
+                "Clarification",
+                "Filtration"
               ],
-              "answer": 1,
-              "solution": "Rate = 1.5 per 100. Scaling to 75: 1.5 x (75 / 100) = 1.12. Correct answer: 1.125 kg."
+              "answer": 0
             },
             {
-              "q": "If 100 kg of milk contains 3.5% fat, how much fat is present in 500 kg of milk?",
+              "q": "A food technologist discusses the concept of hurdle technology during a workshop on modern preservation systems. Participants learn that combining multiple preservation factors can improve product stability without relying on a single severe treatment. What is the fundamental principle of hurdle technology?",
               "options": [
-                "15 kg",
-                "17.5 kg",
-                "20 kg",
-                "22.5 kg"
+                "Combining multiple preservation barriers to inhibit spoilage",
+                "Using only one preservation method at high intensity",
+                "Eliminating packaging requirements completely",
+                "Increasing product moisture during storage"
               ],
-              "answer": 1,
-              "solution": "Rate = 3.5% (intensive ratio). Result = 3.5% x 500 = 17.5. Correct answer: 17.5 kg."
+              "answer": 0,
+              "solution": "Below are 20 scenario-based Higher Order Thinking (BL4–Analyze, BL5–Evaluate, BL6–Create) multiple-choice questions. Each question contains a 6-line industrial/research scenario, four options, and a solution. Topic 1: Technology of Milk and Milk Products"
             },
             {
-              "q": "In ice cream production, if 100 L of mix contains 12% sugar, how much sugar is present in 400 L of mix?",
+              "q": "A dairy plant receives complaints that packaged market milk develops a cooked flavor during storage. Quality records show that pasteurization temperature was increased beyond standard recommendations. Microbial counts remain within acceptable limits. The processing manager must identify the most likely reason for the sensory defect. The objective is to maintain safety without compromising product quality. Which corrective action should be prioritized?",
               "options": [
-                "40 kg",
-                "45 kg",
-                "48 kg",
-                "50 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 12.0% (intensive ratio). Result = 12.0% x 400 = 48. Correct answer: 48 kg."
-            },
-            {
-              "q": "If 100 kg of meat loses 8% of its weight during tenderization, what is the final weight?",
-              "options": [
-                "88 kg",
-                "90 kg",
-                "92 kg",
-                "95 kg"
-              ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 8.0/100) = 100 x 0.92 = 92. Correct answer: 92 kg."
-            },
-            {
-              "q": "In poultry processing, if 100 birds yield 75 kg of meat, how much meat is obtained from 300 birds?",
-              "options": [
-                "200 kg",
-                "225 kg",
-                "250 kg",
-                "275 kg"
+                "Increase homogenization pressure",
+                "Reduce pasteurization temperature to recommended levels",
+                "Increase storage temperature",
+                "Add flavoring agents"
               ],
               "answer": 1,
-              "solution": "Rate = 75 per 100. Scaling to 300: 75 x (300 / 100) = 225. Correct answer: 225 kg."
+              "solution": "Solution: Excessive heat treatment can produce cooked flavor in milk. Maintaining recommended pasteurization conditions ensures both safety and sensory quality."
             },
             {
-              "q": "In cake preparation, if 1 kg of batter yields 10 slices, how many slices are obtained from 15 kg of batter?",
+              "q": "A dairy cooperative produces paneer using milk from different suppliers. Some batches show low yield despite identical processing conditions. Laboratory analysis indicates variation in milk composition. Management wants to improve production efficiency and profitability. The team investigates the factor most responsible for yield variation. Which factor should receive primary attention?",
               "options": [
-                "120",
-                "130",
-                "140",
-                "150"
+                "Milk fat and protein content",
+                "Packaging material color",
+                "Storage room paint quality",
+                "Water hardness only"
               ],
-              "answer": 3,
-              "solution": "Rate = 10 per 1. Scaling to 15: 10 x (15 / 1) = 150. Correct answer: 150."
+              "answer": 0,
+              "solution": "Solution: Paneer yield is strongly influenced by milk fat and protein levels, which determine curd formation and retention."
             },
             {
-              "q": "In meat tenderization, if 100 kg of meat requires 2.5 kg of enzyme, how much enzyme is needed for 60 kg of meat?",
+              "q": "A butter manufacturer notices excessive moisture losses during storage. The product meets compositional standards at packaging. Further analysis reveals inadequate working of butter during production. Management seeks to improve product stability and texture. The technical team evaluates the processing step involved. What is the most appropriate conclusion?",
               "options": [
-                "1.2 kg",
-                "1.5 kg",
-                "1.8 kg",
-                "2 kg"
+                "Butter working affects moisture distribution and texture",
+                "Churning has no effect on quality",
+                "Packaging determines moisture content alone",
+                "Salt controls all butter properties"
               ],
-              "answer": 1,
-              "solution": "Rate = 2.5 per 100. Scaling to 60: 2.5 x (60 / 100) = 1.5. Correct answer: 1.5 kg."
+              "answer": 0,
+              "solution": "Solution: Proper working distributes moisture uniformly and improves texture and storage stability."
             },
             {
-              "q": "If 100 kg of milk contains 4.5% fat, how much fat is present in 300 kg of milk?",
+              "q": "An ice cream company plans to launch a premium product for tropical regions. Consumer surveys indicate rapid melting as a major concern. Researchers evaluate formulation changes to improve resistance to melting. The product must remain smooth and acceptable to consumers. Cost increase should be minimal. Which formulation strategy is most suitable?",
               "options": [
-                "12 kg",
-                "13.5 kg",
-                "15 kg",
-                "16.5 kg"
-              ],
-              "answer": 1,
-              "solution": "Rate = 4.5% (intensive ratio). Result = 4.5% x 300 = 13.5. Correct answer: 13.5 kg."
-            },
-            {
-              "q": "In ice cream production, if 100 L of mix contains 10% sugar, how much sugar is present in 500 L of mix?",
-              "options": [
-                "40 kg",
-                "45 kg",
-                "50 kg",
-                "55 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 10.0% (intensive ratio). Result = 10.0% x 500 = 50. Correct answer: 50 kg."
-            },
-            {
-              "q": "If 100 kg of meat loses 12% of its weight during tenderization, what is the final weight?",
-              "options": [
-                "84 kg",
-                "86 kg",
-                "88 kg",
-                "90 kg"
-              ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 12.0/100) = 100 x 0.88 = 88. Correct answer: 88 kg."
-            },
-            {
-              "q": "In poultry processing, if 100 birds yield 80 kg of meat, how much meat is obtained from 400 birds?",
-              "options": [
-                "300 kg",
-                "320 kg",
-                "340 kg",
-                "360 kg"
+                "Reduce stabilizer concentration",
+                "Increase stabilizers and emulsifiers appropriately",
+                "Remove milk solids completely",
+                "Increase storage temperature"
               ],
               "answer": 1,
-              "solution": "Rate = 80 per 100. Scaling to 400: 80 x (400 / 100) = 320. Correct answer: 320 kg."
+              "solution": "Solution: Stabilizers and emulsifiers improve body, texture, and melting resistance of ice cream."
             },
             {
-              "q": "In cake preparation, if 1 kg of batter yields 14 slices, how many slices are obtained from 20 kg of batter?",
+              "q": "A market milk plant reports frequent cream separation in packaged milk. Consumers perceive the product as poor quality. Pasteurization conditions are satisfactory. Engineers review processing operations before packaging. The objective is to improve product uniformity. Which process should be optimized?",
               "options": [
-                "260",
-                "270",
-                "280",
-                "290"
+                "Homogenization",
+                "Fermentation",
+                "Churning",
+                "Coagulation"
               ],
-              "answer": 2,
-              "solution": "Rate = 14 per 1. Scaling to 20: 14 x (20 / 1) = 280. Correct answer: 280."
+              "answer": 0,
+              "solution": "Solution: Homogenization reduces fat globule size and prevents cream separation. Topic 2: Vegetables and Fruits Processing Technology"
             },
             {
-              "q": "In meat tenderization, if 100 kg of meat requires 3 kg of enzyme, how much enzyme is needed for 120 kg of meat?",
+              "q": "A jam manufacturer observes microbial spoilage before the expected shelf life. Fruit quality and packaging are satisfactory. Testing indicates lower soluble solids content than specification. The production team reviews processing parameters. Product safety and stability must be improved. Which factor most likely caused the problem?",
               "options": [
-                "3.2 kg",
-                "3.4 kg",
-                "3.6 kg",
-                "3.8 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 3 per 100. Scaling to 120: 3 x (120 / 100) = 3.6. Correct answer: 3.6 kg."
-            },
-            {
-              "q": "If 100 kg of meat requires 3 kg of enzyme for tenderization, how much enzyme is needed for 80 kg of meat?",
-              "options": [
-                "2.2 kg",
-                "2.4 kg",
-                "2.6 kg",
-                "2.8 kg"
+                "Excessive pectin concentration",
+                "Insufficient sugar concentration",
+                "Excessive fruit pulp content",
+                "Excessive color addition"
               ],
               "answer": 1,
-              "solution": "Rate = 3 per 100. Scaling to 80: 3 x (80 / 100) = 2.4. Correct answer: 2.4 kg."
+              "solution": "Solution: Adequate sugar concentration lowers water activity and improves preservation."
             },
             {
-              "q": "If 100 kg of milk contains 5% fat, how much fat is present in 400 kg of milk?",
+              "q": "A jelly processor finds that several batches fail to set properly. The fruit source has remained unchanged. Laboratory analysis indicates low pectin levels in the extracted juice. Management must identify the most suitable corrective measure. Product quality consistency is essential. What should be done?",
               "options": [
-                "15 kg",
-                "18 kg",
-                "20 kg",
-                "22 kg"
+                "Increase pectin concentration",
+                "Reduce fruit content",
+                "Eliminate sugar addition",
+                "Increase storage temperature"
               ],
-              "answer": 2,
-              "solution": "Rate = 5.0% (intensive ratio). Result = 5.0% x 400 = 20. Correct answer: 20 kg."
+              "answer": 0,
+              "solution": "Solution: Pectin is essential for gel formation and jelly structure."
             },
             {
-              "q": "In ice cream production, if 100 L of mix contains 8% sugar, how much sugar is present in 600 L of mix?",
+              "q": "A squash manufacturing company receives complaints of fermentation during storage. Packaging integrity is satisfactory. Chemical analysis reveals insufficient preservative concentration. Shelf-life expectations are not being met. Management wants to prevent further spoilage. What is the most appropriate corrective action?",
               "options": [
-                "40 kg",
-                "45 kg",
-                "48 kg",
-                "50 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 8.0% (intensive ratio). Result = 8.0% x 600 = 48. Correct answer: 48 kg."
-            },
-            {
-              "q": "In poultry processing, if 100 birds yield 85 kg of meat, how much meat is obtained from 500 birds?",
-              "options": [
-                "400 kg",
-                "425 kg",
-                "450 kg",
-                "475 kg"
+                "Reduce acidity",
+                "Increase preservative to permitted levels",
+                "Increase package size",
+                "Reduce fruit content"
               ],
               "answer": 1,
-              "solution": "Rate = 85 per 100. Scaling to 500: 85 x (500 / 100) = 425. Correct answer: 425 kg."
+              "solution": "Solution: Proper preservative levels inhibit microbial growth and improve shelf life."
             },
             {
-              "q": "If 1 kg of dough yields 20 bread loaves, how many loaves are produced from 18 kg of dough?",
+              "q": "A fruit-processing startup develops a fruit juice powder for export. The powder exhibits poor reconstitution and flavor loss. Researchers investigate alternative drying methods. The objective is to maximize quality retention. Cost is secondary to quality. Which technology is most appropriate?",
               "options": [
-                "340",
-                "350",
-                "360",
-                "370"
-              ],
-              "answer": 2,
-              "solution": "Rate = 20 per 1. Scaling to 18: 20 x (18 / 1) = 360. Correct answer: 360."
-            },
-            {
-              "q": "In cake preparation, if 1 kg of batter yields 16 slices, how many slices are obtained from 25 kg of batter?",
-              "options": [
-                "380",
-                "390",
-                "400",
-                "410"
-              ],
-              "answer": 2,
-              "solution": "Rate = 16 per 1. Scaling to 25: 16 x (25 / 1) = 400. Correct answer: 400."
-            },
-            {
-              "q": "In meat tenderization, if 100 kg of meat requires 4 kg of enzyme, how much enzyme is needed for 120 kg of meat?",
-              "options": [
-                "4.6 kg",
-                "4.8 kg",
-                "5 kg",
-                "5.2 kg"
+                "Sun drying",
+                "Freeze drying",
+                "Open-pan drying",
+                "Natural air drying"
               ],
               "answer": 1,
-              "solution": "Rate = 4 per 100. Scaling to 120: 4 x (120 / 100) = 4.8. Correct answer: 4.8 kg."
+              "solution": "Solution: Freeze drying provides superior flavor, color, and nutrient retention."
             },
             {
-              "q": "If 100 kg of milk contains 6% fat, how much fat is present in 500 kg of milk?",
+              "q": "A sauce manufacturer notices phase separation during storage. Consumers reject the product because of poor appearance. Ingredient proportions meet formulation specifications. Engineers evaluate processing operations. The company seeks to improve stability. Which factor should be investigated first?",
               "options": [
-                "25 kg",
-                "28 kg",
-                "30 kg",
-                "32 kg"
+                "Homogenization efficiency",
+                "Package labeling",
+                "Carton dimensions",
+                "Transportation distance"
               ],
-              "answer": 2,
-              "solution": "Rate = 6.0% (intensive ratio). Result = 6.0% x 500 = 30. Correct answer: 30 kg."
+              "answer": 0,
+              "solution": "Solution: Proper homogenization improves emulsion stability and reduces separation. Topic 3: Meat and Poultry Processing"
             },
             {
-              "q": "In ice cream production, if 100 L of mix contains 15% sugar, how much sugar is present in 800 L of mix?",
+              "q": "A meat processing facility experiences inconsistent tenderness in beef products. Animals originate from different farms but are processed identically. Post-mortem monitoring reveals variation in aging periods. Customer complaints focus on product toughness. Management wants a scientifically justified solution. What should be prioritized?",
               "options": [
-                "100 kg",
-                "110 kg",
-                "120 kg",
-                "130 kg"
+                "Standardized aging conditions",
+                "Increased packaging thickness",
+                "Reduced refrigeration capacity",
+                "Additional coloring agents"
               ],
-              "answer": 2,
-              "solution": "Rate = 15.0% (intensive ratio). Result = 15.0% x 800 = 120. Correct answer: 120 kg."
+              "answer": 0,
+              "solution": "Solution: Controlled aging promotes enzymatic tenderization and consistent texture."
             },
             {
-              "q": "In poultry processing, if 100 birds yield 90 kg of meat, how much meat is obtained from 600 birds?",
+              "q": "A meat processor reports unusually tough meat shortly after slaughter. Processing records indicate rapid chilling immediately after slaughter. Researchers suspect cold shortening. The company wants to improve tenderness. Scientific evaluation of post-mortem changes is conducted. Which explanation is most appropriate?",
               "options": [
-                "500 kg",
-                "520 kg",
-                "540 kg",
-                "560 kg"
+                "Excessive muscle contraction before rigor completion",
+                "Excessive microbial growth",
+                "Protein oxidation only",
+                "Moisture absorption by packaging"
               ],
-              "answer": 2,
-              "solution": "Rate = 90 per 100. Scaling to 600: 90 x (600 / 100) = 540. Correct answer: 540 kg."
+              "answer": 0,
+              "solution": "Solution: Rapid chilling before rigor mortis can cause cold shortening and toughness."
             },
             {
-              "q": "If 1 kg of dough yields 22 bread loaves, how many loaves are produced from 20 kg of dough?",
+              "q": "A poultry plant records elevated microbial counts in final products. Production efficiency remains high. Audit findings reveal poor sanitation practices during evisceration. Management seeks to improve food safety performance. The objective is contamination reduction. Which action should be prioritized?",
               "options": [
-                "420",
-                "430",
-                "440",
-                "450"
-              ],
-              "answer": 2,
-              "solution": "Rate = 22 per 1. Scaling to 20: 22 x (20 / 1) = 440. Correct answer: 440."
-            },
-            {
-              "q": "In cake preparation, if 1 kg of batter yields 18 slices, how many slices are obtained from 30 kg of batter?",
-              "options": [
-                "520",
-                "530",
-                "540",
-                "550"
-              ],
-              "answer": 2,
-              "solution": "Rate = 18 per 1. Scaling to 30: 18 x (30 / 1) = 540. Correct answer: 540."
-            },
-            {
-              "q": "In meat tenderization, if 100 kg of meat requires 5 kg of enzyme, how much enzyme is needed for 150 kg of meat?",
-              "options": [
-                "6.5 kg",
-                "7 kg",
-                "7.5 kg",
-                "8 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 5 per 100. Scaling to 150: 5 x (150 / 100) = 7.5. Correct answer: 7.5 kg."
-            },
-            {
-              "q": "If 100 kg of milk contains 7% fat, how much fat is present in 600 kg of milk?",
-              "options": [
-                "38 kg",
-                "40 kg",
-                "42 kg",
-                "44 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 7.0% (intensive ratio). Result = 7.0% x 600 = 42. Correct answer: 42 kg."
-            },
-            {
-              "q": "In ice cream production, if 100 L of mix contains 20% sugar, how much sugar is present in 1000 L of mix?",
-              "options": [
-                "180 kg",
-                "190 kg",
-                "200 kg",
-                "210 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 20.0% (intensive ratio). Result = 20.0% x 1000 = 200. Correct answer: 200 kg."
-            },
-            {
-              "q": "In poultry processing, if 100 birds yield 95 kg of meat, how much meat is obtained from 700 birds?",
-              "options": [
-                "650 kg",
-                "660 kg",
-                "665 kg",
-                "670 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 95 per 100. Scaling to 700: 95 x (700 / 100) = 665. Correct answer: 665 kg."
-            },
-            {
-              "q": "If 1 kg of dough yields 25 bread loaves, how many loaves are produced from 22 kg of dough?",
-              "options": [
-                "520",
-                "530",
-                "540",
-                "550"
-              ],
-              "answer": 3,
-              "solution": "Rate = 25 per 1. Scaling to 22: 25 x (22 / 1) = 550. Correct answer: 550."
-            },
-            {
-              "q": "In cake preparation, if 1 kg of batter yields 20 slices, how many slices are obtained from 35 kg of batter?",
-              "options": [
-                "680",
-                "690",
-                "700",
-                "710"
-              ],
-              "answer": 2,
-              "solution": "Rate = 20 per 1. Scaling to 35: 20 x (35 / 1) = 700. Correct answer: 700."
-            },
-            {
-              "q": "In meat tenderization, if 100 kg of meat requires 6 kg of enzyme, how much enzyme is needed for 200 kg of meat?",
-              "options": [
-                "10 kg",
-                "11 kg",
-                "12 kg",
-                "13 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 6 per 100. Scaling to 200: 6 x (200 / 100) = 12. Correct answer: 12 kg."
-            },
-            {
-              "q": "If 100 kg of milk contains 8% fat, how much fat is present in 700 kg of milk?",
-              "options": [
-                "50 kg",
-                "52 kg",
-                "54 kg",
-                "56 kg"
-              ],
-              "answer": 3,
-              "solution": "Rate = 8.0% (intensive ratio). Result = 8.0% x 700 = 56. Correct answer: 56 kg."
-            },
-            {
-              "q": "In ice cream production, if 100 L of mix contains 25% sugar, how much sugar is present in 1200 L of mix?",
-              "options": [
-                "280 kg",
-                "290 kg",
-                "300 kg",
-                "310 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 25.0% (intensive ratio). Result = 25.0% x 1200 = 300. Correct answer: 300 kg."
-            },
-            {
-              "q": "In poultry processing, if 100 birds yield 100 kg of meat, how much meat is obtained from 800 birds?",
-              "options": [
-                "750 kg",
-                "760 kg",
-                "770 kg",
-                "780 kg"
-              ],
-              "answer": 3,
-              "solution": "Rate = 100 per 100. Scaling to 800: 100 x (800 / 100) = 800. Correct answer: 780 kg."
-            },
-            {
-              "q": "If 1 kg of dough yields 30 bread loaves, how many loaves are produced from 25 kg of dough?",
-              "options": [
-                "720",
-                "730",
-                "740",
-                "750"
-              ],
-              "answer": 3,
-              "solution": "Rate = 30 per 1. Scaling to 25: 30 x (25 / 1) = 750. Correct answer: 750."
-            },
-            {
-              "q": "In cake preparation, if 1 kg of batter yields 22 slices, how many slices are obtained from 40 kg of batter?",
-              "options": [
-                "860",
-                "870",
-                "880",
-                "890"
-              ],
-              "answer": 2,
-              "solution": "Rate = 22 per 1. Scaling to 40: 22 x (40 / 1) = 880. Correct answer: 880."
-            },
-            {
-              "q": "If 1 kg of fruit yields 900 mL of squash, how much squash is obtained from 60 kg of fruit?",
-              "options": [
-                "52 L",
-                "53 L",
-                "54 L",
-                "55 L"
-              ],
-              "answer": 2,
-              "solution": "Rate = 900 per 1. Scaling to 60: 900 x (60 / 1) = 54000. Correct answer: 54 L."
-            },
-            {
-              "q": "In meat tenderization, if 100 kg of meat requires 7 kg of enzyme, how much enzyme is needed for 250 kg of meat?",
-              "options": [
-                "16.5 kg",
-                "17 kg",
-                "17.5 kg",
-                "18 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 7 per 100. Scaling to 250: 7 x (250 / 100) = 17.5. Correct answer: 17.5 kg."
-            },
-            {
-              "q": "If 100 kg of milk contains 9% fat, how much fat is present in 800 kg of milk?",
-              "options": [
-                "68 kg",
-                "70 kg",
-                "72 kg",
-                "74 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 9.0% (intensive ratio). Result = 9.0% x 800 = 72. Correct answer: 72 kg."
-            },
-            {
-              "q": "In ice cream production, if 100 L of mix contains 30% sugar, how much sugar is present in 1500 L of mix?",
-              "options": [
-                "430 kg",
-                "440 kg",
-                "450 kg",
-                "460 kg"
-              ],
-              "answer": 2,
-              "solution": "Rate = 30.0% (intensive ratio). Result = 30.0% x 1500 = 450. Correct answer: 450 kg."
-            },
-            {
-              "q": "In butter production, if 100 kg of cream yields 65 kg of butter, what is the yield percentage?",
-              "options": [
-                "0.6",
-                "0.65",
-                "0.7",
-                "0.75"
+                "Increase line speed",
+                "Improve sanitation and hygiene controls",
+                "Reduce packaging thickness",
+                "Increase storage temperature"
               ],
               "answer": 1,
-              "solution": "Yield % = Output / Input x 100 = 65 / 100 x 100 = 65%. Correct answer: 0.65."
+              "solution": "Solution: Hygienic processing is critical for controlling microbial contamination."
+            },
+            {
+              "q": "A company wants to develop a premium tender meat product. Researchers evaluate different tenderization approaches. The product should retain nutritional quality and consumer appeal. Processing costs may moderately increase. The team compares mechanical and enzymatic methods. Which option offers the greatest flexibility?",
+              "options": [
+                "Enzymatic tenderization",
+                "Increased freezing rate",
+                "Reduced packaging size",
+                "Additional salt only"
+              ],
+              "answer": 0,
+              "solution": "Solution: Enzymes can selectively break down connective tissues and improve tenderness."
+            },
+            {
+              "q": "A meat company adopts advanced processing technologies. After implementation, wastage decreases significantly. Process control records show improved consistency. Management evaluates the benefits achieved. Future investments depend on the findings. What is the most reasonable conclusion?",
+              "options": [
+                "Technology improves process control and efficiency",
+                "Technology reduces meat yield always",
+                "Technology eliminates quality testing needs",
+                "Technology has no effect on productivity"
+              ],
+              "answer": 0,
+              "solution": "Solution: Modern technologies improve monitoring, consistency, and operational efficiency. Topic 4: Baking Technology"
+            },
+            {
+              "q": "A bakery experiences reduced loaf volume in bread production. Ingredient quantities remain unchanged. Laboratory tests reveal lower protein content in flour. The company investigates the relationship between flour quality and baking performance. Consumer complaints continue to increase. Which factor is primarily responsible?",
+              "options": [
+                "Weak gluten network formation",
+                "Excessive packaging strength",
+                "Increased oven insulation",
+                ""
+              ],
+              "answer": 0,
+              "solution": "Solution: Lower protein content reduces gluten development and gas retention."
+            },
+            {
+              "q": "A commercial bakery reports dense cakes with poor softness. Review of production records shows insufficient mixing time. Product developers analyze batter preparation procedures. The goal is to improve texture and volume. Quality consistency is essential. What should be improved first?",
+              "options": [
+                "Aeration during mixing",
+                "Packaging thickness",
+                "Storage humidity",
+                "Cooling rack design"
+              ],
+              "answer": 0,
+              "solution": "Solution: Proper aeration incorporates air, which expands during baking."
+            },
+            {
+              "q": "A biscuit manufacturer experiences loss of crispness during storage. Formulation remains unchanged. Packaging evaluation reveals moisture transmission through the package. The quality team investigates causes of texture deterioration. Shelf life has decreased significantly. What is the most likely reason?",
+              "options": [
+                "Moisture absorption by biscuits",
+                "Excessive sugar crystallization",
+                "Reduced protein content",
+                "Excessive cooling rate"
+              ],
+              "answer": 0,
+              "solution": "Solution: Moisture uptake softens biscuits and reduces crispness."
+            },
+            {
+              "q": "A bread manufacturer modifies fermentation conditions. Products show improved flavor and texture after optimization. Consumer acceptance scores increase substantially. Management reviews the role of fermentation. The objective is long-term process standardization. What conclusion is best supported?",
+              "options": [
+                "Fermentation contributes to dough development and flavor",
+                "Fermentation affects color only",
+                "Fermentation decreases bread quality always",
+                "Fermentation is unnecessary in bread making"
+              ],
+              "answer": 0,
+              "solution": "Solution: Fermentation generates gases, flavor compounds, and improves dough properties."
+            },
+            {
+              "q": "A bakery plans to develop a high-fiber biscuit targeted at health-conscious consumers. The product should maintain acceptable texture and shelf life. Researchers evaluate ingredient and process modifications. Consumer acceptance is a key success criterion. Nutritional improvement must be balanced with quality. Which strategy is most appropriate?",
+              "options": [
+                "Incorporate fiber while optimizing formulation and moisture control",
+                "Eliminate shortening completely without reformulation",
+                "Increase moisture content significantly",
+                "Reduce baking time drastically"
+              ],
+              "answer": 0,
+              "solution": "Solution: Balanced formulation adjustments are necessary to maintain texture, stability, and nutritional benefits in high-fiber biscuits."
             }
           ]
         }
