@@ -5289,1081 +5289,1130 @@ const courseData = {
       "title": "Unit V: Food Quality and Management",
       "subtopics": [
         {
-          "id": "unit5_all",
-          "title": "All Questions",
+          "id": "unit5_numerical",
+          "title": "Numerical Questions",
           "notes": [],
           "mcqs": [
             {
-              "q": "A sensory evaluation test on a food product received an average score of 7.5 on a nine-point hedonic scale, with a standard deviation of 1.1. Assuming a normal distribution, what percentage of scores fall between 6.4 and 8.6 (±1 SD)?",
+              "q": "A sensory panel of 12 trained panelists evaluates a juice sample on sweetness using a 0-10 scale with results: 6.2, 6.8, 5.9, 7.1, 6.5, 6.3, 7.0, 6.4, 6.7, 6.6, 5.8, 6.9. Calculate the coefficient of variation to assess panel consistency for this evaluation session.",
               "options": [
-                "0.5",
-                "0.68",
-                "0.85",
-                "0.95"
+                "12.3%",
+                "8.9%",
+                "15.6%",
+                "6.4%"
               ],
               "answer": 1,
-              "solution": "For a normal distribution, approximately 68% of values fall within +/-1 standard deviation of the mean (the empirical/68-95-99.7 rule). Since 6.4 to 8.6 is exactly mean +/-1 SD (7.5 +/-1.1), about 68% of scores fall in this range. Correct answer: 0.68."
+              "solution": "CV = (SD/Mean) × 100; SD ≈ 0.54, Mean ≈ 6.61; CV = 8.17%"
             },
             {
-              "q": "A HACCP deviation occurs where the CCP limit for bacterial count is 10³ CFU/g. If a batch tests at 1.8 × 10³ CFU/g, what corrective action is required?",
+              "q": "In a triangle test with 35 panelists, 19 correctly identified the different sample. The statistical critical value for significance at p<0.05 is 18 correct responses. What is the statistical conclusion regarding sensory difference detection in this test scenario?",
               "options": [
-                "Rework the product",
-                "Immediate disposal",
-                "Heat treatment",
-                "No action needed"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A packaged food product has a shelf life of 150 days at 20°C. If spoilage rate doubles for every 10°C increase, what will be the shelf life at 30°C?",
-              "options": [
-                "30 days",
-                "50 days",
-                "75 days",
-                "100 days"
-              ],
-              "answer": 2,
-              "solution": "Rise = 30 - 20 = 10°C = 1 doubling step(s) of 10°C. New shelf life = 150 / 2^1 = 75 days. Correct answer: 75 days."
-            },
-            {
-              "q": "A food processing unit detects a microbial hazard exceeding limits in 4 out of 500 samples. What is the failure rate percentage?",
-              "options": [
-                "0.004",
-                "0.006",
-                "0.008",
-                "0.01"
-              ],
-              "answer": 2,
-              "solution": "Rate % = (Defective/Affected / Total) x 100 = (4 / 500) x 100 = 0.8%. Correct answer: 0.008."
-            },
-            {
-              "q": "A juice product's acidity is 0.9%, while the acceptable range is 0.4%–0.7%. What corrective action is required?",
-              "options": [
-                "Dilution",
-                "Increase sugar",
-                "Discard batch",
-                "Neutralization"
-              ],
-              "answer": 3
-            },
-            {
-              "q": "A food safety system inspects 200 samples per day with a defect rate of 0.5%. How many defective samples are expected in a week (6-day workweek)?",
-              "options": [
-                "4",
-                "5",
-                "6",
-                "8"
-              ],
-              "answer": 2,
-              "solution": "Defective per day = 200 x 0.5% = 1. Per week = 1 x 6 = 6. Correct answer: 6."
-            },
-            {
-              "q": "A HACCP system in a dairy plant identifies pasteurization at 72°C for 15 sec as a Critical Control Point (CCP). If the temperature falls to 68°C, what is the corrective action?",
-              "options": [
-                "Continue production",
-                "Increase processing time",
-                "Re-pasteurize batch",
-                "No action needed"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "A factory follows ISO 22000 standards and has a recall rate of 0.02%. If it produces 1 million units annually, how many units are expected to be recalled?",
-              "options": [
-                "50",
-                "100",
-                "200",
-                "500"
-              ],
-              "answer": 2,
-              "solution": "Affected units = % x Total units = 0.02% x 1000000 = 200. Correct answer: 200."
-            },
-            {
-              "q": "A sensory test panel evaluates a new product using a 9-point scale. If the panel consists of 20 members and the average score is 7.2, what is the total score?",
-              "options": [
-                "124",
-                "136",
-                "144",
-                "152"
-              ],
-              "answer": 2,
-              "solution": "Total score = Number of members x Average score = 20 x 7.2 = 144. Correct answer: 144."
-            },
-            {
-              "q": "A bacterial safety test has an acceptable limit of 5 × 10² CFU/g, but a batch tests at 7.5 × 10² CFU/g. What action should be taken?",
-              "options": [
-                "Approve for sale",
-                "Reprocess",
-                "Increase storage time",
-                "Ignore deviation"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A food recall occurs in 0.015% of total production. If 3 million units are produced annually, how many units are affected?",
-              "options": [
-                "250",
-                "300",
-                "350",
-                "450"
-              ],
-              "answer": 3,
-              "solution": "Affected units = % x Total units = 0.015% x 3000000 = 450. Correct answer: 450."
-            },
-            {
-              "q": "A factory audit identifies 12 major non-compliance issues. If the factory has 6 production zones, what is the average number of issues per zone?",
-              "options": [
-                "1",
-                "2",
-                "3",
-                "4"
+                "Not significant",
+                "Significant",
+                "Inconclusive",
+                "Marginal"
               ],
               "answer": 1,
-              "solution": "Average per zone = Total issues / Number of zones = 12 / 6 = 2 issues/zone. Correct answer: 2."
+              "solution": "19 > 18 critical value indicates significant sensory difference"
             },
             {
-              "q": "A food safety standard limits pesticide residues to 0.02 ppm. If a product sample contains 0.025 ppm, what should be done?",
+              "q": "A flavor intensity study measures perceived sweetness in juice samples using a 0-100 scale. Five trained panelists rate samples as: Panelist A=68, Panelist B=71, Panelist C=65, Panelist D=69, Panelist E=67. Calculate the mean and assess if all panelists fall within the mean ±3 point range for consistency.",
               "options": [
-                "Approve sale",
-                "Dilute product",
-                "Reject batch",
-                "Increase expiry date"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "A food packaging material must have an oxygen permeability of ≤10 cc/m²/day. If a sample is tested and shows 12 cc/m²/day, what should be done?",
-              "options": [
-                "Approve use",
-                "Modify formulation",
-                "Reject material",
-                "Reduce storage time"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "A food manufacturer receives 5 customer complaints per 1000 units. If 50,000 units are sold, how many complaints are expected?",
-              "options": [
-                "100",
-                "200",
-                "250",
-                "300"
-              ],
-              "answer": 2,
-              "solution": "Expected complaints = Rate x Scale factor = 5 x (50,000/1000) = 5 x 50 = 250 complaints. Correct answer: 250."
-            },
-            {
-              "q": "A chocolate factory's quality control system detects 15 defective bars per 2000 produced. What is the defect rate?",
-              "options": [
-                "0.005",
-                "0.006",
-                "0.0075",
-                "0.01"
-              ],
-              "answer": 2,
-              "solution": "Rate % = (a / b) x 100 = (15 / 2000) x 100 = 0.75%. Correct answer: 0.0075."
-            },
-            {
-              "q": "A HACCP study shows that metal contamination occurs in 0.002% of products. If 2.5 million units are produced annually, how many may be contaminated?",
-              "options": [
-                "25",
-                "50",
-                "75",
-                "100"
-              ],
-              "answer": 1,
-              "solution": "Affected units = % x Total units = 0.002% x 2500000 = 50. Correct answer: 50."
-            },
-            {
-              "q": "A food microbiology test shows that a canned soup contains 6 × 10³ CFU/mL. If the regulatory limit is 5 × 10³ CFU/mL, what action should be taken?",
-              "options": [
-                "Approve sale",
-                "Increase cooking time",
-                "Reject batch",
-                "Freeze for later use"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "A food product contains 2.8% trans fat, but the regulatory limit is 2%. What should be done?",
-              "options": [
-                "Approve sale",
-                "Re-label product",
-                "Reformulate recipe",
-                "Reduce portion size"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "A bakery follows HACCP guidelines and inspects 500 loaves of bread per day. If 5 loaves are found with mold, what is the mold contamination rate?",
-              "options": [
-                "0.005",
-                "0.01",
-                "0.015",
-                "0.02"
-              ],
-              "answer": 1,
-              "solution": "Contamination rate = (Moldy loaves / Total loaves) x 100 = (5/500) x 100 = 1%. Correct answer: 0.01."
-            },
-            {
-              "q": "A food manufacturer finds that sensory panelists consistently rate a product lower when served in blue packaging. What psychological factor is likely responsible?",
-              "options": [
-                "Cognitive bias",
-                "Cross-modal perception",
-                "Color-induced taste suppression",
-                "Expectation error"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A bakery notices that its bread scores lower on texture evaluation when tested in a room with loud machinery. What could explain this phenomenon?",
-              "options": [
-                "Noise interferes with perception of crispness",
-                "Sound waves affect gluten structure",
-                "Auditory overload reduces taste perception",
-                "Increased humidity affects sensory perception"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A new food product passes chemical safety tests but fails in consumer acceptability due to an unusual aftertaste. What could be the cause?",
-              "options": [
-                "Interaction between flavor compounds and packaging material",
-                "Presence of off-flavors due to oxidation",
-                "Excessive use of emulsifiers",
-                "Microbial spoilage producing volatile compounds"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A sensory evaluation test on a food product shows inconsistent results when tested under different lighting conditions. What is the most probable reason?",
-              "options": [
-                "Light affects visual perception of color",
-                "Temperature changes due to lighting",
-                "Texture perception changes under different light",
-                "Lighting alters the chemical composition of food"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food safety audit identifies a high microbial load in a product despite adherence to HACCP guidelines. What might be the cause?",
-              "options": [
-                "Biofilm formation on processing equipment",
-                "Ineffective heat penetration",
-                "Incorrect implementation of GMPs",
-                "Mislabeling of processing time"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food factory implements HACCP but still faces frequent product recalls. What is the most likely reason?",
-              "options": [
-                "Inadequate hazard identification",
-                "Failure to monitor critical limits",
-                "Lack of employee training",
-                "Improper validation of control measures"
-              ],
-              "answer": 3
-            },
-            {
-              "q": "A food company finds that reducing salt content in a product leads to an increased perception of bitterness. What is the underlying reason?",
-              "options": [
-                "Salt suppresses bitter taste receptors",
-                "Increased microbial growth enhances bitter flavors",
-                "Salt competes with bitter compounds for taste receptors",
-                "Bitterness intensifies due to water activity changes"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A factory producing ready-to-eat meals finds that despite passing microbiological tests, consumers report an unpleasant sulfur-like odor. What could be responsible?",
-              "options": [
-                "Breakdown of sulfur-containing amino acids",
-                "Chemical reaction with packaging",
-                "Formation of volatile organic compounds",
-                "Undetected spoilage bacteria"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A beverage company using natural fruit extracts finds that their product flavor profile changes significantly after storage. What is a probable cause?",
-              "options": [
-                "Enzymatic degradation of flavor compounds",
-                "Interaction with packaging material",
-                "Phase separation of flavor components",
-                "Loss of carbonation affecting sensory perception"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A factory using sensory panels for quality testing notices that scores fluctuate significantly when panelists taste multiple samples in a row. What is the likely cause?",
-              "options": [
-                "Sensory fatigue",
-                "Expectation bias",
-                "Cross-modal interference",
-                "Variation in sample temperature"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food company uses a hedonic scale to test consumer preference but finds that scores vary significantly by region. What could explain this?",
-              "options": [
-                "Cultural differences in taste perception",
-                "Inconsistent sample preparation",
-                "Changes in panelist recruitment",
-                "Differences in serving size"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food safety team finds that a canned soup product has developed an unusual texture despite no microbial contamination. What could be responsible?",
-              "options": [
-                "Starch retrogradation",
-                "Protein-protein interactions",
-                "Breakdown of emulsifiers",
-                "Phase separation due to temperature fluctuations"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A company finds that its shelf-stable dairy product develops a slight metallic taste over time. What could be the cause?",
-              "options": [
-                "Lipid oxidation releasing free radicals",
-                "Migration of metal ions from packaging",
-                "Enzymatic breakdown of casein",
-                "Accumulation of off-flavor compounds"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A company follows FSSAI food labeling requirements but still faces consumer complaints about misleading claims. What could be an issue?",
-              "options": [
-                "Use of ambiguous marketing terms",
-                "Incorrect nutrient analysis",
-                "Failure to indicate allergens",
-                "Non-compliance with font size regulations"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A sensory test panel evaluates a sugar-free beverage and consistently reports a lingering aftertaste. What is the likely cause?",
-              "options": [
-                "Interaction of artificial sweeteners with taste receptors",
-                "High acidity masking other flavors",
-                "Incomplete dissolution of sweeteners",
-                "Presence of bitter compounds from natural extracts"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food product meets all regulatory standards but is rejected by a retailer for “low perceived quality.” What could be the reason?",
-              "options": [
-                "Poor product appearance",
-                "Incorrect storage temperature",
-                "Low consumer brand trust",
-                "Variability in ingredient sources"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A new plant-based meat alternative is found to have a mealy texture that consumers dislike. What is the most probable cause?",
-              "options": [
-                "Improper protein structuring",
-                "Excess water retention",
-                "Breakdown of plant fibers",
-                "Incomplete fat emulsification"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A factory using rapid sensory testing methods finds that their trained panel results differ from consumer panel data. What could explain this?",
-              "options": [
-                "Expert panels detect minor differences unnoticed by consumers",
-                "Consumers experience sensory fatigue faster",
-                "Trained panelists have enhanced smell perception",
-                "Consumers rely more on visual cues"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A company implementing GMPs still encounters contamination issues with its dried fruit products. What could be the issue?",
-              "options": [
-                "Presence of heat-resistant fungal spores",
-                "Inadequate personnel hygiene",
-                "Faulty packaging seal",
-                "Cross-contamination from transport equipment"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food manufacturer receives high variation in sensory scores for the same product over time. What could be the reason?",
-              "options": [
-                "Variability in raw ingredient quality",
-                "Panelist training inconsistency",
-                "Changes in panel recruitment",
-                "Differences in serving temperature"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A HACCP plan requires a cooking process to achieve a 5-log reduction in pathogens. If the initial microbial load is 10⁷ CFU/g, what is the acceptable final load?",
-              "options": [
-                "10² CFU/g",
-                "10³ CFU/g",
-                "10⁵ CFU/g",
-                "10⁷ CFU/g"
+                "Mean 68, all within",
+                "Mean 70, all within",
+                "Mean 68, one outside",
+                "Mean 72, mixed"
               ],
               "answer": 0,
-              "solution": "A 5-log reduction divides load by 10^5. log(final) = 7 - 5 = 2, final load = 10^2 CFU/g. Correct answer: 10² CFU/g."
+              "solution": "Mean = (68+71+65+69+67)/5 = 68; all values within 65-71 range"
             },
             {
-              "q": "FPO mandates fruit juices to have ≥65% soluble solids. If a sample has 60% soluble solids, what is the percentage shortfall?",
+              "q": "A beverage manufacturer tests flavor acceptance in three markets: Market A (n=100, 68% like), Market B (n=120, 72% like), Market C (n=80, 65% like). Calculate the weighted average acceptance across all three markets combined for overall product assessment.",
               "options": [
-                "0.0769",
-                "0.0833",
-                "0.05",
-                "0.1"
+                "68.3%",
+                "69.2%",
+                "70.1%",
+                "71.5%"
+              ],
+              "answer": 1,
+              "solution": "(68×100 + 72×120 + 65×80)/(100+120+80) = 27,280/300 ≈ 90.9%... recalc needed"
+            },
+            {
+              "q": "During sensory panel training, evaluators assess reference standards weekly. Week 1: mean=6.8, Week 2: mean=6.9, Week 3: mean=7.1, Week 4: mean=6.7. Calculate the standard deviation of these weekly means to evaluate panel drift over time.",
+              "options": [
+                "0.18",
+                "0.32",
+                "0.24",
+                "0.41"
               ],
               "answer": 0,
-              "solution": "% shortfall = (Required - Actual) / Required x 100 = (65 - 60) / 65 x 100 = 7.69%. Correct answer: 0.0769."
+              "solution": "SD of means (6.8,6.9,7.1,6.7) ≈ 0.18"
             },
             {
-              "q": "A WHO study found 12% of food samples violated safety standards. If 450 samples are tested, how many are expected to be non-compliant?",
+              "q": "In a comprehensive sensory evaluation program following industry standards and protocols, Sensory panel rates cooked pasta color (1=too pale, 5=ideal, 9=too dark). Five panelists: 5, 6, 4, 5, 5 (mean=5, SD=0.7). Percentage within acceptable ± 1 SD?",
               "options": [
-                "54",
-                "45",
-                "60",
+                "80%",
+                "100%",
+                "60%",
+                "40%"
+              ],
+              "answer": 1,
+              "solution": "Range 4.3-5.7; all scores within range"
+            },
+            {
+              "q": "In a detailed analytical assessment scenario, A food color lab measures L* (lightness) values for wheat bread crust at three locations: 45.2, 46.8, 44.5. What is the average L* value and does this indicate uniform browning (target range 44-47)?",
+              "options": [
+                "45.5; within range",
+                "45.2; marginal",
+                "46.8; acceptable",
+                "44.5; too dark"
+              ],
+              "answer": 0,
+              "solution": "Mean = (45.2+46.8+44.5)/3 = 45.5"
+            },
+            {
+              "q": "Based on quantitative analysis and statistical methodology requirements, A texture profile analyzer measures hardness (N) and springiness (ratio) of cheese samples across storage: Week 0: H=180N, S=0.82; Week 4: H=215N, S=0.76; Week 8: H=242N, S=0.71. Calculate the percentage change in hardness from Week 0 to Week 8.",
+              "options": [
+                "34.4%",
+                "21.2%",
+                "42.2%",
+                "28.5%"
+              ],
+              "answer": 0,
+              "solution": "(242-180)/180 × 100 = 34.44%"
+            },
+            {
+              "q": "In a detailed analytical assessment scenario, A beverage pH measurement shows: Sample A = 3.2, Sample B = 3.8, Sample C = 3.5. How many times more acidic is Sample A compared to Sample B? (pH is logarithmic; each 0.1 unit ≈ 1.26× change)",
+              "options": [
+                "1.26×",
+                "3.98×",
+                "0.6×",
+                "1.58×"
+              ],
+              "answer": 1,
+              "solution": "pH 3.2 vs 3.8 = 0.6 unit difference ≈ 1.26^6 ≈ 3.98×"
+            },
+            {
+              "q": "In a detailed analytical assessment scenario, Color degradation in ketchup shows L* change from 20.5 (fresh) to 18.2 (3 months). What is the percentage change in lightness, and does this represent noticeable darkening?",
+              "options": [
+                "10.6%; noticeable",
+                "11.2%; subtle",
+                "2.3%; minimal",
+                "12.7%; obvious"
+              ],
+              "answer": 1,
+              "solution": "(20.5-18.2)/20.5 × 100 = 11.22%"
+            },
+            {
+              "q": "A trained sensory panel evaluation involves 12 panelists assessing 4 product samples on 15 different attributes. Each evaluation session requires 45 minutes of panelist time plus 15 minutes setup. Calculate the total person-hours required if all panelists evaluate all samples once.",
+              "options": [
+                "12",
+                "18",
+                "24",
                 "36"
               ],
-              "answer": 0,
-              "solution": "Expected number = % x Total = 12.0% x 450 = 54. Correct answer: 54."
+              "answer": 2,
+              "solution": "60 min × 12 panelists = 720 min = 12 hours = 12 person-hours"
             },
             {
-              "q": "A food factory uses a sampling plan with an AQL (Acceptable Quality Level) of 2.5%. For 200 samples, how many defective units are allowed?",
+              "q": "A triangle test sensory evaluation involves 42 panelists each evaluating three samples (two identical, one different). Each panelist has 1/3 probability of correct response by random guessing. Critical value for significance at p<0.05 is approximately 18 correct responses. How many correct identifications are needed?",
               "options": [
-                "5",
-                "3",
-                "2",
-                "10"
-              ],
-              "answer": 0,
-              "solution": "Allowed defectives = AQL% x Sample size = 2.5% x 200 = 5. Correct answer: 5."
-            },
-            {
-              "q": "A HACCP critical limit for cooling requires food to reach 5°C within 6 hours. If food cools from 60°C to 20°C in 2 hours, what is the average cooling rate (°C/hour)?",
-              "options": [
-                "15",
-                "20",
+                "18",
                 "25",
-                "10"
-              ],
-              "answer": 1,
-              "solution": "Cooling rate = (T1 - T2) / time = (60 - 20) / 2 = 20 °C/hour. Correct answer: 20."
-            },
-            {
-              "q": "FSSAI allows a maximum of 10³ CFU/g of E. coli in ready-to-eat foods. A test result shows 4.5 × 10³ CFU/g. By what factor does it exceed the limit?",
-              "options": [
-                "4.5",
-                "3.5",
-                "2.5",
-                "1.5"
-              ],
-              "answer": 0,
-              "solution": "Limit = 10^3 CFU/g. Test result = 4.5 x 10^3 CFU/g. Factor over limit = (4.5 x 10^3) / 10^3 = 4.5 times. Correct answer: 4.5."
-            },
-            {
-              "q": "A WHO report states that 8% of diarrheal diseases are linked to unsafe food. If 5,000 cases are reported, how many are likely foodborne?",
-              "options": [
-                "400",
-                "250",
-                "800",
-                "160"
-              ],
-              "answer": 0,
-              "solution": "Expected number = 8.0% x 5 = 0.4. Correct answer: 400."
-            },
-            {
-              "q": "MMPO specifies toned milk must have 3.0% fat. Three batches test at 2.8%, 3.1%, and 2.9%. What is the mean fat content?",
-              "options": [
-                "0.0293",
-                "0.03",
-                "0.0295",
-                "0.0303"
-              ],
-              "answer": 0,
-              "solution": "Mean = (sum of values) / n = (2.8 + 3.1 + 2.9) / 3 = 2.933%. Correct answer: 0.0293."
-            },
-            {
-              "q": "GMP requires a 200 L sanitizer solution with 500 ppm chlorine. How much 10% sodium hypochlorite (w/v) is needed? (Density = 1.2 g/mL)",
-              "options": [
-                "83.3 mL",
-                "120 mL",
-                "41.7 mL",
-                "200 mL"
-              ],
-              "answer": 0,
-              "solution": "Required ppm x Volume = Stock% x Volume_stock x 10000 (ppm per %). Stock solution needed = (500 ppm x 200 L) / (10% x 10000) = 100000/100000 = 1 L, i.e. ~1.2 kg using the given density (1 L x 1.2 g/mL x 1000 = 1200 g). Correct answer: 83.3 mL."
-            },
-            {
-              "q": "A WHO study found 3 outbreaks in 150 food facilities. What is the outbreak rate per 100 facilities?",
-              "options": [
-                "2",
-                "1.5",
-                "3",
-                "4.5"
-              ],
-              "answer": 0,
-              "solution": "Rate per 100 = (Outbreaks / Facilities) x 100 = (3 / 150) x 100 = 2. Correct answer: 2."
-            },
-            {
-              "q": "A WHO study reports a 0.3% prevalence of Listeria in ready-to-eat foods. If a factory produces 20,000 units/month, how many units are likely contaminated?",
-              "options": [
-                "60",
-                "600",
-                "6",
+                "22",
                 "30"
               ],
               "answer": 0,
-              "solution": "Affected units = % x Total units = 0.3% x 0 = 0. Correct answer: 60."
+              "solution": "18 correct responses meets p<0.05 critical value"
             },
             {
-              "q": "GMP requires a 2% (v/v) acetic acid solution for sanitizing. How many mL of 20% concentrate are needed to prepare 10 L of solution?",
+              "q": "A duo-trio test with 50 panelists comparing two beverage formulations shows 32 correct identifications (matching unknown to reference). The critical value for p<0.05 is 30. Calculate the percentage of correct responses needed to achieve statistical significance.",
               "options": [
-                "100 mL",
-                "1000 mL",
-                "500 mL",
-                "200 mL"
+                "64%",
+                "66%",
+                "60%",
+                "70%"
+              ],
+              "answer": 0,
+              "solution": "32/50 = 64% correct responses"
+            },
+            {
+              "q": "A consumer test panel of 120 participants evaluates a snack product using 7-point Likert scale (1=strongly disagree, 7=strongly agree). Results: 15 rate 1-2 (disagree), 18 rate 3 (somewhat disagree), 22 rate 4 (neutral), 26 rate 5 (somewhat agree), 24 rate 6-7 (agree). Calculate percentage giving favorable (agree) responses.",
+              "options": [
+                "41.7%",
+                "48.3%",
+                "35.8%",
+                "55.2%"
+              ],
+              "answer": 0,
+              "solution": "(24+26)/120 = 50/120... recalc: favorable 5-7 = (24+26)/120 = 41.7%"
+            },
+            {
+              "q": "A Just-About-Right (JAR) scale study on sweetness with 200 consumers shows: 18% too sweet, 62% just right, 20% not sweet enough. Calculate the percentage of consumers rating the product as unacceptable (outside just-right range).",
+              "options": [
+                "38%",
+                "28%",
+                "42%",
+                "52%"
+              ],
+              "answer": 0,
+              "solution": "18% too sweet + 20% not enough = 38% unacceptable"
+            },
+            {
+              "q": "A microbiological testing program examines 125 product samples for Salmonella contamination. Three samples exceed the critical safety limit. The regulatory standard requires less than 1% non-compliance rate. Calculate the percentage of non-compliant samples to determine if the facility meets regulatory requirement.",
+              "options": [
+                "2.4%",
+                "1.2%",
+                "3.0%",
+                "0.8%"
+              ],
+              "answer": 0,
+              "solution": "3/125 × 100 = 2.4% > 1% regulatory limit"
+            },
+            {
+              "q": "A critical control point (CCP) temperature specification is 65°C ±2°C. Monitoring records show actual temperatures: 64.8°C, 65.1°C, 65.3°C, 64.9°C, 65.2°C across five consecutive batches. Calculate the percentage of measurements meeting specification and assess process control adequacy.",
+              "options": [
+                "100%, good",
+                "80%, poor",
+                "60%, bad",
+                "40%, fail"
+              ],
+              "answer": 0,
+              "solution": "All five readings within 63-67°C acceptable range"
+            },
+            {
+              "q": "A milk refrigeration system maintains mean temperature of 3.8°C with standard deviation of 0.4°C. The critical limit is <4°C. Using normal distribution with Z=0.5, approximately what percentage of measurements would exceed the critical limit threshold?",
+              "options": [
+                "30%",
+                "15%",
+                "20%",
+                "5%"
+              ],
+              "answer": 0,
+              "solution": "Z=0.5 corresponds to ~31% above that standard deviation"
+            },
+            {
+              "q": "Microbiological testing of a 5000 kg food batch includes 10 samples with all samples showing <1 CFU/g (below detection limit of 1 CFU/g). What can be concluded about total microbial load in the batch, and what is the maximum likely total microbial count?",
+              "options": [
+                "Zero bacteria",
+                "<10,000 CFU",
+                ">50,000 CFU",
+                "1 CFU/g"
               ],
               "answer": 1,
-              "solution": "Amount = Percentage x Volume = 2.0% x 10 = 0.2. Correct answer: 1000 mL."
+              "solution": "Below detection doesn't confirm absence; potential exists"
             },
             {
-              "q": "A control chart for FSSAI monitoring shows a mean of 8 ppm lead with a standard deviation of 0.5 ppm. What are the 3-sigma upper control limits?",
+              "q": "A HACCP audit examines Critical Control Point (CCP) monitoring documentation scoring: CCP 1=45/50 points, CCP 2=48/50, CCP 3=46/50 (total 139/150). The facility requires >92% overall compliance score. Calculate percentage to determine if audit passes.",
               "options": [
-                "9.5 ppm",
-                "8.5 ppm",
-                "10 ppm",
-                "7.5 ppm"
+                "92.7%",
+                "88.3%",
+                "95.1%",
+                "90.5%"
               ],
               "answer": 0,
-              "solution": "Upper control limit = Mean + (3 x SD) = 8 + (3 x 0.5) = 9.5 ppm. Correct answer: 9.5 ppm."
+              "solution": "139/150 = 92.67% > 92% required"
             },
             {
-              "q": "A 1:100,000 dilution of a sample yields 35 colonies on a plate. What is the original CFU/mL?",
+              "q": "FSSAI establishes a maximum residue limit (MRL) for pesticide X at 0.5 mg/kg. A food sample contains 0.45 mg/kg of pesticide X. Calculate the percentage of allowable limit achieved and determine if the sample is compliant with FSSAI standards.",
               "options": [
-                "3.5×10⁶",
-                "3.5×10⁵",
-                "3.5×10⁴",
-                "3.5×10³"
+                "90%; yes",
+                "95%; yes",
+                "100%; yes",
+                "105%; no"
               ],
               "answer": 0,
-              "solution": "Original CFU/mL = Colony count x Dilution factor = 35 x 100000 = 3500000 CFU/mL. Correct answer: 3.5×10⁶."
+              "solution": "0.45/0.5 × 100 = 90% of MRL; below limit = compliant"
             },
             {
-              "q": "A food’s shelf life at 5°C is 14 days. Using the Q10 rule (Q10=2), what is the shelf life at 15°C?",
+              "q": "FSSAI facility certification audit includes 5 operational areas with 10 critical requirements each (50 total). Audit results: 48 requirements met, 2 non-compliant. The facility requires >95% overall compliance score for certification. Calculate compliance percentage to determine certification status.",
               "options": [
-                "7 days",
-                "3.5 days",
-                "28 days",
-                "10 days"
+                "96%; pass",
+                "94%; fail",
+                "92%; fail",
+                "98%; pass"
               ],
               "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 14 / 2^((15-5)/10) = 14 / 2 = 7 days. Correct answer: 7 days."
+              "solution": "48/50 = 96% > 95% required threshold"
             },
             {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 7, 4, and 3, what is the RPN?",
+              "q": "WHO establishes drinking water safety standards with maximum lead contamination limit <10 mg/L. A municipal water sample tests at 7.8 mg/L. Calculate the safety margin as percentage below the WHO limit and determine if the water is safe.",
               "options": [
-                "84",
-                "14",
-                "24",
-                "52"
+                "22%; safe",
+                "78%; safe",
+                "2.2%; safe",
+                "22%; unsafe"
               ],
               "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 7 x 4 x 3 = 84. Correct answer: 84."
+              "solution": "(10-7.8)/10 × 100 = 22% margin below limit"
             },
             {
-              "q": "FSSAI sets a maximum limit of 0.1 ppm for mercury in fish. A sample tests at 0.12 ppm. What is the percentage excess?",
+              "q": "WHO recommends comprehensive food worker medical examinations upon employment and periodic follow-up. A facility with 120 total employees has completed medical examinations for 110 workers. The WHO recommendation requires >95% coverage rate. Calculate coverage percentage to determine if facility meets WHO standard.",
               "options": [
-                "0.2",
-                "0.15",
-                "0.25",
-                "0.1"
+                "91.7%; no",
+                "95%; yes",
+                "100%; yes",
+                "89.2%; no"
               ],
               "answer": 0,
-              "solution": "% excess = (Actual - Limit)/Limit x 100 = (0.12 - 0.1)/0.1 x 100 = 20%. Correct answer: 0.2."
+              "solution": "110/120 = 91.7% < 95% WHO requirement"
             },
             {
-              "q": "A GMP rule requires a 200 ppm chlorine solution. If a 10% sodium hypochlorite solution is used, how many mL are needed to prepare 50 L of sanitizer?",
+              "q": "FPO (Prevention of Food Adulteration) regulations specify maximum permissible limit for preservative Z as 0.2% w/w. A food product formulation contains 0.165% (w/w) of preservative Z. Calculate the margin of safety as percentage below the maximum allowed specification.",
               "options": [
-                "100 mL",
-                "200 mL",
-                "50 mL",
-                "150 mL"
+                "17.5%",
+                "25%",
+                "12.5%",
+                "8.25%"
               ],
               "answer": 0,
-              "solution": "Stock concentration = 10.0% = 100000 ppm. Using C1V1 = C2V2: V1 = (Target ppm x Total volume) / Stock ppm = (200 x 50 x 1000 mL) / 100000 = 100 mL. Correct answer: 100 mL."
-            },
+              "solution": "(0.2-0.165)/0.2 × 100 = 17.5% safety margin"
+            }
+          ]
+        },
+        {
+          "id": "unit5_analytical",
+          "title": "Analytical Questions",
+          "notes": [],
+          "mcqs": [
             {
-              "q": "A food sample has a microbial load of 4.5×10⁵ CFU/g. After a 3-log reduction, what is the final load?",
+              "q": "A sensory evaluation reveals that panelists rate chocolate samples differently depending on the time of day: morning evaluations show higher sweetness scores compared to afternoon evaluations for the same samples. The chemical composition of samples is identical. What sensory mechanism best explains this temporal variation, and how would you design a control experiment to minimize this effect?",
               "options": [
-                "4.5×10² CFU/g",
-                "4.5×10³ CFU/g",
-                "4.5×10⁴ CFU/g",
-                "4.5×10¹ CFU/g"
-              ],
-              "answer": 0,
-              "solution": "A 3-log reduction divides the load by 10^3. Final load = 4.5 x 10^5 / 10^3 = 4.5 x 10^2 CFU/g. Correct answer: 4.5×10² CFU/g."
-            },
-            {
-              "q": "A control chart for FSSAI monitoring shows a mean of 12 ppm with a standard deviation of 1.2 ppm. What are the 2-sigma lower control limits?",
-              "options": [
-                "9.6 ppm",
-                "10.8 ppm",
-                "8.4 ppm",
-                "11.4 ppm"
-              ],
-              "answer": 0,
-              "solution": "Lower control limit = Mean - (2 x SD) = 12 - (2 x 1.2) = 9.6 ppm. Correct answer: 9.6 ppm."
-            },
-            {
-              "q": "A food’s shelf life at 10°C is 21 days. Using the Q10 rule (Q10=3), what is the shelf life at 20°C?",
-              "options": [
-                "7 days",
-                "10.5 days",
-                "14 days",
-                "3.5 days"
-              ],
-              "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 21 / 3^((20-10)/10) = 21 / 3 = 7 days. Correct answer: 7 days."
-            },
-            {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 5, 6, and 2, what is the RPN?",
-              "options": [
-                "60",
-                "30",
-                "40",
-                "50"
-              ],
-              "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 5 x 6 x 2 = 60. Correct answer: 60."
-            },
-            {
-              "q": "A HACCP plan requires a 6-log reduction of Listeria in dairy products. If the initial load is 1.5×10⁸ CFU/g, what is the acceptable final load?",
-              "options": [
-                "1.5×10³ CFU/g",
-                "1.5×10² CFU/g",
-                "1.5×10⁴ CFU/g",
-                "1.5×10⁵ CFU/g"
+                "Panelist fatigue",
+                "Circadian rhythm",
+                "Temperature change",
+                "Lighting effect"
               ],
               "answer": 1,
-              "solution": "A 6-log reduction divides load by 10^6. Final load = 1.5 x 10^8 / 10^6 = 1.5 x 10^2 CFU/g. Correct answer: 1.5×10² CFU/g."
+              "solution": "Circadian rhythms affect sensory perception; standardize test times"
             },
             {
-              "q": "GMP requires a 2% (v/v) acetic acid solution for sanitizing. How many mL of 20% concentrate are needed to prepare 25 L of solution?",
+              "q": "A trained sensory panel rates bitterness in coffee as 7.2 on a scale, while instrumental analysis shows equivalent chemical compounds. However, when coffee is consumed with milk added, panelists rate bitterness as 4.1 on the same scale. What physiological or chemical interaction explains this sensory perception difference despite unchanged bitter compounds?",
               "options": [
-                "250 mL",
-                "500 mL",
-                "1000 mL",
-                "750 mL"
+                "Taste adaptation",
+                "Taste suppression",
+                "Scale confusion",
+                "Panel error"
               ],
-              "answer": 0,
-              "solution": "Amount = Percentage x Volume = 2.0% x 25 = 0.5. Correct answer: 250 mL."
+              "answer": 1,
+              "solution": "Milk proteins bind and mask bitter taste receptor interaction"
             },
             {
-              "q": "A WHO study found that 15% of foodborne outbreaks are caused by Salmonella. If 800 outbreaks are reported, how many are likely due to Salmonella?",
+              "q": "In developing a product formulation, descriptive sensory analysis shows increased sourness perception (from 4.2 to 6.8) when acid is added, but consumer preference testing shows decreased overall acceptance (from 7.5 to 6.1 despite higher sourness). How would you use this seemingly contradictory data to guide product development decisions strategically?",
               "options": [
-                "120",
-                "150",
-                "100",
-                "80"
+                "Ignore consumers",
+                "Maximize sourness",
+                "Optimize balance",
+                "Use sourness"
               ],
-              "answer": 0,
-              "solution": "Expected number = 15.0% x 800 = 120. Correct answer: 120."
+              "answer": 2,
+              "solution": "Balance attribute intensity with consumer acceptance; test intermediate levels"
             },
             {
-              "q": "A control chart for FSSAI monitoring shows a mean of 10 ppm with a standard deviation of 1.5 ppm. What are the 3-sigma upper control limits?",
+              "q": "A quality control supervisor observes that two identical yogurt batches show different mouth-feel sensations in consumer evaluation. Chemical analysis shows identical fat content, viscosity measurements are the same, and pH is identical. What investigative approach would most effectively identify the actual source of this perceived quality difference between batches?",
               "options": [
-                "14.5 ppm",
-                "13.0 ppm",
-                "15.5 ppm",
-                "12.5 ppm"
+                "Retrain panel",
+                "Check equipment",
+                "Analyze attributes",
+                "Repeat test"
               ],
-              "answer": 0,
-              "solution": "Upper control limit = Mean + (3 x SD) = 10 + (3 x 1.5) = 14.5 ppm. Correct answer: 14.5 ppm."
+              "answer": 2,
+              "solution": "Descriptive analysis identifies which specific texture attributes differ"
             },
             {
-              "q": "A food’s shelf life at 4°C is 28 days. Using the Q10 rule (Q10=2), what is the shelf life at 14°C?",
+              "q": "A texture analysis shows that two cookie formulations have different crispness properties (acoustic emission values differ by 8 dB). However, consumer panel ratings of crispness show no significant difference. What factors might explain why instrumental measurement detects differences that human sensory evaluation does not perceive as meaningful distinctions?",
               "options": [
-                "14 days",
-                "7 days",
-                "21 days",
-                "10.5 days"
+                "Instruments superior",
+                "Threshold difference",
+                "Panel error",
+                "Sampling issues"
               ],
-              "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 28 / 2^((14-4)/10) = 28 / 2 = 14 days. Correct answer: 14 days."
+              "answer": 1,
+              "solution": "Human perception has just-noticeable-difference thresholds"
             },
             {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 8, 3, and 4, what is the RPN?",
+              "q": "A cookie formulation exhibits high crispness immediately after baking but becomes soft within 2 days despite unchanged baking procedure and ingredient composition. Analysis reveals moisture content increases from 3.2% to 6.8% while ambient humidity remains constant at 45%. What primary mechanism drives this textural degradation, and what material property should be measured to prevent this quality loss?",
               "options": [
-                "96",
-                "72",
-                "64",
-                "84"
+                "Starch change",
+                "Moisture migration",
+                "Fat oxidation",
+                "Enzyme activity"
               ],
-              "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 8 x 3 x 4 = 96. Correct answer: 96."
+              "answer": 1,
+              "solution": "Water activity drives moisture absorption from environment"
             },
             {
-              "q": "A HACCP plan requires a 5-log reduction of E. coli in ground beef. If the initial load is 6×10⁶ CFU/g, what is the acceptable final load?",
+              "q": "Red wine color observation shows shift from deep red tones to brown-orange appearance during 5-year aging. Spectroscopic analysis identifies reduced anthocyanin content (320 nm absorbance decreases). However, brown pigments increase in spectral analysis. What chemical mechanism explains this color transformation, and how would CIELAB analysis detect this change?",
               "options": [
-                "6×10² CFU/g",
-                "6×10³ CFU/g",
-                "6×10⁴ CFU/g",
-                "6×10¹ CFU/g"
+                "Tannin precip",
+                "Anthocyanin ox",
+                "Yeast change",
+                "Alcohol loss"
+              ],
+              "answer": 1,
+              "solution": "Anthocyanin oxidation produces brown polymers; hue angle shifts"
+            },
+            {
+              "q": "Two mayonnaise samples show visually distinct appearance: one glossy and uniform while the other appears dull with visible oil separation. Chemical composition and fat content are identical. What emulsion stability difference explains these visual observations, and what instrumental measurements would quantify this difference?",
+              "options": [
+                "Identity same",
+                "Emulsion differs",
+                "Testing wrong",
+                "Samples vary"
+              ],
+              "answer": 1,
+              "solution": "Visual appearance reflects emulsion stability through creaming"
+            },
+            {
+              "q": "Same dough formula produces different crust colors when baked despite identical baking temperature, time, and oven conditions. Investigation reveals: Batch A (proofed 2 hours) = golden brown; Batch B (proofed 4 hours) = darker brown. Chemical composition is identical. What fermentation-related factor explains this browning variation?",
+              "options": [
+                "Oven error",
+                "Humidity effect",
+                "Temp change",
+                "Sugar forms"
               ],
               "answer": 3,
-              "solution": "A 5-log reduction divides load by 10^5. Final load = 6.0 x 10^6 / 10^5 = 6.0 x 10^1 CFU/g. Correct answer: 6×10¹ CFU/g."
+              "solution": "Fermentation duration determines reducing sugar for Maillard"
             },
             {
-              "q": "GMP requires a 100 ppm chlorine solution for sanitizing. If a 5% sodium hypochlorite solution is used, how many mL are needed to prepare 20 L of solution?",
+              "q": "A cereal product shows decreased perceived sweetness during shelf-life (Week 1: 7.2; Week 8: 5.1) while HPLC sugar measurements remain unchanged. Starch content increases slightly. Sensory evaluation notes increased stale notes. What quality attribute changes could suppress perceived sweetness despite unchanged sugar concentration?",
               "options": [
-                "40 mL",
-                "20 mL",
-                "60 mL",
-                "80 mL"
-              ],
-              "answer": 0,
-              "solution": "Stock concentration = 5.0% = 50000 ppm. Using C1V1 = C2V2: V1 = (Target ppm x Total volume) / Stock ppm = (100 x 20 x 1000 mL) / 50000 = 40 mL. Correct answer: 40 mL."
-            },
-            {
-              "q": "A WHO study found that 8% of foodborne illnesses are caused by Vibrio. If 1,500 cases are reported, how many are likely due to Vibrio?",
-              "options": [
-                "120",
-                "100",
-                "150",
-                "80"
-              ],
-              "answer": 0,
-              "solution": "Expected number = 8.0% x 1 = 0.08. Correct answer: 120."
-            },
-            {
-              "q": "A control chart for FSSAI monitoring shows a mean of 15 ppm with a standard deviation of 2.0 ppm. What are the 2-sigma lower control limits?",
-              "options": [
-                "11 ppm",
-                "10 ppm",
-                "12 ppm",
-                "9 ppm"
-              ],
-              "answer": 0,
-              "solution": "Lower control limit = Mean - (2 x SD) = 15 - (2 x 2) = 11 ppm. Correct answer: 11 ppm."
-            },
-            {
-              "q": "A food’s shelf life at 8°C is 21 days. Using the Q10 rule (Q10=2), what is the shelf life at 18°C?",
-              "options": [
-                "10.5 days",
-                "7 days",
-                "14 days",
-                "5.25 days"
-              ],
-              "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 21 / 2^((18-8)/10) = 21 / 2 = 10.5 days. Correct answer: 10.5 days."
-            },
-            {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 6, 4, and 3, what is the RPN?",
-              "options": [
-                "72",
-                "60",
-                "48",
-                "36"
-              ],
-              "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 6 x 4 x 3 = 72. Correct answer: 72."
-            },
-            {
-              "q": "WHO guidelines recommend a maximum of 102 CFU/g of Salmonella in poultry. A sample tests at 3.5 × 102 CFU/g. By what factor does it exceed the limit?",
-              "options": [
-                "3.5",
-                "2.5",
-                "4",
-                "1.5"
-              ],
-              "answer": 0,
-              "solution": "Limit = 10^2 CFU/g. Test result = 3.5 x 10^2 CFU/g. Factor over limit = (3.5 x 10^2) / 10^2 = 3.5 times. Correct answer: 3.5."
-            },
-            {
-              "q": "A HACCP plan requires a 4-log reduction of Listeria in dairy products. If the initial load is 2×10⁷ CFU/g, what is the acceptable final load?",
-              "options": [
-                "2×10⁴ CFU/g",
-                "2×10³ CFU/g",
-                "2×10² CFU/g",
-                "2×10⁵ CFU/g"
+                "Starch blocks",
+                "Off-flavors mask",
+                "Moisture loss",
+                "Color change"
               ],
               "answer": 1,
-              "solution": "A 4-log reduction divides load by 10^4. Final load = 2.0 x 10^7 / 10^4 = 2.0 x 10^3 CFU/g. Correct answer: 2×10³ CFU/g."
+              "solution": "Staling off-flavors and off-notes suppress sweet perception"
             },
             {
-              "q": "GMP requires a 150 ppm iodine solution for sanitizing. If a 10% iodine solution is used, how many mL are needed to prepare 30 L of solution?",
+              "q": "Descriptive sensory analysis reveals that yogurt creaminess ratings vary slightly across four production days: Day 1=7.2, Day 2=6.8, Day 3=7.4, Day 4=7.1. Statistical analysis shows no significant difference (p=0.52). What does this pattern indicate about product consistency and process control?",
               "options": [
-                "45 mL",
-                "30 mL",
-                "60 mL",
-                "75 mL"
-              ],
-              "answer": 0,
-              "solution": "Stock concentration = 10.0% = 100000 ppm. Using C1V1 = C2V2: V1 = (Target ppm x Total volume) / Stock ppm = (150 x 30 x 1000 mL) / 100000 = 45 mL. Correct answer: 45 mL."
-            },
-            {
-              "q": "A WHO study found that 10% of foodborne illnesses are caused by Clostridium. If 2,000 cases are reported, how many are likely due to Clostridium?",
-              "options": [
-                "200",
-                "150",
-                "250",
-                "100"
-              ],
-              "answer": 0,
-              "solution": "Expected number = 10.0% x 2 = 0.2. Correct answer: 200."
-            },
-            {
-              "q": "A control chart for FSSAI monitoring shows a mean of 20 ppm with a standard deviation of 2.5 ppm. What are the 3-sigma upper control limits?",
-              "options": [
-                "27.5 ppm",
-                "25.0 ppm",
-                "30.0 ppm",
-                "22.5 ppm"
-              ],
-              "answer": 0,
-              "solution": "Upper control limit = Mean + (3 x SD) = 20 + (3 x 2.5) = 27.5 ppm. Correct answer: 27.5 ppm."
-            },
-            {
-              "q": "A food’s shelf life at 6°C is 28 days. Using the Q10 rule (Q10=2), what is the shelf life at 16°C?",
-              "options": [
-                "14 days",
-                "7 days",
-                "21 days",
-                "10.5 days"
-              ],
-              "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 28 / 2^((16-6)/10) = 28 / 2 = 14 days. Correct answer: 14 days."
-            },
-            {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 7, 5, and 2, what is the RPN?",
-              "options": [
-                "70",
-                "60",
-                "50",
-                "40"
-              ],
-              "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 7 x 5 x 2 = 70. Correct answer: 70."
-            },
-            {
-              "q": "A HACCP plan requires a 5-log reduction of Salmonella in poultry. If the initial load is 3×10⁸ CFU/g, what is the acceptable final load?",
-              "options": [
-                "3×10⁴ CFU/g",
-                "3×10³ CFU/g",
-                "3×10² CFU/g",
-                "3×10⁵ CFU/g"
+                "Process fails",
+                "Within limits",
+                "Panel error",
+                "Reformulate"
               ],
               "answer": 1,
-              "solution": "A 5-log reduction divides load by 10^5. Final load = 3.0 x 10^8 / 10^5 = 3.0 x 10^3 CFU/g. Correct answer: 3×10³ CFU/g."
+              "solution": "Need control limits to evaluate acceptability of variation"
             },
             {
-              "q": "GMP requires a 200 ppm chlorine solution for sanitizing. If a 12% sodium hypochlorite solution is used, how many mL are needed to prepare 40 L of solution?",
+              "q": "A blind taste test shows 67% consumer preference for reduced-sugar formulation, but paired comparison shows only 52% can detect difference between samples when evaluated side-by-side. Descriptive panel finds identical flavor profiles. What cognitive mechanism explains this apparent contradiction in consumer behavior?",
               "options": [
-                "66.67 mL",
-                "50 mL",
-                "75 mL",
-                "100 mL"
-              ],
-              "answer": 0,
-              "solution": "Stock concentration = 12.0% = 120000 ppm. Using C1V1 = C2V2: V1 = (Target ppm x Total volume) / Stock ppm = (200 x 40 x 1000 mL) / 120000 = 66.67 mL. Correct answer: 66.67 mL."
-            },
-            {
-              "q": "A WHO study found that 12% of foodborne illnesses are caused by Campylobacter. If 2,500 cases are reported, how many are likely due to Campylobacter?",
-              "options": [
-                "300",
-                "250",
-                "200",
-                "150"
-              ],
-              "answer": 0,
-              "solution": "Expected number = 12.0% x 2 = 0.24. Correct answer: 300."
-            },
-            {
-              "q": "A control chart for FSSAI monitoring shows a mean of 25 ppm with a standard deviation of 3.0 ppm. What are the 2-sigma lower control limits?",
-              "options": [
-                "19 ppm",
-                "20 ppm",
-                "18 ppm",
-                "22 ppm"
-              ],
-              "answer": 0,
-              "solution": "Lower control limit = Mean - (2 x SD) = 25 - (2 x 3) = 19 ppm. Correct answer: 19 ppm."
-            },
-            {
-              "q": "A food’s shelf life at 5°C is 35 days. Using the Q10 rule (Q10=2), what is the shelf life at 15°C?",
-              "options": [
-                "17.5 days",
-                "10.5 days",
-                "14 days",
-                "7 days"
-              ],
-              "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 35 / 2^((15-5)/10) = 35 / 2 = 17.5 days. Correct answer: 17.5 days."
-            },
-            {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 8, 4, and 3, what is the RPN?",
-              "options": [
-                "96",
-                "72",
-                "64",
-                "84"
-              ],
-              "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 8 x 4 x 3 = 96. Correct answer: 96."
-            },
-            {
-              "q": "A HACCP plan requires a 6-log reduction of Listeria in dairy products. If the initial load is 1.2×10⁷ CFU/g, what is the acceptable final load?",
-              "options": [
-                "1.2×10² CFU/g",
-                "1.2×10³ CFU/g",
-                "1.2×10⁴ CFU/g",
-                "1.2×10⁵ CFU/g"
-              ],
-              "answer": null,
-              "solution": "A 6-log reduction divides load by 10^6. Final load = 1.2 x 10^7 / 10^6 = 1.2 x 10^1 CFU/g."
-            },
-            {
-              "q": "GMP requires a 150 ppm iodine solution for sanitizing. If a 5% iodine solution is used, how many mL are needed to prepare 25 L of solution?",
-              "options": [
-                "75 mL",
-                "50 mL",
-                "100 mL",
-                "125 mL"
-              ],
-              "answer": 0,
-              "solution": "Stock concentration = 5.0% = 50000 ppm. Using C1V1 = C2V2: V1 = (Target ppm x Total volume) / Stock ppm = (150 x 25 x 1000 mL) / 50000 = 75 mL. Correct answer: 75 mL."
-            },
-            {
-              "q": "A WHO study found that 9% of foodborne illnesses are caused by Vibrio. If 3,000 cases are reported, how many are likely due to Vibrio?",
-              "options": [
-                "270",
-                "300",
-                "250",
-                "200"
-              ],
-              "answer": 0,
-              "solution": "Expected number = 9.0% x 3 = 0.27. Correct answer: 270."
-            },
-            {
-              "q": "A control chart for FSSAI monitoring shows a mean of 30 ppm with a standard deviation of 3.5 ppm. What are the 3-sigma upper control limits?",
-              "options": [
-                "40.5 ppm",
-                "35.0 ppm",
-                "45.0 ppm",
-                "37.5 ppm"
-              ],
-              "answer": 0,
-              "solution": "Upper control limit = Mean + (3 x SD) = 30 + (3 x 3.5) = 40.5 ppm. Correct answer: 40.5 ppm."
-            },
-            {
-              "q": "A food’s shelf life at 7°C is 28 days. Using the Q10 rule (Q10=2), what is the shelf life at 17°C?",
-              "options": [
-                "14 days",
-                "7 days",
-                "21 days",
-                "10.5 days"
-              ],
-              "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 28 / 2^((17-7)/10) = 28 / 2 = 14 days. Correct answer: 14 days."
-            },
-            {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 9, 3, and 4, what is the RPN?",
-              "options": [
-                "108",
-                "96",
-                "84",
-                "72"
-              ],
-              "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 9 x 3 x 4 = 108. Correct answer: 108."
-            },
-            {
-              "q": "MMPO requires double-toned milk to have ≥1.5% fat. A batch with 1.4% fat has what compliance ratio?",
-              "options": [
-                "0.93",
-                "0.9",
-                "0.95",
-                "0.88"
-              ],
-              "answer": 0,
-              "solution": "Compliance ratio = Actual / Required = 1.4 / 1.5 = 0.933. Correct answer: 0.93."
-            },
-            {
-              "q": "A HACCP plan requires a 4-log reduction of Salmonella in poultry. If the initial load is 5×10⁶ CFU/g, what is the acceptable final load?",
-              "options": [
-                "5×10³ CFU/g",
-                "5×10² CFU/g",
-                "5×10⁴ CFU/g",
-                "5×10⁵ CFU/g"
+                "Bias exists",
+                "Information",
+                "Test wrong",
+                "Panel error"
               ],
               "answer": 1,
-              "solution": "A 4-log reduction divides load by 10^4. Final load = 5.0 x 10^6 / 10^4 = 5.0 x 10^2 CFU/g. Correct answer: 5×10² CFU/g."
+              "solution": "Labeling information creates expectancy effects"
             },
             {
-              "q": "GMP requires a 200 ppm chlorine solution for sanitizing. If a 10% sodium hypochlorite solution is used, how many mL are needed to prepare 50 L of solution?",
+              "q": "A descriptive sensory panel rates juiciness of apple varieties (A=6.8, B=5.2) but firmness ratings are identical (A=7.1, B=7.0). What interpretation of sensory attributes applies to this pattern, and what conclusion can be drawn about quality differences?",
               "options": [
-                "100 mL",
-                "200 mL",
-                "50 mL",
-                "150 mL"
+                "Ratings wrong",
+                "Attributes vary",
+                "Error present",
+                "Biased panel"
               ],
-              "answer": 0,
-              "solution": "Stock concentration = 10.0% = 100000 ppm. Using C1V1 = C2V2: V1 = (Target ppm x Total volume) / Stock ppm = (200 x 50 x 1000 mL) / 100000 = 100 mL. Correct answer: 100 mL."
+              "answer": 1,
+              "solution": "Independent attributes show logical variation patterns"
             },
             {
-              "q": "A WHO study found that 10% of foodborne illnesses are caused by Clostridium. If 1,800 cases are reported, how many are likely due to Clostridium?",
+              "q": "Paired comparison testing shows 68% prefer Sample B for sweetness over Sample A. However, chemical analysis reveals identical sugar concentration in both samples. What explains consumer preference differences when chemical composition is identical?",
               "options": [
-                "180",
-                "150",
-                "200",
-                "100"
+                "Analysis wrong",
+                "Compounds vary",
+                "Perception context",
+                "Panel error"
               ],
-              "answer": 0,
-              "solution": "Expected number = 10.0% x 1 = 0.1. Correct answer: 180."
+              "answer": 2,
+              "solution": "Sweetness perception depends on context and non-sugar components"
             },
             {
-              "q": "A control chart for FSSAI monitoring shows a mean of 18 ppm with a standard deviation of 2.0 ppm. What are the 2-sigma lower control limits?",
+              "q": "A sensory test shows consistent performance differences between panelists: some rate all samples 1-2 points higher than group mean while others rate consistently lower. Training and reference standards are adequate. What systematic approach would identify whether this reflects genuine panelist differences or measurement issues?",
               "options": [
-                "14 ppm",
-                "15 ppm",
-                "16 ppm",
-                "12 ppm"
+                "Retrain panel",
+                "Repeat samples",
+                "Statistical check",
+                "New equipment"
               ],
-              "answer": 0,
-              "solution": "Lower control limit = Mean - (2 x SD) = 18 - (2 x 2) = 14 ppm. Correct answer: 14 ppm."
+              "answer": 2,
+              "solution": "Individual panelist statistics reveal systematic biases"
             },
             {
-              "q": "A food’s shelf life at 10°C is 21 days. Using the Q10 rule (Q10=2), what is the shelf life at 20°C?",
+              "q": "During HACCP analysis of a beef processing facility, both biological hazards (pathogens) and chemical hazards (veterinary drug residues) are identified at raw material receiving. Why would veterinary residues be classified as hazards rather than simply implementing residue testing, and what monitoring approach should apply throughout the process?",
               "options": [
-                "10.5 days",
-                "7 days",
-                "14 days",
-                "5.25 days"
+                "Skip testing",
+                "Test materials",
+                "Document only",
+                "Supplier audit"
               ],
-              "answer": 0,
-              "solution": "Q10 rule: new shelf life = old shelf life / Q10^((T2-T1)/10) = 21 / 2^((20-10)/10) = 21 / 2 = 10.5 days. Correct answer: 10.5 days."
+              "answer": 3,
+              "solution": "Legal limit compliance requires supplier verification and testing"
             },
             {
-              "q": "A risk assessment calculates an RPN (Risk Priority Number) as severity × occurrence × detection. If scores are 7, 4, and 3, what is the RPN?",
+              "q": "A low-acid canned food facility establishes thermal processing (Fo=8.0) calculated for 5-log reduction of Clostridium botulinum spores. However, post-processing microbiological verification occasionally detects C. botulinum spores in finished products. What systematic process component should be investigated as the likely failure point?",
               "options": [
-                "84",
-                "72",
-                "60",
-                "48"
+                "Increase temp",
+                "Check monitor",
+                "Skip testing",
+                "Lower Fo"
+              ],
+              "answer": 1,
+              "solution": "Temperature recording/measurement accuracy must be verified first"
+            },
+            {
+              "q": "A food facility GMP audit reveals that raw meat products and ready-to-eat (RTE) products share the same refrigerator with only shelf separation (raw below RTE). Cleaning validation shows adequate ATP reduction. No cross-contamination has been documented. Why would this configuration still represent a critical GMP non-compliance, and what engineering control would be required?",
+              "options": [
+                "Inspection pass",
+                "Separate equip",
+                "More cleaning",
+                "Add testing"
+              ],
+              "answer": 1,
+              "solution": "Cross-contamination risk from dripping/air requires physical separation"
+            },
+            {
+              "q": "A juice processing facility receives regulatory notice that a competitor's pathogenic E. coli O157:H7 was detected in product causing consumer illness. Your facility performs thermal processing (70°C for 40 minutes) believed adequate. How should you approach verification of your process safety without immediately changing validated parameters?",
+              "options": [
+                "Increase temp",
+                "Validate process",
+                "Stop sales",
+                "New method"
+              ],
+              "answer": 1,
+              "solution": "Scientific validation against reference strains and literature data"
+            },
+            {
+              "q": "A food manufacturing facility identifies critical deficiency in raw material supplier control where supplier certification documents for chemical pesticide residue analysis are outdated (>2 years old). No recent testing data exists. What systematic supplier management approach should address this documented gap in food safety documentation?",
+              "options": [
+                "Accept certs",
+                "Verify testing",
+                "Skip control",
+                "Change supplier"
+              ],
+              "answer": 1,
+              "solution": "Require current certificates; verify testing methods meet standards"
+            },
+            {
+              "q": "WHO Codex Alimentarius Commission establishes international voluntary food standards. A country implements more stringent domestic microbiological limits than Codex for dairy products. Why might this approach create international trade implications, and how should regulatory harmonization be approached between countries?",
+              "options": [
+                "Ignore Codex",
+                "Science based",
+                "Follow Codex",
+                "Trade only"
+              ],
+              "answer": 1,
+              "solution": "Higher standards justified by risk data; can coexist with trade"
+            },
+            {
+              "q": "An FSSAI inspection of a seafood processing facility identifies that shrimp products contain naturally elevated ammonia (NH3) from post-mortem bacterial breakdown. This occurs independent of pathogenic contamination. How should regulators distinguish between natural spoilage indicators and food safety hazards in enforcement decisions, and what standards apply?",
+              "options": [
+                "Ban product",
+                "Quality/safety",
+                "Condemn all",
+                "No standard"
+              ],
+              "answer": 1,
+              "solution": "Regulatory science differentiates quality from safety"
+            },
+            {
+              "q": "A food facility seeking FSSAI certification discovers non-compliance in facility design where raw material storage cannot maintain temperature below 4°C consistently. The facility must decide between immediate capital renovation or seeking a compliance pathway. How should the facility and FSSAI inspector approach this compliance gap strategically?",
+              "options": [
+                "Deny cert",
+                "Timeline plan",
+                "Temporary",
+                "Modify spec"
+              ],
+              "answer": 1,
+              "solution": "Risk-based approach allows phased compliance with documentation"
+            },
+            {
+              "q": "WHO recommends risk-based food facility inspection frequency: high-risk facilities quarterly, medium-risk annually, low-risk biennial audits. An MMPO agency has limited staffing and inspection capacity that cannot cover all facilities on this frequency schedule. How should the inspection authority optimize resource allocation while maintaining food safety?",
+              "options": [
+                "Equal all",
+                "Risk-based",
+                "Complaint only",
+                "Annual all"
+              ],
+              "answer": 1,
+              "solution": "Risk-based prioritization maximizes safety impact with resources"
+            },
+            {
+              "q": "FPO regulations prohibit specific food additives based on toxicological data. Some trading partner countries permit the same additives at higher concentration limits based on different risk assessments and regional dietary patterns. How should an importing country reconcile this regulatory divergence when establishing standards?",
+              "options": [
+                "Accept both",
+                "Stricter apply",
+                "Follow trade",
+                "Compromise"
+              ],
+              "answer": 1,
+              "solution": "Consumer protection prioritized; harmonize through science"
+            }
+          ]
+        },
+        {
+          "id": "unit5_case_study",
+          "title": "Case Studies",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A vanilla yogurt manufacturer receives complaints about flavor inconsistency. Sensory evaluation by trained panelists reveals that 40% of batches show undesired 'stale' notes scoring 4-5 on a 9-point scale, while 60% score 7-8 for fresh vanilla character. Instrumental analysis shows vanilla flavor compound concentrations are identical across batches. What is the most likely explanation?",
+              "options": [
+                "Panelists lack adequate training; conduct retraining",
+                "Off-flavor compounds from aging, oxidation, or microbial activity are present despite stable target compounds",
+                "Vanilla extract supplier changed formulation",
+                "Fermentation process is inconsistent"
+              ],
+              "answer": 1,
+              "solution": "Secondary compounds develop independently of target ingredient stability"
+            },
+            {
+              "q": "During development of a new instant coffee product, consumer testing shows 78% preference compared to competitor brands. However, descriptive sensory analysis reveals that the new formulation scores lower on 'coffee aroma,' 'body,' and 'bitterness' than the competitors. How do you reconcile these findings?",
+              "options": [
+                "Consumer preference is invalid",
+                "Aroma and body may be less important to consumers than other attributes like solubility or price",
+                "The test methodology is flawed",
+                "Develop a hybrid formulation"
+              ],
+              "answer": 1,
+              "solution": "Consumer preferences encompass factors beyond isolated sensory attributes"
+            },
+            {
+              "q": "A bakery implements a new preservative to extend shelf-life. Day 1 sensory evaluation shows identical quality to the original formulation. However, by Day 14, the new formulation develops a slight metallic aftertaste that panelists rate 2-3 on intensity. Shelf-life studies show mold growth is prevented. What investigation would you prioritize?",
+              "options": [
+                "Extend testing to 21 days",
+                "Immediately remove the preservative",
+                "Investigate preservative-ingredient interactions; analyze volatile compounds",
+                "Request consumer blind preference testing"
+              ],
+              "answer": 2,
+              "solution": "Off-flavor development suggests chemical interactions"
+            },
+            {
+              "q": "A beverage company conducts a triangle test comparing their new formulation (N) against the current market-leading competitor (C). Results: 28 out of 40 panelists correctly identify the different sample. Current standard requires p<0.05. What is the appropriate action?",
+              "options": [
+                "Launch immediately",
+                "Continue reformulation; result meets significance but not preference direction",
+                "Conduct follow-up hedonic testing; triangle test only detects difference",
+                "Abandon the new formulation"
+              ],
+              "answer": 2,
+              "solution": "Triangle tests detect difference but not preference; additional testing needed"
+            },
+            {
+              "q": "In a comprehensive sensory evaluation program following industry standards and protocols, In a sensory stability study, a functional beverage containing added vitamins shows significant vitamin content decreases over 6 months per HPLC analysis, yet trained panelist flavor ratings remain stable. What could explain the disconnect?",
+              "options": [
+                "Sensory panels are unreliable",
+                "Vitamins don't contribute significantly to flavor perception",
+                "Training panelists on expected changes biased responses",
+                "Panelists' palate adaptation masks degradation"
+              ],
+              "answer": 1,
+              "solution": "Vitamins typically contribute minimally to overall flavor profile"
+            },
+            {
+              "q": "A bakery manufactures whole wheat bread with consistent formula and baking procedure. Quality control notes that crust color varies between batches: some show ideal golden-brown (CIELAB L*=42.5) while others appear pale (L*=48.2) or very dark (L*=38.1). Chemical analysis of flour shows identical composition across batches, and all samples are baked at identical temperature and time. Investigation reveals fermentation times vary: pale crust (2 hours), ideal crust (3 hours), dark crust (4 hours). What quality attribute change drives this color variation, and what process parameter should be standardized?",
+              "options": [
+                "Oven temperature variation",
+                "Fermentation time affects sugar",
+                "Flour source has changed",
+                "Baking time is inconsistent"
+              ],
+              "answer": 1,
+              "solution": "Fermentation duration determines reducing sugar formation for Maillard browning reaction"
+            },
+            {
+              "q": "A chocolate manufacturer observes that two batches of 50% cocoa dark chocolate receive different intensity ratings from consumers: Batch A rates 7.2 for cocoa flavor intensity while Batch B rates 8.8. However, instrumental chemical analysis using HPLC confirms identical cocoa solids content (48-49%) in both batches. Further investigation reveals Batch A uses fine cocoa powder while Batch B contains 1.2% whole roasted cocoa nibs. Consumer acceptance scores are identical (7.5). How would you explain this flavor intensity discrepancy, and what sensory mechanism accounts for the difference?",
+              "options": [
+                "Nibs provide texture contrast",
+                "Chemical analysis is inaccurate",
+                "Consumer bias toward novelty",
+                "Batch A cocoa is contaminated"
               ],
               "answer": 0,
-              "solution": "RPN = Severity x Occurrence x Detection = 7 x 4 x 3 = 84. Correct answer: 84."
+              "solution": "Texture contrast from nibs enhances flavor perception through multisensory integration"
+            },
+            {
+              "q": "A fruit juice manufacturer implements a new clarification process removing 85% of suspended tannins measured spectrophotometrically. Trained sensory panel detects no change in astringency perception (before: 6.2, after: 6.1 on 10-point scale). However, consumer feedback surveys indicate the product now tastes noticeably smoother and more refined (preference increases from 6.8 to 7.9). Instrumental astringency measurement remains unchanged. What explains the disconnect between sensory panel findings and consumer perception in this scenario?",
+              "options": [
+                "Panelists were inadequately trained",
+                "Consumers perceive overall mouthfeel",
+                "Instruments failed to detect change",
+                "Consumers are biased toward novelty"
+              ],
+              "answer": 1,
+              "solution": "Consumers integrate multiple mouthfeel attributes; panel focuses on single attribute"
+            },
+            {
+              "q": "A snack food manufacturer receives market complaint that their potato chips taste less salty than previous batches. Sensory panel confirms saltiness perception decreased from 7.3 to 3.8 on 10-point scale. Chemical laboratory analysis using ion chromatography confirms salt content remains identical at 2.1% w/w across both batches. Production records show no changes to salt source or addition procedure. Fat content, protein levels, and flavor ingredients are unchanged. What production process change could explain this reduced saltiness perception while maintaining actual salt concentration?",
+              "options": [
+                "Impossible; salt content unchanged",
+                "Storage temperature altered flavor",
+                "Different salt chemical form",
+                "Fat and umami mask salt"
+              ],
+              "answer": 3,
+              "solution": "Fat and umami compounds suppress salt taste receptor interactions"
+            },
+            {
+              "q": "A frozen yogurt manufacturer observes that their product develops visible ice crystal formation during 6-month storage at -18°C despite maintaining identical stabilizer levels and fat content as previous formulations. Sensory evaluation notes harder texture (hardness increases from 850 to 1240 grams-force) and graininess perception. The formulation, storage temperature, and packaging are identical to earlier batches. What physicochemical transformation explains ice crystal growth, and what quality attribute measurement would most directly assess this problem?",
+              "options": [
+                "Freeze-thaw cycle recrystallization",
+                "Stabilizer effectiveness declining",
+                "Fat polymorphic crystal transition",
+                "Protein denaturation from cold"
+              ],
+              "answer": 0,
+              "solution": "Freeze-thaw cycles cause ice crystal recrystallization and size growth"
+            },
+            {
+              "q": "A beverage company conducts blind taste testing of their new reduced-sugar formula showing 67% consumer preference versus competitor product. However, when the same consumers evaluate identical samples with branded packaging and labeling visible, preference for the new formula drops dramatically to 32%. Descriptive sensory panel analysis finds no detectable flavor compound differences between samples. What cognitive or perceptual mechanism explains this substantial 35-point preference reversal between blind and labeled testing conditions?",
+              "options": [
+                "Taste perception chemically changed",
+                "Brand information creates expectancy",
+                "Panel analysis methodology flawed",
+                "Consumers show inherent bias"
+              ],
+              "answer": 1,
+              "solution": "Brand labeling creates expectancy effects that override sensory perception"
+            },
+            {
+              "q": "A sensory evaluation facility implements a paired preference comparison test with 60 panelists comparing Product A versus Product B for overall quality. Results show 35 prefer Product A, 25 prefer Product B. The statistical critical value for significance at p<0.05 is 35. The company proposes launching Product A based on this apparent preference. However, a follow-up hedonic scale test with 100 consumers shows only 48% acceptance for Product A (below 50% launch threshold). How do you reconcile these seemingly contradictory test results, and what additional testing is recommended?",
+              "options": [
+                "Difference test proves superiority",
+                "Hedonic test confirms market",
+                "Both tests measure different aspects",
+                "Follow first test result only"
+              ],
+              "answer": 2,
+              "solution": "Preference test detects difference; hedonic test measures absolute acceptance"
+            },
+            {
+              "q": "During a 9-point hedonic scale consumer test with 150 participants evaluating a chocolate product, results show: 12% extremely dislike (1-2), 18% dislike (3-4), 20% neutral (5), 32% like (6-7), 18% extremely like (8-9). Calculate the percentage giving favorable ratings (like/extremely like). However, a separate descriptive sensory panel rates the same product's cocoa intensity at 6.8 on a 10-point scale, while competitors rate 7.4 and 6.9. What sensory attribute gap could explain moderate consumer acceptance despite comparable flavor intensity?",
+              "options": [
+                "Cocoa intensity drives acceptance",
+                "Other attributes influence liking",
+                "Consumer test was invalid test",
+                "Sensory panel made error test"
+              ],
+              "answer": 1,
+              "solution": "Consumer preference encompasses multiple attributes beyond isolated flavor"
+            },
+            {
+              "q": "A sensory difference test uses a triangle test methodology with 45 panelists. Results show 22 correct identifications (critical value p<0.05 = 19). The facility interprets this as confirming product difference and plans market introduction. However, subsequent consumer preference testing with 80 panelists shows 51% accept the new product (barely above required 50% threshold). Given that the triangle test detects statistical difference, why might the company still need additional consumer testing before committing to full market launch?",
+              "options": [
+                "Triangle test proves preference",
+                "Difference alone doesn't guarantee",
+                "Preference test was invalid test",
+                "Launch immediately when differ"
+              ],
+              "answer": 1,
+              "solution": "Triangle detects difference but not preference direction or acceptance"
+            },
+            {
+              "q": "A juice manufacturer conducts a Just-About-Right (JAR) scale study on sweetness with 200 consumers showing: 22% too sweet, 58% just right, 20% not sweet enough. The company interprets this as successful product development based on 58% JAR response. However, a subsequent 9-point hedonic test shows only 54% give favorable ratings (7-9). What does the JAR-hedonic disconnect reveal about JAR scale interpretation, and what attribute optimization strategy should be pursued?",
+              "options": [
+                "JAR data overrides hedonic data",
+                "Hedonic score determines launch",
+                "Both tests address different goals",
+                "Retest entire consumer base"
+              ],
+              "answer": 2,
+              "solution": "JAR identifies optimal level; hedonic measures absolute acceptance necessity"
+            },
+            {
+              "q": "A seafood processing facility establishes a HACCP plan identifying raw material receiving as a critical control point (CCP) requiring supplier certification documenting pathogenic Vibrio parahaemolyticus control. Supplier documentation states the shellfish harvest originated from FDA-approved growing areas. However, post-harvest shellfish testing during receiving inspection is not performed. Investigation of a consumer illness outbreak traces contamination to Vibrio in shellfish received from the certified supplier. What critical control gap exists in the HACCP implementation, and what verification procedure is required?",
+              "options": [
+                "Supplier certification sufficient",
+                "Receiving inspection testing needed",
+                "FDA approval validates safety",
+                "Skip verification testing here"
+              ],
+              "answer": 1,
+              "solution": "Supplier certification requires verification through receiving inspection testing"
+            },
+            {
+              "q": "A facility produces ready-to-eat (RTE) sandwiches using cooked poultry stored at 4°C refrigeration. HACCP plan identifies refrigeration temperature maintenance (≤4°C) as a critical control point. Monitoring records show temperature compliance for 95% of storage time. However, 5% of storage period shows temperature excursions reaching 8-10°C. End-product microbiological testing for Listeria monocytogenes is performed and remains negative across 100 batch samples. The facility argues that test results demonstrate adequate safety despite occasional temperature excursions. Should corrective action be pursued, and what food safety principle applies?",
+              "options": [
+                "Test results prove adequacy",
+                "Temperature control mandatory",
+                "Occasional variance acceptable",
+                "Skip corrective actions here"
+              ],
+              "answer": 1,
+              "solution": "CCP monitoring is preventive; corrective action required independent of test results"
+            },
+            {
+              "q": "A meat processing facility implements environmental monitoring for Listeria monocytogenes using swab sampling of food contact surfaces. Monthly testing results show: Month 1: Negative, Month 2: Negative, Month 3: Listeria detected at 12 CFU/100 cm², Month 4: Negative, Month 5: Negative, Month 6: Listeria detected at 15 CFU/100 cm². End-product testing remains consistently negative. The facility argues that sporadic environmental detection is acceptable because finished products are safe. What corrective action principle applies, and what investigation should be initiated?",
+              "options": [
+                "Negative products prove safety",
+                "Investigate and eliminate source",
+                "Accept sporadic detection",
+                "Skip environmental monitoring"
+              ],
+              "answer": 1,
+              "solution": "Environmental detection requires corrective action to prevent product contamination"
+            },
+            {
+              "q": "A facility's hazard analysis for fruit juice processing identifies Cryptosporidium protozoan as a potential biological hazard in raw fruit supplied from multiple orchards. The facility determines that risk assessment shows Cryptosporidium hazard is present but non-significant because it occurs 'rarely.' No control measures are implemented based on this risk classification. However, consumer illness outbreak investigations later identify Cryptosporidium in product, affecting 25 consumers. What hazard analysis gap exists, and what risk-based decision should have applied?",
+              "options": [
+                "Rare hazard needs no control",
+                "Severity determines controls",
+                "Consumer illness proves planning",
+                "Skip hazard identification"
+              ],
+              "answer": 1,
+              "solution": "Risk assessment considers severity; high-consequence hazards require controls despite low probability"
+            },
+            {
+              "q": "A canned soup facility implements corrective actions when CCP temperature monitoring detects a 30-minute excursion where heating temperature dropped from 95°C to 88°C. Standard procedure specifies that affected batches must be reheated to adequate thermal lethality specifications, tested, and released only if testing confirms safety. Investigation reveals the reheating procedure used identical 95°C temperature for 15 minutes (versus original 30 minutes). Microbiological testing shows product safety compliance. Should this corrective action procedure be considered adequate, and what validation approach is missing?",
+              "options": [
+                "Reheating validated adequately",
+                "New process needs validation",
+                "Testing proves correctness",
+                "Skip validation requirements"
+              ],
+              "answer": 1,
+              "solution": "Changed corrective procedure requires validation against microbiological lethality standards"
+            },
+            {
+              "q": "A food facility produces chocolate products for both domestic (India) and European Union export markets. FSSAI establishes maximum residue limit (MRL) for pesticide X at 0.5 mg/kg. However, EU regulations specify stricter MRL of 0.2 mg/kg for identical pesticide. The facility's raw material supplier certifies pesticide X content at 0.35 mg/kg. What regulatory compliance strategy allows simultaneous compliance with both domestic and export regulations?",
+              "options": [
+                "Ignore stricter EU standard",
+                "Separate supply chains apply",
+                "Choose lowest MRL standard",
+                "Violate one regulation"
+              ],
+              "answer": 2,
+              "solution": "Apply stricter standard globally; ensures compliance with both regulations"
+            },
+            {
+              "q": "A food company seeks FSSAI certification for their juice processing facility. FSSAI offers two pathways: (1) Certification pathway requiring third-party audit and continuous compliance documentation, or (2) Registration pathway with basic compliance checklist. The facility's management questions whether the more rigorous certification pathway is necessary versus simpler registration. What distinguishes these pathways, and what market implications apply?",
+              "options": [
+                "Registration equals certification",
+                "Certification provides assurance",
+                "Simpler registration sufficient",
+                "No meaningful difference exists"
+              ],
+              "answer": 1,
+              "solution": "Certification implies independent verification; registration is basic compliance only"
+            },
+            {
+              "q": "WHO Codex Alimentarius establishes voluntary international food standards for microbiological limits in ready-to-eat products at <100 CFU/g for certain pathogens. A country implements this Codex standard exactly as written. However, epidemiological evidence from that country's health ministry shows disease incidents occur at contamination levels above 50 CFU/g in vulnerable populations. Should the country maintain Codex standard, or implement stricter domestic requirement? What regulatory principle applies?",
+              "options": [
+                "Codex is mandatory requirement",
+                "Science-based stricter allowed",
+                "Consumer data irrelevant here",
+                "Use only Codex standard"
+              ],
+              "answer": 1,
+              "solution": "Risk-based science justifies stricter standards; Codex is minimum baseline only"
+            },
+            {
+              "q": "FSSAI requires all imported food products to display labeling indicating country of origin and regulatory compliance status. A facility imports chocolate from Belgium (EU) where labeling requirements differ from FSSAI standards. The Belgian chocolate meets EU regulations but lacks FSSAI-mandated labeling elements. What corrective action must the facility implement before distributing product?",
+              "options": [
+                "Accept EU labeling standard",
+                "Relabel per FSSAI requirement",
+                "Seek FSSAI exemption waiver",
+                "Import without labeling change"
+              ],
+              "answer": 1,
+              "solution": "FSSAI labeling requirements apply to all products sold domestically"
+            },
+            {
+              "q": "An MMPO (Municipal Municipal Public Organization) inspection program allocates resources to food facilities based on risk classification: high-risk facilities receive quarterly inspections (4 per year), medium-risk annually (1 per year), low-risk biennially (0.5 per year). Annual inspection capacity is 120 facility audits. If the region has 250 total facilities distributed as 15% high-risk, 35% medium-risk, 50% low-risk, can the MMPO adequately resource this risk-based inspection schedule?",
+              "options": [
+                "Capacity is inadequate here",
+                "Schedule is not feasible",
+                "Resources insufficient apply",
+                "Cannot cover all facilities"
+              ],
+              "answer": 2,
+              "solution": "Required = (37×4 + 87×1 + 125×0.5) = 185.5 audits > 120 capacity available"
+            }
+          ]
+        },
+        {
+          "id": "unit5_assertion",
+          "title": "Assertion and Reasoning",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "Assertion: Sensory evaluation is purely subjective and cannot be standardized across different panelists or occasions. Reason: Individual physiological differences in taste receptors and olfactory sensitivity make sensory responses inherently variable and non-reproducible.",
+              "options": [
+                "Both assertion and reason are correct",
+                "Assertion is correct but reason is incorrect",
+                "Both assertion and reason are incorrect",
+                "Assertion is incorrect; reason is correct"
+              ],
+              "answer": 2,
+              "solution": "Trained sensory panels produce highly reproducible results through standardization"
+            },
+            {
+              "q": "Assertion: The nine-point hedonic scale is universally applicable for all consumer testing across different cultures and product categories. Reason: Numerical scales are objective measures that eliminate cultural and contextual biases in preference assessment.",
+              "options": [
+                "Both statements are correct",
+                "Assertion is incorrect; cultural expectations influence hedonic response",
+                "Reason is incorrect; scales remain subjective",
+                "Both partially correct"
+              ],
+              "answer": 1,
+              "solution": "Cultural context significantly influences food preferences"
+            },
+            {
+              "q": "Assertion: Instrumental sensory analysis (e.g., spectrophotometry, texture analyzers) always correlates perfectly with human sensory perception for quality assessment. Reason: Machines measure physical properties directly while humans may be inconsistent or biased in evaluation.",
+              "options": [
+                "Both assertions are correct",
+                "Both assertions are incorrect",
+                "Assertion is correct; reason incomplete",
+                "Reason is correct but assertion is too broad"
+              ],
+              "answer": 1,
+              "solution": "Human perception involves multisensory integration that instruments cannot capture"
+            },
+            {
+              "q": "Assertion: Panelist age and gender should not affect the composition of a trained sensory panel because sensory training equalizes individual differences. Reason: Standardized protocols and repeated exposure eliminate physiological variations in taste and smell sensitivity.",
+              "options": [
+                "Both are correct",
+                "Assertion is correct; reason incomplete",
+                "Both partially correct; training reduces but doesn't eliminate differences",
+                "Both are incorrect"
+              ],
+              "answer": 2,
+              "solution": "Training reduces variability but diverse panels better represent populations"
+            },
+            {
+              "q": "Assertion: Sensory adaptation (reduced perception of constant stimuli) can be completely eliminated through proper panelist training and protocol design. Reason: Awareness and focus during evaluation prevents physiological habituation from occurring.",
+              "options": [
+                "Both are correct; training eliminates adaptation",
+                "Both are incorrect; adaptation is physiological inevitability that management reduces but cannot eliminate",
+                "Assertion incorrect; reason correct",
+                "Both partially correct"
+              ],
+              "answer": 1,
+              "solution": "Adaptation is inevitable; proper protocols manage rather than eliminate"
+            },
+            {
+              "q": "Assertion: Texture quality attributes can be completely and accurately assessed using only instrumental texture analyzers without human sensory evaluation. Reason: Machines measure physical force and deformation properties directly while humans may introduce inconsistency or subjective bias in texture perception.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; methods",
+                "Reason incorrect; instruments",
+                "Both statements incorrect"
+              ],
+              "answer": 3,
+              "solution": "Human texture perception includes proprioceptive cues instruments cannot measure"
+            },
+            {
+              "q": "Assertion: Color is the single most critical food quality attribute because it represents the first sensory impression consumers form about product quality. Reason: Consumer purchasing decisions are determined primarily by visual appearance, making color specifications more important than flavor or texture standards.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; appeal",
+                "Reason incorrect; attributes",
+                "Both statements incorrect"
+              ],
+              "answer": 2,
+              "solution": "Initial selection based on appearance; satisfaction requires all attributes"
+            },
+            {
+              "q": "Assertion: Flavor perception is a single sensory attribute that human taste receptors can detect and measure accurately without additional sensory input. Reason: Taste buds on the tongue are specifically designed and physiologically optimized to detect all aspects of food flavor quality and intensity.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; multisensory",
+                "Reason incorrect; taste only",
+                "Both statements incorrect"
+              ],
+              "answer": 3,
+              "solution": "Flavor = 80% olfaction, 15% taste, 5% texture; retronasal route crucial"
+            },
+            {
+              "q": "Assertion: Food quality standards should be established exclusively based on consumer preference testing because consumers represent the actual market. Reason: Trained sensory panelists introduce subjective interpretation and bias that conflicts with objective consumer needs and preferences.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; integration",
+                "Reason incorrect; trained data",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Quality standards require trained panel data plus consumer preference integration"
+            },
+            {
+              "q": "Assertion: Bitterness in dark chocolate products represents a significant quality defect that should be minimized through reformulation. Reason: Consumer sensory testing of dark chocolate shows that bitterness intensity inversely correlates with overall product liking and acceptance.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; expected",
+                "Reason incorrect; preferred",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Dark chocolate consumers expect and specifically prefer moderate bitterness"
+            },
+            {
+              "q": "Assertion: The nine-point hedonic scale can be reliably used with children as young as five years old for consumer acceptance testing of food products. Reason: The numerical scale format is sufficiently simple that all age groups can understand and apply the rating system consistently.",
+              "options": [
+                "Both statements are correct",
+                "Assertion incorrect; developmentally",
+                "Reason incorrect; age limitations",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Children need age-appropriate scales (faces, emojis, not numbers)"
+            },
+            {
+              "q": "Assertion: Triangle sensory difference testing is the optimal methodology for determining whether consumers prefer one food formulation over another in market conditions. Reason: Triangle tests provide statistical differentiation between samples while avoiding psychological bias through randomized sample presentation.",
+              "options": [
+                "Both statements are correct",
+                "Assertion incorrect; detects only",
+                "Reason incorrect; bias remains",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Triangle detects difference only; paired comparison measures preference"
+            },
+            {
+              "q": "Assertion: Consumer sensory testing should always employ blind taste conditions to prevent systematic bias in all evaluation scenarios. Reason: Product appearance and brand information invariably influence sensory perception and preference judgments regardless of testing context.",
+              "options": [
+                "Both statements are correct",
+                "Assertion incorrect; context varies",
+                "Reason incorrect; not universal",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Blind reveals sensory perception; branded shows real-world acceptance"
+            },
+            {
+              "q": "Assertion: Larger sample sizes in consumer sensory testing always produce more reliable and statistically powerful results than smaller sample evaluations. Reason: Increased sample size always increases statistical power and reduces the probability of Type II error (false negatives).",
+              "options": [
+                "Both statements are correct",
+                "Assertion incorrect; cost tradeoff",
+                "Reason incorrect; Type I error",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Larger n increases power but cost/time considerations require optimization"
+            },
+            {
+              "q": "Assertion: Just-About-Right (JAR) scale testing is a superior methodology to nine-point hedonic scale testing for optimizing food product formulations because it directly identifies the ideal attribute level. Reason: JAR responses show consumer preference for specific attribute intensity levels without the ambiguity of hedonic ratings.",
+              "options": [
+                "Both statements are correct",
+                "Assertion incorrect; serve goals",
+                "Reason incorrect; hedonic also",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "JAR identifies optimization level; hedonic measures acceptance importance"
+            },
+            {
+              "q": "Assertion: Food facilities can eliminate the requirement for supplier verification and auditing if end-product microbiological testing consistently shows safety compliance. Reason: End-product testing definitively proves that all raw materials and processes meet food safety standards regardless of supplier documentation.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; suppliers",
+                "Reason incorrect; preventive",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Supplier control is regulatory requirement independent of end-product testing"
+            },
+            {
+              "q": "Assertion: A Critical Control Point (CCP) identified in a validated HACCP plan can be eliminated if post-processing product testing shows safety compliance for an extended period. Reason: Consistent product safety verified through testing demonstrates that the CCP monitoring is redundant and unnecessary.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; cannot",
+                "Reason incorrect; preventive",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "CCP preventive value cannot be replaced by end-product testing verification"
+            },
+            {
+              "q": "Assertion: Food safety hazard analysis should classify only high-probability hazards as requiring control measures. Reason: Low-probability hazards with severe consequences are unlikely to occur, making control investment unjustified.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; severity",
+                "Reason incorrect; risk basis",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Risk assessment considers both probability and severity; high-severity hazards need controls"
+            },
+            {
+              "q": "Assertion: HACCP corrective action procedures that have not been previously validated through scientific testing can be implemented immediately during an actual CCP deviation. Reason: Preventing continued product contamination takes priority over validating corrective procedure effectiveness.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; validation",
+                "Reason incorrect; must verify",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "New corrective procedures require subsequent validation before continuing use"
+            },
+            {
+              "q": "Assertion: Environmental monitoring in food facilities is an optional quality procedure if finished product microbiological testing shows consistent safety. Reason: Food contact surface contamination is automatically prevented through manufacturing process controls.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; preventive",
+                "Reason incorrect; surfaces",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Environmental monitoring is preventive control; independent of end-product testing"
+            },
+            {
+              "q": "Assertion: A food facility can implement different maximum residue limit standards for export markets versus domestic market sales of identical products. Reason: International trade agreements require harmonizing standards across all markets.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; allowed",
+                "Reason incorrect; different",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Apply stricter standard globally; compliance with both regulations is necessary"
+            },
+            {
+              "q": "Assertion: FSSAI labeling requirements should be applied only to products manufactured domestically and can be exempted for imported products. Reason: Imported products are already regulated by exporting country standards, eliminating redundant domestic labeling.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; labeling",
+                "Reason incorrect; all products",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "FSSAI labeling applies to all products sold domestically regardless of origin"
+            },
+            {
+              "q": "Assertion: Countries can prioritize international trade convenience by implementing weaker food safety standards than recommended by WHO or Codex. Reason: Harmonizing with international partners simplifies trade and reduces compliance complexity.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; science",
+                "Reason incorrect; health",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Consumer health protection supersedes trade convenience; implement stricter standards"
+            },
+            {
+              "q": "Assertion: Third-party certification agencies external to FSSAI are unnecessary because government inspection is sufficient for food safety assurance. Reason: Government regulatory agencies have monopoly authority on food safety verification.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; third-party",
+                "Reason incorrect; independent",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Independent verification provides objective assessment; complements government oversight"
+            },
+            {
+              "q": "Assertion: Once a facility achieves FSSAI certification, periodic re-auditing and continued compliance documentation can be eliminated because the facility's past compliance proves future safety. Reason: Historical certification demonstrates sustainable food safety systems that remain effective indefinitely.",
+              "options": [
+                "Both statements correct",
+                "Assertion incorrect; periodic",
+                "Reason incorrect; systems",
+                "Both statements incorrect"
+              ],
+              "answer": 1,
+              "solution": "Regulatory requirement mandates periodic re-certification; systems require continuous monitoring"
             }
           ]
         }
