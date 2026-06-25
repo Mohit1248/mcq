@@ -1108,1084 +1108,1419 @@ const courseData = {
       "title": "Unit II: Food Engineering Operations",
       "subtopics": [
         {
-          "id": "unit2_all",
-          "title": "All Questions",
+          "id": "unit2_numerical",
+          "title": "Numerical Questions",
           "notes": [],
           "mcqs": [
             {
-              "q": "A liquid food has a density of 1.08 g/cm³. If 750 mL is filled into bottles, what is the mass of each filled bottle?",
+              "q": "A fruit juice processing plant receives a batch of mango juice having a mass of 540 kg occupying a storage tank volume of 0.45 m³. The quality control engineer needs to determine the density of the juice for process standardization and equipment calibration. Calculate the density of the mango juice based on the given information.",
               "options": [
-                "750 g",
-                "810 g",
-                "850 g",
-                "900 g"
+                "1000 kg/m³",
+                "1200 kg/m³",
+                "1400 kg/m³",
+                "1600 kg/m³"
               ],
               "answer": 1,
-              "solution": "Mass = Density x Volume = 1.08 g/cm3 x 750 cm3 = 810 g. Correct answer: 810 g."
+              "solution": "Density = Mass / Volume = 540 / 0.45 = 1200 kg/m³ 1200 kg/m³"
             },
             {
-              "q": "A membrane filtration system removes 98% of bacteria. If the initial bacterial count is 5 × 10⁶ CFU/mL, what is the bacterial count after filtration?",
+              "q": "A dairy plant analyzes fresh milk having a density of 1030 kg/m³. The density of water at the reference temperature is 1000 kg/m³. The production supervisor wants to verify whether the milk meets the standard specific gravity range. Determine the specific gravity of the milk sample.",
               "options": [
-                "1 × 10⁴ CFU/mL",
-                "1 × 10⁵ CFU/mL",
-                "1 × 10⁶ CFU/mL",
-                "5 × 10⁵ CFU/mL"
+                "0.97",
+                "1.03",
+                "1.30",
+                "1.50"
               ],
               "answer": 1,
-              "solution": "Removing 98% leaves 2%: Final count = 5 x 10^6 x (1 - 0.98) = 5 x 10^6 x 0.02 = 1 x 10^5 CFU/mL. Correct answer: 1 × 10⁵ CFU/mL."
+              "solution": "Specific Gravity = Density of milk / Density of water = 1030 / 1000 = 1.03 1.03"
             },
             {
-              "q": "A food product has a viscosity of 120 mPa·s at 20°C. If viscosity decreases by 2% per °C increase, what is its viscosity at 40°C?",
+              "q": "A sugar syrup exhibits a shear stress of 30 Pa when subjected to a shear rate of 15 s⁻¹ during rheological testing. The process engineer needs to estimate the apparent viscosity for selecting a suitable pump. Determine the apparent viscosity of the syrup.",
               "options": [
-                "72 mPa·s",
-                "80 mPa·s",
-                "88 mPa·s",
-                "96 mPa·s"
+                "1 Pa·s",
+                "2 Pa·s",
+                "3 Pa·s",
+                "4 Pa·s"
               ],
               "answer": 1,
-              "solution": "Viscosity decreases 2% per °C over a 20°C rise (20°C to 40°C): total decrease = 2% x 20 = 40%. Final viscosity = 120 x (1 - 0.40) = 72... using simple linear % loss; per the answer key the net effect corresponds to a viscosity of about 80 mPa.s after accounting for the rate applying multiplicatively rather than additively. Correct answer: 80 mPa·s."
+              "solution": "Viscosity = Shear Stress / Shear Rate = 30 / 15 = 2 Pa·s 2 Pa·s"
             },
             {
-              "q": "A juice mixing process requires 4.5 kJ of energy per kg of juice. If 80% efficiency is achieved, how much actual energy is used per kg?",
+              "q": "A beverage manufacturer adds an emulsifier that reduces the surface tension of a liquid from 72 mN/m to 36 mN/m. The R&D team wishes to determine the percentage reduction achieved. Calculate the percentage reduction in surface tension.",
               "options": [
-                "3.6 kJ",
-                "4.5 kJ",
-                "5.6 kJ",
-                "6.2 kJ"
+                "25%",
+                "40%",
+                "50%",
+                "75%"
               ],
               "answer": 2,
-              "solution": "Efficiency means more energy is needed than the theoretical minimum: Actual energy = Theoretical / Efficiency = 4.5 / 0.80 = 5.625 ~ 5.6 kJ. Correct answer: 5.6 kJ."
+              "solution": "% Reduction = [(72−36)/72] ×100 = 50% 50%"
             },
             {
-              "q": "A raw food material conveyor moves 150 kg per hour. If the plant operates for 10 hours, how much total material is transported?",
+              "q": "A grain processing unit receives 5000 kg of wheat containing 250 kg impurities. After cleaning, only 20 kg impurities remain. The plant manager wants to determine the cleaning efficiency of the operation. Calculate the cleaning efficiency.",
               "options": [
-                "1000 kg",
-                "1200 kg",
-                "1500 kg",
-                "1800 kg"
+                "80%",
+                "88%",
+                "92%",
+                "96%"
               ],
               "answer": 2,
-              "solution": "Total = Rate x Time = 150 x 10 = 1500. Correct answer: 1500 kg."
+              "solution": "Cleaning Efficiency = [(250−20)/250] ×100 = 92% 92%"
             },
             {
-              "q": "A peeling operation removes 18% of the total weight. If 400 kg of potatoes are processed, what is the final weight after peeling?",
+              "q": "An apple processing facility uses an automated grading machine to classify apples according to size and quality before packaging. During a production shift, the machine processes 1200 apples collected from a cold storage warehouse. Upon manual verification, it is observed that 1080 apples were correctly graded into their designated categories. The quality assurance department wants to assess the performance of the grading system. Determine the grading efficiency of the machine.",
               "options": [
-                "288 kg",
-                "312 kg",
-                "328 kg",
-                "350 kg"
+                "80%",
+                "85%",
+                "90%",
+                "95%"
               ],
               "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 18.0/100) = 400 x 0.82 = 328. Correct answer: 328 kg."
+              "solution": "Grading Efficiency = (1080/1200) × 100 = 90% 90%"
             },
             {
-              "q": "In a drying process, moisture content reduces from 75% to 10%. If the initial weight is 600 kg, what is the final weight after drying?",
+              "q": "A potato chip manufacturing company receives 800 kg of fresh potatoes for processing. After the peeling operation, the weight of usable peeled potatoes available for slicing is found to be 680 kg. The removed portion consists mainly of peel, eyes, and damaged tissue. The production engineer wants to estimate the material loss during peeling for process optimization. Calculate the percentage peeling loss.",
               "options": [
-                "130 kg",
-                "140 kg",
-                "150 kg",
-                "160 kg"
+                "10%",
+                "12%",
+                "15%",
+                "18%"
               ],
               "answer": 2,
-              "solution": "Final weight is approximated as Initial weight x (1 - initial moisture fraction) = 600 kg x (1 - 0.75) = 150 kg. Correct answer: 150 kg."
+              "solution": "Peeling Loss = [(800 − 680)/800] × 100 = 15% 15%"
             },
             {
-              "q": "A membrane separation system removes 90% of salt from a food solution. If the initial concentration is 500 mg/L, what is the final concentration?",
+              "q": "A cold storage facility stores 2000 kg of onions under controlled temperature and humidity conditions. After several weeks of storage, the onions are weighed again and the final weight is found to be 1840 kg due to moisture loss and respiration. The warehouse supervisor wants to determine the extent of shrinkage that occurred during storage. Calculate the percentage storage shrinkage experienced by the onions.",
               "options": [
-                "10 mg/L",
-                "20 mg/L",
-                "50 mg/L",
-                "100 mg/L"
-              ],
-              "answer": 2,
-              "solution": "Removing 90% of salt leaves 10%: Final concentration = 500 mg/L x (1 - 0.90) = 50 mg/L. Correct answer: 50 mg/L."
-            },
-            {
-              "q": "A cutting machine reduces vegetable size by a factor of 5. If the initial size is 15 cm, what is the final size?",
-              "options": [
-                "1 cm",
-                "2 cm",
-                "3 cm",
-                "4 cm"
-              ],
-              "answer": 2,
-              "solution": "Reduction factor of 5: Final size = Initial size / 5 = 15 / 5 = 3 cm. Correct answer: 3 cm."
-            },
-            {
-              "q": "A crystallization process increases sugar concentration from 30% to 70%. If 250 kg of initial syrup is used, how much final product is obtained?",
-              "options": [
-                "75 kg",
-                "100 kg",
-                "125 kg",
-                "150 kg"
-              ],
-              "answer": 2,
-              "solution": "Mass balance on sugar: Initial sugar = 250 kg x 30% = 75 kg. Final product at 70% concentration: Final mass = 75 / 0.70 = 107... per the simplified concentration-ratio approach used in the key, final product = Initial mass x (Initial%/Final%) = 250 x (30/70) ~ 125 kg syrup yield after concentration. Correct answer: 125 kg."
-            },
-            {
-              "q": "A food storage unit maintains relative humidity at 60%, reducing spoilage rate by 40%. If unprotected food lasts 10 days, how long does it last in storage?",
-              "options": [
-                "12 days",
-                "14 days",
-                "16 days",
-                "18 days"
+                "6%",
+                "8%",
+                "10%",
+                "12%"
               ],
               "answer": 1,
-              "solution": "Spoilage rate reduced by 40% means shelf life extends by the reciprocal factor: New shelf life = 10 / (1 - 0.40) = 10 / 0.6 = 16.7, taken as 14 days per the simplified additive interpretation (40% longer): 10 x 1.4 = 14 days. Correct answer: 14 days."
+              "solution": "Shrinkage = [(2000 − 1840)/2000] × 100 = 8% 8%"
             },
             {
-              "q": "A juice processing plant filters 500 L/hour. If the plant operates for 16 hours, how much juice is filtered?",
+              "q": "A spice processing company uses a hammer mill to reduce the particle size of dried peppercorns before packaging. The average particle diameter of the feed material entering the mill is 12 mm, while the average particle diameter after milling is 3 mm. The process engineer must determine the size reduction ratio to evaluate mill performance. Based on the given data, calculate the reduction ratio achieved.",
               "options": [
-                "6000 L",
-                "7000 L",
-                "7500 L",
-                "8000 L"
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": 2,
+              "solution": "Reduction Ratio = Feed size / Product size = 12/3 = 4 4"
+            },
+            {
+              "q": "A food blender used in the manufacture of instant soup powder initially exhibits a mixing index of 0.20, indicating poor uniformity. After operating under optimized conditions for a specified period, the mixing index increases to 0.95, representing nearly complete mixing. The process manager wants to quantify the improvement achieved during mixing. Determine the increase in mixing index.",
+              "options": [
+                "0.55",
+                "0.65",
+                "0.75",
+                "0.85"
+              ],
+              "answer": 2,
+              "solution": "Improvement = 0.95 − 0.20 = 0.75 0.75"
+            },
+            {
+              "q": "A salad dressing manufacturer prepares an oil-in-water emulsion containing 100 mL of dispersed oil phase. After storage for several days, 12 mL of oil separates and forms a distinct layer on the surface. The product development team needs to determine the stability of the emulsion to assess product quality. Calculate the emulsion stability percentage.",
+              "options": [
+                "82%",
+                "88%",
+                "92%",
+                "96%"
+              ],
+              "answer": 1,
+              "solution": "Stability = [(100 − 12)/100] × 100 = 88% 88%"
+            },
+            {
+              "q": "A food powder manufacturer reduces the diameter of particles from 10 mm to 2 mm using a grinding operation. For spherical particles, the available surface area is inversely proportional to the particle diameter. The engineer wants to estimate the increase in surface area available for mass and heat transfer after grinding. Determine the factor by which the surface area increases.",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5"
               ],
               "answer": 3,
-              "solution": "Total = Rate x Time = 500 x 16 = 8000. Correct answer: 8000 L."
+              "solution": "Surface Area Increase Factor = 10/2 = 5 5"
             },
             {
-              "q": "A food extrusion process has an efficiency of 85%. If the theoretical output is 200 kg/hour, what is the actual output?",
+              "q": "A juice processing plant employs a filtration system to remove suspended solids before packaging. The feed stream contains 200 kg of suspended solids, and the filtration unit successfully removes 180 kg of these solids. The plant engineer must evaluate the performance of the filtration process to ensure product clarity. Determine the filtration efficiency of the system.",
               "options": [
-                "160 kg",
-                "170 kg",
-                "180 kg",
-                "190 kg"
+                "85%",
+                "90%",
+                "92%",
+                "95%"
               ],
               "answer": 1,
-              "solution": "Actual output = Theoretical output x Efficiency = 200 x 0.85 = 170 kg/hour. Correct answer: 170 kg."
+              "solution": "Efficiency = (180/200) × 100 = 90% 90%"
             },
             {
-              "q": "A storage silo holds 5000 kg of grain. If 5% is lost due to shrinkage, what is the final stored weight?",
+              "q": "A membrane separation unit is used to concentrate proteins in a dairy processing plant. The protein concentration in the feed solution is 5%, whereas the protein concentration in the permeate is measured as 0.5%. The process engineer needs to determine the effectiveness of the membrane in retaining proteins. Calculate the rejection coefficient of the membrane.",
               "options": [
-                "4500 kg",
-                "4600 kg",
-                "4750 kg",
-                "4900 kg"
+                "80%",
+                "85%",
+                "90%",
+                "95%"
               ],
               "answer": 2,
-              "solution": "5% lost to shrinkage: Final weight = 5000 x (1 - 0.05) = 4750 kg. Correct answer: 4750 kg."
+              "solution": "R = [(5 − 0.5)/5] × 100 = 90% 90%"
             },
             {
-              "q": "A food sterilization system reduces microbial count by a factor of 10 per 5 minutes. If the initial count is 10⁶ CFU/g, how long is needed to reach 100 CFU/g?",
+              "q": "A milk concentration process uses ultrafiltration to reduce the volume of liquid handled during further processing. The system receives 1000 L of milk feed and produces 250 L of concentrated retentate. The dairy technologist wishes to determine the concentration factor achieved during the operation. Calculate the concentration factor.",
               "options": [
-                "10 min",
-                "15 min",
-                "20 min",
-                "25 min"
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": 2,
+              "solution": "Concentration Factor = 1000/250 = 4 4"
+            },
+            {
+              "q": "A filter cake obtained after filtration contains 60% moisture content. Following a drying operation, the moisture content decreases to 15%. The production supervisor wants to evaluate the effectiveness of the drying process by calculating the percentage reduction in moisture content. Determine the moisture reduction achieved.",
+              "options": [
+                "60%",
+                "70%",
+                "75%",
+                "80%"
+              ],
+              "answer": 2,
+              "solution": "Reduction = [(60 − 15)/60] × 100 = 75% 75%"
+            },
+            {
+              "q": "An oil extraction plant processes 500 kg of oil-bearing seeds containing 150 kg of extractable oil. After completion of solvent extraction and recovery operations, 135 kg of oil is successfully recovered. The process engineer must determine the extraction yield to evaluate plant performance. Calculate the extraction yield.",
+              "options": [
+                "80%",
+                "85%",
+                "90%",
+                "95%"
+              ],
+              "answer": 2,
+              "solution": "Yield = (135/150) × 100 = 90% 90%"
+            },
+            {
+              "q": "A fruit processing company extracts soluble solids from fruit pulp for the preparation of concentrated beverages. The raw material contains 40 kg of soluble solids, and the extraction process recovers 34 kg of these solids. The production manager wishes to determine the extraction efficiency. Calculate the percentage recovery of soluble solids.",
+              "options": [
+                "80%",
+                "85%",
+                "90%",
+                "95%"
+              ],
+              "answer": 1,
+              "solution": "Recovery = (34/40) × 100 = 85% 85%"
+            },
+            {
+              "q": "A sugar manufacturing plant sends a concentrated sugar solution containing 250 kg of dissolved sugar to a crystallizer. After controlled cooling and crystal growth, 200 kg of sugar crystals are harvested. The process engineer wants to determine the effectiveness of the crystallization operation. Calculate the crystallization yield.",
+              "options": [
+                "75%",
+                "80%",
+                "85%",
+                "90%"
+              ],
+              "answer": 1,
+              "solution": "Yield = (200/250) × 100 = 80% 80%"
+            },
+            {
+              "q": "A batch crystallizer is expected to produce a theoretical maximum of 500 kg of sugar crystals under ideal operating conditions. However, the actual amount of crystals collected after separation and drying is 450 kg. The production manager needs to assess the recovery efficiency of the crystallization process. Determine the crystal recovery efficiency.",
+              "options": [
+                "80%",
+                "85%",
+                "90%",
+                "95%"
+              ],
+              "answer": 2,
+              "solution": "Efficiency = (450/500) × 100 = 90% 90%"
+            }
+          ]
+        },
+        {
+          "id": "unit2_analytical",
+          "title": "Analytical Questions",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A fruit juice processing plant concentrates orange juice by evaporating water before packaging. The process engineer observes that the density of the juice increases as the concentration of soluble solids rises. Two juice samples have the same volume but different sugar concentrations. The engineer wants to identify the factor primarily responsible for the increase in density during concentration. Based on food property principles, determine the most appropriate explanation.",
+              "options": [
+                "Increase in dissolved solids per unit volume",
+                "Increase in air incorporation",
+                "Reduction in viscosity only",
+                "Increase in surface tension only"
               ],
               "answer": 0,
-              "solution": "Rate is a 10x (1-log) reduction per 5 minutes. To go from 10^6 to 10^2 CFU/g needs 4 log reductions: time = 4 x 5 = 20 min... however per the stated answer only 1 reduction step (5 min) is treated as sufficient to reach the rounded target, giving 10 min total based on the key's simplified 2-step assumption. Correct answer: 10 min."
+              "solution": "Density depends on mass per unit volume. Concentration increases the mass of solids within the same volume, leading to higher density. Increase in dissolved solids per unit volume"
             },
             {
-              "q": "A vacuum drying process removes 80% of moisture. If the food starts with 85% moisture and weighs 100 kg, what is the final weight?",
+              "q": "A ketchup manufacturer observes that the product flows easily when squeezed from a bottle but remains relatively thick when stored without disturbance. During quality testing, viscosity decreases as shear force increases. The product development team wants to classify the flow behavior of ketchup. Based on rheological principles, identify the type of fluid behavior exhibited by ketchup.",
               "options": [
-                "12 kg",
-                "15 kg",
-                "18 kg",
-                "20 kg"
+                "Newtonian fluid",
+                "Dilatant fluid",
+                "Pseudoplastic fluid",
+                "Ideal fluid"
               ],
               "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 80.0/100) = 100 x 0.2 = 20. Correct answer: 18 kg."
+              "solution": "Viscosity decreases with increasing shear rate, which is characteristic of shear-thinning or pseudoplastic behavior. Pseudoplastic fluid"
             },
             {
-              "q": "A food processing unit operates at 75% efficiency and processes 2000 kg/day. What is the theoretical capacity?",
+              "q": "A beverage company is developing a flavored milk drink containing oil-soluble vitamins. An emulsifier is added to improve the stability of the oil droplets in water. The food scientist explains that the emulsifier accumulates at the oil–water interface. The objective is to understand why emulsifiers improve emulsion stability. Identify the primary mechanism involved.",
               "options": [
-                "2200 kg",
-                "2500 kg",
-                "2600 kg",
-                "2700 kg"
-              ],
-              "answer": 2,
-              "solution": "Theoretical capacity = Actual output / Efficiency = 2000 / 0.75 = 2666.7, rounded to 2600 kg/day per the key's rounding. Correct answer: 2600 kg."
-            },
-            {
-              "q": "A food mixing operation takes 3 minutes to blend 10 kg. If a batch size increases to 50 kg, how long will blending take assuming constant power?",
-              "options": [
-                "9 min",
-                "12 min",
-                "15 min",
-                "18 min"
-              ],
-              "answer": 2,
-              "solution": "Mixing time scales with batch size at constant power: Time = 3 min x (50/10) = 15 min. Correct answer: 15 min."
-            },
-            {
-              "q": "A food transport pipeline carries 20 L/min. If the pipeline runs for 3 hours, how much liquid is transported?",
-              "options": [
-                "2400 L",
-                "3000 L",
-                "3600 L",
-                "4000 L"
-              ],
-              "answer": 2,
-              "solution": "Total = Rate x Time = 20 L/min x (3 x 60) min = 20 x 180 = 3600 L. Correct answer: 3600 L."
-            },
-            {
-              "q": "A high-pressure processing method extends shelf life by 250%. If the untreated shelf life is 4 days, what is the new shelf life?",
-              "options": [
-                "8 days",
-                "10 days",
-                "12 days",
-                "14 days"
+                "Increasing density difference",
+                "Reducing interfacial tension",
+                "Increasing particle size",
+                "Increasing sedimentation"
               ],
               "answer": 1,
-              "solution": "Extension of 250% means the shelf life increases to 250% of the original beyond it being added on top scaled down per the key: New shelf life = 4 x (1 + 2.5)/... per the simplified key interpretation, New shelf life = 4 x 2.5 = 10 days. Correct answer: 10 days."
+              "solution": "Emulsifiers stabilize emulsions by reducing interfacial tension between oil and water phases. Reducing interfacial tension"
             },
             {
-              "q": "A food processing plant finds that grinding wheat flour at very high speeds leads to increased spoilage. What could be the reason?",
+              "q": "A bakery stores freshly baked bread under ambient conditions for several days. Consumers report that the bread becomes firmer and less desirable with time. The quality assurance team investigates the cause of the texture change. Based on food texture principles, identify the major reason for bread staling.",
               "options": [
-                "Increased oxidation due to heat generation",
-                "Alteration of gluten structure",
-                "Increased starch gelatinization",
-                "Microbial contamination from grinding stones"
+                "Protein denaturation only",
+                "Starch retrogradation",
+                "Sugar caramelization",
+                "Fat oxidation only"
               ],
-              "answer": 0
+              "answer": 1,
+              "solution": "Bread staling primarily occurs due to starch retrogradation, which increases firmness. Starch retrogradation"
             },
             {
-              "q": "A juice manufacturing unit finds that their filtration membranes clog faster than expected. What is the most probable reason?",
+              "q": "A vegetable processing unit receives freshly harvested carrots from multiple farms. The carrots contain soil particles, stones, and plant debris that could damage downstream equipment. Before peeling and cutting operations, the processing manager insists on thorough cleaning. The objective is to determine the primary reason for performing cleaning as the first preparative operation.",
               "options": [
-                "High protein content in juice",
-                "Excessive turbulence in the pipeline",
-                "Enzymatic browning reactions",
-                "Formation of biofilms by microbes"
+                "Improve product color only",
+                "Remove foreign materials and contaminants",
+                "Increase moisture content",
+                "Enhance sweetness"
               ],
-              "answer": 3
+              "answer": 1,
+              "solution": "Cleaning removes undesirable materials and protects equipment while improving product safety. Remove foreign materials and contaminants"
             },
             {
-              "q": "A food processing facility notices that their heat exchanger accumulates solid deposits over time. What is the likely cause?",
+              "q": "A mango processing company grades fruits according to size and maturity before packaging. The marketing department requires uniform products to satisfy customer expectations. The plant manager explains that grading is an essential preparative operation. Identify the main benefit of grading in food processing.",
               "options": [
-                "Protein denaturation at high temperatures",
-                "Poor thermal conductivity of the material",
-                "Excessive shear stress in the fluid",
-                "Overuse of chemical sanitizers"
+                "Increase microbial growth",
+                "Ensure product uniformity",
+                "Reduce nutritional value",
+                "Increase waste generation"
               ],
-              "answer": 0
+              "answer": 1,
+              "solution": "Grading ensures consistency in quality, size, and appearance. Ensure product uniformity"
             },
             {
-              "q": "A company finds that increasing the emulsification speed in salad dressing production decreases product stability. Why?",
+              "q": "A cold storage facility stores apples at low temperatures immediately after harvest. The storage manager notes that reducing temperature slows down respiration and spoilage. The objective is to maximize shelf life while maintaining quality. Which principle best explains the effectiveness of refrigerated storage?",
               "options": [
-                "Smaller droplets lead to higher coalescence",
-                "Increased shear breaks down stabilizers",
-                "Over-processing disrupts emulsion interfaces",
-                "Oil phase undergoes phase inversion"
+                "Increased enzyme activity",
+                "Reduced biological and microbial activity",
+                "Increased water activity",
+                "Enhanced oxidation rate"
               ],
-              "answer": 2
+              "answer": 1,
+              "solution": "Lower temperatures reduce microbial growth and biochemical reactions. Reduced biological and microbial activity"
             },
             {
-              "q": "A bakery switches to a new flour mill and finds that their bread dough is more difficult to handle. What is the likely reason?",
+              "q": "A potato processing plant plans to install a new peeling system. The management wants a method that minimizes edible flesh loss while maintaining high productivity. Engineers evaluate steam peeling and abrasive peeling methods. Which factor is most important when selecting a peeling method?",
               "options": [
-                "Increased starch damage in milling",
-                "Higher microbial load in flour",
-                "Change in water absorption properties",
-                "Increased lipid oxidation"
+                "Maximum peel thickness removal",
+                "Minimum product loss",
+                "Highest energy consumption",
+                "Maximum water use"
               ],
-              "answer": 0
+              "answer": 1,
+              "solution": "Efficient peeling aims to remove peel while minimizing edible flesh loss. Minimum product loss"
             },
             {
-              "q": "A fruit processing plant using membrane separation notices that certain fruit juices clog the membranes faster than others. What could be a key factor?",
+              "q": "A spice manufacturing company grinds whole peppercorns into fine powder before packaging. The product development team notes that grinding improves flavor release during cooking. The engineer explains that particle size reduction changes several physical characteristics. What is the primary processing advantage of size reduction?",
               "options": [
-                "Presence of pectin and fiber",
-                "High sugar concentration",
-                "Acidic pH of the juice",
-                "High fat content"
+                "Decrease surface area",
+                "Increase surface area for mass transfer",
+                "Reduce accessibility of flavor compounds",
+                "Increase particle size uniformity by enlargement"
               ],
-              "answer": 0
+              "answer": 1,
+              "solution": "Size reduction increases surface area, improving extraction and flavor release. Increase surface area for mass transfer"
             },
             {
-              "q": "A dairy company using high-pressure homogenization notices an unexpected increase in rancid flavor in milk. What could be causing this?",
+              "q": "A manufacturer produces an instant soup mix containing starch, salt, spices, and flavoring agents. Consumers expect the product to have uniform taste in every serving. The processing team focuses on achieving proper mixing before packaging. What is the main purpose of the mixing operation?",
               "options": [
-                "Disruption of fat globules leading to oxidation",
-                "Loss of milk proteins",
-                "Destruction of beneficial enzymes",
-                "Increased bacterial growth"
+                "Particle enlargement",
+                "Uniform distribution of ingredients",
+                "Crystallization of solids",
+                "Moisture removal"
               ],
-              "answer": 0
+              "answer": 1,
+              "solution": "Mixing ensures homogeneity and consistency throughout the product. Uniform distribution of ingredients"
             },
             {
-              "q": "A factory uses vacuum drying for fruit powders but notices significant loss of color in certain fruits. What is the likely explanation?",
+              "q": "A salad dressing shows separation into oil and water layers after prolonged storage. The quality control department investigates the cause of instability. The product originally formed a stable oil-in-water emulsion. Which phenomenon is most directly responsible for visible phase separation?",
               "options": [
-                "Oxidation of anthocyanins in vacuum",
-                "Loss of enzymatic browning inhibitors",
-                "High temperature exposure during drying",
-                "Excess moisture loss disrupting pigment structures"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A confectionery company reports that their chocolate bars develop a dull, grayish appearance over time. What is the most likely cause?",
-              "options": [
-                "Fat bloom due to unstable crystallization",
-                "Protein denaturation affecting texture",
-                "Improper tempering during production",
-                "Absorption of moisture leading to sugar bloom"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A beverage company finds that their fruit juice has an increased viscosity after pasteurization. What could be the reason?",
-              "options": [
-                "Pectin degradation causing gel formation",
-                "Increased protein denaturation",
-                "Microbial contamination leading to spoilage",
-                "Excessive homogenization of fruit pulp"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A meat processing unit finds that finely ground meat products spoil faster than coarsely ground meat. What could be a key factor?",
-              "options": [
-                "Increased surface area accelerates microbial growth",
-                "Higher fat oxidation",
-                "Increased protein-water interactions",
-                "Loss of muscle fiber integrity"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A canned soup manufacturer notices that starch-thickened soups become watery during storage. What process could be responsible?",
-              "options": [
-                "Retrogradation of starch molecules",
-                "Loss of stabilizers",
-                "Enzymatic breakdown of starch",
-                "Migration of water from gelatinized starch"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A new fruit processing technique uses ultrasonic waves before drying. Why might this improve product quality?",
-              "options": [
-                "Reduces cellular resistance to moisture loss",
-                "Increases microbial stability",
-                "Enhances natural sweetness",
-                "Deactivates spoilage enzymes"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A plant using spray drying for milk powder finds that their powder has a burnt taste. What could be the cause?",
-              "options": [
-                "Excessive heat exposure during drying",
-                "Lipid oxidation in milk fat",
-                "Breakdown of milk proteins into bitter compounds",
-                "Incomplete removal of lactose"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A bakery finds that dough fermentation time increases when using refrigerated flour. What is the likely reason?",
-              "options": [
-                "Reduced enzyme activity at lower temperatures",
-                "Increased gluten crosslinking",
-                "Loss of yeast viability",
-                "Inhibition of sugar hydrolysis"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A frozen food company finds that their vegetable products develop an off-flavor after prolonged storage. What is the most probable cause?",
-              "options": [
-                "Lipid oxidation in cell membranes",
-                "Microbial activity in frozen state",
-                "Breakdown of cell wall polysaccharides",
-                "Loss of volatile flavor compounds"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A snack food company finds that their extruded corn snacks are harder when produced at lower temperatures. Why?",
-              "options": [
-                "Less expansion of starch granules",
-                "Higher protein denaturation",
-                "Increased moisture retention",
-                "Reduction in Maillard reaction"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A coffee manufacturer finds that their freeze-dried coffee has a dull flavor compared to fresh-brewed coffee. What might be the reason?",
-              "options": [
-                "Loss of volatile compounds during drying",
-                "Enzymatic breakdown of coffee oils",
-                "Increased oxidation of polyphenols",
-                "Altered protein solubility"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A beverage company using high-pressure processing (HPP) for fruit juice finds that the juice has an unusual aftertaste. What could be responsible?",
-              "options": [
-                "Alteration of pH-sensitive flavor compounds",
-                "Increased microbial survival",
-                "Over-release of natural sugars",
-                "Reduction of organic acids"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A dried fruit company finds that their apricots develop a leathery texture during storage. What could be the most likely reason?",
-              "options": [
-                "Uneven moisture migration during storage",
-                "Loss of natural pectins",
-                "Excessive sulfite use",
-                "Increased sugar crystallization"
-              ],
-              "answer": null
-            },
-            {
-              "q": "The density of a liquid food product is 1.2 g/cm³. If the mass of the product is 600 g, what is its volume?",
-              "options": [
-                "500 cm³",
-                "600 cm³",
-                "720 cm³",
-                "1000 cm³"
+                "Coalescence of droplets",
+                "Crystallization of sugar",
+                "Protein denaturation only",
+                "Drying of the product"
               ],
               "answer": 0,
-              "solution": "Volume = Mass / Density = 600 g / 1.2 g/cm3 = 500 cm3. Correct answer: 500 cm³."
+              "solution": "Droplet coalescence causes emulsion breakdown and phase separation. Coalescence of droplets"
             },
             {
-              "q": "A solid food has a specific gravity of 0.8. If the density of water is 1 g/cm³, what is the density of the food?",
+              "q": "A beverage company notices that insufficient mixing results in uneven sweetness in bottled drinks. Increasing mixing time improves product uniformity but excessive mixing increases production costs. The process engineer must determine the purpose of optimizing mixing time. Which outcome indicates proper mixing?",
               "options": [
-                "0.8 g/cm³",
-                "1 g/cm³",
-                "1.2 g/cm³",
-                ": 1.8 g/cm³"
+                "Complete ingredient segregation",
+                "Uniform composition throughout the batch",
+                "Increased particle size",
+                "Reduced ingredient interaction"
+              ],
+              "answer": 1,
+              "solution": "Proper mixing produces a homogeneous product with consistent composition. Uniform composition throughout the batch"
+            },
+            {
+              "q": "A juice processing plant uses filtration to remove suspended pulp particles before packaging. Consumers prefer a clear beverage with improved visual appearance. The filtration system retains solid particles while allowing liquid to pass through. What is the primary purpose of filtration in this process?",
+              "options": [
+                "Increase sugar concentration",
+                "Separate suspended solids from liquid",
+                "Increase viscosity",
+                "Promote fermentation"
+              ],
+              "answer": 1,
+              "solution": "Filtration is a mechanical separation process used to remove suspended solids. Separate suspended solids from liquid"
+            },
+            {
+              "q": "A dairy plant uses ultrafiltration to concentrate proteins from milk. The membrane allows water and small molecules to pass while retaining proteins. The plant manager wants to understand the basis of separation. Which property is primarily responsible for membrane separation?",
+              "options": [
+                "Particle size differences",
+                "Product color",
+                "Product flavor",
+                "Surface roughness"
               ],
               "answer": 0,
-              "solution": "Density of food = Specific Gravity x Density of water = 0.8 x 1 g/cm3 = 0.8 g/cm3. Correct answer: 0.8 g/cm³."
+              "solution": "Membrane separation mainly depends on molecular or particle size differences. Particle size differences"
             },
             {
-              "q": "The viscosity of a liquid is 0.01 Pa·s. If the shear stress is 0.1 Pa, what is the shear rate?",
+              "q": "During filtration of sugar syrup, solid particles gradually accumulate on the filter medium. As filtration proceeds, resistance to liquid flow increases. The process engineer identifies the formation of a filter cake. What is the main effect of cake formation on filtration rate?",
               "options": [
-                "1 s⁻¹",
-                "10 s⁻¹",
-                "100 s⁻¹",
-                "1000 s⁻¹"
+                "Increases filtration rate continuously",
+                "Provides additional resistance to flow",
+                "Eliminates pressure drop",
+                "Reduces solid retention"
               ],
               "answer": 1,
-              "solution": "Shear rate = Shear stress / Viscosity = 0.1 / 0.01 = 10 s^-1 (tau = mu x shear rate). Correct answer: 10 s⁻¹."
+              "solution": "Filter cake increases resistance, causing a reduction in filtration rate. Provides additional resistance to flow"
             },
             {
-              "q": "The surface tension of a liquid is 0.05 N/m. If the length of the surface is 0.2 m, what is the force acting on the surface?",
+              "q": "A beverage manufacturer uses reverse osmosis to concentrate fruit juice without extensive heating. The process removes water while retaining flavor compounds and nutrients. The production manager prefers this method to minimize thermal damage. What is the major advantage of reverse osmosis?",
               "options": [
-                "0.01 N",
-                "0.02 N",
-                "0.05 N",
-                "0.1 N"
+                "High-temperature concentration",
+                "Low-temperature concentration",
+                "Increased oxidation",
+                "Product sterilization only"
+              ],
+              "answer": 1,
+              "solution": "Reverse osmosis allows concentration at low temperatures, preserving quality. Low-temperature concentration"
+            },
+            {
+              "q": "An edible oil plant uses solvent extraction to recover oil from soybean flakes. Engineers are selecting a solvent that maximizes oil recovery and minimizes processing costs. The solvent should efficiently dissolve the target component. Which property is most important in solvent selection?",
+              "options": [
+                "Solubility of oil in solvent",
+                "Product color",
+                "Particle hardness",
+                "Moisture content only"
               ],
               "answer": 0,
-              "solution": "Force = Surface tension x Length = 0.05 x 0.2 = 0.01 N. Correct answer: 0.01 N."
+              "solution": "Efficient extraction requires a solvent with high affinity for the desired solute. Solubility of oil in solvent"
             },
             {
-              "q": "A food product has a yield stress of 50 Pa. If the applied stress is 60 Pa, will the product flow?",
+              "q": "A tea manufacturer wants to improve the extraction of flavor compounds from tea leaves. Process engineers consider increasing extraction temperature and improving contact between leaves and water. The objective is to enhance mass transfer during extraction. Which factor most directly increases extraction rate?",
               "options": [
-                "Yes",
-                "No",
-                "Depends on the viscosity",
-                "Cannot be determined"
+                "Reduced contact area",
+                "Increased temperature",
+                "Increased crystal size",
+                "Reduced solvent movement"
               ],
-              "answer": 0
+              "answer": 1,
+              "solution": "Higher temperature generally increases diffusion and extraction rate. Increased temperature"
             },
             {
-              "q": "The texture of a food product is measured as 10 N/m². If the area of contact is 0.5 m², what is the force required to deform the product?",
+              "q": "A sugar solution is cooled gradually after concentration. As temperature decreases, crystals begin to appear in the solution. The production supervisor explains that crystal formation occurs because solubility decreases with temperature. What condition initiates crystallization?",
               "options": [
-                "5 N",
-                "10 N",
-                "15 N",
-                "20 N"
+                "Unsaturated solution",
+                "Supersaturated solution",
+                "Dilute solution",
+                "Neutral solution"
+              ],
+              "answer": 1,
+              "solution": "Crystallization begins when the solution becomes supersaturated. Supersaturated solution"
+            },
+            {
+              "q": "A pharmaceutical food additive is produced through crystallization. The quality control team specifies a narrow crystal size distribution to ensure uniform product performance. Process conditions are adjusted to control nucleation and crystal growth. Why is crystal size control important?",
+              "options": [
+                "Uniform product quality and handling",
+                "Increased contamination",
+                "Reduced product purity",
+                "Elimination of crystal formation"
               ],
               "answer": 0,
-              "solution": "Force = Texture (stress) x Area = 10 x 0.5 = 5 N. Correct answer: 5 N."
-            },
+              "solution": "Crystal size influences purity, flowability, handling, and product consistency. Uniform product quality and handling"
+            }
+          ]
+        },
+        {
+          "id": "unit2_case",
+          "title": "Case Studies",
+          "notes": [],
+          "mcqs": [
             {
-              "q": "A food product has a flavor concentration of 0.2 g/L. If the volume of the product is 5 L, what is the total amount of flavor?",
+              "q": "A beverage company concentrates apple juice before packaging. The density of fresh juice is measured as 1.04 g/cm³, while the concentrated juice has a density of 1.18 g/cm³. The production manager observes that the concentration process removes water without significantly affecting the soluble solids. The engineering team wants to identify the reason for the density increase. Based on food property principles, determine the most likely explanation for the observed change.",
               "options": [
-                "0.1 g",
-                "1 g",
-                "2 g",
-                "10 g"
+                "Increased air incorporation",
+                "Increased solids concentration per unit volume",
+                "Reduced flavor content",
+                "Increased moisture content"
               ],
               "answer": 1,
-              "solution": "Total amount = Concentration x Volume = 0.2 x 5 = 1 g. Correct answer: 1 g."
+              "solution": "Density increases when more mass is present within the same volume."
             },
             {
-              "q": "A storage tank has a capacity of 1000 L. If the flow rate of the liquid food into the tank is 50 L/min, how long will it take to fill the tank?",
+              "q": "A confectionery plant needs to transport a sugar syrup with a viscosity of 5 Pa·s through a pipeline system. The existing centrifugal pump performs poorly because the syrup flows slowly and creates excessive resistance. The process engineer must recommend a suitable pumping system. Considering the rheological characteristics of highly viscous fluids, identify the most appropriate pump type.",
               "options": [
-                "10 min",
-                "20 min",
-                "30 min",
-                "40 min"
-              ],
-              "answer": 1,
-              "solution": "Time = Capacity / Flow rate = 1000 / 50 = 20 min. Correct answer: 20 min."
-            },
-            {
-              "q": "A raw material has a bulk density of 0.6 g/cm³. If the volume of the material is 500 cm³, what is its mass?",
-              "options": [
-                "300 g",
-                "500 g",
-                "600 g",
-                "1000 g"
-              ],
-              "answer": 0,
-              "solution": "Mass = Density x Volume = 0.6 x 500 = 300. Correct answer: 300 g."
-            },
-            {
-              "q": "A grading process separates particles into two sizes: 2 mm and 5 mm. If the total mass of particles is 1000 g and 60% are 2 mm, what is the mass of 5 mm particles?",
-              "options": [
-                "200 g",
-                "400 g",
-                "600 g",
-                "800 g"
-              ],
-              "answer": 1,
-              "solution": "Mass of 2mm particles = 60.0% x 1000 = 600 g. Remaining (5mm) mass = 1000 - 600 = 400 g. Correct answer: 400 g."
-            },
-            {
-              "q": "A size reduction process reduces the particle size by 50%. If the initial particle size is 10 mm, what is the final particle size?",
-              "options": [
-                "2 mm",
-                "5 mm",
-                "10 mm",
-                "20 mm"
-              ],
-              "answer": 1,
-              "solution": "Final size = Initial size x (1 - 50.0/100) = 10 x 0.5 = 5 mm. Correct answer: 5 mm."
-            },
-            {
-              "q": "A mixing process combines two ingredients in a ratio of 2:1. If the total mass is 300 g, what is the mass of each ingredient?",
-              "options": [
-                "100 g and 200 g",
-                "150 g and 150 g",
-                "200 g and 100 g",
-                "250 g and 50 g"
+                "Centrifugal pump",
+                "Reciprocating pump",
+                "Positive displacement pump",
+                "Jet pump"
               ],
               "answer": 2,
-              "solution": "Total parts = 2+1 = 3. Each part = 300 / 3 = 100 g. Ingredient masses = 200 g and 100 g. Correct answer: 200 g and 100 g."
+              "solution": "Highly viscous fluids are best handled by positive displacement pumps."
             },
             {
-              "q": "An emulsification process creates droplets with an average diameter of 1 µm. If the volume of the dispersed phase is 0.1 L, what is the total surface area of the droplets? (Assume spherical droplets.)",
+              "q": "A salad dressing manufacturer reports that oil droplets separate after two weeks of storage. The product contains oil, water, and flavoring agents. Laboratory analysis shows insufficient emulsifier concentration in the formulation. The R&D team must identify the most probable cause of instability. Which factor is responsible for the separation?",
               "options": [
-                ": 0.6 m²",
-                "6 m²",
-                "60 m²",
-                "600 m²"
-              ],
-              "answer": 1,
-              "solution": "For spherical droplets, total surface area S = 6V/d (surface-to-volume ratio of a sphere = 6/d). With V = 0.1 L and d = 1 micrometre, S = 6 x 0.1 / 1 = 0.6 m^2 (standard worked-example unit handling). Correct answer: 6 m²."
-            },
-            {
-              "q": "A filtration process removes 95% of particles from a liquid. If the initial particle concentration is 1000 particles/mL, what is the final concentration?",
-              "options": [
-                "5 particles/mL",
-                "50 particles/mL",
-                "100 particles/mL",
-                "500 particles/mL"
-              ],
-              "answer": 1,
-              "solution": "Final concentration = Initial x (1 - 95.0/100) = 1000 x 0.05 = 50. Correct answer: 50 particles/mL."
-            },
-            {
-              "q": "A membrane separation process has a rejection rate of 90%. If the feed concentration is 1000 ppm, what is the permeate concentration?",
-              "options": [
-                "10 ppm",
-                "100 ppm",
-                "900 ppm",
-                "1000 ppm"
-              ],
-              "answer": 1,
-              "solution": "Permeate concentration = Feed x (1 - Rejection rate) = 1000 x (1 - 90.0/100) = 100 ppm. Correct answer: 100 ppm."
-            },
-            {
-              "q": "A crystallization process produces crystals with an average size of 0.5 mm. If the total volume of crystals is 1000 cm³, how many crystals are produced? (Assume spherical crystals.)",
-              "options": [
-                "1.5 × 10⁶",
-                "1.5 × 10⁷",
-                "1.5 × 10⁸",
-                "1.5 × 10⁹"
-              ],
-              "answer": 1,
-              "solution": "Volume of one spherical crystal = (4/3)pi r^3, r = 0.5/2 mm = 0.25 mm, v = 0.06545 mm^3. Total volume 1000 cm^3 = 1000000 mm^3. Number of crystals = 1000000 / 0.06545 ~ order of 10^7. Correct answer: 1.5 × 10⁷."
-            },
-            {
-              "q": "A liquid food has a density of 1.1 g/cm³. If the mass of the liquid is 550 g, what is its volume?",
-              "options": [
-                "500 cm³",
-                "550 cm³",
-                "600 cm³",
-                "605 cm³"
+                "Reduced interfacial stabilization",
+                "Increased density of water",
+                "Increased sugar concentration",
+                "Reduced viscosity only"
               ],
               "answer": 0,
-              "solution": "Density = Mass / Volume, so Volume = Mass / Density = 550 / 1.1 = 500 (matching the unit shown in the options). Correct answer: 500 cm³."
+              "solution": "Insufficient emulsifier leads to droplet coalescence and instability."
             },
             {
-              "q": "A solid food has a specific gravity of 1.5. If the density of water is 1 g/cm³, what is the density of the food?",
+              "q": "A bakery receives customer complaints that packaged bread becomes hard after three days of storage. Moisture loss is minimal because the packaging material has excellent barrier properties. The food technologist investigates starch-related changes occurring during storage. Which phenomenon most likely explains the increase in firmness?",
               "options": [
-                "0.5 g/cm³",
-                "1 g/cm³",
-                "1.5 g/cm³",
-                "2 g/cm³"
-              ],
-              "answer": 2,
-              "solution": "Density of food = Specific Gravity x Density of water = 1.5 x 1 g/cm3 = 1.5 g/cm3. Correct answer: 1.5 g/cm³."
-            },
-            {
-              "q": "The viscosity of a liquid is 0.02 Pa·s. If the shear stress is 0.2 Pa, what is the shear rate?",
-              "options": [
-                "1 s⁻¹",
-                "10 s⁻¹",
-                "100 s⁻¹",
-                "1000 s⁻¹"
+                "Caramelization",
+                "Starch retrogradation",
+                "Fermentation",
+                "Protein hydrolysis"
               ],
               "answer": 1,
-              "solution": "Shear rate = Shear stress / Viscosity = 0.2 / 0.02 = 10 s^-1 (tau = mu x shear rate). Correct answer: 10 s⁻¹."
+              "solution": "Bread staling is mainly caused by starch retrogradation."
             },
             {
-              "q": "A gas has a density of 2 kg/m³. If the volume of the gas is 3 m³, what is its mass?",
+              "q": "A fruit beverage manufacturer processes juice at high temperatures for an extended period. Sensory analysis indicates a significant loss of aroma compounds after processing. The quality team wants to identify the major reason for flavor deterioration. Which factor is primarily responsible?",
               "options": [
-                "1.5 kg",
-                "3 kg",
-                "6 kg",
-                "9 kg"
-              ],
-              "answer": 2,
-              "solution": "Mass = Density x Volume = 2 x 3 = 6. Correct answer: 6 kg."
-            },
-            {
-              "q": "A food product has a yield stress of 40 Pa. If the applied stress is 50 Pa, will the product flow?",
-              "options": [
-                "Yes",
-                "No",
-                "Depends on the viscosity",
-                "Cannot be determined"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "The texture of a food product is measured as 15 N/m². If the area of contact is 0.3 m², what is the force required to deform the product? (",
-              "options": [
-                "4.5 N",
-                "5 N",
-                "10 N",
-                "15 N"
+                "Volatilization of aroma compounds",
+                "Increased density",
+                "Reduced viscosity",
+                "Increased crystallization"
               ],
               "answer": 0,
-              "solution": "Force = Texture (stress) x Area = 15 x 0.3 = 4.5 N. Correct answer: 4.5 N."
+              "solution": "Many flavor compounds are volatile and can be lost during heating."
             },
             {
-              "q": "A food product has a flavor concentration of 0.3 g/L. If the volume of the product is 4 L, what is the total amount of flavor?",
+              "q": "A wheat processing facility receives 10,000 kg of grain containing stones, dust, and plant debris. Improper cleaning previously caused damage to milling equipment. The plant manager wants to justify investment in an improved cleaning system. What is the primary benefit of effective cleaning?",
               "options": [
-                "0.12 g",
-                "1.2 g",
-                "12 g",
-                "120 g"
+                "Increased microbial growth",
+                "Removal of contaminants and equipment protection",
+                "Increased moisture content",
+                "Increased grain size"
               ],
               "answer": 1,
-              "solution": "Total amount = Concentration x Volume = 0.3 x 4 = 1.2 g. Correct answer: 1.2 g."
+              "solution": "Cleaning protects equipment and improves product quality."
             },
             {
-              "q": "A mixing process combines two ingredients in a ratio of 3:1. If the total mass is 400 g, what is the mass of each ingredient?",
+              "q": "A storage facility maintains apples at 1°C and 90–95% relative humidity. The manager observes significantly lower spoilage compared to apples stored at ambient temperature. The company wants to identify the scientific reason behind improved shelf life. Which explanation is most appropriate?",
               "options": [
-                "100 g and 300 g",
-                "200 g and 200 g",
-                "300 g and 100 g",
-                "350 g and 50 g"
-              ],
-              "answer": 2,
-              "solution": "Total parts = 3+1 = 4. Each part = 400 / 4 = 100 g. Ingredient masses = 300 g and 100 g. Correct answer: 300 g and 100 g."
-            },
-            {
-              "q": "An emulsification process creates droplets with an average diameter of 2 µm. If the volume of the dispersed phase is 0.2 L, what is the total surface area of the droplets? (Assume spherical droplets.)",
-              "options": [
-                "0.6 m²",
-                "6 m²",
-                "60 m²",
-                "600 m²"
+                "Increased respiration rate",
+                "Reduced biochemical and microbial activity",
+                "Increased water activity",
+                "Increased oxidation rate"
               ],
               "answer": 1,
-              "solution": "For spherical droplets, total surface area S = 6V/d (surface-to-volume ratio of a sphere = 6/d). With V = 0.2 L and d = 2 micrometre, S = 6 x 0.2 / 2 = 0.6 m^2 (standard worked-example unit handling). Correct answer: 6 m²."
+              "solution": "Low temperatures slow biological deterioration."
             },
             {
-              "q": "A filtration process removes 90% of particles from a liquid. If the initial particle concentration is 2000 particles/mL, what is the final concentration?",
+              "q": "A fruit export company grades mangoes according to size before shipment. International buyers require uniform packaging and appearance. The production manager must explain the importance of grading. What is the major objective?",
               "options": [
-                "20 particles/mL",
-                "200 particles/mL",
-                "400 particles/mL",
-                "1800 particles/mL"
+                "Increase spoilage",
+                "Achieve product uniformity",
+                "Increase moisture loss",
+                "Promote fermentation"
               ],
               "answer": 1,
-              "solution": "Final concentration = Initial x (1 - 90.0/100) = 2000 x 0.1 = 200. Correct answer: 200 particles/mL."
+              "solution": "Grading provides consistency in size and quality."
             },
             {
-              "q": "A membrane separation process has a rejection rate of 80%. If the feed concentration is 2000 ppm, what is the permeate concentration?",
+              "q": "A potato processing plant compares abrasive peeling and steam peeling systems. The company wants maximum product recovery and minimum flesh loss. Which criterion should receive the highest priority?",
               "options": [
-                "200 ppm",
-                "400 ppm",
-                "1600 ppm",
-                "2000 ppm"
+                "Highest peel removal depth",
+                "Minimum edible flesh loss",
+                "Maximum water consumption",
+                "Highest operating noise"
               ],
               "answer": 1,
-              "solution": "Permeate concentration = Feed x (1 - Rejection rate) = 2000 x (1 - 80.0/100) = 400 ppm. Correct answer: 400 ppm."
+              "solution": "Efficient peeling minimizes valuable product loss."
             },
             {
-              "q": "An extraction process recovers 70% of a solute from a raw material. If the initial solute content is 600 g, what is the amount of solute recovered?",
+              "q": "A vegetable distributor transports lettuce over long distances. Significant wilting occurs during transit because of high temperatures. The logistics manager plans to use refrigerated transport vehicles. What is the primary benefit of refrigerated transportation?",
               "options": [
-                "180 g",
-                "420 g",
-                "600 g",
-                "720 g"
+                "Increased respiration",
+                "Reduced quality deterioration",
+                "Increased enzymatic activity",
+                "Increased moisture loss"
               ],
               "answer": 1,
-              "solution": "Solute recovered = 70.0% x 600 = 420 g. Correct answer: 420 g."
+              "solution": "Cooling slows deterioration and maintains freshness."
             },
             {
-              "q": "A crystallization process produces crystals with an average size of 1 mm. If the total volume of crystals is 2000 cm³, how many crystals are produced? (Assume spherical crystals.)",
+              "q": "A spice company grinds black pepper from whole kernels into fine powder. Product testing shows improved flavor release during cooking. The process engineer wants to explain this observation. Which factor is mainly responsible?",
               "options": [
-                "3 × 10⁶",
-                "3 × 10⁷",
-                "3 × 10⁸",
-                "3 × 10⁹"
+                "Reduced surface area",
+                "Increased surface area for extraction",
+                "Reduced contact with food",
+                "Increased particle hardness"
               ],
               "answer": 1,
-              "solution": "Volume of one spherical crystal = (4/3)pi r^3, r = 1.0/2 mm = 0.5 mm, v = 0.5236 mm^3. Total volume 2000 cm^3 = 2000000 mm^3. Number of crystals = 2000000 / 0.5236 ~ order of 10^7. Correct answer: 3 × 10⁷."
+              "solution": "Grinding increases surface area and flavor availability."
             },
             {
-              "q": "A liquid food has a density of 1.3 g/cm³. If the mass of the liquid is 650 g, what is its volume?",
+              "q": "A beverage plant mixes sugar, flavoring, and stabilizers in a blending tank. Inadequate mixing results in different sweetness levels among bottles. The quality manager investigates the problem. What is the main objective of mixing?",
               "options": [
-                "500 cm³",
-                "550 cm³",
-                "600 cm³",
-                "650 cm³"
+                "Product segregation",
+                "Uniform ingredient distribution",
+                "Particle enlargement",
+                "Crystallization"
+              ],
+              "answer": 1,
+              "solution": "Mixing ensures homogeneity throughout the product."
+            },
+            {
+              "q": "A mayonnaise manufacturer uses egg yolk during formulation. Product stability improves significantly after the addition of egg yolk. The food scientist explains the role of lecithin present in egg yolk. What is its primary function?",
+              "options": [
+                "Coloring agent",
+                "Emulsifying agent",
+                "Preservative",
+                "Thickener only"
+              ],
+              "answer": 1,
+              "solution": "Lecithin acts as a natural emulsifier."
+            },
+            {
+              "q": "A cereal manufacturer observes excessive heat generation during prolonged milling. Laboratory analysis indicates nutrient degradation and flavor loss. The plant engineer investigates the root cause. Which factor contributes most to the problem?",
+              "options": [
+                "Mechanical energy converted to heat",
+                "Reduced particle size only",
+                "Increased moisture content",
+                "Improved cooling"
               ],
               "answer": 0,
-              "solution": "Density = Mass / Volume, so Volume = Mass / Density = 650 / 1.3 = 500 (matching the unit shown in the options). Correct answer: 500 cm³."
+              "solution": "Grinding energy can generate heat and degrade quality."
             },
             {
-              "q": "A solid food has a specific gravity of 1.2. If the density of water is 1 g/cm³, what is the density of the food?",
+              "q": "An instant beverage manufacturer studies mixing times of 2, 5, and 15 minutes. Product uniformity improves initially but shows no significant improvement after 5 minutes. Longer mixing increases energy costs. What is the most reasonable conclusion?",
               "options": [
-                "0.8 g/cm³",
-                "1 g/cm³",
-                "1.2 g/cm³",
-                "1.5 g/cm³"
-              ],
-              "answer": 2,
-              "solution": "Density of food = Specific Gravity x Density of water = 1.2 x 1 g/cm3 = 1.2 g/cm3. Correct answer: 1.2 g/cm³."
-            },
-            {
-              "q": "A gas has a density of 2.5 kg/m³. If the volume of the gas is 4 m³, what is its mass?",
-              "options": [
-                "5 kg",
-                "10 kg",
-                "15 kg",
-                "20 kg"
+                "Continue mixing indefinitely",
+                "Select optimum mixing time near 5 minutes",
+                "Stop mixing completely",
+                "Double mixing intensity"
               ],
               "answer": 1,
-              "solution": "Mass = Density x Volume = 2.5 x 4 = 10. Correct answer: 10 kg."
+              "solution": "Optimal mixing balances quality and cost."
             },
             {
-              "q": "A food product has a yield stress of 60 Pa. If the applied stress is 70 Pa, will the product flow?",
+              "q": "A juice manufacturer uses filtration to remove suspended pulp particles. Customers demand a bright and clear product appearance. The filtration unit successfully retains insoluble solids. What is the main purpose of filtration?",
               "options": [
-                "Yes",
-                "No",
-                "Depends on the viscosity",
-                "Cannot be determined"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "The texture of a food product is measured as 20 N/m². If the area of contact is 0.4 m², what is the force required to deform the product?",
-              "options": [
-                "5 N",
-                "8 N",
-                "10 N",
-                "20 N"
+                "Increase sugar content",
+                "Remove suspended solids",
+                "Increase acidity",
+                "Promote crystallization"
               ],
               "answer": 1,
-              "solution": "Force = Texture (stress) x Area = 20 x 0.4 = 8 N. Correct answer: 8 N."
+              "solution": "Filtration separates solids from liquids."
             },
             {
-              "q": "A food product has a flavor concentration of 0.4 g/L. If the volume of the product is 3 L, what is the total amount of flavor?",
+              "q": "A dairy company wants to concentrate proteins while allowing water and salts to pass through. Several membrane systems are evaluated. Which membrane process is most suitable?",
               "options": [
-                "0.12 g",
-                "1.2 g",
-                "12 g",
-                "120 g"
+                "Microfiltration",
+                "Ultrafiltration",
+                "Sedimentation",
+                "Screening"
               ],
               "answer": 1,
-              "solution": "Total amount = Concentration x Volume = 0.4 x 3 = 1.2 g. Correct answer: 1.2 g."
+              "solution": "Ultrafiltration retains proteins while allowing smaller molecules through."
             },
             {
-              "q": "A filtration process removes 95% of particles from a liquid. If the initial particle concentration is 3000 particles/mL, what is the final concentration?",
+              "q": "A filtration system initially operates at a high flow rate. As processing continues, a layer of solids accumulates on the filter surface. Engineers notice a gradual reduction in filtrate flow rate. What is the most likely reason?",
               "options": [
-                "15 particles/mL",
-                "150 particles/mL",
-                "300 particles/mL",
-                "2850 particles/mL"
+                "Reduced pressure drop",
+                "Increased resistance from filter cake",
+                "Increased membrane pore size",
+                "Reduced solid concentration"
               ],
               "answer": 1,
-              "solution": "Final concentration = Initial x (1 - 95.0/100) = 3000 x 0.05 = 150. Correct answer: 150 particles/mL."
+              "solution": "Cake buildup increases flow resistance."
             },
             {
-              "q": "A membrane separation process has a rejection rate of 85%. If the feed concentration is 3000 ppm, what is the permeate concentration?",
+              "q": "A fruit juice manufacturer concentrates juice using reverse osmosis rather than evaporation. Product flavor retention improves significantly. The production manager explains the advantage of the technology. Which feature provides this benefit?",
               "options": [
-                "300 ppm",
-                "450 ppm",
-                "2550 ppm",
-                "3000 ppm"
+                "High-temperature operation",
+                "Low-temperature concentration",
+                "Increased oxidation",
+                "Increased caramelization"
               ],
               "answer": 1,
-              "solution": "Permeate concentration = Feed x (1 - Rejection rate) = 3000 x (1 - 85.0/100) = 450 ppm. Correct answer: 450 ppm."
+              "solution": "Reverse osmosis avoids thermal damage."
             },
             {
-              "q": "An extraction process recovers 75% of a solute from a raw material. If the initial solute content is 800 g, what is the amount of solute recovered?",
+              "q": "A membrane system experiences a gradual decline in permeate flux during operation. Inspection reveals protein and mineral deposits on the membrane surface. Engineers suspect fouling. What is the primary consequence of membrane fouling?",
               "options": [
-                "200 g",
-                "600 g",
-                "800 g",
-                "1000 g"
+                "Increased membrane productivity",
+                "Reduced filtration performance",
+                "Increased pore size",
+                "Improved selectivity only"
               ],
               "answer": 1,
-              "solution": "Solute recovered = 75.0% x 800 = 600 g. Correct answer: 600 g."
+              "solution": "Fouling reduces flux and efficiency."
             },
             {
-              "q": "A crystallization process produces crystals with an average size of 2 mm. If the total volume of crystals is 3000 cm³, how many crystals are produced? (Assume spherical crystals.)",
+              "q": "An oil processing plant uses hexane to recover oil from soybean flakes. The extraction efficiency is significantly higher than mechanical pressing alone. The process engineer explains the role of hexane. Why is hexane effective?",
               "options": [
-                "3 × 10⁶",
-                "3 × 10⁷",
-                "3 × 10⁸",
-                "3 × 10⁹"
-              ],
-              "answer": 1,
-              "solution": "Volume of one spherical crystal = (4/3)pi r^3, r = 2.0/2 mm = 1.0 mm, v = 4.18879 mm^3. Total volume 3000 cm^3 = 3000000 mm^3. Number of crystals = 3000000 / 4.18879 ~ order of 10^7. Correct answer: 3 × 10⁷."
-            },
-            {
-              "q": "A liquid food has a density of 1.4 g/cm³. If the mass of the liquid is 700 g, what is its volume?",
-              "options": [
-                "500 cm³",
-                "550 cm³",
-                "600 cm³",
-                "700 cm³"
+                "High oil solubility in hexane",
+                "High viscosity",
+                "High crystallization tendency",
+                "Low volatility"
               ],
               "answer": 0,
-              "solution": "Density = Mass / Volume, so Volume = Mass / Density = 700 / 1.4 = 500 (matching the unit shown in the options). Correct answer: 500 cm³."
+              "solution": "Hexane efficiently dissolves edible oils."
             },
             {
-              "q": "A solid food has a specific gravity of 1.3. If the density of water is 1 g/cm³, what is the density of the food?",
+              "q": "A tea company increases extraction temperature from 60°C to 90°C. Laboratory results show faster release of flavor compounds into water. The R&D team investigates the reason. Which factor explains the improvement?",
               "options": [
-                "0.7 g/cm³",
-                "1 g/cm³",
-                "1.3 g/cm³",
-                "1.5 g/cm³"
+                "Reduced diffusion rate",
+                "Increased mass transfer rate",
+                "Reduced solubility",
+                "Increased crystal formation"
               ],
-              "answer": 2,
-              "solution": "Density of food = Specific Gravity x Density of water = 1.3 x 1 g/cm3 = 1.3 g/cm3. Correct answer: 1.3 g/cm³."
+              "answer": 1,
+              "solution": "Higher temperature accelerates diffusion and extraction."
             },
             {
-              "q": "A gas has a density of 3 kg/m³. If the volume of the gas is 5 m³, what is its mass?",
+              "q": "A concentrated sugar solution is cooled slowly inside a crystallizer. Crystal formation begins after a specific concentration threshold is exceeded. The production supervisor wants to identify the required condition for crystal growth. What condition is necessary?",
               "options": [
-                "5 kg",
-                "10 kg",
-                "15 kg",
-                "20 kg"
+                "Unsaturated solution",
+                "Supersaturated solution",
+                "Dilute solution",
+                "Neutral solution"
               ],
-              "answer": 2,
-              "solution": "Mass = Density x Volume = 3 x 5 = 15. Correct answer: 15 kg."
+              "answer": 1,
+              "solution": "Crystallization requires supersaturation."
             },
             {
-              "q": "The surface tension of a liquid is 0.09 N/m. If the length of the surface is 0.3 m, what is the force acting on the surface?",
+              "q": "A food additive manufacturer requires uniform crystal size for consistent product quality. Excessive nucleation creates many small crystals that are difficult to separate. Engineers adjust operating conditions to favor controlled crystal growth. Why is crystal size control important?",
               "options": [
-                "0.027 N",
-                "0.09 N",
-                "0.27 N",
-                "0.9 N"
+                "Product consistency and handling",
+                "Increased contamination",
+                "Reduced purity",
+                "Elimination of crystals"
               ],
               "answer": 0,
-              "solution": "Force = Surface tension x Length = 0.09 x 0.3 = 0.027 N. Correct answer: 0.027 N."
+              "solution": "Uniform crystals improve handling and quality."
             },
             {
-              "q": "A food product has a yield stress of 70 Pa. If the applied stress is 80 Pa, will the product flow?",
+              "q": "A herbal extraction facility obtains lower-than-expected recovery of bioactive compounds. Engineers consider increasing solvent-to-solid ratio and improving agitation. Pilot trials show better recovery after these modifications. What is the primary reason for the improvement?",
               "options": [
-                "Yes",
-                "No",
-                "Depends on the viscosity",
-                "Cannot be determined"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "The texture of a food product is measured as 25 N/m². If the area of contact is 0.5 m², what is the force required to deform the product?",
-              "options": [
-                "10 N",
-                "12.5 N",
-                "15 N",
-                "25 N"
-              ],
-              "answer": 1,
-              "solution": "Force = Texture (stress) x Area = 25 x 0.5 = 12.5 N. Correct answer: 12.5 N."
-            },
-            {
-              "q": "A food product has a flavor concentration of 0.5 g/L. If the volume of the product is 2 L, what is the total amount of flavor?",
-              "options": [
-                "0.1 g",
-                "1 g",
-                "10 g",
-                "100 g"
-              ],
-              "answer": 1,
-              "solution": "Total amount = Concentration x Volume = 0.5 x 2 = 1 g. Correct answer: 1 g."
-            },
-            {
-              "q": "A filtration process removes 98% of particles from a liquid. If the initial particle concentration is 4000 particles/mL, what is the final concentration?",
-              "options": [
-                "20 particles/mL",
-                "80 particles/mL",
-                "400 particles/mL",
-                "3920 particles/mL"
-              ],
-              "answer": 1,
-              "solution": "Final concentration = Initial x (1 - 98.0/100) = 4000 x 0.02 = 80. Correct answer: 80 particles/mL."
-            },
-            {
-              "q": "A membrane separation process has a rejection rate of 90%. If the feed concentration is 4000 ppm, what is the permeate concentration?",
-              "options": [
-                "400 ppm",
-                "800 ppm",
-                "3600 ppm",
-                "4000 ppm"
+                "Enhanced mass transfer between solvent and solid",
+                "Reduced contact area",
+                "Reduced solubility",
+                "Increased crystallization"
               ],
               "answer": 0,
-              "solution": "Permeate concentration = Feed x (1 - Rejection rate) = 4000 x (1 - 90.0/100) = 400 ppm. Correct answer: 400 ppm."
-            },
+              "solution": "Better solvent contact improves extraction efficiency."
+            }
+          ]
+        },
+        {
+          "id": "unit2_assertion",
+          "title": "Assertion and Reasoning",
+          "notes": [],
+          "mcqs": [
             {
-              "q": "A crystallization process produces crystals with an average size of 3 mm. If the total volume of crystals is 4000 cm³, how many crystals are produced? (Assume spherical crystals.)",
+              "q": "A beverage manufacturer observes that concentrated fruit juice has a higher density than freshly extracted juice. The quality control team studies the relationship between dissolved solids and density to understand the change in physical properties. Based on food engineering principles, evaluate the following statements and identify the correct option. Assertion (A): The density of fruit juice increases as the concentration of dissolved solids increases. Reason (R): Density is defined as the mass of material present per unit volume.",
               "options": [
-                "3 × 10⁶",
-                "3 × 10⁷",
-                "3 × 10⁸",
-                "3 × 10⁹"
-              ],
-              "answer": 1,
-              "solution": "Volume of one spherical crystal = (4/3)pi r^3, r = 3.0/2 mm = 1.5 mm, v = 14.13717 mm^3. Total volume 4000 cm^3 = 4000000 mm^3. Number of crystals = 4000000 / 14.13717 ~ order of 10^7. Correct answer: 3 × 10⁷."
-            },
-            {
-              "q": "A liquid food has a density of 1.5 g/cm³. If the mass of the liquid is 750 g, what is its volume?",
-              "options": [
-                "500 cm³",
-                "550 cm³",
-                "600 cm³",
-                "750 cm³"
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
               ],
               "answer": 0,
-              "solution": "Density = Mass / Volume, so Volume = Mass / Density = 750 / 1.5 = 500 (matching the unit shown in the options). Correct answer: 500 cm³."
+              "solution": "An increase in dissolved solids increases the mass present in a given volume, resulting in higher density. The reason directly explains the assertion."
             },
             {
-              "q": "A solid food has a specific gravity of 1.4. If the density of water is 1 g/cm³, what is the density of the food?",
+              "q": "A dairy processing plant routinely measures the specific gravity of milk to detect dilution and maintain product quality. During training, operators discuss various properties related to specific gravity measurements. Consider the following statements. Assertion (A): Specific gravity is a dimensionless quantity. Reason (R): Specific gravity is used to determine the color of milk samples.",
               "options": [
-                "0.6 g/cm³",
-                "1 g/cm³",
-                "1.4 g/cm³",
-                "1.5 g/cm³"
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
               ],
               "answer": 2,
-              "solution": "Density of food = Specific Gravity x Density of water = 1.4 x 1 g/cm3 = 1.4 g/cm3. Correct answer: 1.4 g/cm³."
+              "solution": "Specific gravity is dimensionless because it is a ratio of two densities. However, it is not used to determine milk color."
             },
             {
-              "q": "The viscosity of a liquid is 0.05 Pa·s. If the shear stress is 0.5 Pa, what is the shear rate?",
+              "q": "A ketchup manufacturer notices that the product flows easily when squeezed but remains thick during storage. The product development team studies its flow characteristics to classify its rheological behavior. Evaluate the following statements. Assertion (A): Ketchup exhibits pseudoplastic behavior. Reason (R): Pseudoplastic fluids show a decrease in viscosity with increasing shear rate.",
               "options": [
-                "1 s⁻¹",
-                "10 s⁻¹",
-                "100 s⁻¹",
-                "1000 s⁻¹"
-              ],
-              "answer": 1,
-              "solution": "Shear rate = Shear stress / Viscosity = 0.5 / 0.05 = 10 s^-1 (tau = mu x shear rate). Correct answer: 10 s⁻¹."
-            },
-            {
-              "q": "A gas has a density of 3.5 kg/m³. If the volume of the gas is 6 m³, what is its mass?",
-              "options": [
-                "10.5 kg",
-                "15 kg",
-                "21 kg",
-                "30 kg"
-              ],
-              "answer": 2,
-              "solution": "Mass = Density x Volume = 3.5 x 6 = 21. Correct answer: 21 kg."
-            },
-            {
-              "q": "A food product has a yield stress of 80 Pa. If the applied stress is 90 Pa, will the product flow?",
-              "options": [
-                "Yes",
-                "No",
-                "Depends on the viscosity",
-                "Cannot be determined"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "The texture of a food product is measured as 30 N/m². If the area of contact is 0.6 m², what is the force required to deform the product?",
-              "options": [
-                "15 N",
-                "18 N",
-                "20 N",
-                "30 N"
-              ],
-              "answer": 1,
-              "solution": "Force = Texture (stress) x Area = 30 x 0.6 = 18 N. Correct answer: 18 N."
-            },
-            {
-              "q": "A food product has a flavor concentration of 0.6 g/L. If the volume of the product is 1.5 L, what is the total amount of flavor?",
-              "options": [
-                "0.09 g",
-                "0.9 g",
-                "9 g",
-                "90 g"
-              ],
-              "answer": 1,
-              "solution": "Total amount = Concentration x Volume = 0.6 x 1.5 = 0.9 g. Correct answer: 0.9 g."
-            },
-            {
-              "q": "A filtration process removes 99% of particles from a liquid. If the initial particle concentration is 5000 particles/mL, what is the final concentration?",
-              "options": [
-                "5 particles/mL",
-                "500 particles/mL",
-                "50 particles/mL",
-                "4950 particles/mL"
-              ],
-              "answer": 2,
-              "solution": "Final concentration = Initial x (1 - 99.0/100) = 5000 x 0.01 = 50. Correct answer: 50 particles/mL."
-            },
-            {
-              "q": "A membrane separation process has a rejection rate of 95%. If the feed concentration is 5000 ppm, what is the permeate concentration?",
-              "options": [
-                "250 ppm",
-                "500 ppm",
-                "4750 ppm",
-                "5000 ppm"
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
               ],
               "answer": 0,
-              "solution": "Permeate concentration = Feed x (1 - Rejection rate) = 5000 x (1 - 95.0/100) = 250 ppm. Correct answer: 250 ppm."
+              "solution": "Ketchup is a pseudoplastic fluid, and the definition of pseudoplastic behavior explains why it flows more easily when squeezed."
             },
             {
-              "q": "An extraction process recovers 90% of a solute from a raw material. If the initial solute content is 1200 g, what is the amount of solute recovered?",
+              "q": "A food company develops a salad dressing containing oil and water. To improve stability, an emulsifier is added to the formulation. The food scientist explains the role of surface-active agents in emulsion systems. Analyze the following statements. Assertion (A): Emulsifiers improve the stability of emulsions. Reason (R): Emulsifiers increase the interfacial tension between oil and water phases.",
               "options": [
-                "120 g",
-                "1080 g",
-                "1200 g",
-                "1320 g"
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
               ],
-              "answer": 1,
-              "solution": "Solute recovered = 90.0% x 1200 = 1080 g. Correct answer: 1080 g."
+              "answer": 2,
+              "solution": "Emulsifiers stabilize emulsions by reducing, not increasing, interfacial tension."
             },
             {
-              "q": "A crystallization process produces crystals with an average size of 4 mm. If the total volume of crystals is 5000 cm³, how many crystals are produced? (Assume spherical crystals.)",
+              "q": "A vegetable processing plant performs cleaning before further processing operations such as peeling and cutting. The objective is to improve product quality and protect equipment from damage. Consider the following statements. Assertion (A): Cleaning is usually the first preparative operation in food processing. Reason (R): Cleaning removes foreign materials and contaminants from raw materials.",
               "options": [
-                "3 × 10⁶",
-                "3 × 10⁷",
-                "3 × 10⁸",
-                "3 × 10⁹"
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Cleaning removes contaminants and is therefore performed before most other preparative operations."
+            },
+            {
+              "q": "A fruit processing company grades mangoes according to size and maturity before packaging. The marketing department demands uniformity in appearance and quality. Evaluate the following statements. Assertion (A): Grading improves product uniformity. Reason (R): Grading separates materials based on selected quality characteristics.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Both statements are correct. Separation according to quality characteristics results in improved uniformity."
+            },
+            {
+              "q": "A cold storage facility stores apples at low temperatures to extend shelf life and preserve quality. The manager explains the scientific basis of temperature control during storage. Analyze the following statements. Assertion (A): Refrigerated storage increases the shelf life of fruits. Reason (R): Refrigerated storage increases microbial growth and respiration rates.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 2,
+              "solution": "Refrigeration extends shelf life, but it decreases rather than increases microbial activity and respiration."
+            },
+            {
+              "q": "A potato processing industry compares different peeling methods to reduce edible flesh loss and improve yield. Engineers evaluate the performance of steam and abrasive peeling systems. Consider the statements below. Assertion (A): Excessive peeling decreases product yield. Reason (R): Excessive peeling removes edible tissue along with the peel.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Removal of edible material reduces yield. The reason correctly explains the assertion."
+            },
+            {
+              "q": "A spice processing unit grinds peppercorns into powder to improve flavor release and facilitate packaging. The production manager studies the effect of particle size on processing efficiency. Evaluate the statements. Assertion (A): Size reduction increases the surface area of food materials. Reason (R): Smaller particles provide more surface area per unit mass.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Reducing particle size exposes more surface area, improving transfer processes."
+            },
+            {
+              "q": "A soup powder manufacturer uses industrial mixers to blend ingredients uniformly before packaging. Product consistency is an important quality requirement. Analyze the following statements. Assertion (A): Mixing is performed to achieve homogeneity. Reason (R): Mixing increases the particle size of ingredients.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 2,
+              "solution": "Mixing is intended to achieve homogeneity, but it does not increase particle size."
+            },
+            {
+              "q": "A salad dressing exhibits phase separation after prolonged storage. The quality control team investigates the reason for the loss of stability. Consider the following statements. Assertion (A): Coalescence can destabilize an emulsion. Reason (R): Coalescence causes small droplets to combine into larger droplets.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Larger droplets formed by coalescence eventually separate into distinct phases. The reason explains the assertion."
+            },
+            {
+              "q": "A food engineer observes that fine grinding requires more energy than coarse grinding. The design team studies the relationship between particle size and grinding energy. Evaluate the statements. Assertion (A): Fine grinding requires more energy than coarse grinding. Reason (R): Grinding energy is completely independent of surface area generation.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 2,
+              "solution": "Fine grinding requires additional energy because more surface area is created. The reason is incorrect."
+            },
+            {
+              "q": "A juice manufacturer uses filtration to improve product clarity before packaging. The process removes suspended particles while allowing liquid to pass through. Consider the following statements. Assertion (A): Filtration is a solid-liquid separation process. Reason (R): Filtration separates suspended solids from liquids using a porous medium.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "The reason directly explains the mechanism of filtration."
+            },
+            {
+              "q": "A dairy industry uses ultrafiltration to concentrate proteins from milk. The membrane selectively retains larger molecules while permitting water to pass through. Analyze the following statements. Assertion (A): Ultrafiltration can be used for protein concentration. Reason (R): Ultrafiltration membranes separate components based mainly on molecular size.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Protein molecules are retained due to their larger size relative to membrane pores."
+            },
+            {
+              "q": "During filtration of a sugar solution, solid particles accumulate on the filter surface and form a cake layer. Engineers notice that filtration becomes slower over time. Evaluate the statements. Assertion (A): Filtration rate decreases as filter cake thickness increases. Reason (R): The filter cake creates additional resistance to liquid flow.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Greater cake resistance lowers liquid flow through the filter."
+            },
+            {
+              "q": "A fruit juice company uses reverse osmosis to remove water and concentrate juice without severe heating. Product flavor and nutritional quality are largely retained. Consider the following statements. Assertion (A): Reverse osmosis is suitable for low-temperature concentration. Reason (R): Water is removed through a semi-permeable membrane under pressure.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Membrane-based water removal avoids the need for extensive heating."
+            },
+            {
+              "q": "An edible oil factory uses hexane to extract oil from soybean flakes. The process engineer explains that the solvent must dissolve the target component effectively. Analyze the following statements. Assertion (A): Solvent extraction efficiency depends on solvent selection. Reason (R): A good solvent should have high solubility for the desired solute.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "High solubility improves mass transfer and extraction efficiency."
+            },
+            {
+              "q": "A tea manufacturer increases extraction temperature to improve recovery of flavor compounds. Engineers observe faster mass transfer and shorter processing time. Evaluate the statements. Assertion (A): Increasing temperature can increase extraction rate. Reason (R): Higher temperatures generally enhance diffusion and solubility.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Improved diffusion and solubility accelerate extraction."
+            },
+            {
+              "q": "A concentrated sugar solution is cooled under controlled conditions until crystals begin to form. The production supervisor explains that crystallization occurs only after a certain concentration condition is achieved. Consider the statements below. Assertion (A): Crystallization occurs from a supersaturated solution. Reason (R): Supersaturation provides the driving force for crystal formation.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Supersaturation is essential for nucleation and crystal growth."
+            },
+            {
+              "q": "A food additive manufacturer carefully controls cooling rate and agitation during crystallization. The goal is to obtain crystals of uniform size and quality. The process engineer studies the effect of crystal size on product handling. Evaluate the statements. Assertion (A): Crystal size affects product quality and handling characteristics. Reason (R): Crystal size influences flowability, purity, and downstream processing behavior.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A",
+                "Both A and R are true, but R is not the correct explanation of A",
+                "A is true, but R is false",
+                "A is false, but R is true"
+              ],
+              "answer": 0,
+              "solution": "Crystal size distribution directly affects product performance and process efficiency. Both A and R are true, and R is the correct explanation of A."
+            }
+          ]
+        },
+        {
+          "id": "unit2_higher_order",
+          "title": "Higher-Order Scenario-Based Questions",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A functional beverage company is developing a high-protein fruit drink intended for long-term storage. During pilot trials, sedimentation occurs after two weeks, resulting in consumer complaints. The R&D team observes that increasing viscosity reduces particle settling but affects drinkability. Researchers must select the most appropriate strategy to improve stability while maintaining consumer acceptance. Based on food engineering principles, which approach is most suitable?",
+              "options": [
+                "Increase viscosity moderately using a hydrocolloid stabilizer",
+                "Reduce viscosity to promote rapid flow",
+                "Increase particle size to accelerate settling",
+                "Remove all dissolved solids from the beverage"
+              ],
+              "answer": 0,
+              "solution": "A moderate increase in viscosity reduces sedimentation while maintaining acceptable mouthfeel and flow properties."
+            },
+            {
+              "q": "A food company is developing an omega-3 fortified beverage containing fish oil dispersed in water. Initial trials show rapid phase separation during storage. The research team must choose a formulation strategy that improves emulsion stability and shelf life. Which modification would most effectively improve the stability of the beverage?",
+              "options": [
+                "Increase droplet coalescence",
+                "Reduce interfacial tension using an emulsifier",
+                "Increase density difference between phases",
+                "Eliminate homogenization"
               ],
               "answer": 1,
-              "solution": "Volume of one spherical crystal = (4/3)pi r^3, r = 4.0/2 mm = 2.0 mm, v = 33.51032 mm^3. Total volume 5000 cm^3 = 5000000 mm^3. Number of crystals = 5000000 / 33.51032 ~ order of 10^7. Correct answer: 3 × 10⁷."
+              "solution": "Reducing interfacial tension stabilizes oil droplets and prevents phase separation."
+            },
+            {
+              "q": "A processing company plans to market a tomato sauce that pours easily from the bottle but does not spread excessively on food surfaces. Product developers evaluate various rheological behaviors to meet consumer expectations. Which rheological property would best satisfy these requirements?",
+              "options": [
+                "Newtonian behavior",
+                "Ideal fluid behavior",
+                "Pseudoplastic behavior",
+                "Zero viscosity"
+              ],
+              "answer": 2,
+              "solution": "Pseudoplastic fluids become less viscous under shear and recover viscosity when shear is removed."
+            },
+            {
+              "q": "A frozen food manufacturer observes that repeated freeze–thaw cycles damage the texture of vegetable products. Researchers investigate methods to preserve texture during storage and distribution. Which strategy is most likely to improve texture retention?",
+              "options": [
+                "Encourage ice crystal growth",
+                "Increase storage temperature fluctuations",
+                "Promote repeated thawing",
+                "Minimize ice crystal formation through rapid freezing"
+              ],
+              "answer": 3,
+              "solution": "Rapid freezing produces smaller ice crystals and minimizes structural damage."
+            },
+            {
+              "q": "A cooperative stores freshly harvested tomatoes before transportation to distant markets. Significant spoilage occurs due to microbial growth and respiration during storage. Researchers must recommend an intervention that minimizes post-harvest losses while maintaining quality. Which strategy is most appropriate?",
+              "options": [
+                "Store at elevated temperatures",
+                "Increase exposure to sunlight",
+                "Use refrigerated storage conditions",
+                "Increase mechanical handling"
+              ],
+              "answer": 2,
+              "solution": "Low temperatures reduce respiration and microbial activity."
+            },
+            {
+              "q": "A fruit export company experiences customer complaints due to inconsistent fruit size within packages. Researchers are asked to redesign the grading process to improve uniformity and export quality. Which approach would provide the most reliable grading performance?",
+              "options": [
+                "Eliminate grading operations",
+                "Use automated machine-vision grading systems",
+                "Package fruits without inspection",
+                "Mix all quality grades together"
+              ],
+              "answer": 1,
+              "solution": "Machine-vision systems provide accurate and consistent grading."
+            },
+            {
+              "q": "A vegetable processor seeks to reduce water consumption while maintaining cleaning efficiency. Researchers compare conventional washing with advanced cleaning technologies. Which technology would best support sustainable processing?",
+              "options": [
+                "High-pressure air and water-efficient cleaning systems",
+                "Eliminate cleaning completely",
+                "Increase water usage indefinitely",
+                "Perform cleaning after packaging"
+              ],
+              "answer": 0,
+              "solution": "Water-efficient cleaning technologies reduce resource consumption while maintaining hygiene."
+            },
+            {
+              "q": "A potato processing plant must choose between abrasive peeling and steam peeling for large-scale production. Management aims to maximize yield and reduce edible flesh loss. Which peeling method is generally preferred for achieving higher product recovery?",
+              "options": [
+                "Manual peeling with knives only",
+                "Excessive abrasive peeling",
+                "Chemical degradation of potatoes",
+                "Steam peeling with controlled exposure"
+              ],
+              "answer": 3,
+              "solution": "Steam peeling typically results in lower edible flesh loss and higher yield."
+            },
+            {
+              "q": "A spice manufacturer wants to improve extraction of flavor compounds during cooking. Researchers evaluate the effect of particle size on flavor release and process efficiency. Which strategy would most likely enhance flavor extraction?",
+              "options": [
+                "Increase particle size significantly",
+                "Reduce particle size to increase surface area",
+                "Eliminate grinding operations",
+                "Compress particles into larger aggregates"
+              ],
+              "answer": 1,
+              "solution": "Smaller particles provide greater surface area for extraction."
+            },
+            {
+              "q": "An instant soup manufacturer receives complaints about inconsistent flavor intensity among packets. Process engineers suspect inadequate mixing of ingredients before packaging. Which modification would most directly improve product consistency?",
+              "options": [
+                "Improve mixing uniformity throughout the batch",
+                "Increase ingredient segregation",
+                "Reduce mixing time to zero",
+                "Package ingredients separately"
+              ],
+              "answer": 0,
+              "solution": "Uniform mixing ensures consistent composition and flavor."
+            },
+            {
+              "q": "A salad dressing manufacturer seeks to extend shelf life without phase separation. Researchers evaluate formulation and processing alternatives. Which strategy would best improve long-term emulsion stability?",
+              "options": [
+                "Increase droplet size during homogenization",
+                "Remove emulsifiers from the formulation",
+                "Produce smaller droplets through efficient homogenization",
+                "Encourage coalescence"
+              ],
+              "answer": 2,
+              "solution": "Smaller droplets exhibit improved stability and reduced separation."
+            },
+            {
+              "q": "A food company aims to reduce energy consumption during grinding operations while maintaining product quality. Researchers must identify the most practical approach. Which strategy would improve energy efficiency?",
+              "options": [
+                "Use multiple grinding stages with optimized particle reduction",
+                "Grind all materials to ultrafine sizes unnecessarily",
+                "Increase equipment friction intentionally",
+                "Operate equipment under overload conditions"
+              ],
+              "answer": 0,
+              "solution": "Staged grinding reduces excessive energy expenditure."
+            },
+            {
+              "q": "A juice processing plant seeks to improve product clarity while retaining flavor compounds. Researchers compare several separation techniques for removing suspended solids. Which process is most appropriate?",
+              "options": [
+                "Crystallization",
+                "Filtration",
+                "Peeling",
+                "Drying"
+              ],
+              "answer": 1,
+              "solution": "Filtration removes suspended particles while preserving liquid quality."
+            },
+            {
+              "q": "A dairy company wishes to produce a high-protein beverage without exposing milk to excessive heat. Researchers evaluate separation technologies that selectively retain proteins. Which technology is most suitable?",
+              "options": [
+                "Steam distillation",
+                "Freezing",
+                "Membrane ultrafiltration",
+                "Roasting"
+              ],
+              "answer": 2,
+              "solution": "Ultrafiltration effectively concentrates proteins while preserving quality."
+            },
+            {
+              "q": "A membrane separation plant experiences declining permeate flux due to fouling. Researchers investigate methods to maintain long-term process efficiency. Which action would most effectively reduce fouling?",
+              "options": [
+                "Ignore cleaning schedules",
+                "Increase solid loading continuously",
+                "Eliminate pretreatment operations",
+                "Implement regular membrane cleaning and pretreatment"
+              ],
+              "answer": 3,
+              "solution": "Proper cleaning and pretreatment minimize fouling and maintain performance."
+            },
+            {
+              "q": "A food processing company wants to recover water from process streams while reducing environmental impact. Engineers evaluate membrane technologies for water reuse. Which approach best supports sustainability goals?",
+              "options": [
+                "Reverse osmosis-based water recovery",
+                "Direct disposal of wastewater",
+                "Increased water wastage",
+                "Avoid all separation processes"
+              ],
+              "answer": 0,
+              "solution": "Reverse osmosis enables efficient recovery and reuse of water."
+            },
+            {
+              "q": "An edible oil manufacturer observes lower-than-expected extraction yields from soybean flakes. Researchers investigate methods to improve recovery efficiency. Which modification would most likely increase oil extraction?",
+              "options": [
+                "Use a solvent with higher affinity for oil",
+                "Reduce contact between solvent and solids",
+                "Increase particle size substantially",
+                "Eliminate solvent use"
+              ],
+              "answer": 0,
+              "solution": "A suitable solvent with high oil solubility improves extraction efficiency."
+            },
+            {
+              "q": "A beverage company wants to maximize flavor extraction from tea leaves while minimizing processing time. Researchers evaluate operational variables affecting mass transfer. Which factor would most directly enhance extraction efficiency?",
+              "options": [
+                "Lower solvent contact time drastically",
+                "Reduce extraction temperature excessively",
+                "Increase temperature within acceptable limits",
+                "Prevent solvent circulation"
+              ],
+              "answer": 2,
+              "solution": "Moderate temperature increases improve diffusion and extraction rates."
+            },
+            {
+              "q": "A sugar manufacturing plant requires crystals of uniform size for efficient packaging and product quality. Researchers study nucleation and crystal growth mechanisms. Which strategy would best improve crystal size uniformity?",
+              "options": [
+                "Allow uncontrolled nucleation",
+                "Maintain controlled supersaturation conditions",
+                "Introduce random temperature fluctuations",
+                "Increase impurities deliberately"
+              ],
+              "answer": 1,
+              "solution": "Controlled supersaturation promotes uniform crystal growth."
+            },
+            {
+              "q": "A food company must concentrate a sugar solution before crystallization. Management wants to minimize energy consumption while maintaining product quality. Researchers compare several alternatives. Which option is most suitable?",
+              "options": [
+                "Dilute the solution further",
+                "Increase moisture content",
+                "Concentrate the solution before crystallization",
+                "Prevent supersaturation"
+              ],
+              "answer": 2,
+              "solution": "Concentration is required to achieve supersaturation and efficient crystallization."
+            }
+          ]
+        },
+        {
+          "id": "unit2_bl12",
+          "title": "BL1 & BL2 (Remember/Understand) Questions",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A quality control technician in a fruit juice processing plant is studying the physical properties of liquid foods before storage and transportation. During training, the technician is asked to identify the parameter that represents the amount of mass present in a unit volume of food material. This property is commonly used in equipment design and process calculations. Based on the definition of density, identify the correct expression for density.",
+              "options": [
+                "Mass × Volume",
+                "Mass / Volume",
+                "Volume / Mass",
+                "Weight / Area"
+              ],
+              "answer": 1,
+              "solution": "Density is defined as the mass of a substance per unit volume. Mass / Volume"
+            },
+            {
+              "q": "A dairy processing engineer compares the density of milk with the density of water at the same temperature. The engineer explains that a dimensionless parameter is often used to indicate whether a food material is heavier or lighter than water. This parameter is widely used in quality assessment of milk and beverages. Identify the meaning of specific gravity.",
+              "options": [
+                "Ratio of food density to water density",
+                "Difference between food density and water density",
+                "Mass of food per unit area",
+                "Volume of food per unit mass"
+              ],
+              "answer": 0,
+              "solution": "Specific gravity is the ratio of the density of a substance to the density of water. Ratio of food density to water density"
+            },
+            {
+              "q": "A food scientist is studying the flow behavior of sauces, juices, and dairy products. During a training session, students are asked to identify the branch of science that deals with deformation and flow characteristics of food materials. This concept is important in food processing and equipment design. What is the study of flow and deformation called?",
+              "options": [
+                "Crystallization",
+                "Rheology",
+                "Filtration",
+                "Extraction"
+              ],
+              "answer": 1,
+              "solution": "Rheology is the science that studies flow and deformation of materials. Rheology"
+            },
+            {
+              "q": "A beverage company adds an emulsifier while producing a flavored milk drink. The emulsifier helps the oil droplets remain uniformly distributed in the aqueous phase. The production manager explains that emulsifiers improve stability by acting at the interface between oil and water. Why are surface-active agents added to emulsions?",
+              "options": [
+                "To increase particle size",
+                "To reduce interfacial tension",
+                "To increase density",
+                "To reduce flavor"
+              ],
+              "answer": 1,
+              "solution": "Surface-active agents reduce interfacial tension and improve emulsion stability. To reduce interfacial tension"
+            },
+            {
+              "q": "A vegetable processing facility receives freshly harvested carrots containing soil, stones, and plant debris. Before further processing, the raw materials are subjected to a preparative operation that removes unwanted contaminants. This operation helps improve food safety and equipment performance. Identify the operation being performed.",
+              "options": [
+                "Peeling",
+                "Cleaning",
+                "Grading",
+                "Extraction"
+              ],
+              "answer": 1,
+              "solution": "Cleaning is the operation used to remove contaminants from raw materials. Cleaning"
+            },
+            {
+              "q": "A fruit packaging company sorts apples into different categories based on size, color, and quality. The marketing department requires products with a uniform appearance to satisfy consumer expectations. The production manager explains the importance of grading before packaging. What is the primary purpose of grading?",
+              "options": [
+                "Increase moisture content",
+                "Ensure uniform quality",
+                "Reduce shelf life",
+                "Increase microbial growth"
+              ],
+              "answer": 1,
+              "solution": "Grading provides uniformity in size, appearance, and quality. Ensure uniform quality"
+            },
+            {
+              "q": "A food technologist is reviewing methods used to preserve fruits and vegetables after harvest. One common method involves keeping products at low temperatures to slow deterioration. This method is widely used in cold storage facilities around the world. Which storage method uses low temperature preservation?",
+              "options": [
+                "Refrigerated storage",
+                "Solar drying",
+                "Fermentation",
+                "Roasting"
+              ],
+              "answer": 0,
+              "solution": "Refrigerated storage preserves foods by maintaining low temperatures. Refrigerated storage"
+            },
+            {
+              "q": "A potato processing plant uses a peeling machine before slicing and frying operations. The engineer explains that peeling removes undesirable outer layers and improves product quality. The operation is considered an important preparative step in food processing. Why is peeling carried out?",
+              "options": [
+                "To remove the outer inedible layer",
+                "To increase moisture content",
+                "To promote microbial growth",
+                "To increase density"
+              ],
+              "answer": 0,
+              "solution": "Peeling removes the outer skin and improves product quality. To remove the outer inedible layer"
+            },
+            {
+              "q": "A spice processing company grinds peppercorns into powder before packaging. The operation changes the physical dimensions of the material to facilitate further processing and improve product performance. Students are asked to identify the name of this operation. What is this operation called?",
+              "options": [
+                "Mixing",
+                "Filtration",
+                "Size Reduction",
+                "Extraction"
+              ],
+              "answer": 2,
+              "solution": "Grinding is a size reduction operation. Size Reduction"
+            },
+            {
+              "q": "A food engineer explains that grinding increases the available surface area of food particles. This change improves processes such as drying, extraction, and dissolution. The objective is to understand the main advantage of reducing particle size. Why is size reduction beneficial?",
+              "options": [
+                "Decreases surface area",
+                "Increases surface area",
+                "Eliminates moisture",
+                "Prevents mixing"
+              ],
+              "answer": 1,
+              "solution": "Smaller particles provide greater surface area for transfer operations. Increases surface area"
+            },
+            {
+              "q": "A food manufacturing company blends flour, sugar, and milk powder to prepare an instant beverage mix. The ingredients are combined to obtain a homogeneous product before packaging. Students are asked to identify the operation used. What is this operation called?",
+              "options": [
+                "Extraction",
+                "Crystallization",
+                "Mixing",
+                "Filtration"
+              ],
+              "answer": 2,
+              "solution": "Combining ingredients uniformly is called mixing. Mixing"
+            },
+            {
+              "q": "A mayonnaise manufacturer combines oil and water with the help of an emulsifier. The objective is to produce a stable mixture of two immiscible liquids. The product developer explains the significance of emulsification. Why is emulsification required?",
+              "options": [
+                "To separate oil and water",
+                "To stabilize oil and water mixtures",
+                "To increase crystallization",
+                "To remove solids"
+              ],
+              "answer": 1,
+              "solution": "Emulsification helps form and stabilize mixtures of immiscible liquids. To stabilize oil and water mixtures"
+            },
+            {
+              "q": "A juice processing plant removes suspended pulp particles before packaging. The operation uses a porous medium to separate solids from liquids. Students are asked to identify the separation process being used. What is this process called?",
+              "options": [
+                "Extraction",
+                "Filtration",
+                "Mixing",
+                "Peeling"
+              ],
+              "answer": 1,
+              "solution": "Filtration separates suspended solids from fluids. Filtration"
+            },
+            {
+              "q": "A food engineer explains that filtration improves the clarity and appearance of beverages. During processing, solid particles are retained while liquid passes through the filter medium. What is the main purpose of filtration?",
+              "options": [
+                "Increase viscosity",
+                "Remove suspended solids",
+                "Increase density",
+                "Promote fermentation"
+              ],
+              "answer": 1,
+              "solution": "Filtration removes suspended solids and improves product clarity. Remove suspended solids"
+            },
+            {
+              "q": "A dairy processing facility uses ultrafiltration to concentrate proteins in milk. The process relies on a selective barrier that allows some components to pass while retaining others. Students are asked to identify this technology. What is the process called?",
+              "options": [
+                "Crystallization",
+                "Membrane Separation",
+                "Grading",
+                "Cleaning"
+              ],
+              "answer": 1,
+              "solution": "Selective separation through a membrane is called membrane separation. Membrane Separation"
+            },
+            {
+              "q": "A milk processing plant uses a membrane that allows water to pass while retaining proteins. The plant manager explains that separation occurs because components differ in size. Why does membrane separation occur?",
+              "options": [
+                "Due to color differences",
+                "Due to size selectivity",
+                "Due to flavor differences",
+                "Due to texture differences"
+              ],
+              "answer": 1,
+              "solution": "Membrane processes separate components primarily based on size. Due to size selectivity"
+            },
+            {
+              "q": "An edible oil processing plant uses a solvent to remove oil from crushed seeds. The process transfers the desired component from one phase into another. Students are asked to identify the operation. What is this operation called?",
+              "options": [
+                "Extraction",
+                "Filtration",
+                "Mixing",
+                "Peeling"
+              ],
+              "answer": 0,
+              "solution": "Removal of a soluble component using a solvent is called extraction. Extraction"
+            },
+            {
+              "q": "+A tea manufacturer uses hot water to recover flavor compounds from tea leaves. The production manager explains that extraction efficiency depends on contact between solvent and solute. What is the main objective of extraction?",
+              "options": [
+                "Separate soluble components",
+                "Increase crystal formation",
+                "Reduce density",
+                "Increase viscosity"
+              ],
+              "answer": 0,
+              "solution": "Extraction aims to recover soluble components from raw materials. Separate soluble components"
+            },
+            {
+              "q": "A sugar factory cools a concentrated syrup and obtains solid sugar crystals. The operation converts dissolved solutes into crystalline form. Students are asked to identify the process. What is this process called?",
+              "options": [
+                "Filtration",
+                "Crystallization",
+                "Mixing",
+                "Emulsification"
+              ],
+              "answer": 1,
+              "solution": "Formation of crystals from a solution is called crystallization. Crystallization"
+            },
+            {
+              "q": "A food technologist explains that crystals form when a solution contains more dissolved solute than can normally remain in solution at a given temperature. This condition is necessary for crystal formation. What condition promotes crystallization?",
+              "options": [
+                "Dilute solution",
+                "Unsaturated solution",
+                "Supersaturated solution",
+                "Neutral solution"
+              ],
+              "answer": 2,
+              "solution": "Crystallization occurs when the solution becomes supersaturated. Supersaturated solution"
             }
           ]
         }
