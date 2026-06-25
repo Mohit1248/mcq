@@ -1,4 +1,4 @@
-// Food Biotechnology (BTA06) - Question Bank (from faculty-provided Excel question bank)
+// Food Biotechnology (BTA06) - Question Bank
 const courseData = {
   "subject": "Food Biotechnology (BTA06)",
   "chapters": [
@@ -7,1089 +7,1097 @@ const courseData = {
       "title": "Unit I: Introduction to Food Biotechnology",
       "subtopics": [
         {
-          "id": "unit1_all",
-          "title": "All Questions",
+          "id": "unit1_numerical",
+          "title": "Numerical Questions",
           "notes": [],
           "mcqs": [
             {
-              "q": "A canned food product undergoes a 12D thermal process at 121°C. If the initial microbial load is 10⁷ CFU/g, what will be the expected microbial load after the process?",
+              "q": "A fermentation facility is producing a probiotic culture for incorporation into a functional beverage. The microbial population at inoculation is 10⁴ CFU/mL. After optimization of growth conditions, the culture reaches 10⁸ CFU/mL before downstream processing. The quality manager must determine the extent of microbial growth achieved during fermentation to verify compliance with process specifications. Based on logarithmic growth principles, identify the magnitude of population increase observed in the bioreactor.",
               "options": [
-                "10³ CFU/g",
-                "10⁰ CFU/g",
-                "10⁶ CFU/g",
-                "0.1 CFU/g"
-              ],
-              "answer": 1,
-              "solution": "A 12D process gives 12 decimal (log) reductions. Strictly, log(final) = log10(10^7) - 12 = 7 - 12 = -5, which is below 1 organism and not physically meaningful, so the practical floor of 10^0 CFU/g (essentially sterile) is used. Correct answer: 10⁰ CFU/g."
-            },
-            {
-              "q": "A food product stored in a modified atmosphere of 80% CO₂ and 20% N₂ extends its shelf life by 30 days. If the CO₂ concentration is reduced to 50%, what will be the new expected shelf life, assuming a logarithmic relationship?",
-              "options": [
-                "10 days",
-                "15 days",
-                "20 days",
-                "25 days"
+                "2 log cycles",
+                "3 log cycles",
+                "4 log cycles",
+                "5 log cycles"
               ],
               "answer": 2,
-              "solution": "Assuming shelf life scales with log(CO2%): new shelf life = 30 days x [log10(50)/log10(80)] = 30 x 0.893 ~ 26.8 days. Using the simplified textbook approximation of one logarithmic step down from 80% to 50% CO2, the nearest standard shelf life value is taken. Correct answer: 20 days."
+              "solution": "Log increase = log(10⁸) − log(10⁴) = 8 − 4 = 4 log cycles 4 log cycles"
             },
             {
-              "q": "A food batch undergoes UHT processing at 135°C for 3 seconds, achieving a 10⁶ CFU/mL reduction. If the bacterial population was initially 10⁸ CFU/mL, what will be the final microbial count?",
+              "q": "A fruit beverage contains a preservative at 450 ppm. Regulatory standards permit a maximum concentration of 600 ppm. Laboratory analysis indicates that processing losses reduce preservative effectiveness by approximately 20% during storage. The quality assurance team must determine whether the effective preservative concentration remains within the legally acceptable range after storage. Based on the effective concentration remaining in the product, identify the most appropriate conclusion.",
               "options": [
-                "10 CFU/mL",
-                "100 CFU/mL",
-                "1000 CFU/mL",
-                "10⁶ CFU/mL"
-              ],
-              "answer": 1,
-              "solution": "Reduction is given directly as 10^6 CFU/mL. Final count = Initial / Reduction = 10^8 / 10^6 = 10^2 = 100 CFU/mL. Correct answer: 100 CFU/mL."
-            },
-            {
-              "q": "A product stored at 4°C has a shelf life of 60 days. If stored at 20°C, and spoilage rate doubles for every 10°C rise, what is the new expected shelf life?",
-              "options": [
-                "7.5 days",
-                "10 days",
-                "15 days",
-                "30 days"
-              ],
-              "answer": 2,
-              "solution": "Using the rule that spoilage rate doubles per 10°C rise: a 16°C rise is treated as two 10°C doubling steps (4°C->14°C->20°C). New shelf life = 60 / 2 / 2 = 15 days. Correct answer: 15 days."
-            },
-            {
-              "q": "A high-pressure processing (HPP) method at 600 MPa for 3 min inactivates 99.999% of bacteria. If the initial load is 10⁶ CFU/mL, what is the microbial count after HPP?",
-              "options": [
-                "10⁰ CFU/mL",
-                "10 CFU/mL",
-                "100 CFU/mL",
-                "1000 CFU/mL"
-              ],
-              "answer": 1,
-              "solution": "99.999% inactivation = 5-log reduction. Final count = Initial / 10^5 = 10^6 / 10^5 = 10^1 = 10 CFU/mL. Correct answer: 10 CFU/mL."
-            },
-            {
-              "q": "A blanching process inactivates 90% of polyphenol oxidase (PPO) in 60 seconds at 80°C. If blanching is extended to 120 seconds, what percent of PPO will remain?",
-              "options": [
-                "0.001",
-                "0.01",
-                "0.05",
-                "0.1"
-              ],
-              "answer": 1,
-              "solution": "First-order (exponential) inactivation: 90% destroyed in 60 s leaves 10% remaining. Doubling the time to 120 s squares the surviving fraction: 0.10 x 0.10 = 0.01 (1%) remaining. Correct answer: 0.01."
-            },
-            {
-              "q": "A food product loses 30% of its moisture during dehydration. If the initial weight was 800 g, what is the final weight?",
-              "options": [
-                "480 g",
-                "560 g",
-                "640 g",
-                "720 g"
-              ],
-              "answer": 1,
-              "solution": "Final weight = Initial weight x (1 - 30.0/100) = 800 x 0.7 = 560. Correct answer: 560 g."
-            },
-            {
-              "q": "A food item undergoes gamma radiation at 5 kGy, reducing microbial load by 3-log cycles. If the initial load is 10⁵ CFU/g, what is the final microbial load?",
-              "options": [
-                "10 CFU/g",
-                "100 CFU/g",
-                "1000 CFU/g",
-                "10⁴ CFU/g"
-              ],
-              "answer": 1,
-              "solution": "A 3-log reduction divides the load by 10^3. Final load = 10^5 / 10^3 = 10^2 = 100 CFU/g. Correct answer: 100 CFU/g."
-            },
-            {
-              "q": "A vacuum packaging system extends the shelf life of meat by 3 times. If unprotected meat lasts 5 days, how long will it last in vacuum packaging?",
-              "options": [
-                "10 days",
-                "12 days",
-                "15 days",
-                "18 days"
-              ],
-              "answer": 2,
-              "solution": "Extension factor = 3x. New shelf life = 5 days x 3 = 15 days. Correct answer: 15 days."
-            },
-            {
-              "q": "A food product stored at 10% relative humidity has a shelf life of 20 days. If humidity increases to 30%, spoilage accelerates by a factor of 3. What is the new shelf life?",
-              "options": [
-                "3 days",
-                "5 days",
-                "7 days",
-                "10 days"
-              ],
-              "answer": 2,
-              "solution": "Spoilage accelerates by a factor of 3, so shelf life is divided by 3: New shelf life = 20 / 3 = 6.7, rounded to 7 days. Correct answer: 7 days."
-            },
-            {
-              "q": "A sterilization method follows first-order kinetics, with a D-value of 4 minutes at 121°C. If a 4-log bacterial reduction is required, how long should the process last?",
-              "options": [
-                "8 min",
-                "12 min",
-                "16 min",
-                "20 min"
-              ],
-              "answer": 2,
-              "solution": "Time = D-value x number of log reductions = 4 min x 4 = 16 min. Correct answer: 16 min."
-            },
-            {
-              "q": "A food item with 85% moisture is dried to 10% moisture. If the initial weight was 1.5 kg, what is the final dry weight?",
-              "options": [
-                "150 g",
-                "225 g",
-                "300 g",
-                "400 g"
-              ],
-              "answer": 1,
-              "solution": "Dry matter (final weight after drying to 10% moisture) is approximated as Initial weight x (1 - initial moisture fraction) = 1500 g x (1 - 0.85) = 225 g. Correct answer: 225 g."
-            },
-            {
-              "q": "A refrigeration system reduces the microbial growth rate by 50% per 5°C drop. If the doubling time at 20°C is 4 hours, what is the doubling time at 5°C?",
-              "options": [
-                "8 hours",
-                "12 hours",
-                "16 hours",
-                "20 hours"
-              ],
-              "answer": 2,
-              "solution": "Growth rate halves per 5°C drop, so doubling time doubles per 5°C drop. Treating the 20°C-to-5°C change as 2 effective halving steps: doubling time = 4 hours x 2^2 = 16 hours. Correct answer: 16 hours."
-            },
-            {
-              "q": "A thermal processing step at 90°C for 5 min reduces bacteria by 90%. If the initial count is 10⁶ CFU/mL, how long would it take to reach 100 CFU/mL?",
-              "options": [
-                "15 min",
-                "20 min",
-                "25 min",
-                "30 min"
-              ],
-              "answer": 1,
-              "solution": "90% reduction per 5 min = 1 log reduction per 5 min. To go from 10^6 to 10^2 CFU/mL needs 4 log reductions: time = 4 x 5 min = 20 min. Correct answer: 20 min."
-            },
-            {
-              "q": "A MAP (Modified Atmosphere Packaging) reduces the oxygen concentration to 2%, increasing shelf life by 50%. If normal shelf life is 10 days, what is the new shelf life?",
-              "options": [
-                "12 days",
-                "13 days",
-                "15 days",
-                "18 days"
-              ],
-              "answer": 2,
-              "solution": "Shelf life increases by 50%: New shelf life = 10 days x 1.5 = 15 days. Correct answer: 15 days."
-            },
-            {
-              "q": "A food product is stored at 25°C and has a spoilage time of 12 hours. If the storage temperature is reduced to 5°C, and spoilage rate follows Q10 = 2.5, what is the new spoilage time?",
-              "options": [
-                "18 hours",
-                "24 hours",
-                "30 hours",
-                "36 hours"
-              ],
-              "answer": 2,
-              "solution": "Using the Q10 rule, spoilage time is multiplied by Q10 for each 10°C drop. Applying the given Q10 = 2.5 once for the temperature change: New time = 12 hours x 2.5 = 30 hours. Correct answer: 30 hours."
-            },
-            {
-              "q": "A food item loses 40% of its original weight during evaporation. If 750 g of product remains after evaporation, what was the initial weight?",
-              "options": [
-                "1000 g",
-                "1200 g",
-                "1250 g",
-                "1400 g"
-              ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 40.0/100) = 750 x 0.6 = 450. Correct answer: 1250 g."
-            },
-            {
-              "q": "A thermal process at 100°C reduces bacterial load by 1-log cycle per minute. If initial load is 10⁷ CFU/mL, how long will it take to reach 10 CFU/mL?",
-              "options": [
-                "5 min",
-                "7 min",
-                "10 min",
-                "12 min"
-              ],
-              "answer": 1,
-              "solution": "Rate is 1 log reduction per minute, starting at 10^7 CFU/mL. Reaching the practical baseline (~10^0, below the stated 10 CFU/mL target) takes about 7 minutes (one minute per log). Correct answer: 7 min."
-            },
-            {
-              "q": "A high-pressure treatment at 400 MPa for 5 minutes achieves a 5-log bacterial reduction. If the initial bacterial load is 10⁶ CFU/mL, what is the final count?",
-              "options": [
-                "10 CFU/mL",
-                "100 CFU/mL",
-                "1000 CFU/mL",
-                "10⁵ CFU/mL"
+                "Effective concentration is 360 ppm",
+                "Effective concentration is 420 ppm",
+                "Effective concentration is 480 ppm",
+                "Effective concentration is 540 ppm"
               ],
               "answer": 0,
-              "solution": "A 5-log reduction divides load by 10^5. Final count = 10^6 / 10^5 = 10^1 = 10 CFU/mL. Correct answer: 10 CFU/mL."
+              "solution": "Effective concentration = 450 × (1 − 0.20) = 360 ppm 360 ppm"
             },
             {
-              "q": "A canning process requires a minimum F₀ value of 12 minutes for commercial sterility. If the actual process achieves an F₀ of 18 minutes, what is the resulting safety margin percentage?",
+              "q": "A biotechnology laboratory compares two enzyme preparations used for juice clarification. Enzyme A exhibits an activity of 120 U/mL while Enzyme B exhibits an activity of 150 U/mL. The process requires a minimum activity of 140 U/mL to achieve the desired clarification within the available processing window. The production manager must evaluate the suitability of the enzyme systems before commercial implementation. Which option satisfies the process requirement?",
               "options": [
-                "0.25",
-                "0.33",
-                "0.4",
-                "0.5"
+                "Only Enzyme A",
+                "Only Enzyme B",
+                "Both enzymes",
+                "Neither enzyme"
               ],
-              "answer": 3,
-              "solution": "Safety margin % = (Actual F0 - Minimum F0) / Minimum F0 = (18 - 12) / 12 = 0.5 (50%). Correct answer: 0.5."
+              "answer": 1,
+              "solution": "Required activity = 140 U/mL Enzyme A = 120 U/mL (not sufficient) Enzyme B = 150 U/mL (sufficient) Only Enzyme B"
             },
             {
-              "q": "A new preservation technique claims to prevent microbial spoilage without using heat, radiation, or chemicals. What principle would make this possible?",
+              "q": "A food additive manufacturer prepares a stock solution containing 2% antioxidant. During formulation, the additive is diluted tenfold before addition to the final food product. The formulation scientist must determine the concentration of antioxidant available after dilution to verify whether the intended protection against lipid oxidation can be achieved. Which concentration best represents the diluted solution?",
               "options": [
-                "Altering genetic resistance of microbes",
-                "Disrupting microbial quorum sensing",
-                "Inducing bacterial dormancy",
-                "Changing food's electromagnetic properties"
+                "0.02%",
+                "0.2%",
+                "2%",
+                "20%"
               ],
-              "answer": 1
+              "answer": 1,
+              "solution": "2% ÷ 10 = 0.2% 0.2%"
             },
             {
-              "q": "A food scientist is developing a plant-based meat alternative with extended shelf life. Which property should be prioritized to prevent microbial growth?",
+              "q": "A canned food processor determines that the target microorganism possesses a D121°C value of 0.25 min. Regulatory requirements specify a 12D process to ensure commercial sterility. During process validation, the product is maintained at 121°C under controlled conditions. The thermal process engineer must calculate the minimum holding period required to satisfy the microbial destruction target without introducing unnecessary quality deterioration. Which holding time is most appropriate?",
               "options": [
-                "Water activity",
-                "Protein content",
-                "Flavor compounds",
-                "Carbohydrate structure"
+                "2.0 min",
+                "3.0 min",
+                "4.0 min",
+                "5.0 min"
               ],
-              "answer": 0
+              "answer": 1,
+              "solution": "12D process = 12 × 0.25 = 3 min 3.0 min"
             },
             {
-              "q": "A company markets a new food additive that prevents lipid oxidation but does not chemically interact with food. What is the likely mechanism?",
+              "q": "A thermal death study reports a D-value of 1.5 min at a specific processing temperature. The quality manager requires a 6-log reduction of the target microorganism. The process will operate under constant temperature conditions throughout the holding period. Determine the minimum processing time necessary to achieve the specified microbial reduction target.",
               "options": [
-                "Oxygen scavenging",
-                "Blocking UV light",
-                "Increasing viscosity",
-                "Altering surface charge of lipids"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A new packaging technology reduces oxygen permeability but does not remove oxygen completely. Why might this be beneficial?",
-              "options": [
-                "It prevents complete anaerobic conditions",
-                "It enhances food texture",
-                "It slows down enzymatic reactions",
-                "It allows controlled spoilage to develop desirable flavors"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A new type of thermal processing extends shelf life without significantly affecting flavor. What factor is most likely optimized?",
-              "options": [
-                "Heat penetration time",
-                "Moisture retention",
-                "Enzyme activity control",
-                "Protein denaturation threshold"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A researcher finds that a certain bacterium survives pasteurization but does not cause spoilage. Why might it still be a concern?",
-              "options": [
-                "It may act as a heat shock-resistant gene donor",
-                "It competes with beneficial microbes",
-                "It can outgrow pathogens",
-                "It may cause allergic reactions"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A company is developing a high-pressure processing (HPP) system for milk. What challenge must they overcome compared to thermal pasteurization?",
-              "options": [
-                "Ensuring bacterial spores are inactivated",
-                "Preventing protein denaturation",
-                "Avoiding phase separation of fats",
-                "Reducing loss of vitamins"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food product contains a preservative that is highly effective against bacteria but not fungi. What could be a long-term unintended consequence?",
-              "options": [
-                "Increased risk of mycotoxin contamination",
-                "Accumulation of antibiotic resistance genes",
-                "Development of heat-resistant bacteria",
-                "Enzymatic degradation of food components"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A fermented food has a pH of 4.2 and is vacuum-sealed. What is the most probable reason why Clostridium botulinum does not grow?",
-              "options": [
-                "Low oxygen and low pH together inhibit spores",
-                "Competitive inhibition by lactic acid bacteria",
-                "The presence of organic acids",
-                "The vacuum seal prevents nutrient diffusion"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A scientist observes that certain foodborne bacteria produce extracellular polysaccharides when exposed to food processing stress. What is a likely reason?",
-              "options": [
-                "To form biofilms for protection",
-                "To attract beneficial enzymes",
-                "To alter the nutritional profile of food",
-                "To increase their motility"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A novel packaging uses modified atmosphere storage to reduce CO₂ absorption by vegetables. Why is this important?",
-              "options": [
-                "It prevents off-flavors in leafy greens",
-                "It controls ethylene-induced ripening",
-                "It inhibits anaerobic respiration",
-                "It reduces fungal contamination"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A company develops a food that remains microbiologically stable at room temperature but contains no preservatives. What principle is being used?",
-              "options": [
-                "Intrinsic hurdles such as low water activity",
-                "Use of modified starches",
-                "Controlled protein denaturation",
-                "Induced microbial dormancy"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A new blanching technique claims to preserve color better than traditional methods. Which mechanism is most likely responsible?",
-              "options": [
-                "Selective inactivation of polyphenol oxidase",
-                "Binding of metal ions in pigments",
-                "Reduction of enzymatic reaction time",
-                "Increasing the activation energy of browning reactions"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A meat processor uses an antimicrobial spray that works best at pH 3.5. What is a potential limitation of this approach?",
-              "options": [
-                "It may cause flavor changes",
-                "It may not be effective at neutral pH",
-                "It may react with packaging material",
-                "It could increase oxidative rancidity"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A scientist discovers a bacterial strain that can survive in extreme acid and low oxygen conditions. What type of food product is it most likely to contaminate?",
-              "options": [
-                "Pickled vegetables",
-                "Fermented dairy products",
-                "High-fat processed foods",
-                "Dried fruit"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food technologist is studying a heat-resistant bacterial spore that survives pasteurization. What could be a feasible non-thermal control method?",
-              "options": [
-                "Disrupting its water content",
-                "Exposing it to pulsed electric fields",
-                "Lowering the food's redox potential",
-                "Increasing osmotic pressure"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A cheese manufacturer wants to naturally extend shelf life by adjusting starter cultures. What microbial interaction should be considered?",
-              "options": [
-                "Bacteriocin production",
-                "Endospore formation",
-                "Horizontal gene transfer",
-                "Induced sporulation"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A new food preservation technique claims to prevent microbial growth by altering membrane fluidity. Why would this work?",
-              "options": [
-                "It disrupts essential transport functions",
-                "It prevents the uptake of nutrients",
-                "It induces autolysis",
-                "It creates a permanent dormancy state"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A novel food storage method involves rapid shifts between freezing and thawing temperatures. What is a potential microbial risk?",
-              "options": [
-                "Activation of stress response genes",
-                "Increased microbial lag phase",
-                "Nutrient degradation",
-                "Loss of competitive exclusion"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "A food scientist proposes using ultrasonic waves to inhibit microbial growth in liquids. What is a likely mode of action?",
-              "options": [
-                "Disruption of cell membranes",
-                "Increased solubility of antimicrobials",
-                "Enhanced free radical formation",
-                "Protein coagulation"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "If a food product has an initial microbial load of 106 CFU/g and undergoes a 12D process, what will be the final microbial load?",
-              "options": [
-                "106 CFU/g",
-                "100 CFU/g",
-                "10-6 CFU/g",
-                "1012 CFU/g"
+                "6 min",
+                "7.5 min",
+                "9 min",
+                "10.5 min"
               ],
               "answer": 2,
-              "solution": "An 12D process achieves 12 decimal (log) reductions: final count = initial count / 10^12. log10(final) = 6 - 12 = -6, i.e. final load = 10^-6 CFU/g. Correct answer: 10-6 CFU/g."
+              "solution": "Time required = 6 × 1.5 = 9 min 9 min"
             },
             {
-              "q": "A food product is heated at 72°C for 15 seconds during pasteurization. If the D-value for a target microorganism is 0.2 minutes at 72°C, how many log reductions are achieved?",
+              "q": "A blanching operation reduces enzyme activity from 100% to 5%. The processor has established that residual enzyme activity must remain below 10% to prevent quality deterioration during frozen storage. The process engineer must assess whether the blanching treatment meets the required performance criterion. Which conclusion is most appropriate?",
               "options": [
-                "1.25 log reductions",
-                "5 log reductions",
-                "12.5 log reductions",
-                "0.75 log reductions"
+                "Process exceeds requirement",
+                "Process fails requirement",
+                "Additional freezing is required",
+                "Additional packaging is required"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 0.25 min / 0.2 min = 1.25 log reductions. Correct answer: 1.25 log reductions."
+              "solution": "Residual activity = 5% Requirement <10% Requirement satisfied. Process exceeds requirement"
             },
             {
-              "q": "If a food product loses 30% of its weight during dehydration, what will be the final weight if the initial weight was 500 g?",
+              "q": "A pasteurization study reports a microbial population decline from 10⁶ CFU/mL to 10² CFU/mL after treatment. The validation team must determine the total logarithmic reduction achieved by the process before approving commercial production. Which microbial reduction best represents the effectiveness of the treatment?",
               "options": [
-                "150 g",
-                "350 g",
-                "450 g",
-                "500 g"
+                "2 log",
+                "3 log",
+                "4 log",
+                "5 log"
               ],
-              "answer": 1,
-              "solution": "Final weight = Initial weight x (1 - 30.0/100) = 500 x 0.7 = 350. Correct answer: 350 g."
+              "answer": 2,
+              "solution": "6 − 2 = 4 log reduction 4 log"
             },
             {
-              "q": "A canning process achieves a 6D reduction for Clostridium botulinum. If the initial spore count is 108 spores/g, what will be the final spore count?",
+              "q": "A food sample initially contains 80% moisture. After dehydration, moisture content decreases to 20%. The drying engineer must evaluate the effectiveness of the operation by determining the percentage moisture removed during processing. Which value most accurately represents moisture removal?",
               "options": [
-                "102 spores/g",
-                "106 spores/g",
-                "108 spores/g",
-                "1014 spores/g"
+                "40%",
+                "50%",
+                "60%",
+                "70%"
               ],
-              "answer": 0,
-              "solution": "An 6D process achieves 6 decimal (log) reductions: final count = initial count / 10^6. log10(final) = 8 - 6 = 2, i.e. final load = 10^2 spores/g. Correct answer: 102 spores/g."
+              "answer": 2,
+              "solution": "80 − 20 = 60% 60%"
             },
             {
-              "q": "If a food product is frozen at -18°C and the freezing rate is 2°C per minute, how long will it take to reach -18°C from an initial temperature of 4°C?",
+              "q": "A frozen food product reaches its freezing point after 25 minutes. An alternative process achieves the same condition in 15 minutes. The production team must identify the relative improvement in freezing performance to assess process efficiency. Which statement best describes the improved process?",
               "options": [
-                "9 minutes",
-                "11 minutes",
-                "15 minutes",
-                "22 minutes"
-              ],
-              "answer": 1,
-              "solution": "Time = Temperature change / Freezing rate = (4 - (-18)) / 2 = 22 / 2 = 11 minutes. Correct answer: 11 minutes."
-            },
-            {
-              "q": "If a food product is exposed to 10 kGy of radiation and the D-value for a target microorganism is 2 kGy, how many log reductions are achieved?",
-              "options": [
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions",
-                "20 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 10 kGy / 2 kGy = 5 log reductions. Correct answer: 5 log reductions."
-            },
-            {
-              "q": "If a food product is subjected to ultra-high pressure processing at 600 MPa for 5 minutes, and the D-value for a target microorganism is 1.5 minutes at 600 MPa, how many log reductions are achieved?",
-              "options": [
-                "2 log reductions",
-                "3.33 log reductions",
-                "5 log reductions",
-                "6 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 5 min / 1.5 min = 3.33 log reductions. Correct answer: 3.33 log reductions."
-            },
-            {
-              "q": "If a food additive is added at a concentration of 0.1% (w/w) to a 1 kg food product, how many grams of the additive are required?",
-              "options": [
-                "0.1 g",
-                "1 g",
-                "10 g",
-                "100 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.1% x 1 kg = 0.001 x 1000 g = 1 g. Correct answer: 1 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 105 CFU/g. If a 3D process is applied, what will be the final microbial load?",
-              "options": [
-                "102 CFU/g",
-                "103 CFU/g",
-                "105 CFU/g",
-                "108 CFU/g"
+                "Faster freezing rate",
+                "Lower freezing rate",
+                "Equal freezing rate",
+                "No freezing occurred"
               ],
               "answer": 0,
-              "solution": "An 3D process achieves 3 decimal (log) reductions: final count = initial count / 10^3. log10(final) = 5 - 3 = 2, i.e. final load = 10^2 CFU/g. Correct answer: 102 CFU/g."
+              "solution": "Shorter freezing time indicates higher freezing rate. Faster freezing rate"
             },
             {
-              "q": "If a food product is heated at 90°C for 10 minutes and the D-value for a target microorganism is 5 minutes at 90°C, how many log reductions are achieved?",
+              "q": "A dehydrated product exhibits a moisture ratio of 0.25 after drying. Another batch exhibits a moisture ratio of 0.45. The processor aims to maximize shelf stability while minimizing microbial growth potential. Based on the moisture ratios obtained, which batch would be expected to provide better storage stability?",
               "options": [
-                "1 log reduction",
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions"
+                "Batch with ratio 0.45",
+                "Batch with ratio 0.25",
+                "Both equal",
+                "Cannot be evaluated"
               ],
               "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 10 min / 5 min = 2 log reductions. Correct answer: 2 log reductions."
+              "solution": "Lower moisture ratio indicates greater moisture removal. Batch with ratio 0.25"
             },
             {
-              "q": "A food product has an initial weight of 200 g and loses 25% of its weight during evaporation. What is the final weight?",
+              "q": "A concentration process increases soluble solids from 12°Brix to 48°Brix. The process engineer must determine the concentration factor achieved through evaporation before approving the process design. Which concentration factor best represents the operation?",
               "options": [
-                "50 g",
-                "150 g",
-                "175 g",
-                "200 g"
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": 2,
+              "solution": "48/12 = 4 4"
+            },
+            {
+              "q": "A food irradiation facility applies a dose of 5 kGy to a spice product. Regulatory guidelines require a minimum dose of 3 kGy for microbial control and permit a maximum dose of 10 kGy. The quality assurance team must determine whether the treatment complies with both limits. Which conclusion is most appropriate?",
+              "options": [
+                "Below required dose",
+                "Within acceptable range",
+                "Above maximum dose",
+                "Dose cannot be assessed"
               ],
               "answer": 1,
-              "solution": "Final weight = Initial weight x (1 - 25.0/100) = 200 x 0.75 = 150. Correct answer: 150 g."
+              "solution": "5 kGy lies between 3 and 10 kGy. Within acceptable range"
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 400 MPa for 10 minutes, and the D-value for a target microorganism is 2 minutes at 400 MPa, how many log reductions are achieved?",
+              "q": "A pulsed electric field system operates with an applied voltage of 30 kV across an electrode gap of 2 cm. The process engineer must determine the electric field strength to verify whether microbial inactivation conditions have been achieved. Which field strength most closely represents the operating condition?",
               "options": [
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions",
-                "20 log reductions"
+                "10 kV/cm",
+                "15 kV/cm",
+                "20 kV/cm",
+                "25 kV/cm"
               ],
               "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 10 min / 2 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Field strength = 30/2 = 15 kV/cm 15 kV/cm"
             },
             {
-              "q": "A food product is stored in a modified atmosphere with 2% oxygen. If the initial oxygen concentration was 20%, what is the percentage reduction in oxygen concentration?",
+              "q": "A high-pressure processing unit is capable of operating at 700 MPa. A product requires a validated treatment pressure of 600 MPa for microbial control. The production manager must determine whether the equipment can reliably deliver the required process. Which conclusion is most appropriate?",
               "options": [
-                "10%",
-                "18%",
+                "Equipment capacity insufficient",
+                "Equipment capacity adequate",
+                "Pressure exceeds equipment rating",
+                "Treatment impossible"
+              ],
+              "answer": 1,
+              "solution": "700 MPa > 600 MPa Equipment capacity adequate"
+            },
+            {
+              "q": "An irradiation process reduces microbial counts from 10⁷ CFU/g to 10³ CFU/g. The validation team must determine the achieved logarithmic reduction to compare the treatment against regulatory expectations. Which reduction was achieved?",
+              "options": [
+                "2 log",
+                "3 log",
+                "4 log",
+                "5 log"
+              ],
+              "answer": 2,
+              "solution": "7 − 3 = 4 log reduction 4 log"
+            },
+            {
+              "q": "A modified atmosphere package contains 3% oxygen, 12% carbon dioxide and the remaining gas is nitrogen. The packaging engineer must determine the nitrogen concentration present within the package atmosphere before commercial release. Which value best represents the nitrogen concentration?",
+              "options": [
+                "75%",
                 "80%",
+                "85%",
                 "90%"
               ],
-              "answer": 3,
-              "solution": "% reduction = (Initial - Final) / Initial = (20 - 2) / 20 = 0.9 (90%). Correct answer: 90%."
-            },
-            {
-              "q": "If a food additive is added at a concentration of 0.5% (w/w) to a 2 kg food product, how many grams of the additive are required?",
-              "options": [
-                "1 g",
-                "5 g",
-                "10 g",
-                "20 g"
-              ],
               "answer": 2,
-              "solution": "Additive mass = Concentration x Total mass = 0.5% x 2 kg = 0.005 x 2000 g = 10 g. Correct answer: 10 g."
+              "solution": "100 − (3 + 12) = 85% 85%"
             },
             {
-              "q": "A food product has an initial microbial load of 108 CFU/g. If a 5D process is applied, what will be the final microbial load?",
+              "q": "A fresh produce package initially contains 5% oxygen. During storage, respiration reduces oxygen concentration to 2%. The quality team has established a critical limit of 1% oxygen to prevent anaerobic spoilage. Which conclusion is most appropriate based on the final atmosphere?",
               "options": [
-                "103 CFU/g",
-                "105 CFU/g",
-                "108 CFU/g",
-                "1013 CFU/g"
-              ],
-              "answer": 0,
-              "solution": "An 5D process achieves 5 decimal (log) reductions: final count = initial count / 10^5. log10(final) = 8 - 5 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
-            },
-            {
-              "q": "A food product has an initial weight of 300 g and loses 40% of its weight during evaporation. What is the final weight?",
-              "options": [
-                "60 g",
-                "120 g",
-                "180 g",
-                "300 g"
-              ],
-              "answer": 2,
-              "solution": "Final weight = Initial weight x (1 - 40.0/100) = 300 x 0.6 = 180. Correct answer: 180 g."
-            },
-            {
-              "q": "If a food product is exposed to 20 kGy of radiation and the D-value for a target microorganism is 4 kGy, how many log reductions are achieved?",
-              "options": [
-                "4 log reductions",
-                "5 log reductions",
-                "10 log reductions",
-                "20 log reductions"
+                "Critical limit exceeded",
+                "Atmosphere remains acceptable",
+                "Package failure occurred",
+                "Product must be discarded"
               ],
               "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 20 kGy / 4 kGy = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "2% > 1% Limit not crossed. Atmosphere remains acceptable"
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 500 MPa for 15 minutes, and the D-value for a target microorganism is 3 minutes at 500 MPa, how many log reductions are achieved?",
+              "q": "A packaging film exhibits an oxygen transmission rate of 150 cc/m²/day. A competing film exhibits a transmission rate of 75 cc/m²/day. For a highly oxidation-sensitive product, the packaging technologist must select the more protective material. Which option is most suitable?",
               "options": [
-                "3 log reductions",
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions"
+                "150 cc/m²/day film",
+                "75 cc/m²/day film",
+                "Both equally suitable",
+                "Neither suitable"
               ],
               "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 15 min / 3 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Lower oxygen transmission provides greater protection. 75 cc/m²/day film"
             },
             {
-              "q": "If a food additive is added at a concentration of 0.2% (w/w) to a 5 kg food product, how many grams of the additive are required?",
+              "q": "A modified atmosphere storage chamber is designed to maintain carbon dioxide levels between 5% and 10%. Monitoring data indicate a concentration of 8% during operation. The storage manager must determine whether the atmosphere remains within the specified operating range. Which conclusion is most appropriate?",
               "options": [
-                "1 g",
-                "10 g",
-                "20 g",
-                "100 g"
+                "Below operating range",
+                "Within operating range",
+                "Above operating range",
+                "Outside specification"
               ],
               "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.2% x 5 kg = 0.002 x 5000 g = 10 g. Correct answer: 10 g."
-            },
+              "solution": "8% lies between 5% and 10%. Within operating range"
+            }
+          ]
+        },
+        {
+          "id": "unit1_analytical",
+          "title": "Analytical Questions",
+          "notes": [],
+          "mcqs": [
             {
-              "q": "A food product has an initial microbial load of 109 CFU/g. If a 6D process is applied, what will be the final microbial load?",
+              "q": "A dairy company plans to introduce a genetically modified starter culture for yogurt production. Pilot-scale trials indicate faster fermentation, improved texture development, and reduced processing time. However, consumer surveys reveal concerns regarding product acceptance despite regulatory approval. The management team must determine the most critical aspect before commercial implementation. Which factor should receive primary consideration during decision-making?",
               "options": [
-                "103 CFU/g",
-                "106 CFU/g",
-                "109 CFU/g",
-                "1015 CFU/g"
+                "Consumer perception",
+                "Container shape",
+                "Distribution route",
+                "Storage rack design"
               ],
               "answer": 0,
-              "solution": "An 6D process achieves 6 decimal (log) reductions: final count = initial count / 10^6. log10(final) = 9 - 6 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Consumer acceptance directly influences market success even when technical and regulatory requirements are satisfied."
             },
             {
-              "q": "A food product has an initial weight of 400 g and loses 50% of its weight during evaporation. What is the final weight?",
+              "q": "A food manufacturer is comparing two biotechnology-derived enzymes for juice clarification. One enzyme provides higher clarity while the other better preserves aroma compounds. Both meet processing requirements and regulatory standards. The company aims to maximize long-term consumer satisfaction rather than short-term processing efficiency. Which criterion should dominate the final selection process?",
               "options": [
-                "100 g",
-                "200 g",
-                "300 g",
-                "400 g"
-              ],
-              "answer": 1,
-              "solution": "Final weight = Initial weight x (1 - 50.0/100) = 400 x 0.5 = 200. Correct answer: 200 g."
-            },
-            {
-              "q": "If a food product is subjected to ultra-high pressure processing at 600 MPa for 20 minutes, and the D-value for a target microorganism is 4 minutes at 600 MPa, how many log reductions are achieved?",
-              "options": [
-                "4 log reductions",
-                "5 log reductions",
-                "10 log reductions",
-                "20 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 20 min / 4 min = 5 log reductions. Correct answer: 5 log reductions."
-            },
-            {
-              "q": "If a food additive is added at a concentration of 0.3% (w/w) to a 10 kg food product, how many grams of the additive are required?",
-              "options": [
-                "3 g",
-                "30 g",
-                "300 g",
-                "3000 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.3% x 10 kg = 0.003 x 10000 g = 30 g. Correct answer: 30 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 1010 CFU/g. If a 7D process is applied, what will be the final microbial load?",
-              "options": [
-                "103 CFU/g",
-                "107 CFU/g",
-                "1010 CFU/g",
-                "1017 CFU/g"
+                "Aroma retention",
+                "Tank capacity",
+                "Pump speed",
+                "Label dimensions"
               ],
               "answer": 0,
-              "solution": "An 7D process achieves 7 decimal (log) reductions: final count = initial count / 10^7. log10(final) = 10 - 7 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Product quality attributes that influence consumer preference should be prioritized."
             },
             {
-              "q": "A food product has an initial weight of 500 g and loses 60% of its weight during evaporation. What is the final weight?",
+              "q": "A beverage company intends to replace a synthetic preservative with a natural antimicrobial produced through microbial fermentation. Shelf-life studies indicate equivalent microbial stability under controlled conditions. Before market launch, the company must identify the most suitable validation activity to confirm preservation effectiveness under commercial conditions. Which action is most appropriate?",
               "options": [
-                "100 g",
-                "200 g",
-                "300 g",
-                "500 g"
-              ],
-              "answer": 1,
-              "solution": "Final weight = Initial weight x (1 - 60.0/100) = 500 x 0.4 = 200. Correct answer: 200 g."
-            },
-            {
-              "q": "If a food product is subjected to ultra-high pressure processing at 700 MPa for 25 minutes, and the D-value for a target microorganism is 5 minutes at 700 MPa, how many log reductions are achieved?",
-              "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "25 log reductions"
+                "Challenge testing",
+                "Logo redesign",
+                "Bottle recolouring",
+                "Warehouse expansion"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 25 min / 5 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Challenge testing evaluates preservative performance against microorganisms under realistic conditions."
             },
             {
-              "q": "If a food additive is added at a concentration of 0.4% (w/w) to a 15 kg food product, how many grams of the additive are required?",
+              "q": "A processed food contains multiple additives serving different technological functions. During a product audit, quality personnel observe texture deterioration despite microbial stability and acceptable sensory scores. The formulation records indicate no changes in preservative concentration. Which additive category should be investigated first to identify the likely cause of quality loss?",
               "options": [
-                "6 g",
-                "60 g",
-                "600 g",
-                "6000 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.4% x 15 kg = 0.004 x 15000 g = 60 g. Correct answer: 60 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 1011 CFU/g. If an 8D process is applied, what will be the final microbial load?",
-              "options": [
-                "103 CFU/g",
-                "108 CFU/g",
-                "1011 CFU/g",
-                "1019 CFU/g"
+                "Stabilizers",
+                "Preservatives",
+                "Sweeteners",
+                "Colourants"
               ],
               "answer": 0,
-              "solution": "An 8D process achieves 8 decimal (log) reductions: final count = initial count / 10^8. log10(final) = 11 - 8 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Stabilizers significantly influence texture maintenance during storage."
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 800 MPa for 30 minutes, and the D-value for a target microorganism is 6 minutes at 800 MPa, how many log reductions are achieved?",
+              "q": "A canned soup manufacturer experiences sporadic spoilage despite maintaining the specified processing temperature. Investigation reveals that product viscosity increased after formulation changes, affecting heat penetration characteristics. The thermal process schedule was not modified following reformulation. Which aspect most likely contributed to the observed spoilage problem?",
               "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "30 log reductions"
+                "Heat transfer behaviour",
+                "Label material",
+                "Can diameter marking",
+                "Coding format"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 30 min / 6 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Increased viscosity can reduce heat transfer efficiency and alter lethality distribution."
             },
             {
-              "q": "If a food additive is added at a concentration of 0.5% (w/w) to a 20 kg food product, how many grams of the additive are required?",
+              "q": "A processor is comparing pasteurization and commercial sterilization for a high-acid fruit beverage. Both technologies achieve acceptable microbial safety. However, retention of flavour and nutritional quality is considered critical for product success. Which processing option should be preferred?",
               "options": [
-                "10 g",
-                "100 g",
-                "1000 g",
-                "10000 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.5% x 20 kg = 0.005 x 20000 g = 100 g. Correct answer: 100 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 1012 CFU/g. If a 9D process is applied, what will be the final microbial load?",
-              "options": [
-                "103 CFU/g",
-                "109 CFU/g",
-                "1012 CFU/g",
-                "1021 CFU/g"
+                "Pasteurization",
+                "Sterilization",
+                "Reheating",
+                "Ambient storage"
               ],
               "answer": 0,
-              "solution": "An 9D process achieves 9 decimal (log) reductions: final count = initial count / 10^9. log10(final) = 12 - 9 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Pasteurization generally preserves sensory and nutritional quality better than sterilization."
             },
             {
-              "q": "If a food product is heated at 120°C for 60 minutes and the D-value for a target microorganism is 30 minutes at 120°C, how many log reductions are achieved?",
+              "q": "A vegetable processing facility introduces blanching before freezing operations. Following implementation, improved colour retention and reduced enzymatic deterioration are observed during frozen storage. Management seeks to justify continuation of the process. Which primary objective of blanching best explains the observed improvement?",
               "options": [
-                "1 log reduction",
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 60 min / 30 min = 2 log reductions. Correct answer: 2 log reductions."
-            },
-            {
-              "q": "A food product has an initial weight of 700 g and loses 80% of its weight during evaporation. What is the final weight?",
-              "options": [
-                "140 g",
-                "560 g",
-                "700 g",
-                "800 g"
+                "Enzyme inactivation",
+                "Moisture absorption",
+                "Protein synthesis",
+                "Packaging reduction"
               ],
               "answer": 0,
-              "solution": "Final weight = Initial weight x (1 - 80.0/100) = 700 x 0.2 = 140. Correct answer: 140 g."
+              "solution": "Blanching primarily inactivates enzymes responsible for quality deterioration."
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 900 MPa for 35 minutes, and the D-value for a target microorganism is 7 minutes at 900 MPa, how many log reductions are achieved?",
+              "q": "A thermal process validation study shows uniform temperature achievement in the heating medium but variable microbial survival within product containers. The process equipment operates according to design specifications. Investigators suspect product-related factors rather than equipment malfunction. Which variable should be examined first?",
               "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "35 log reductions"
+                "Product composition",
+                "Operator schedule",
+                "Warehouse layout",
+                "Supplier location"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 35 min / 7 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Product composition significantly influences heat penetration and microbial destruction."
             },
             {
-              "q": "A food product is stored in a modified atmosphere with 7% oxygen. If the initial oxygen concentration was 22%, what is the percentage reduction in oxygen concentration?",
+              "q": "Two frozen food products are stored under identical temperature conditions. One product exhibits extensive drip loss after thawing whereas the other retains structural integrity. Both products were manufactured from the same raw material source. Which processing factor most likely explains the difference in quality?",
               "options": [
-                "0.15",
-                "0.682",
-                "0.75",
-                "0.9"
-              ],
-              "answer": 1,
-              "solution": "% reduction = (Initial - Final) / Initial = (22 - 7) / 22 = 0.682 (68.2%). Correct answer: 0.682."
-            },
-            {
-              "q": "If a food additive is added at a concentration of 0.6% (w/w) to a 25 kg food product, how many grams of the additive are required?",
-              "options": [
-                "15 g",
-                "150 g",
-                "1500 g",
-                "15000 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.6% x 25 kg = 0.006 x 25000 g = 150 g. Correct answer: 150 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 1013 CFU/g. If a 10D process is applied, what will be the final microbial load?",
-              "options": [
-                "103 CFU/g",
-                "1010 CFU/g",
-                "1013 CFU/g",
-                "1023 CFU/g"
+                "Freezing rate",
+                "Package colour",
+                "Storage label",
+                "Carton thickness"
               ],
               "answer": 0,
-              "solution": "An 10D process achieves 10 decimal (log) reductions: final count = initial count / 10^10. log10(final) = 13 - 10 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Freezing rate affects ice crystal size and subsequent tissue damage."
             },
             {
-              "q": "A food product has an initial weight of 800 g and loses 90% of its weight during evaporation. What is the final weight?",
+              "q": "A dehydrated fruit processor aims to maximize shelf life while maintaining desirable texture and flavour. Several drying strategies are available, each providing different levels of moisture removal and quality retention. Which factor should receive highest priority when selecting the final drying condition?",
               "options": [
-                "80 g",
-                "720 g",
-                "800 g",
-                "900 g"
+                "Product quality preservation",
+                "Pallet arrangement",
+                "Equipment paint colour",
+                "Storage room height"
               ],
               "answer": 0,
-              "solution": "Final weight = Initial weight x (1 - 90.0/100) = 800 x 0.1 = 80. Correct answer: 80 g."
+              "solution": "Quality retention is essential for consumer acceptance and product value."
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 1000 MPa for 40 minutes, and the D-value for a target microorganism is 8 minutes at 1000 MPa, how many log reductions are achieved?",
+              "q": "An evaporation process is being optimized to increase production efficiency. Engineers observe that excessive concentration causes undesirable flavour changes despite achieving target solids content. Which process modification would be most suitable to reduce thermal damage while maintaining concentration objectives?",
               "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "40 log reductions"
+                "Lower operating temperature",
+                "Increase storage duration",
+                "Change package artwork",
+                "Reduce warehouse lighting"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 40 min / 8 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Lower temperatures can reduce thermal degradation during evaporation."
             },
             {
-              "q": "A food product is stored in a modified atmosphere with 8% oxygen. If the initial oxygen concentration was 24%, what is the percentage reduction in oxygen concentration?",
+              "q": "A frozen storage facility experiences fluctuating temperatures because of frequent door openings. Product inspections reveal increased ice crystal growth and texture deterioration over time. Management seeks to identify the mechanism responsible for these quality losses. Which phenomenon is most likely involved?",
               "options": [
-                "0.16",
-                "0.667",
-                "0.75",
-                "0.9"
-              ],
-              "answer": 1,
-              "solution": "% reduction = (Initial - Final) / Initial = (24 - 8) / 24 = 0.667 (66.7%). Correct answer: 0.667."
-            },
-            {
-              "q": "If a food additive is added at a concentration of 0.7% (w/w) to a 30 kg food product, how many grams of the additive are required?",
-              "options": [
-                "21 g",
-                "210 g",
-                "2100 g",
-                "21000 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.7% x 30 kg = 0.006999999999999999 x 30000 g = 210 g. Correct answer: 210 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 1014 CFU/g. If an 11D process is applied, what will be the final microbial load?",
-              "options": [
-                "103 CFU/g",
-                "1011 CFU/g",
-                "1014 CFU/g",
-                "1025 CFU/g"
+                "Recrystallization",
+                "Fermentation",
+                "Emulsification",
+                "Carbonation"
               ],
               "answer": 0,
-              "solution": "An 11D process achieves 11 decimal (log) reductions: final count = initial count / 10^11. log10(final) = 14 - 11 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Temperature fluctuations promote recrystallization and quality deterioration."
             },
             {
-              "q": "If a food product is heated at 140°C for 80 minutes and the D-value for a target microorganism is 40 minutes at 140°C, how many log reductions are achieved?",
+              "q": "A food company intends to extend shelf life of fresh juice without exposing the product to elevated temperatures. Several preservation technologies are being evaluated. The selected technology must maintain fresh-like sensory characteristics while reducing microbial populations. Which technology best satisfies this requirement?",
               "options": [
-                "1 log reduction",
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 80 min / 40 min = 2 log reductions. Correct answer: 2 log reductions."
-            },
-            {
-              "q": "A food product has an initial weight of 900 g and loses 95% of its weight during evaporation. What is the final weight?",
-              "options": [
-                "45 g",
-                "855 g",
-                "900 g",
-                "950 g"
+                "Pulsed electric field",
+                "Conventional boiling",
+                "Open-pan heating",
+                "Sun drying"
               ],
               "answer": 0,
-              "solution": "Final weight = Initial weight x (1 - 95.0/100) = 900 x 0.05 = 45. Correct answer: 45 g."
+              "solution": "PEF achieves microbial reduction with minimal thermal impact."
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 1100 MPa for 45 minutes, and the D-value for a target microorganism is 9 minutes at 1100 MPa, how many log reductions are achieved?",
+              "q": "A processor adopts high-pressure processing for a ready-to-eat food product. Microbial safety improves significantly, but some pressure-sensitive quality attributes are altered. Engineers must determine whether observed changes result from pressure effects rather than temperature-induced reactions. Which evaluation would provide the most direct evidence?",
               "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "45 log reductions"
+                "Comparison with thermal treatment",
+                "Packaging redesign",
+                "Distribution analysis",
+                "Inventory review"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 45 min / 9 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Comparative analysis helps isolate pressure-related effects."
             },
             {
-              "q": "If a food additive is added at a concentration of 0.8% (w/w) to a 35 kg food product, how many grams of the additive are required?",
+              "q": "A spice manufacturer considers irradiation and thermal treatment for microbial control. Both methods achieve required safety levels. The company prioritizes retention of volatile flavour compounds that contribute to product value. Which technology should be preferred?",
               "options": [
-                "28 g",
-                "280 g",
-                "2800 g",
-                "28000 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.8% x 35 kg = 0.008 x 35000 g = 280 g. Correct answer: 280 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 1015 CFU/g. If a 12D process is applied, what will be the final microbial load?",
-              "options": [
-                "103 CFU/g",
-                "1012 CFU/g",
-                "1015 CFU/g",
-                "1027 CFU/g"
+                "Irradiation",
+                "Thermal sterilization",
+                "Reheating",
+                "Boiling"
               ],
               "answer": 0,
-              "solution": "An 12D process achieves 12 decimal (log) reductions: final count = initial count / 10^12. log10(final) = 15 - 12 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Irradiation generally causes less loss of volatile flavour compounds."
             },
             {
-              "q": "If a food product is heated at 150°C for 90 minutes and the D-value for a target microorganism is 45 minutes at 150°C, how many log reductions are achieved?",
+              "q": "Following implementation of a pulsed electric field system, microbial reduction varies between production batches despite identical operating settings. Investigators suspect variations in product characteristics rather than equipment malfunction. Which parameter should be examined first?",
               "options": [
-                "1 log reduction",
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 90 min / 45 min = 2 log reductions. Correct answer: 2 log reductions."
-            },
-            {
-              "q": "A food product has an initial weight of 1000 g and loses 99% of its weight during evaporation. What is the final weight?",
-              "options": [
-                "10 g",
-                "990 g",
-                "1000 g",
-                "1100 g"
+                "Electrical conductivity",
+                "Carton dimensions",
+                "Product logo",
+                "Storage shelf number"
               ],
               "answer": 0,
-              "solution": "Final weight = Initial weight x (1 - 99.0/100) = 1000 x 0.01 = 10. Correct answer: 10 g."
+              "solution": "Electrical conductivity strongly influences PEF effectiveness."
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 1200 MPa for 50 minutes, and the D-value for a target microorganism is 10 minutes at 1200 MPa, how many log reductions are achieved?",
+              "q": "A fresh produce company uses modified atmosphere packaging to extend shelf life. During storage, oxygen concentration declines faster than predicted and off-flavours begin to develop. Packaging integrity remains intact throughout distribution. Which factor is most likely responsible for the observed quality issue?",
               "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "50 log reductions"
+                "Commodity respiration rate",
+                "Package printing",
+                "Barcode placement",
+                "Transport colour coding"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 50 min / 10 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Respiration rate significantly affects internal package atmosphere."
             },
             {
-              "q": "If a food additive is added at a concentration of 0.9% (w/w) to a 40 kg food product, how many grams of the additive are required?",
+              "q": "A packaging engineer must select between two films with different gas transmission characteristics. One film provides superior oxygen barrier properties, while the other allows greater gas exchange. The product is highly susceptible to oxidative deterioration during storage. Which film characteristic should be prioritized?",
               "options": [
-                "36 g",
-                "360 g",
-                "3600 g",
-                "36000 g"
-              ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 0.9% x 40 kg = 0.009000000000000001 x 40000 g = 360 g. Correct answer: 360 g."
-            },
-            {
-              "q": "A food product has an initial microbial load of 1016 CFU/g. If a 13D process is applied, what will be the final microbial load?",
-              "options": [
-                "103 CFU/g",
-                "1013 CFU/g",
-                "1016 CFU/g",
-                "1029 CFU/g"
+                "Oxygen barrier performance",
+                "Surface gloss",
+                "Printing area",
+                "Package height"
               ],
               "answer": 0,
-              "solution": "An 13D process achieves 13 decimal (log) reductions: final count = initial count / 10^13. log10(final) = 16 - 13 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Barrier performance is critical for oxidation-sensitive products."
             },
             {
-              "q": "If a food product is heated at 160°C for 100 minutes and the D-value for a target microorganism is 50 minutes at 160°C, how many log reductions are achieved?",
+              "q": "A company introduces modified atmosphere storage for fresh fruits to reduce metabolic activity during distribution. Quality monitoring demonstrates slower ripening and reduced deterioration compared with conventional storage. Which preservation principle best explains the observed outcome?",
               "options": [
-                "1 log reduction",
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 100 min / 50 min = 2 log reductions. Correct answer: 2 log reductions."
-            },
-            {
-              "q": "A food product has an initial weight of 1200 g and loses 85% of its weight during evaporation. What is the final weight?",
-              "options": [
-                "180 g",
-                "1020 g",
-                "1200 g",
-                "1300 g"
+                "Control of physiological activity",
+                "Mechanical separation",
+                "Product fortification",
+                "Enzyme extraction"
               ],
               "answer": 0,
-              "solution": "Final weight = Initial weight x (1 - 85.0/100) = 1200 x 0.15 = 180. Correct answer: 180 g."
+              "solution": "Modified atmospheres reduce physiological and biochemical activity."
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 1300 MPa for 55 minutes, and the D-value for a target microorganism is 11 minutes at 1300 MPa, how many log reductions are achieved?",
+              "q": "A food processor is reviewing storage strategies for minimally processed vegetables. Both refrigerated storage and modified atmosphere packaging are available. Historical records indicate that microbial growth is adequately controlled under both systems, but moisture loss remains a major concern. Which strategy should receive greater emphasis?",
               "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "55 log reductions"
+                "Modified atmosphere packaging",
+                "Ambient holding",
+                "Dry storage",
+                "Open display"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 55 min / 11 min = 5 log reductions. Correct answer: 5 log reductions."
-            },
+              "solution": "Modified atmosphere packaging helps minimize moisture loss and quality degradation."
+            }
+          ]
+        },
+        {
+          "id": "unit1_case",
+          "title": "Case Studies",
+          "notes": [],
+          "mcqs": [
             {
-              "q": "A food product has an initial microbial load of 1017 CFU/g. If a 14D process is applied, what will be the final microbial load?",
+              "q": "A dairy company has developed a probiotic yogurt using a newly selected bacterial culture. During refrigerated storage, the viable cell count decreases significantly before the declared shelf life. The formulation team is instructed to improve microbial survival without changing the strain or altering fermentation conditions. Several technological interventions are under consideration to achieve this objective while maintaining product quality and consumer acceptance. Which strategy should be implemented first?",
               "options": [
-                "103 CFU/g",
-                "1014 CFU/g",
-                "1017 CFU/g",
-                "1031 CFU/g"
+                "Microencapsulation",
+                "Homogenization",
+                "Filtration",
+                "Carbonation"
               ],
               "answer": 0,
-              "solution": "An 14D process achieves 14 decimal (log) reductions: final count = initial count / 10^14. log10(final) = 17 - 14 = 3, i.e. final load = 10^3 CFU/g. Correct answer: 103 CFU/g."
+              "solution": "Microencapsulation protects probiotic cells from environmental stress and improves survival."
             },
             {
-              "q": "If a food product is heated at 170°C for 110 minutes and the D-value for a target microorganism is 55 minutes at 170°C, how many log reductions are achieved?",
+              "q": "A fruit beverage manufacturer uses a biotechnology-derived enzyme for juice clarification. During scale-up, clarification efficiency remains satisfactory, but flavour retention decreases compared with laboratory trials. Production parameters remain unchanged. The quality team must identify the most likely process factor responsible for the observed difference before approving commercial production. Which factor requires priority investigation?",
               "options": [
-                "1 log reduction",
-                "2 log reductions",
-                "5 log reductions",
-                "10 log reductions"
-              ],
-              "answer": 1,
-              "solution": "Number of log reductions = Process value / D-value = 110 min / 55 min = 2 log reductions. Correct answer: 2 log reductions."
-            },
-            {
-              "q": "A food product has an initial weight of 1500 g and loses 90% of its weight during evaporation. What is the final weight?",
-              "options": [
-                "150 g",
-                "1350 g",
-                "1500 g",
-                "1600 g"
+                "Enzyme dosage",
+                "Bottle shape",
+                "Storage rack design",
+                "Label dimensions"
               ],
               "answer": 0,
-              "solution": "Final weight = Initial weight x (1 - 90.0/100) = 1500 x 0.1 = 150. Correct answer: 150 g."
+              "solution": "Enzyme dosage directly influences clarification and flavour retention."
             },
             {
-              "q": "If a food product is subjected to ultra-high pressure processing at 1400 MPa for 60 minutes, and the D-value for a target microorganism is 12 minutes at 1400 MPa, how many log reductions are achieved?",
+              "q": "A food processor is comparing two natural preservatives produced through microbial fermentation. Both achieve similar microbial inhibition, but one exhibits greater stability under varying pH conditions. The company intends to market products across multiple formulations with different acidity levels. The technical committee must select the most appropriate preservative for long-term use. Which criterion should drive the final decision?",
               "options": [
-                "5 log reductions",
-                "10 log reductions",
-                "15 log reductions",
-                "60 log reductions"
+                "Stability across pH conditions",
+                "Warehouse location",
+                "Container colour",
+                "Production shift timing"
               ],
               "answer": 0,
-              "solution": "Number of log reductions = Process value / D-value = 60 min / 12 min = 5 log reductions. Correct answer: 5 log reductions."
+              "solution": "Broader pH stability improves applicability across different products."
             },
             {
-              "q": "If a food additive is added at a concentration of 1.5% (w/w) to a 60 kg food product, how many grams of the additive are required?",
+              "q": "A manufacturer introduces a new sweetener produced through enzymatic bioprocessing. Consumer sensory trials indicate acceptable sweetness levels, but some batches exhibit inconsistent flavour perception despite identical formulations. The process engineer suspects variability within the production stage. Which aspect should be analyzed first to identify the root cause?",
               "options": [
-                "90 g",
-                "900 g",
-                "9000 g",
-                "90000 g"
+                "Process consistency",
+                "Carton thickness",
+                "Package graphics",
+                "Distribution route"
               ],
-              "answer": 1,
-              "solution": "Additive mass = Concentration x Total mass = 1.5% x 60 kg = 0.015 x 60000 g = 900 g. Correct answer: 900 g."
+              "answer": 0,
+              "solution": "Variation in process conditions can influence sweetener performance."
+            },
+            {
+              "q": "A canned vegetable processor experiences spoilage in products stored under ambient conditions. Investigation reveals that filling, sealing, and raw material quality meet specifications. Process records indicate variability in thermal treatment between batches. The quality assurance team must recommend the most critical parameter to review for preventing future spoilage incidents. Which parameter should receive immediate attention?",
+              "options": [
+                "Thermal lethality",
+                "Label placement",
+                "Pallet arrangement",
+                "Transport scheduling"
+              ],
+              "answer": 0,
+              "solution": "Thermal lethality directly determines microbial destruction."
+            },
+            {
+              "q": "A pasteurized milk plant observes reduced shelf life despite compliance with legal pasteurization temperatures. Storage and distribution systems remain unchanged. Microbiological testing suggests survival of heat-resistant organisms. The technical team must identify the most probable factor contributing to the problem before modifying process conditions. Which factor should be examined first?",
+              "options": [
+                "Holding time",
+                "Package colour",
+                "Tank volume",
+                "Product branding"
+              ],
+              "answer": 0,
+              "solution": "Pasteurization effectiveness depends on both temperature and holding time."
+            },
+            {
+              "q": "A food company is selecting between two sterilization schedules. One schedule maximizes microbial destruction but causes noticeable quality deterioration. The second preserves sensory quality but provides a lower safety margin. Management requires a scientifically justified decision that balances safety and quality. Which principle should guide the final selection?",
+              "options": [
+                "Risk-based optimization",
+                "Marketing preference",
+                "Packaging design",
+                "Warehouse capacity"
+              ],
+              "answer": 0,
+              "solution": "Process selection should balance food safety and quality objectives."
+            },
+            {
+              "q": "A blanching operation is introduced before freezing vegetables. Product colour improves substantially, but texture softening becomes evident during storage. Engineers suspect that process conditions may not be properly optimized. To determine the source of quality loss, which parameter should be reviewed first?",
+              "options": [
+                "Blanching intensity",
+                "Product coding",
+                "Storage shelf location",
+                "Distribution frequency"
+              ],
+              "answer": 0,
+              "solution": "Excessive blanching intensity can affect texture."
+            },
+            {
+              "q": "A frozen food manufacturer introduces a rapid-freezing system to improve product quality. Sensory evaluations reveal better texture retention than products processed using conventional freezing. The company seeks to explain the observed improvement to support process validation reports. Which factor most directly contributes to enhanced texture preservation?",
+              "options": [
+                "Smaller ice crystals",
+                "Larger packages",
+                "Longer thawing",
+                "Increased storage volume"
+              ],
+              "answer": 0,
+              "solution": "Rapid freezing forms smaller ice crystals, reducing tissue damage."
+            },
+            {
+              "q": "A dehydrated fruit processor notices increased moisture uptake during storage despite achieving the target moisture content at the end of drying. Packaging integrity appears satisfactory. The quality team must identify the most likely cause influencing product stability. Which parameter should be evaluated first?",
+              "options": [
+                "Water activity",
+                "Package artwork",
+                "Conveyor speed",
+                "Warehouse height"
+              ],
+              "answer": 0,
+              "solution": "Water activity strongly influences moisture migration and stability."
+            },
+            {
+              "q": "Two drying technologies are available for a high-value herbal product. One method achieves faster drying but results in moderate loss of volatile compounds. The other method requires longer processing but preserves aroma more effectively. Product value is strongly linked to flavour retention. Which factor should dominate technology selection?",
+              "options": [
+                "Retention of volatile compounds",
+                "Equipment colour",
+                "Building orientation",
+                "Operator preference"
+              ],
+              "answer": 0,
+              "solution": "Product value depends on preservation of volatile compounds."
+            },
+            {
+              "q": "A concentrated fruit juice exhibits flavour deterioration after evaporation. Chemical analyses indicate no contamination and packaging remains intact. Process records show prolonged exposure to elevated temperatures during concentration. Which aspect most likely contributed to quality loss?",
+              "options": [
+                "Thermal exposure",
+                "Barcode format",
+                "Storage rack design",
+                "Product coding system"
+              ],
+              "answer": 0,
+              "solution": "Extended thermal exposure can damage flavour compounds."
+            },
+            {
+              "q": "A processor intends to use pulsed electric field technology for preserving fruit juice while maintaining fresh characteristics. Preliminary trials indicate substantial microbial reduction with minimal thermal damage. The engineering team must explain why the technology is suitable for heat-sensitive beverages. Which characteristic provides the primary advantage?",
+              "options": [
+                "Non-thermal treatment",
+                "Larger equipment",
+                "Higher package weight",
+                "Extended mixing"
+              ],
+              "answer": 0,
+              "solution": "PEF achieves microbial inactivation with minimal heating."
+            },
+            {
+              "q": "A spice manufacturer adopts food irradiation to improve microbial safety. Microbial counts decrease significantly after treatment, but sensory quality remains largely unchanged. Management wants to identify the principle responsible for this outcome. Which mechanism best explains the observed effect?",
+              "options": [
+                "DNA damage in microorganisms",
+                "Increased moisture content",
+                "Protein enrichment",
+                "Mineral fortification"
+              ],
+              "answer": 0,
+              "solution": "Irradiation primarily damages microbial genetic material."
+            },
+            {
+              "q": "A company is evaluating ultra-high-pressure processing and conventional thermal processing for a premium fruit product. Consumer studies indicate strong preference for fresh flavour and colour retention. Regulatory compliance can be achieved with either technology. Which consideration should be prioritized when selecting the preservation method?",
+              "options": [
+                "Quality preservation",
+                "Package size",
+                "Storage rack spacing",
+                "Factory location"
+              ],
+              "answer": 0,
+              "solution": "Quality retention is critical for premium products."
+            },
+            {
+              "q": "A ready-to-eat food processed by high-pressure treatment demonstrates excellent microbial stability but occasional texture changes. Engineers suspect that process conditions exceed the optimum range. Which operational factor should be reviewed first?",
+              "options": [
+                "Applied pressure level",
+                "Product logo",
+                "Distribution route",
+                "Warehouse lighting"
+              ],
+              "answer": 0,
+              "solution": "Pressure intensity directly affects texture characteristics."
+            },
+            {
+              "q": "A fresh-cut vegetable processor packages products under modified atmosphere conditions. Shelf life improves substantially compared with air-packed products. The quality manager is preparing a report explaining the primary mechanism responsible for the observed improvement. Which factor contributes most directly to shelf-life extension?",
+              "options": [
+                "Controlled gas composition",
+                "Package printing",
+                "Transport distance",
+                "Carton dimensions"
+              ],
+              "answer": 0,
+              "solution": "Modified gas composition slows deterioration and microbial growth."
+            },
+            {
+              "q": "A packaged produce product develops off-flavours before the expected shelf life. Gas analysis reveals oxygen concentrations significantly lower than the intended specification. The packaging material and sealing process meet requirements. Which issue should be investigated first?",
+              "options": [
+                "Product respiration rate",
+                "Label placement",
+                "Pallet stacking",
+                "Warehouse flooring"
+              ],
+              "answer": 0,
+              "solution": "Respiration can excessively consume oxygen inside packages."
+            },
+            {
+              "q": "Two packaging films are available for a high-respiration fresh produce product. One film exhibits high gas permeability, whereas the other provides a strong barrier to gas movement. The packaging team must select the material most likely to maintain a stable internal atmosphere. Which criterion should guide the decision?",
+              "options": [
+                "Compatibility with respiration characteristics",
+                "Printing cost",
+                "Film colour",
+                "Roll length"
+              ],
+              "answer": 0,
+              "solution": "Film selection should match product respiration behaviour."
+            },
+            {
+              "q": "A modified atmosphere storage facility records increased spoilage despite maintaining low storage temperatures. Inspection confirms that refrigeration systems are functioning correctly. Measurements indicate that the atmospheric composition deviates from the prescribed range. Which parameter should be prioritized during corrective action?",
+              "options": [
+                "Gas composition control",
+                "Shelf numbering",
+                "Forklift scheduling",
+                "Building paint quality"
+              ],
+              "answer": 0,
+              "solution": "Atmospheric composition is the critical control factor in modified atmosphere storage."
+            }
+          ]
+        },
+        {
+          "id": "unit1_assertion",
+          "title": "Assertion and Reasoning",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A dairy company develops a probiotic yogurt intended for distribution through extended cold-chain networks. During storage studies, the product maintains acceptable sensory quality, but viability of the probiotic culture becomes a critical performance parameter. The research team evaluates technological interventions that can improve microbial survival without affecting product characteristics. The findings are reviewed before commercial launch. Assertion (A): The viability of probiotic microorganisms influences the functional effectiveness of probiotic foods. Reason (R): Technologies that protect microbial cells during processing and storage can improve their survival.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A manufacturer replaces a synthetic antioxidant with a biotechnology-derived ingredient in a lipid-rich snack product. Accelerated shelf-life studies reveal that oxidation rates remain controlled under most storage conditions. The product development team assesses whether the replacement strategy can preserve quality throughout the declared shelf life while satisfying market expectations. Assertion (A): Antioxidant selection affects the oxidative stability of foods containing lipids. Reason (R): Oxidative reactions can influence product quality during storage.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A beverage manufacturer evaluates preservative performance in products having different pH values. Despite using identical preservative concentrations, varying levels of microbial inhibition are observed. The quality assurance team investigates the relationship between formulation characteristics and preservative effectiveness before finalizing the product specification. Assertion (A): The effectiveness of certain preservatives depends on the properties of the food system. Reason (R): Product acidity can influence the antimicrobial action of some preservatives.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A fruit processing company compares two enzyme preparations for juice clarification. One enzyme improves clarification efficiency, whereas the other provides better flavour retention. Management must determine which system offers the most suitable balance between process performance and product quality. Assertion (A): Enzyme selection can influence processing efficiency and product quality. Reason (R): Different enzymes possess distinct catalytic characteristics during food processing.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A vegetable canning facility validates a thermal process designed to ensure commercial sterility. Engineers review process records to confirm that the required level of microbial destruction has been achieved while maintaining acceptable product quality. The process is evaluated against established food safety objectives. Assertion (A): Thermal processing contributes significantly to microbial destruction in preserved foods. Reason (R): Sufficient heat exposure can reduce populations of spoilage and pathogenic microorganisms.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A processing plant uses blanching before freezing vegetables intended for long-term storage. During process review, management examines the objectives of blanching and compares them with those of sterilization processes. Product quality and preservation requirements are considered before revising the process flow. Assertion (A): Blanching and canning provide identical levels of food preservation. Reason (R): Canning generally achieves greater microbial control than blanching.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 3
+            },
+            {
+              "q": "A dairy processor evaluates pasteurization conditions to ensure safety while preserving desirable sensory attributes. The process development team reviews the role of moderate heat treatment in controlling microbial hazards. The objective is to optimize safety without excessive quality deterioration. Assertion (A): Pasteurization aims to improve food safety while preserving product quality. Reason (R): Pasteurization generally uses lower thermal intensity than commercial sterilization.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food technologist studies microbial destruction patterns during thermal processing of canned foods. Validation data indicate that process lethality changes when either time or temperature conditions are modified. The observations are analyzed to improve process design. Assertion (A): Thermal lethality is influenced by processing conditions. Reason (R): Time–temperature combinations affect microbial destruction during heating.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A frozen food manufacturer compares two freezing systems operating at different freezing rates. Product evaluations reveal differences in texture retention and ice crystal formation after storage. The engineering team investigates how processing conditions affect final product quality. Assertion (A): Freezing rate can influence the quality of frozen foods. Reason (R): Ice crystal characteristics are affected by freezing conditions.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A fruit processor adopts dehydration to extend shelf life and reduce transportation costs. Storage studies demonstrate improved stability compared with untreated products. The technical team evaluates the preservation mechanism associated with moisture removal. Assertion (A): Dehydration can contribute to shelf-life extension. Reason (R): Reduced water availability can limit microbial growth and activity.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A beverage company concentrates fruit juice through evaporation before transportation to distant markets. Analytical measurements reveal a substantial increase in soluble solids after processing. The production team examines the role of moisture removal in concentration operations. Assertion (A): Evaporation increases the concentration of dissolved solids in food products. Reason (R): Removal of water changes the composition of the remaining product phase.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A dehydrated vegetable product meets target moisture specifications at the end of processing. However, quality deterioration occurs during storage due to environmental exposure. The quality assurance team investigates additional factors influencing product stability after drying. Assertion (A): Moisture reduction alone guarantees storage stability of dehydrated foods. Reason (R): Packaging conditions can influence the quality of dehydrated products during storage.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 3
+            },
+            {
+              "q": "A spice manufacturer adopts food irradiation to reduce microbial contamination while minimizing thermal damage. Product evaluations indicate acceptable sensory quality after treatment. The technical team studies the preservation mechanism responsible for microbial control. Assertion (A): Food irradiation can contribute to microbial reduction in foods. Reason (R): Ionizing radiation can affect cellular structures of microorganisms.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A beverage company investigates pulsed electric field processing as an alternative to conventional heat treatment. Pilot-scale trials indicate microbial reduction while retaining fresh-like quality characteristics. Engineers assess the underlying mechanism responsible for process effectiveness. Assertion (A): Pulsed electric field processing can reduce microbial populations with limited thermal impact. Reason (R): High-intensity electric fields can disrupt microbial cell membranes.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A ready-to-eat food manufacturer adopts ultra-high-pressure processing to improve safety while maintaining fresh quality attributes. Validation studies demonstrate effective microbial control without severe thermal exposure. The management team reviews the scientific basis for the process. Assertion (A): Ultra-high-pressure processing can inactivate microorganisms in foods. Reason (R): Pressure can alter biological structures associated with microbial survival.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food processor compares irradiation, pulsed electric field processing, and ultra-high-pressure treatment for premium products. Management evaluates technological suitability for applications requiring minimal quality deterioration. The study examines the characteristics of emerging preservation technologies. Assertion (A): Emerging preservation technologies were developed to overcome limitations of some conventional preservation methods. Reason (R): Different preservation technologies operate through different mechanisms of microbial control.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A fresh produce exporter adopts modified atmosphere packaging to improve product stability during long-distance transportation. Comparative studies reveal slower deterioration than conventional packaging systems. The technical team investigates factors responsible for the observed improvement. Assertion (A): Gas composition within a package can influence product stability. Reason (R): Modified atmospheres can alter conditions affecting biological activity within packaged foods.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A manufacturer develops a fortified beverage but observes quality deterioration during distribution. Packaging studies reveal exposure to oxygen and moisture. Management evaluates alternative packaging systems to improve product stability and shelf life. Assertion (A): Packaging characteristics influence the stability of value-added food products. Reason (R): Barrier properties can limit environmental factors responsible for quality deterioration.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A storage facility modifies atmospheric conditions to extend the storage life of fresh commodities. Performance evaluations indicate improved quality retention under optimized gas compositions. The management team examines the relationship between storage atmosphere and physiological activity. Assertion (A): Storage atmosphere can affect the physiological activity of fresh produce. Reason (R): Respiration behaviour may change in response to surrounding gas composition.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food company combines packaging technology and food additives to improve product shelf life. Quality studies indicate that stability depends on interactions among multiple preservation factors rather than a single intervention. The technical team evaluates integrated preservation strategies before commercialization. Assertion (A): Combining preservation approaches can influence overall product stability. Reason (R): Different preservation factors may collectively contribute to quality maintenance.",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, but R is false.",
+                "A is false, but R is true."
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "unit1_bl12",
+          "title": "BL1 & BL2 (Remember/Understand) Questions",
+          "notes": [],
+          "mcqs": [
+            {
+              "q": "A food scientist is introducing a new process that utilizes microorganisms to improve food production and quality. The process is intended to apply biological systems for manufacturing food products with desirable characteristics. Which term best describes this technological application?",
+              "options": [
+                "Food biotechnology",
+                "Food engineering",
+                "Food toxicology",
+                "Food rheology"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A fermented dairy product contains beneficial microorganisms that contribute to product functionality and consumer health benefits. The development team classifies these microorganisms according to their role in the food system. Which term is most appropriate?",
+              "options": [
+                "Preservatives",
+                "Probiotics",
+                "Emulsifiers",
+                "Antioxidants"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A manufacturer incorporates food additives into a beverage formulation to improve stability and maintain quality during storage. The production team explains that these substances are added in controlled amounts for specific technological purposes. Which statement best describes the role of food additives?",
+              "options": [
+                "They provide technological functions in foods.",
+                "They completely replace food ingredients.",
+                "They eliminate all microorganisms.",
+                "They prevent nutrient absorption."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food processor uses enzymes during juice clarification to improve product appearance and processing efficiency. The technical team explains the reason for selecting enzymes in food applications. Which explanation is most appropriate?",
+              "options": [
+                "Enzymes act as biological catalysts.",
+                "Enzymes function as packaging materials.",
+                "Enzymes serve as colour pigments.",
+                "Enzymes increase moisture content."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food processing company applies various preservation techniques to extend product shelf life and maintain safety. The objective is to prevent spoilage caused by microorganisms and other deteriorative factors. What is the primary purpose of food preservation?",
+              "options": [
+                "Shelf-life extension",
+                "Product colouring",
+                "Product dilution",
+                "Ingredient replacement"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A dairy processor subjects milk to controlled heating conditions to destroy pathogenic microorganisms while maintaining quality attributes. Which preservation process is being applied?",
+              "options": [
+                "Fermentation",
+                "Pasteurization",
+                "Dehydration",
+                "Irradiation"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A vegetable processing facility performs blanching before freezing operations. The quality assurance team explains that blanching serves a specific role before long-term storage. Which explanation is most appropriate?",
+              "options": [
+                "It helps control enzymatic activity.",
+                "It increases product acidity.",
+                "It removes nutrients.",
+                "It sterilizes the product completely."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A canning facility produces shelf-stable food products intended for ambient storage. The process combines thermal treatment and hermetic sealing. Why is canning considered an effective preservation method?",
+              "options": [
+                "It reduces microbial contamination and prevents recontamination.",
+                "It removes all nutrients from foods.",
+                "It increases water activity.",
+                "It eliminates packaging requirements."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A frozen food manufacturer lowers product temperature below its freezing point to preserve quality and extend shelf life. Which preservation method is being applied?",
+              "options": [
+                "Evaporation",
+                "Freezing",
+                "Fermentation",
+                "Extrusion"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A fruit processor removes water from juice to increase soluble solids concentration before transportation. Which operation is primarily responsible for this concentration process?",
+              "options": [
+                "Freezing",
+                "Evaporation",
+                "Fermentation",
+                "Homogenization"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A dehydrated food product exhibits improved shelf stability compared with its fresh counterpart. The technical team explains the reason for the observed preservation effect. Which explanation is most appropriate?",
+              "options": [
+                "Reduced water availability limits microbial growth.",
+                "Increased moisture enhances preservation.",
+                "Higher temperature eliminates packaging needs.",
+                "Nutrient loss improves stability."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A frozen food company compares slow freezing and rapid freezing methods. Product evaluations reveal differences in texture after thawing. Why can freezing rate influence quality?",
+              "options": [
+                "Ice crystal formation varies with freezing conditions.",
+                "Water becomes a nutrient source.",
+                "Freezing increases enzymatic activity.",
+                "Frozen products require no storage control."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A spice manufacturer adopts a preservation technology that uses ionizing energy to improve microbial quality while minimizing thermal damage. Which technology is being used?",
+              "options": [
+                "Irradiation",
+                "Evaporation",
+                "Fermentation",
+                "Dry salting"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A beverage processor evaluates a non-thermal preservation method that uses high-intensity electric fields to control microorganisms. Which technology is being considered?",
+              "options": [
+                "Pulsed Electric Field processing",
+                "Vacuum drying",
+                "Pasteurization",
+                "Smoking"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A ready-to-eat food producer applies ultra-high-pressure processing to improve product safety while maintaining fresh quality attributes. Why is this technology considered a non-thermal preservation method?",
+              "options": [
+                "It relies primarily on pressure rather than heat.",
+                "It removes all water from foods.",
+                "It prevents packaging operations.",
+                "It increases product acidity."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food technologist compares conventional heating with emerging preservation technologies. The evaluation focuses on minimizing quality changes while maintaining safety. Which statement best explains the growing interest in emerging technologies?",
+              "options": [
+                "They may preserve quality while ensuring safety.",
+                "They eliminate the need for processing.",
+                "They increase spoilage rates.",
+                "They prevent food packaging."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A fresh produce exporter modifies the gas composition surrounding fruits during storage and transportation to extend shelf life. Which preservation approach is being applied?",
+              "options": [
+                "Modified atmosphere storage",
+                "Dehydration",
+                "Fermentation",
+                "Blanching"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A packaging company develops containers that maintain specific gas compositions around food products during storage. Which packaging technology is being used?",
+              "options": [
+                "Modified atmosphere packaging",
+                "Vacuum evaporation",
+                "Freeze concentration",
+                "Thermal sterilization"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A fortified beverage experiences quality deterioration due to exposure to oxygen during storage. The packaging development team evaluates materials with improved barrier properties. Why are barrier properties important?",
+              "options": [
+                "They limit environmental factors that affect product quality.",
+                "They increase microbial growth.",
+                "They eliminate nutrients.",
+                "They replace preservation processes."
+              ],
+              "answer": 0
+            },
+            {
+              "q": "A food processor combines packaging systems with food additives to improve shelf life. The technical team explains that preservation depends on multiple interacting factors. Which explanation best reflects this concept?",
+              "options": [
+                "Multiple preservation factors can work together to maintain quality.",
+                "Packaging alone determines shelf life.",
+                "Additives eliminate the need for storage control.",
+                "Preservation depends only on processing temperature."
+              ],
+              "answer": 0
             }
           ]
         }
